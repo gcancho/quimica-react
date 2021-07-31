@@ -5,7 +5,7 @@ import Header from './componentes/Header';
 import Productos from './componentes/Productos';
 import Banner from './componentes/Banner';
 import './normalize.css';
-import './index.css';
+import './scss/index.scss';
 import Whatsapp from './componentes/Whatsapp';
 import Experiencia from './componentes/Experiencia';
 import Contacto from './componentes/Contacto';

@@ -1,0 +1,93 @@
+    /*----------------- ESTILOS GENERALES  ----------------*/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+     :root {
+        --paddingSections: 20px 0;
+        --borderRadius: 6px;
+        --color1: #0C2246;
+        --color2: #FF151F;
+        --altoHeader: 60px;
+        --bordeGris: #dbdbdb;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        font-family: 'Oswald', sans-serif;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    span {
+        color: #19318f;
+    }
+    
+    .line {
+        display: block;
+        height: 1px;
+        background-color: #c8f7f8;
+        display: none;
+    }
+    
+    .boton {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        padding: 6px 5px;
+        box-shadow: 2px 2px 5px #000;
+        background-color: var(--color1);
+        border-radius: var(--borderRadius);
+    }
+    
+    .wrap {
+        max-width: 75em;
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .wrap--largo {
+        max-width: initial;
+        width: 100%;
+    }
+    
+    .wrap--menu {
+        max-width: initial;
+        width: 100%;
+    }
+
+    /*------------------- INICIO --------------------*/
+
+    @import './componentes/header.scss';
+    @import './componentes/banner.scss';
+    @import './componentes/experiencia.scss';
+    @import './componentes/produccion.scss';
+    @import './componentes/contacto.scss';
+    @import './componentes/footer.scss';
+    @import './componentes/whatsapp.scss';
+
+    @import './componentes/productos.scss';
+    @import './componentes/productoDetalle.scss';
+
+    @import './componentes/responsive.scss';
+
+    
+   

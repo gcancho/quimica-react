@@ -1,0 +1,18 @@
+.experiencia {
+    background-color: var(--color1);
+    color: #fff;
+}
+
+.experiencia__wrap {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    text-align: center;
+}
+
+.experiencia__item {
+    padding: 10px 0;
+}
+
+.experiencia__item__antiguedad__numero {
+    font-size: 1.4em;
+}

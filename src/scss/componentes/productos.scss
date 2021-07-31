@@ -1,0 +1,95 @@
+.productos {
+    margin-top: 50px;
+}
+.productos__titulo{
+    text-transform: uppercase;
+}
+
+.categorias__wrap {
+    display: flex;
+}
+
+.categorias__titulo {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.categorias__conjunto {
+    border: 1px solid var(--bordeGris);
+    border-radius: var(--borderRadius);
+    width: 500px;
+    padding: 8px 10px;
+}
+
+.categorias__conjunto a {
+    color: #000;
+    display: block;
+    text-align: left;
+    margin: 8px 0;
+    font-weight: 600;
+    /* text-decoration: underline; */
+}
+
+.categorias__conjunto a i {
+    margin-right: 8px;
+}
+
+.categorias__info {
+    padding: 8px 10px;
+    text-align: justify;
+}
+
+.limpiadores {
+    margin-top: 10px;
+}
+
+.limpiadores__titulo {
+    margin-bottom: 10px;
+}
+
+.limpiadores__item {
+    padding: 8px 10px;
+    margin-bottom: 8px;
+    border-radius: var(--borderRadius);
+    box-shadow: 0 0 4px #000;
+}
+
+.limpiadores__item h3 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.limpiadores__item__caja {
+    display: flex;
+}
+
+.limpiadores__item__producto {
+    padding: 0 10px;
+}
+
+.limpiadores__item__producto a {
+    text-align: center;
+}
+
+.limpiadores__item__producto img {
+    width: 100px;
+    display: block;
+    margin-bottom: 10px;
+    border: 1px solid var(--bordeGris);
+    border-radius: var(--borderRadius);
+}
+
+.limpiadores__item__info {
+    padding: 0 10px;
+    text-align: justify;
+}
+
+.limpiadores__item__info p {
+    margin-bottom: 10px;
+}
+
+.limpiadores__item__info p span {
+    color: #042c83;
+    font-weight: bold;
+}
