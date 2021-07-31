@@ -9,20 +9,34 @@ import './scss/index.scss';
 import Whatsapp from './componentes/Whatsapp';
 import Experiencia from './componentes/Experiencia';
 import Contacto from './componentes/Contacto';
+import { BrowserRouter, Route } from 'react-router-dom';
+import ProductoDetalle from './componentes/ProductoDetalle';
 
+const App = () => {
+  return (
+    <BrowserRouter>
 
-const App = () =>{
-  return(
-    <>
-      <Header/>
-      <Banner/>
-      <Experiencia/>
-      <Productos/>
-      <Contacto/>      
-      <Footer/>
-      <Whatsapp/>
-    </>
+        <Route path="/" exact={true}>
+
+          <Header />
+          <Banner />
+          <Experiencia />
+          <Productos />
+          <Contacto />
+          <Footer />
+          <Whatsapp />
+
+        </Route>
+        <Route path="/Nosotros">
+
+          <Header />
+          <ProductoDetalle />
+          <Footer />
+          <Whatsapp />
+
+        </Route>
+    </BrowserRouter>
   )
 }
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

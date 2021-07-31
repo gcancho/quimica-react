@@ -1,5 +1,6 @@
 .productos {
-    margin-top: 50px;
+    margin-top: 10px;
+    padding: 20px 0;
 }
 .productos__titulo{
     text-transform: uppercase;
@@ -12,13 +13,13 @@
 .categorias__titulo {
     text-align: left;
     margin-bottom: 10px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .categorias__conjunto {
     border: 1px solid var(--bordeGris);
     border-radius: var(--borderRadius);
-    width: 500px;
+    width: 1150px;
     padding: 8px 10px;
 }
 
@@ -31,7 +32,7 @@
     /* text-decoration: underline; */
 }
 
-.categorias__conjunto a i {
+.categorias__conjunto a svg {
     margin-right: 8px;
 }
 

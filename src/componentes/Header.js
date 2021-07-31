@@ -1,28 +1,26 @@
 import React from 'react';
 import imgLogo from '../imagenes/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'; 
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
     return (
-        <header className="header">
-            <div className="wrap-header">
-                <label className="title"><img className="logo" src={imgLogo} alt="" /></label>
-                <div className="menu-toggle" id="menu-toggle">
-                    {/* <i className="fa fa-bars" aria-hidden="true"></i> */}
-                    <FontAwesomeIcon icon={faBars}/>
-                    <label>Menu</label>
+            <header className="header">
+                <div className="header__wrap">
+                    <a className="logo__container" href="/"><img className="logo" src={imgLogo} alt="" /></a>
+                    <div className="toggle__container" id="toggle__container">
+                        <FontAwesomeIcon icon={faBars} />
+                    </div>
                 </div>
-                <nav className="list-menu" id="list-menu">
-                    <ul>
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#nosotros">Nosotros</a></li>
-                        <li><a href="#productos">Productos</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
-                    </ul>
+                <nav className="menu">
+                    <Link to="/">Inicio</Link>
+                    <Link to="/Nosotros">Nosotros</Link>
+                    <a href="/#productos">Productos</a>
+                    <a href="/#contacto">Contacto</a>
                 </nav>
-            </div>
-        </header>
+            </header>
     );
 }
 
