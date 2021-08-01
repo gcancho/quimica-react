@@ -1,4 +1,5 @@
-$colorHeader: #3498DB;
+$colorHeader: #0C2246;
+$altoHeader: 70px;
 
 .header {
     position: fixed;
@@ -8,14 +9,11 @@ $colorHeader: #3498DB;
     z-index: 10;
     display: block;
     width: 100%;
-    height: 70px;
+    height: $altoHeader;
     .header__wrap {
         position: relative;
         width: 95%;
         margin: 0 auto;
-        display: flex;
-        height: inherit;
-        align-items: center;
     }
 }
 .logo__container {
@@ -29,16 +27,52 @@ $colorHeader: #3498DB;
 .toggle__container {
     position: absolute;
     right: 0;
-    svg{
+    svg {
         font-size: 20px;
         cursor: pointer;
     }
 }
 
-.menu{
-    height: 80px;
+.menu {
     // display: none;
-    background-color: green;
+    position: absolute;
+    right: -1000%;
+    height: 80px;
+    background-color: $colorHeader;
+    position: absolute;
+    top: $altoHeader;
+    display: flex;
+    flex-direction: column;
+    &.active {
+        left: 0;
+    }
 }
 @media (min-width: 768px) {
+    .header{
+        box-shadow: 0 0 2px #fff;
+    }
+    .header__wrap {
+        position: relative;
+        display: flex;
+        height: inherit;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .toggle__container {
+        display: none;
+    }
+    .logo__container{
+        position: initial;
+    }
+    .menu {
+        position: initial;
+        top: initial;
+        right: initial;
+        height: initial;
+        flex-direction: row;
+        a{
+            margin-left: 60px;
+            font-size: 1.3em;
+        }
+    }
 }

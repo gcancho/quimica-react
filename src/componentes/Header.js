@@ -7,12 +7,11 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-            <header className="header">
-                <div className="header__wrap">
-                    <a className="logo__container" href="/"><img className="logo" src={imgLogo} alt="" /></a>
-                    <div className="toggle__container" id="toggle__container">
-                        <FontAwesomeIcon icon={faBars} />
-                    </div>
+        <header className="header">
+            <div className="header__wrap">
+                <a className="logo__container" href="/"><img className="logo" src={imgLogo} alt="" /></a>
+                <div className="toggle__container" id="toggle__container">
+                    <FontAwesomeIcon icon={faBars} />
                 </div>
                 <nav className="menu">
                     <Link to="/">Inicio</Link>
@@ -20,7 +19,8 @@ const Header = () => {
                     <a href="/#productos">Productos</a>
                     <a href="/#contacto">Contacto</a>
                 </nav>
-            </header>
+            </div>
+        </header>
     );
 }
 
