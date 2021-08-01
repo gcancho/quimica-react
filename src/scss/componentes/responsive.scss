@@ -68,19 +68,30 @@
         width: 70px;
     }
     /* header desktop */
-    
+
+    .producto-tab__wrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
     .productos__item {
         display: flex;
     }
-    
+
     .categorias {
         width: 30%;
     }
-    .limpiadores {
+    .producto-tab {
         width: 70%;
+        margin-top: 0px;
+    }
+    .producto-tab__item{
+        width: 395px;
+        min-width: 350px;
     }
     .categorias__titulo {
-        margin-top: 15px;
+        margin-top: 0;
     }
     .caracteristicas__producto__wrap {
         display: flex;
