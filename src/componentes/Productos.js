@@ -55,14 +55,17 @@ const Productos = () => {
                 <ProductosDetergentes
                     nombre1="Jabón Líquido"
                     imagen1={imgJabonLiquido}
+                    presentaciones1={['lorem']}
                     descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     nombre2="Shampoo para alfombras"
                     imagen2={imgShampooAlfombra}
+                    presentaciones2={['lorem']}
                     descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     nombre3="Shampoo para autos"
                     imagen3={imgShampooAuto}
+                    presentaciones3={['lorem']}
                     descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     clase={toggleState === 2 ? "producto-tab-active" : ""}
@@ -70,14 +73,17 @@ const Productos = () => {
                 <ProductosDisolventes
                     nombre1="Aguarras"
                     imagen1={imgAguarras}
+                    presentaciones1={['lorem']}
                     descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     nombre2="Bencina"
                     imagen2={imgBencina}
+                    presentaciones2={['lorem']}
                     descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     nombre3="Thinner Acrílico"
                     imagen3={imgThinnerAcrilico}
+                    presentaciones3={['lorem']}
                     descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
 
                     clase={toggleState === 3 ? "producto-tab-active" : ""}
