@@ -1,4 +1,5 @@
-$colorHeader: #0C2246;
+$colorHeader: #0c2246;
+$colorMenu: rgba(12, 34, 70, 0.5);
 $altoHeader: 70px;
 
 .header {
@@ -12,13 +13,17 @@ $altoHeader: 70px;
     height: $altoHeader;
     .header__wrap {
         position: relative;
-        width: 95%;
+        // width: 95%;
+        width: 100%;
         margin: 0 auto;
+        height: inherit;
+        display: flex;
+        align-items: center;
     }
 }
 .logo__container {
     position: absolute;
-    left: 0;
+    left: 10px;
     .logo {
         width: 100px;
     }
@@ -26,7 +31,7 @@ $altoHeader: 70px;
 
 .toggle__container {
     position: absolute;
-    right: 0;
+    right: 10px;
     svg {
         font-size: 20px;
         cursor: pointer;
@@ -36,19 +41,31 @@ $altoHeader: 70px;
 .menu {
     // display: none;
     position: absolute;
-    right: -1000%;
+    width: 100%;
+    left: 100%;
+    text-align: center;
     height: 80px;
+    height: auto;
     background-color: $colorHeader;
-    position: absolute;
     top: $altoHeader;
     display: flex;
     flex-direction: column;
-    &.active {
-        left: 0;
+    transition: all 1s ease-out;
+    padding: 5px 0;
+    background-color: $colorMenu;
+    a {
+        margin: 8px 0;
+        font-size: 1.2em;
     }
 }
+.menu.active {
+    transition: all 1s ease-out;
+    left: 0;
+    height: auto;
+    // left: 0;
+}
 @media (min-width: 768px) {
-    .header{
+    .header {
         box-shadow: 0 0 2px #fff;
     }
     .header__wrap {
@@ -61,8 +78,10 @@ $altoHeader: 70px;
     .toggle__container {
         display: none;
     }
-    .logo__container{
+    .logo__container {
         position: initial;
+        position: absolute;
+        left: 30px;
     }
     .menu {
         position: initial;
@@ -70,9 +89,16 @@ $altoHeader: 70px;
         right: initial;
         height: initial;
         flex-direction: row;
-        a{
+        width: auto;
+        position: absolute;
+        right: 30px;
+        left: initial;
+        a {
             margin-left: 60px;
             font-size: 1.3em;
         }
+    }
+    .menu.active{
+        left: initial;
     }
 }
