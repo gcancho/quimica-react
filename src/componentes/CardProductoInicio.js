@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const CardProductoInicio = ({nombre,descripcion,presentacion,imagen}) => {
+const CardProductoInicio = ({nombre,descripcion,presentacion,imagen, ruta}) => {
     return (
         
         <div className="producto-tab__item">
@@ -8,7 +9,7 @@ const CardProductoInicio = ({nombre,descripcion,presentacion,imagen}) => {
             <div className="producto-tab__item__caja">
                 <div className="producto-tab__item__producto">
                     <img src={imagen} alt="" />
-                    <a className="boton" href="">Ver detalle</a>
+                    <Link className="boton" to={ruta}>Ver detalle</Link>
                 </div>
                 <div className="producto-tab__item__info">
                     <p><span>Descripción: </span> {descripcion}</p>

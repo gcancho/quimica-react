@@ -1,23 +1,26 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
+import iconoPdf from './../imagenes/iconos/ic-pdf.png';
 
-const ProductoDetalle = () => {
+const ProductoDetalle = ({ tituloProductoDetalle, imagenPrincipal, imagenesSecundarias }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
-                <h3>Limpia vidrios</h3>
+                <h3>{tituloProductoDetalle}</h3>
             </div>
             <article className="caracteristicas__producto">
                 <div className="caracteristicas__producto__wrap wrap">
                     <div className="caracteristicas__producto__izq">
                         <div className="producto__principal">
-                            <img src="../imagenes/limpiadores/DSC_6885.JPG" alt="" />
-                            <i className="fas fa-angle-left"></i>
-                            <i className="fas fa-angle-right"></i>
+                            <img src={imagenPrincipal} alt="" />
+                            <FontAwesomeIcon icon={faAngleLeft} />
+                            <FontAwesomeIcon icon={faAngleRight} />
+                            {/* <i className="fas fa-angle-right"></i> */}
                         </div>
                         <div className="producto__secundario">
-                            <img src="../imagenes/limpiadores/DSC_6885.JPG" alt="" />
-                            <img src="../imagenes/limpiadores/DSC_6885.JPG" alt="" />
-                            <img src="../imagenes/limpiadores/DSC_6885.JPG" alt="" />
+                            {imagenesSecundarias.map((ima, index) => <img key={index} src={ima} alt=""/>)}
                         </div>
                     </div>
                     <div className="caracteristicas__producto__der">
@@ -40,7 +43,7 @@ const ProductoDetalle = () => {
                             <div>
                                 <p>Color: <span>Morado bajo</span></p>
                             </div>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src="../imagenes/iconos/ic-pdf.png" />Descargar ficha técnica</a>
+                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
                         </div>
                     </div>
                 </div>
