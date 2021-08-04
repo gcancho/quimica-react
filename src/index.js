@@ -12,74 +12,86 @@ import Contacto from './componentes/Contacto';
 import { BrowserRouter, Route } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
 // Rutas imagenes
-import imgPrincipalLimpiaVidrios from './imagenes/Limpiadores/limpia-vidrios/DSC_6908.JPG';
-import imgSecundariaLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6909.JPG';
-import imgSecundariaLimpiaVidrios2 from './imagenes/Limpiadores/limpia-vidrios/DSC_7060.JPG';
-import imgSecundariaLimpiaVidrios3 from './imagenes/Limpiadores/limpia-vidrios/DSC_7061.JPG';
+import imgLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6908.JPG';
+import imgLimpiaVidrios2 from './imagenes/Limpiadores/limpia-vidrios/DSC_6909.JPG';
+import imgLimpiaVidrios3 from './imagenes/Limpiadores/limpia-vidrios/DSC_7060.JPG';
+import imgLimpiaVidrios4 from './imagenes/Limpiadores/limpia-vidrios/DSC_7061.JPG';
 
-import imgPrincipalRonQuemar from './imagenes/Limpiadores/ron-de-quemar/DSC_6885.JPG';
-import imgSecundariaRonQuemar1 from './imagenes/Limpiadores/ron-de-quemar/DSC_6886.JPG';
-import imgSecundariaRonQuemar2 from './imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
-import imgSecundariaRonQuemar3 from './imagenes/Limpiadores/ron-de-quemar/DSC_6954.JPG';
+import imgRonQuemar1 from './imagenes/Limpiadores/ron-de-quemar/DSC_6885.JPG';
+import imgRonQuemar2 from './imagenes/Limpiadores/ron-de-quemar/DSC_6886.JPG';
+import imgRonQuemar3 from './imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
+import imgRonQuemar4 from './imagenes/Limpiadores/ron-de-quemar/DSC_6954.JPG';
 
-import imgPrincipalJabonLiquido from './imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
-import imgSecundariaJabonLiquido1 from './imagenes/Detergentes/jabon-liquido/DSC_6911.JPG';
-import imgSecundariaJabonLiquido2 from './imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
-import imgSecundariaJabonLiquido3 from './imagenes/Detergentes/jabon-liquido/DSC_7119.JPG';
+import imgJabonLiquido1 from './imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
+import imgJabonLiquido2 from './imagenes/Detergentes/jabon-liquido/DSC_6911.JPG';
+import imgJabonLiquido3 from './imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
+import imgJabonLiquido4 from './imagenes/Detergentes/jabon-liquido/DSC_7119.JPG';
+
+import ImageSlider from './componentes/ImageSlider';
+import { SliderData1, SliderData2 } from './componentes/SliderData';
 
 const App = () => {
   return (
     <BrowserRouter>
 
-        <Route path="/" exact={true}>
+      <Route path="/" exact={true}>
 
-          <Header />
-          <Banner />
-          <Experiencia />
-          <Productos />
-          <Contacto />
-          <Footer />
-          <Whatsapp />
+        <Header />
+        <Banner />
+        <Experiencia />
+        <Productos />
+        <Contacto />
+        <Footer />
+        <Whatsapp />
+        {/* <ImageSlider slides={SliderData}/> */}
+      </Route>
+      <Route path="/Nosotros">
 
-        </Route>
-        <Route path="/Nosotros">
+        <Header />
+        <h2>Nosotros</h2>
+        <Footer />
+        <Whatsapp />
 
-          <Header />
-          <h2>Nosotros</h2>
-          <Footer />
-          <Whatsapp />
+      </Route>
+      <Route path="/Productos">
 
-        </Route>
-        <Route path="/Limpia-vidrios">
+        <Header />
+        <Productos />
+        <Footer />
+        <Whatsapp />
 
-          <Header />
-          <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
-            imagenPrincipal={imgPrincipalLimpiaVidrios}
-            imagenesSecundarias={[imgSecundariaLimpiaVidrios1,imgSecundariaLimpiaVidrios2,imgSecundariaLimpiaVidrios3]}/>
-          <Footer />
-          <Whatsapp />
+      </Route>
+      <Route path="/Limpia-vidrios">
 
-        </Route>
-        <Route path="/Ron-de-quemar">
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
+          imagenesSecundarias={[imgLimpiaVidrios1, imgLimpiaVidrios2, imgLimpiaVidrios3, imgLimpiaVidrios4]}
+          hola={SliderData1}
+        />
+        <Footer />
+        <Whatsapp />
 
-          <Header />
-          <ProductoDetalle tituloProductoDetalle="Ron de quemar"
-            imagenPrincipal={imgPrincipalRonQuemar}
-            imagenesSecundarias={[imgSecundariaRonQuemar1,imgSecundariaRonQuemar2,imgSecundariaRonQuemar3]}/>
-          <Footer />
-          <Whatsapp />
+      </Route>
+      <Route path="/Ron-de-quemar">
 
-        </Route>
-        <Route path="/Jabon-liquido">
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Ron de quemar"
+          imagenesSecundarias={[imgRonQuemar1, imgRonQuemar2, imgRonQuemar3, imgRonQuemar4]}
+          hola={SliderData2}
+        />
+        <Footer />
+        <Whatsapp />
 
-          <Header />
-          <ProductoDetalle tituloProductoDetalle="Jabón Líquido"
-            imagenPrincipal={imgPrincipalJabonLiquido}
-            imagenesSecundarias={[imgSecundariaJabonLiquido1,imgSecundariaJabonLiquido2,imgSecundariaJabonLiquido3]}/>
-          <Footer />
-          <Whatsapp />
+      </Route>
+      <Route path="/Jabon-liquido">
 
-        </Route>
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Jabón Líquido"
+          imagenesSecundarias={[imgRonQuemar1, imgRonQuemar2, imgRonQuemar3, imgRonQuemar4]} />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
     </BrowserRouter>
   )
 }

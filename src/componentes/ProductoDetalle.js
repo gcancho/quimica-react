@@ -3,8 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import iconoPdf from './../imagenes/iconos/ic-pdf.png';
+import ImageSlider from './ImageSlider';
+import { SliderData1, SliderData2 } from './SliderData';
 
-const ProductoDetalle = ({ tituloProductoDetalle, imagenPrincipal, imagenesSecundarias }) => {
+
+const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
@@ -14,14 +17,14 @@ const ProductoDetalle = ({ tituloProductoDetalle, imagenPrincipal, imagenesSecun
                 <div className="caracteristicas__producto__wrap wrap">
                     <div className="caracteristicas__producto__izq">
                         <div className="producto__principal">
-                            <img src={imagenPrincipal} alt="" />
+                            {/* <img src={imagenPrincipal} alt="" />
                             <FontAwesomeIcon icon={faAngleLeft} />
-                            <FontAwesomeIcon icon={faAngleRight} />
-                            {/* <i className="fas fa-angle-right"></i> */}
+                            <FontAwesomeIcon icon={faAngleRight} /> */}
+                            <ImageSlider slides={imagenesSecundarias} tipoSlide={hola}/>
                         </div>
-                        <div className="producto__secundario">
+                        {/* <div className="producto__secundario">
                             {imagenesSecundarias.map((ima, index) => <img key={index} src={ima} alt=""/>)}
-                        </div>
+                        </div> */}
                     </div>
                     <div className="caracteristicas__producto__der">
                         <h4>Catacterísticas</h4>
