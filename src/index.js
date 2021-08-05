@@ -35,6 +35,7 @@ import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.J
 
 import { SliderData1, SliderData2, SliderData3, SliderData4, SliderData5 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
+import Servicios from './componentes/Servicios';
 
 
 const App = () => {
@@ -45,6 +46,7 @@ const App = () => {
 
         <Header />
         <Banner />
+        <Servicios/>
         <Contacto />
         <Footer />
         <Whatsapp />

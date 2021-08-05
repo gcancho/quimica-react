@@ -5,6 +5,8 @@
         padding: 0;
         box-sizing: border-box;
     }
+
+    $boderRadius: 6px;
     
      :root {
         --paddingSections: 20px 0;
@@ -78,7 +80,7 @@
 
     @import './componentes/header.scss';
     @import './componentes/banner.scss';
-    @import './componentes/experiencia.scss';
+    @import './componentes/servicios.scss';
     @import './componentes/nosotros.scss';
     @import './componentes/produccion.scss';
     @import './componentes/contacto.scss';
