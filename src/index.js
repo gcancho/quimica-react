@@ -36,17 +36,24 @@ import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.J
 import { SliderData1, SliderData2, SliderData3, SliderData4, SliderData5 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
+import { Helmet } from 'react-helmet';
+
 
 
 const App = () => {
-  return (
-    <BrowserRouter>
+  const TITLE = 'Quimica Rodriguez'
 
+  return (
+
+    <BrowserRouter>
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <Route path="/" exact={true}>
 
         <Header />
         <Banner />
-        <Servicios/>
+        <Servicios />
         <Contacto />
         <Footer />
         <Whatsapp />
@@ -93,7 +100,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Jabón Líquido"
-          imagenesSecundarias={[imgJabonLiquido1, imgJabonLiquido2,imgJabonLiquido3,imgJabonLiquido4,imgJabonLiquido5,imgJabonLiquido6,imgJabonLiquido7,imgJabonLiquido8,imgJabonLiquido9]}
+          imagenesSecundarias={[imgJabonLiquido1, imgJabonLiquido2, imgJabonLiquido3, imgJabonLiquido4, imgJabonLiquido5, imgJabonLiquido6, imgJabonLiquido7, imgJabonLiquido8, imgJabonLiquido9]}
           hola={SliderData3}
         />
         <Footer />
