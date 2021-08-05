@@ -7,7 +7,6 @@ import Banner from './componentes/Banner';
 import './normalize.css';
 import './scss/index.scss';
 import Whatsapp from './componentes/Whatsapp';
-import Experiencia from './componentes/Experiencia';
 import Contacto from './componentes/Contacto';
 import { BrowserRouter, Route } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
@@ -27,8 +26,9 @@ import imgJabonLiquido2 from './imagenes/Detergentes/jabon-liquido/DSC_6911.JPG'
 import imgJabonLiquido3 from './imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
 import imgJabonLiquido4 from './imagenes/Detergentes/jabon-liquido/DSC_7119.JPG';
 
-import ImageSlider from './componentes/ImageSlider';
 import { SliderData1, SliderData2 } from './componentes/SliderData';
+import Nosotros from './componentes/Nosotros';
+
 
 const App = () => {
   return (
@@ -38,17 +38,15 @@ const App = () => {
 
         <Header />
         <Banner />
-        <Experiencia />
-        <Productos />
+        {/* <Productos /> */}
         <Contacto />
         <Footer />
         <Whatsapp />
-        {/* <ImageSlider slides={SliderData}/> */}
       </Route>
       <Route path="/Nosotros">
 
         <Header />
-        <h2>Nosotros</h2>
+        <Nosotros/>
         <Footer />
         <Whatsapp />
 

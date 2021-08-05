@@ -5,7 +5,6 @@
     
     .producto__principal {
         position: relative;
-        border: 1px solid var(--bordeGris);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -52,6 +51,7 @@
     .caracteristicas__producto__izq {
         padding: 5px 10px;
         width: 100%;
+        border: 1px solid var(--bordeGris);
     }
     
     .caracteristicas__producto__der {
