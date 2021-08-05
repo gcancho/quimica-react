@@ -46,13 +46,12 @@ $altoHeader: 70px;
     text-align: center;
     height: 80px;
     height: auto;
-    background-color: $colorHeader;
     top: $altoHeader;
     display: flex;
     flex-direction: column;
     transition: all 1s ease-out;
     padding: 5px 0;
-    background-color: $colorMenu;
+    background-color: inherit;
     a {
         margin: 8px 0;
         font-size: 1.2em;

@@ -1,26 +1,6 @@
 .banner {
-    height: 100vh;
-    background-image: url('./../../imagenes/Banner/banner-1.jpg');
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.banner__mensaje {
-    width: 300px;
-}
-
-.banner__mensaje__texto {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.3em;
-}
-
-.banner__mensaje__puntos {
-    margin-top: 60px;
-}
-
-.banner__mensaje__puntos__item {
-    margin: 0 10px;
+    margin-top: $altoHeader;
+    img{
+        width: 100%;
+    }
 }

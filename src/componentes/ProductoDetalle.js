@@ -17,14 +17,8 @@ const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola }) =
                 <div className="caracteristicas__producto__wrap wrap">
                     <div className="caracteristicas__producto__izq">
                         <div className="producto__principal">
-                            {/* <img src={imagenPrincipal} alt="" />
-                            <FontAwesomeIcon icon={faAngleLeft} />
-                            <FontAwesomeIcon icon={faAngleRight} /> */}
                             <ImageSlider slides={imagenesSecundarias} tipoSlide={hola}/>
                         </div>
-                        {/* <div className="producto__secundario">
-                            {imagenesSecundarias.map((ima, index) => <img key={index} src={ima} alt=""/>)}
-                        </div> */}
                     </div>
                     <div className="caracteristicas__producto__der">
                         <h4>Catacterísticas</h4>
