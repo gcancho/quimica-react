@@ -33,7 +33,32 @@ import imgShampooAlfombra2 from './imagenes/Detergentes/shampoo-para-alfonbras/D
 import imgShampooAuto1 from './imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
 import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.JPG';
 
-import { SliderData1, SliderData2, SliderData3, SliderData4, SliderData5 } from './componentes/SliderData';
+import imgAguarras1 from './imagenes/Disolventes/aguarras/DSC_6945.JPG';
+import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_6966.JPG';
+import imgAguarras3 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
+
+import imgBencina1 from './imagenes/Disolventes/bencina/DSC_6976.jpg';
+import imgBencina2 from './imagenes/Disolventes/bencina/DSC_7100.jpg';
+
+import imgThinnerAcrilico1 from './imagenes/Disolventes/thinner-acrilico/DSC_6951.jpg';
+import imgThinnerAcrilico2 from './imagenes/Disolventes/thinner-acrilico/DSC_6971.jpg';
+import imgThinnerAcrilico3 from './imagenes/Disolventes/thinner-acrilico/DSC_6975.jpg';
+
+import imgAmbientadorBebe1 from './imagenes/Perfumadores/ambientador-bebe/DSC_6892.jpg';
+import imgAmbientadorBebe2 from './imagenes/Perfumadores/ambientador-bebe/DSC_7085.jpg';
+
+import imgAmbientadorLavanda1 from './imagenes/Perfumadores/ambientador-lavanda/DSC_6914.jpg';
+import imgAmbientadorLavanda2 from './imagenes/Perfumadores/ambientador-lavanda/DSC_7066.jpg';
+
+import imgPreservanteMadera1 from './imagenes/Abrillantadores/preservante-para-madera/DSC_6888.jpg';
+import imgPreservanteMadera2 from './imagenes/Abrillantadores/preservante-para-madera/DSC_6949.jpg';
+
+import imgRenovadorLlanta1 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6862.jpg';
+import imgRenovadorLlanta2 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6963.jpg';
+import imgRenovadorLlanta3 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6965.jpg';
+
+
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -124,6 +149,83 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Shampoo para alfombras"
           imagenesSecundarias={[imgShampooAuto1, imgShampooAuto2]}
           hola={SliderData5}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Aguarras">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Aguarras"
+          imagenesSecundarias={[imgAguarras1, imgAguarras2,imgAguarras3]}
+          hola={SliderData6}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Bencina">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Bencina"
+          imagenesSecundarias={[imgBencina1, imgBencina2]}
+          hola={SliderData7}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Thinner-acrilico">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Thinner acrílico"
+          imagenesSecundarias={[imgThinnerAcrilico1, imgThinnerAcrilico2, imgThinnerAcrilico3]}
+          hola={SliderData8}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Ambientador-bebe">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Ambientador Bebe"
+          imagenesSecundarias={[imgAmbientadorBebe1, imgAmbientadorBebe2]}
+          hola={SliderData9}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Ambientador-lavanda">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Ambientador Lavanda"
+          imagenesSecundarias={[imgAmbientadorLavanda1, imgAmbientadorLavanda2]}
+          hola={SliderData10}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Preservante-para-madera">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Preservante para madera"
+          imagenesSecundarias={[imgPreservanteMadera1, imgPreservanteMadera2]}
+          hola={SliderData11}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Renovador-de-llantas">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
+          imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2,imgRenovadorLlanta3]}
+          hola={SliderData12}
         />
         <Footer />
         <Whatsapp />

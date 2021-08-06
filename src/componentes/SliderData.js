@@ -20,6 +20,31 @@ import imgShampooAlfombra2 from './../imagenes/Detergentes/shampoo-para-alfonbra
 import imgShampooAuto1 from './../imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
 import imgShampooAuto2 from './../imagenes/Detergentes/shampoo-para-auto/DSC_7082.JPG';
 
+import imgAguarras1 from './../imagenes/Disolventes/aguarras/DSC_6945.JPG';
+import imgAguarras2 from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
+import imgAguarras3 from './../imagenes/Disolventes/aguarras/DSC_7094.JPG';
+
+import imgBencina1 from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
+import imgBencina2 from './../imagenes/Disolventes/bencina/DSC_7100.jpg';
+
+import imgThinnerAcrilico1 from './../imagenes/Disolventes/thinner-acrilico/DSC_6951.jpg';
+import imgThinnerAcrilico2 from './../imagenes/Disolventes/thinner-acrilico/DSC_6971.jpg';
+import imgThinnerAcrilico3 from './../imagenes/Disolventes/thinner-acrilico/DSC_6975.jpg';
+
+import imgAmbientadorBebe1 from './../imagenes/Perfumadores/ambientador-bebe/DSC_6892.jpg';
+import imgAmbientadorBebe2 from './../imagenes/Perfumadores/ambientador-bebe/DSC_7085.jpg';
+
+import imgAmbientadorLavanda1 from './../imagenes/Perfumadores/ambientador-lavanda/DSC_6914.jpg';
+import imgAmbientadorLavanda2 from './../imagenes/Perfumadores/ambientador-lavanda/DSC_7066.jpg';
+
+import imgPreservanteMadera1 from './../imagenes/Abrillantadores/preservante-para-madera/DSC_6888.jpg';
+import imgPreservanteMadera2 from './../imagenes/Abrillantadores/preservante-para-madera/DSC_6949.jpg';
+
+import imgRenovadorLlanta1 from './../imagenes/Abrillantadores/renovador-de-llantas/DSC_6862.jpg';
+import imgRenovadorLlanta2 from './../imagenes/Abrillantadores/renovador-de-llantas/DSC_6963.jpg';
+import imgRenovadorLlanta3 from './../imagenes/Abrillantadores/renovador-de-llantas/DSC_6965.jpg';
+
+
 export const SliderData1 = [
   {
     image:
@@ -100,5 +125,94 @@ export const SliderData5 = [
   {
     image:
       imgShampooAuto2
+  },
+];
+
+export const SliderData6 = [
+  {
+    image:
+      imgAguarras1
+  },
+  {
+    image:
+      imgAguarras2
+  },
+  {
+    image:
+      imgAguarras3
+  },
+];
+
+export const SliderData7 = [
+  {
+    image:
+      imgBencina1
+  },
+  {
+    image:
+      imgBencina2
+  },
+];
+
+export const SliderData8 = [
+  {
+    image:
+      imgThinnerAcrilico1
+  },
+  {
+    image:
+      imgThinnerAcrilico2
+  },
+  {
+    image:
+      imgThinnerAcrilico3
+  },
+];
+
+export const SliderData9 = [
+  {
+    image:
+      imgAmbientadorBebe1
+  },
+  {
+    image:
+      imgAmbientadorBebe2
+  },
+];
+
+export const SliderData10 = [
+  {
+    image:
+      imgAmbientadorLavanda1
+  },
+  {
+    image:
+      imgAmbientadorLavanda2
+  },
+];
+
+export const SliderData11 = [
+  {
+    image:
+      imgPreservanteMadera1
+  },
+  {
+    image:
+      imgPreservanteMadera2
+  },
+];
+
+export const SliderData12 = [
+  {
+    image:
+      imgRenovadorLlanta1
+  },
+  {
+    image:
+      imgRenovadorLlanta2
+  },
+  {
+    image:
+      imgRenovadorLlanta3
   },
 ];
