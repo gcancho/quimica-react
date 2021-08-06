@@ -59,6 +59,11 @@ import imgCeraAguaNegra2 from './../imagenes/Ceras/cera-agua-negra/DSC_707913.jp
 import imgCeraAguaRoja1 from './../imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
 import imgCeraAguaRoja2 from './../imagenes/Ceras/cera-agua-roja/DSC_707913.jpg';
 
+import imgSacaOxido1 from './../imagenes/Removedores/saca-oxido/DSC_701305.jpg';
+import imgSacaOxido2 from './../imagenes/Removedores/saca-oxido/DSC_701507.jpg';
+
+import imgVaselinaLiquida1 from './../imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
+import imgVaselinaLiquida2 from './../imagenes/Removedores/vaselina-liquida/DSC_698203.jpg';
 
 export const SliderData1 = [
   {
@@ -275,6 +280,7 @@ export const SliderData16 = [
       imgCeraAguaNegra2
   },
 ];
+
 export const SliderData17 = [
   {
     image:
@@ -283,5 +289,27 @@ export const SliderData17 = [
   {
     image:
       imgCeraAguaRoja2
+  },
+];
+
+export const SliderData18 = [
+  {
+    image:
+      imgSacaOxido1
+  },
+  {
+    image:
+      imgSacaOxido2
+  },
+];
+
+export const SliderData19 = [
+  {
+    image:
+      imgVaselinaLiquida1
+  },
+  {
+    image:
+      imgVaselinaLiquida2
   },
 ];

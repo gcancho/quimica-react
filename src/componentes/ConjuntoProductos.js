@@ -105,14 +105,16 @@ const ProductosCeras = ({ clase, nombre1, imagen1, descripcion1, presentaciones1
     );
 }
 const ProductosRemovedores = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2 }) => {
+    const rutaSacaOxido = "/Saca-oxido";
+    const rutaVaselinaLiquida = "/Vaselina-liquida";
     return (
         <article className={`producto-tab ${clase}`}>
             <div className="wrap">
                 <h2 className="producto-tab__titulo">Removedores</h2>
             </div>
             <div className="producto-tab__wrap wrap">
-                <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} />
-                <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} />
+                <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} ruta={rutaSacaOxido}/>
+                <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} ruta={rutaVaselinaLiquida}/>
             </div>
         </article>
     );

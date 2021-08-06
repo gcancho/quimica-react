@@ -72,6 +72,12 @@ import imgCeraAguaNegra2 from './imagenes/Ceras/cera-agua-negra/DSC_707913.jpg';
 import imgCeraAguaRoja1 from './imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
 import imgCeraAguaRoja2 from './imagenes/Ceras/cera-agua-roja/DSC_707913.jpg';
 
+import imgSacaOxido1 from './imagenes/Removedores/saca-oxido/DSC_701305.jpg';
+import imgSacaOxido2 from './imagenes/Removedores/saca-oxido/DSC_701507.jpg';
+
+import imgVaselinaLiquida1 from './imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
+import imgVaselinaLiquida2 from './imagenes/Removedores/vaselina-liquida/DSC_698203.jpg';
+
 
 import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
@@ -173,7 +179,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Aguarras"
-          imagenesSecundarias={[imgAguarras1, imgAguarras2,imgAguarras3]}
+          imagenesSecundarias={[imgAguarras1, imgAguarras2, imgAguarras3]}
           hola={SliderData6}
         />
         <Footer />
@@ -239,7 +245,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
-          imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2,imgRenovadorLlanta3]}
+          imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2, imgRenovadorLlanta3]}
           hola={SliderData12}
         />
         <Footer />
@@ -296,6 +302,28 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua roja"
           imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
           hola={SliderData17}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Saca-oxido">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Saca óxido"
+          imagenesSecundarias={[imgSacaOxido1, imgSacaOxido2]}
+          hola={SliderData18}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Vaselina-liquida">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Vaselina liquida"
+          imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
+          hola={SliderData19}
         />
         <Footer />
         <Whatsapp />

@@ -21,8 +21,8 @@ import imgCeraAguaAmarilla from './../imagenes/Ceras/cera-agua-amarilla/DSC_6881
 import imgCeraAguaBlanca from './../imagenes/Ceras/cera-agua-blanca/DSC_690110.jpg';
 import imgCeraAguaNegra from './../imagenes/Ceras/cera-agua-negra/DSC_686501.jpg';
 import imgCeraAguaRoja from './../imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
-import imgSacaOxido from './../imagenes/Removedores/saca-oxido/DSC_7013.JPG';
-import imgVaselinaLiquida from './../imagenes/Removedores/vaselina-liquida/DSC_6930.JPG';
+import imgSacaOxido from './../imagenes/Removedores/saca-oxido/DSC_701305.jpg';
+import imgVaselinaLiquida from './../imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
 import imgAcidos from './../imagenes/Desincrustantes/acido/DSC_6984.JPG';
 import imgAguaBaterias from './../imagenes/Desincrustantes/agua-para-baterias/DSC_6968.JPG';
 import imgKresso from './../imagenes/Desincrustantes/kresso/DSC_7063.JPG';
