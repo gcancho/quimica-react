@@ -65,6 +65,29 @@ import imgSacaOxido2 from './../imagenes/Removedores/saca-oxido/DSC_701507.jpg';
 import imgVaselinaLiquida1 from './../imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
 import imgVaselinaLiquida2 from './../imagenes/Removedores/vaselina-liquida/DSC_698203.jpg';
 
+import imgAcido1 from './../imagenes/Desincrustantes/acido/DSC_698416.jpg';
+import imgAcido2 from './../imagenes/Desincrustantes/acido/DSC_702225.jpg';
+import imgAcido3 from './../imagenes/Desincrustantes/acido/DSC_702528.jpg';
+import imgAcido4 from './../imagenes/Desincrustantes/acido/DSC_709136.jpg';
+
+import imgAguaBaterias1 from './../imagenes/Desincrustantes/agua-para-baterias/DSC_696813.jpg';
+import imgAguaBaterias2 from './../imagenes/Desincrustantes/agua-para-baterias/DSC_697015.jpg';
+
+import imgKresso1 from './../imagenes/Desincrustantes/kresso/DSC_7063.JPG';
+import imgKresso2 from './../imagenes/Desincrustantes/kresso/DSC_710439.jpg';
+import imgKresso3 from './../imagenes/Desincrustantes/kresso/DSC_710742.jpg';
+
+import imgQuitaSarro1 from './../imagenes/Desincrustantes/quitasarro/DSC_695709.jpg';
+import imgQuitaSarro2 from './../imagenes/Desincrustantes/quitasarro/DSC_699319.jpg';
+import imgQuitaSarro3 from './../imagenes/Desincrustantes/quitasarro/DSC_701922.jpg';
+import imgQuitaSarro4 from './../imagenes/Desincrustantes/quitasarro/DSC_705431.jpg';
+
+import imgSiliconaCristal1 from './../imagenes/Desincrustantes/silicona-cristal/DSC_692004.jpg';
+import imgSiliconaCristal2 from './../imagenes/Desincrustantes/silicona-cristal/DSC_696111.jpg';
+
+import imgSiliconaTablero1 from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
+import imgSiliconaTablero2 from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
+
 export const SliderData1 = [
   {
     image:
@@ -311,5 +334,91 @@ export const SliderData19 = [
   {
     image:
       imgVaselinaLiquida2
+  },
+];
+
+export const SliderData20 = [
+  {
+    image:
+      imgAcido1
+  },
+  {
+    image:
+      imgAcido2
+  },
+  {
+    image:
+      imgAcido3
+  },
+  {
+    image:
+      imgAcido4
+  },
+];
+
+export const SliderData21 = [
+  {
+    image:
+      imgAguaBaterias1
+  },
+  {
+    image:
+      imgAguaBaterias2
+  },
+];
+
+export const SliderData22 = [
+  {
+    image:
+      imgKresso1
+  },
+  {
+    image:
+      imgKresso2
+  },
+  {
+    image:
+      imgKresso3
+  },
+];
+
+export const SliderData23 = [
+  {
+    image:
+      imgQuitaSarro1
+  },
+  {
+    image:
+      imgQuitaSarro2
+  },
+  {
+    image:
+      imgQuitaSarro3
+  },
+  {
+    image:
+      imgQuitaSarro4
+  },
+];
+
+export const SliderData24 = [
+  {
+    image:
+      imgSiliconaCristal1
+  },
+  {
+    image:
+      imgSiliconaCristal2
+  },
+];
+
+export const SliderData25 = [
+  {
+    image:
+      imgSiliconaTablero1
+  },
+  {
+    image:
+      imgSiliconaTablero2
   },
 ];

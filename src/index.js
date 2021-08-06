@@ -78,8 +78,32 @@ import imgSacaOxido2 from './imagenes/Removedores/saca-oxido/DSC_701507.jpg';
 import imgVaselinaLiquida1 from './imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
 import imgVaselinaLiquida2 from './imagenes/Removedores/vaselina-liquida/DSC_698203.jpg';
 
+import imgAcido1 from './imagenes/Desincrustantes/acido/DSC_698416.jpg';
+import imgAcido2 from './imagenes/Desincrustantes/acido/DSC_702225.jpg';
+import imgAcido3 from './imagenes/Desincrustantes/acido/DSC_702528.jpg';
+import imgAcido4 from './imagenes/Desincrustantes/acido/DSC_709136.jpg';
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
+import imgAguaBaterias1 from './imagenes/Desincrustantes/agua-para-baterias/DSC_696813.jpg';
+import imgAguaBaterias2 from './imagenes/Desincrustantes/agua-para-baterias/DSC_697015.jpg';
+
+import imgKresso1 from './imagenes/Desincrustantes/kresso/DSC_7063.JPG';
+import imgKresso2 from './imagenes/Desincrustantes/kresso/DSC_710439.jpg';
+import imgKresso3 from './imagenes/Desincrustantes/kresso/DSC_710742.jpg';
+
+import imgQuitaSarro1 from './imagenes/Desincrustantes/quitasarro/DSC_695709.jpg';
+import imgQuitaSarro2 from './imagenes/Desincrustantes/quitasarro/DSC_699319.jpg';
+import imgQuitaSarro3 from './imagenes/Desincrustantes/quitasarro/DSC_701922.jpg';
+import imgQuitaSarro4 from './imagenes/Desincrustantes/quitasarro/DSC_705431.jpg';
+
+import imgSiliconaCristal1 from './imagenes/Desincrustantes/silicona-cristal/DSC_692004.jpg';
+import imgSiliconaCristal2 from './imagenes/Desincrustantes/silicona-cristal/DSC_696111.jpg';
+
+import imgSiliconaTablero1 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
+import imgSiliconaTablero2 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
+
+
+
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -324,6 +348,72 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Vaselina liquida"
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
           hola={SliderData19}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Acidos">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Acidos"
+          imagenesSecundarias={[imgAcido1, imgAcido2, imgAcido3, imgAcido4]}
+          hola={SliderData20}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Agua-para-baterias">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Agua para baterias"
+          imagenesSecundarias={[imgAguaBaterias1, imgAguaBaterias2]}
+          hola={SliderData21}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Kresso">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Kresso"
+          imagenesSecundarias={[imgKresso1, imgKresso2, imgKresso3]}
+          hola={SliderData22}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Quita-sarro">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Quita sarro"
+          imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
+          hola={SliderData23}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Silicona-para-cristal">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Silicona cristal"
+          imagenesSecundarias={[imgSiliconaCristal1, imgSiliconaCristal2]}
+          hola={SliderData24}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Silicona-para-tablero">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Silicona cristal"
+          imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
+          hola={SliderData25}
         />
         <Footer />
         <Whatsapp />

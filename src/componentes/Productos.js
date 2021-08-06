@@ -23,12 +23,12 @@ import imgCeraAguaNegra from './../imagenes/Ceras/cera-agua-negra/DSC_686501.jpg
 import imgCeraAguaRoja from './../imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
 import imgSacaOxido from './../imagenes/Removedores/saca-oxido/DSC_701305.jpg';
 import imgVaselinaLiquida from './../imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
-import imgAcidos from './../imagenes/Desincrustantes/acido/DSC_6984.JPG';
-import imgAguaBaterias from './../imagenes/Desincrustantes/agua-para-baterias/DSC_6968.JPG';
+import imgAcidos from './../imagenes/Desincrustantes/acido/DSC_698416.jpg';
+import imgAguaBaterias from './../imagenes/Desincrustantes/agua-para-baterias/DSC_696813.jpg';
 import imgKresso from './../imagenes/Desincrustantes/kresso/DSC_7063.JPG';
-import imgQuitasarro from './../imagenes/Desincrustantes/quitasarro/DSC_6957.JPG';
-import imgSiliconaCristal from './../imagenes/Desincrustantes/silicona-cristal/DSC_6920.JPG';
-import imgSiliconaTablero from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_6917.JPG';
+import imgQuitasarro from './../imagenes/Desincrustantes/quitasarro/DSC_695709.jpg';
+import imgSiliconaCristal from './../imagenes/Desincrustantes/silicona-cristal/DSC_692004.jpg';
+import imgSiliconaTablero from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
 
 import imgCloro from './../imagenes/Desinfectantes/cloro/DSC_7072.JPG';
 import imgLejia from './../imagenes/Desinfectantes/lejia/DSC_6987.JPG';
