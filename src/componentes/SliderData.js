@@ -44,6 +44,21 @@ import imgRenovadorLlanta1 from './../imagenes/Abrillantadores/renovador-de-llan
 import imgRenovadorLlanta2 from './../imagenes/Abrillantadores/renovador-de-llantas/DSC_6963.jpg';
 import imgRenovadorLlanta3 from './../imagenes/Abrillantadores/renovador-de-llantas/DSC_6965.jpg';
 
+import imgSacaGrasa1 from './../imagenes/Abrillantadores/sacagrasa/DSC_689807.jpg';
+import imgSacaGrasa2 from './../imagenes/Abrillantadores/sacagrasa/DSC_690009.jpg';
+
+import imgCeraAguaAmarilla1 from './../imagenes/Ceras/cera-agua-amarilla/DSC_688107.jpg';
+import imgCeraAguaAmarilla2 from './../imagenes/Ceras/cera-agua-amarilla/DSC_707913.jpg';
+
+import imgCeraAguaBlanca1 from './../imagenes/Ceras/cera-agua-blanca/DSC_690110.jpg';
+import imgCeraAguaBlanca2 from './../imagenes/Ceras/cera-agua-blanca/DSC_707913.jpg';
+
+import imgCeraAguaNegra1 from './../imagenes/Ceras/cera-agua-negra/DSC_686501.jpg';
+import imgCeraAguaNegra2 from './../imagenes/Ceras/cera-agua-negra/DSC_707913.jpg';
+
+import imgCeraAguaRoja1 from './../imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
+import imgCeraAguaRoja2 from './../imagenes/Ceras/cera-agua-roja/DSC_707913.jpg';
+
 
 export const SliderData1 = [
   {
@@ -214,5 +229,59 @@ export const SliderData12 = [
   {
     image:
       imgRenovadorLlanta3
+  },
+];
+
+export const SliderData13 = [
+  {
+    image:
+      imgSacaGrasa1
+  },
+  {
+    image:
+      imgSacaGrasa2
+  },
+];
+
+export const SliderData14 = [
+  {
+    image:
+      imgCeraAguaAmarilla1
+  },
+  {
+    image:
+      imgCeraAguaAmarilla2
+  },
+];
+
+export const SliderData15 = [
+  {
+    image:
+      imgCeraAguaBlanca1
+  },
+  {
+    image:
+      imgCeraAguaBlanca2
+  },
+];
+
+export const SliderData16 = [
+  {
+    image:
+      imgCeraAguaNegra1
+  },
+  {
+    image:
+      imgCeraAguaNegra2
+  },
+];
+export const SliderData17 = [
+  {
+    image:
+      imgCeraAguaRoja1
+  },
+  {
+    image:
+      imgCeraAguaRoja2
   },
 ];

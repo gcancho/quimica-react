@@ -57,8 +57,23 @@ import imgRenovadorLlanta1 from './imagenes/Abrillantadores/renovador-de-llantas
 import imgRenovadorLlanta2 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6963.jpg';
 import imgRenovadorLlanta3 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6965.jpg';
 
+import imgSacaGrasa1 from './imagenes/Abrillantadores/sacagrasa/DSC_689807.jpg';
+import imgSacaGrasa2 from './imagenes/Abrillantadores/sacagrasa/DSC_690009.jpg';
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
+import imgCeraAguaAmarilla1 from './imagenes/Ceras/cera-agua-amarilla/DSC_688107.jpg';
+import imgCeraAguaAmarilla2 from './imagenes/Ceras/cera-agua-amarilla/DSC_707913.jpg';
+
+import imgCeraAguaBlanca1 from './imagenes/Ceras/cera-agua-blanca/DSC_690110.jpg';
+import imgCeraAguaBlanca2 from './imagenes/Ceras/cera-agua-blanca/DSC_707913.jpg';
+
+import imgCeraAguaNegra1 from './imagenes/Ceras/cera-agua-negra/DSC_686501.jpg';
+import imgCeraAguaNegra2 from './imagenes/Ceras/cera-agua-negra/DSC_707913.jpg';
+
+import imgCeraAguaRoja1 from './imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
+import imgCeraAguaRoja2 from './imagenes/Ceras/cera-agua-roja/DSC_707913.jpg';
+
+
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -226,6 +241,61 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
           imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2,imgRenovadorLlanta3]}
           hola={SliderData12}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Saca-grasa">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Saca grasa"
+          imagenesSecundarias={[imgSacaGrasa1, imgSacaGrasa2]}
+          hola={SliderData13}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Cera-agua-amarilla">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Cera al agua amarilla"
+          imagenesSecundarias={[imgCeraAguaAmarilla1, imgCeraAguaAmarilla2]}
+          hola={SliderData14}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Cera-agua-blanca">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Cera al agua blanca"
+          imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
+          hola={SliderData15}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Cera-agua-negra">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Cera al agua negra"
+          imagenesSecundarias={[imgCeraAguaNegra1, imgCeraAguaNegra2]}
+          hola={SliderData16}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Cera-agua-roja">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Cera al agua roja"
+          imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
+          hola={SliderData17}
         />
         <Footer />
         <Whatsapp />

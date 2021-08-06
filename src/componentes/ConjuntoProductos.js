@@ -70,6 +70,7 @@ const ProductosPerfumadores = ({ clase, nombre1, imagen1, descripcion1, presenta
 const ProductosAbrillantadores = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2, nombre3, imagen3, descripcion3, presentaciones3 }) => {
     const rutaPreservanteMadera = "/Preservante-madera";
     const rutaRenovadorLlanta = "/Renovador-de-llantas";
+    const rutaSacaGrasa = "/Saca-grasa";
     return (
         <article className={`producto-tab ${clase}`}>
             <div className="wrap">
@@ -78,21 +79,27 @@ const ProductosAbrillantadores = ({ clase, nombre1, imagen1, descripcion1, prese
             <div className="producto-tab__wrap wrap">
                 <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} ruta={rutaPreservanteMadera} />
                 <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} ruta={rutaRenovadorLlanta} />
+                <CardProductoInicio nombre={nombre3} descripcion={descripcion3} presentacion={presentaciones3} imagen={imagen3} ruta={rutaSacaGrasa} />
             </div>
         </article>
     );
 }
 const ProductosCeras = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2, nombre3, imagen3, descripcion3, presentaciones3, nombre4, imagen4, descripcion4, presentaciones4 }) => {
+    const rutaCeraAguaAmarilla = "/Cera-agua-amarilla";
+    const rutaCeraAguaBlanca = "/Cera-agua-blanca";
+    const rutaCeraAguaNegra = "/Cera-agua-negra";
+    const rutaCeraAguaRoja = "/Cera-agua-roja";
+    
     return (
         <article className={`producto-tab ${clase}`}>
             <div className="wrap">
                 <h2 className="producto-tab__titulo">Ceras</h2>
             </div>
             <div className="producto-tab__wrap wrap">
-                <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} />
-                <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} />
-                <CardProductoInicio nombre={nombre3} descripcion={descripcion3} presentacion={presentaciones3} imagen={imagen3} />
-                <CardProductoInicio nombre={nombre4} descripcion={descripcion4} presentacion={presentaciones4} imagen={imagen4} />
+                <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} ruta={rutaCeraAguaAmarilla}/>
+                <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} ruta={rutaCeraAguaBlanca}/>
+                <CardProductoInicio nombre={nombre3} descripcion={descripcion3} presentacion={presentaciones3} imagen={imagen3} ruta={rutaCeraAguaNegra}/>
+                <CardProductoInicio nombre={nombre4} descripcion={descripcion4} presentacion={presentaciones4} imagen={imagen4} ruta={rutaCeraAguaRoja}/>
             </div>
         </article>
     );
