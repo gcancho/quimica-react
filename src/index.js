@@ -101,9 +101,28 @@ import imgSiliconaCristal2 from './imagenes/Desincrustantes/silicona-cristal/DSC
 import imgSiliconaTablero1 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
 import imgSiliconaTablero2 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
 
+import imgCloro1 from './imagenes/Desinfectantes/cloro/DSC_707257.jpg';
+import imgCloro2 from './imagenes/Desinfectantes/cloro/DSC_709763.jpg';
+
+import imgLejia1 from './imagenes/Desinfectantes/lejia/DSC_698722.jpg';
+import imgLejia2 from './imagenes/Desinfectantes/lejia/DSC_699025.jpg';
+import imgLejia3 from './imagenes/Desinfectantes/lejia/DSC_708860.jpg';
+
+import imgLimpiaTodoBebe1 from './imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_686801.jpg';
+import imgLimpiaTodoBebe2 from './imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_705751.jpg';
+
+import imgLimpiaTodoLavanda1 from './imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
+import imgLimpiaTodoLavanda2 from './imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_705751.jpg';
+
+import imgPino1 from './imagenes/Desinfectantes/pino/DSC_689506.jpg';
+import imgPino2 from './imagenes/Desinfectantes/pino/DSC_706954.jpg';
+
+import imgPotenteDesinfectante1 from './imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
+import imgPotenteDesinfectante2 from './imagenes/Desinfectantes/potente-desinfectante/DSC_701840.jpg';
 
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
+
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData26, SliderData27, SliderData28, SliderData29, SliderData30, SliderData31, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -414,6 +433,72 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Silicona cristal"
           imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
           hola={SliderData25}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Cloro">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Cloro"
+          imagenesSecundarias={[imgCloro1, imgCloro2]}
+          hola={SliderData26}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Lejia">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Lejia"
+          imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
+          hola={SliderData27}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Limpia-todo-aroma-bebe">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma bebe"
+          imagenesSecundarias={[imgLimpiaTodoBebe1, imgLimpiaTodoBebe2]}
+          hola={SliderData28}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Limpia-todo-aroma-lavanda">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma lavanda"
+          imagenesSecundarias={[imgLimpiaTodoLavanda1, imgLimpiaTodoLavanda2]}
+          hola={SliderData29}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Pino">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Pino"
+          imagenesSecundarias={[imgPino1, imgPino2]}
+          hola={SliderData30}
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Potente-desinfectante">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Potente desinfectante"
+          imagenesSecundarias={[imgPotenteDesinfectante1, imgPotenteDesinfectante2]}
+          hola={SliderData31}
         />
         <Footer />
         <Whatsapp />

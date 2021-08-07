@@ -88,6 +88,25 @@ import imgSiliconaCristal2 from './../imagenes/Desincrustantes/silicona-cristal/
 import imgSiliconaTablero1 from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
 import imgSiliconaTablero2 from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
 
+import imgCloro1 from './../imagenes/Desinfectantes/cloro/DSC_707257.jpg';
+import imgCloro2 from './../imagenes/Desinfectantes/cloro/DSC_709763.jpg';
+
+import imgLejia1 from './../imagenes/Desinfectantes/lejia/DSC_698722.jpg';
+import imgLejia2 from './../imagenes/Desinfectantes/lejia/DSC_699025.jpg';
+import imgLejia3 from './../imagenes/Desinfectantes/lejia/DSC_708860.jpg';
+
+import imgLimpiaTodoBebe1 from './../imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_686801.jpg';
+import imgLimpiaTodoBebe2 from './../imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_705751.jpg';
+
+import imgLimpiaTodoLavanda1 from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
+import imgLimpiaTodoLavanda2 from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_705751.jpg';
+
+import imgPino1 from './../imagenes/Desinfectantes/pino/DSC_689506.jpg';
+import imgPino2 from './../imagenes/Desinfectantes/pino/DSC_706954.jpg';
+
+import imgPotenteDesinfectante1 from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
+import imgPotenteDesinfectante2 from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701840.jpg';
+
 export const SliderData1 = [
   {
     image:
@@ -422,3 +441,74 @@ export const SliderData25 = [
       imgSiliconaTablero2
   },
 ];
+
+export const SliderData26 = [
+  {
+    image:
+      imgCloro1
+  },
+  {
+    image:
+      imgCloro2
+  },
+];
+
+export const SliderData27 = [
+  {
+    image:
+      imgLejia1
+  },
+  {
+    image:
+      imgLejia2
+  },
+  {
+    image:
+      imgLejia3
+  },
+];
+
+export const SliderData28 = [
+  {
+    image:
+      imgLimpiaTodoBebe1
+  },
+  {
+    image:
+      imgLimpiaTodoBebe2
+  },
+];
+
+export const SliderData29 = [
+  {
+    image:
+      imgLimpiaTodoLavanda1
+  },
+  {
+    image:
+      imgLimpiaTodoLavanda2
+  },
+];
+
+export const SliderData30 = [
+  {
+    image:
+      imgPino1
+  },
+  {
+    image:
+      imgPino2
+  },
+];
+
+export const SliderData31 = [
+  {
+    image:
+      imgPotenteDesinfectante1
+  },
+  {
+    image:
+      imgPotenteDesinfectante2
+  },
+];
+

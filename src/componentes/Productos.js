@@ -30,12 +30,12 @@ import imgQuitasarro from './../imagenes/Desincrustantes/quitasarro/DSC_695709.j
 import imgSiliconaCristal from './../imagenes/Desincrustantes/silicona-cristal/DSC_692004.jpg';
 import imgSiliconaTablero from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
 
-import imgCloro from './../imagenes/Desinfectantes/cloro/DSC_7072.JPG';
-import imgLejia from './../imagenes/Desinfectantes/lejia/DSC_6987.JPG';
-import imgLimpiaTodoAromaBebe from './../imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_6868.JPG';
-import imgLimpiaTodoAromaLavanda from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_6877.JPG';
-import imgPino from './../imagenes/Desinfectantes/pino/DSC_6895.JPG';
-import imgPotenteDesinfectante from './../imagenes/Desinfectantes/potente-desinfectante/DSC_7016.JPG';
+import imgCloro from './../imagenes/Desinfectantes/cloro/DSC_707257.jpg';
+import imgLejia from './../imagenes/Desinfectantes/lejia/DSC_698722.jpg';
+import imgLimpiaTodoAromaBebe from './../imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_686801.jpg';
+import imgLimpiaTodoAromaLavanda from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
+import imgPino from './../imagenes/Desinfectantes/pino/DSC_689506.jpg';
+import imgPotenteDesinfectante from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
 
 
 const Productos = () => {
