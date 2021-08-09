@@ -58,6 +58,7 @@ $altoHeader: 70px;
     }
 }
 .menu.active {
+    background-color: $colorHeader;
     transition: all 1s ease-out;
     left: 0;
     height: auto;

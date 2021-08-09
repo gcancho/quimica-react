@@ -4,7 +4,7 @@ import { ProductosLimpiadores, ProductosDetergentes, ProductosDisolventes, Produ
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretRight } from '@fortawesome/free-solid-svg-icons';
 // Imagenes 
-import imgLimpiaVidrios from './../imagenes/Limpiadores/limpia-vidrios/DSC_7060.JPG';
+import imgLimpiaVidrios from './../imagenes/Limpiadores/limpia-vidrios/DSC_6907.JPG';
 import imgRonQuemar from './../imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
 import imgJabonLiquido from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
 import imgShampooAlfombra from './../imagenes/Detergentes/shampoo-para-alfonbras/DSC_6923.JPG';

@@ -68,7 +68,7 @@ const ProductosPerfumadores = ({ clase, nombre1, imagen1, descripcion1, presenta
     );
 }
 const ProductosAbrillantadores = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2, nombre3, imagen3, descripcion3, presentaciones3 }) => {
-    const rutaPreservanteMadera = "/Preservante-madera";
+    const rutaPreservanteMadera = "/Preservante-para-madera";
     const rutaRenovadorLlanta = "/Renovador-de-llantas";
     const rutaSacaGrasa = "/Saca-grasa";
     return (

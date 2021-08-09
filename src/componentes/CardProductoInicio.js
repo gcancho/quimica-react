@@ -8,7 +8,7 @@ const CardProductoInicio = ({nombre,descripcion,presentacion,imagen, ruta}) => {
             <h3>{nombre}</h3>
             <div className="producto-tab__item__caja">
                 <div className="producto-tab__item__producto">
-                    <img src={imagen} alt="" />
+                    <img loading="lazy" src={imagen} alt="" />
                     <Link className="boton" to={ruta}>Ver detalle</Link>
                 </div>
                 <div className="producto-tab__item__info">

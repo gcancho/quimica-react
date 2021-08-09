@@ -11,11 +11,11 @@ import Contacto from './componentes/Contacto';
 import { BrowserRouter, Route } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
 // Rutas imagenes, pero las esta jalando de SliderData 
-import imgLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6908.JPG';
+import imgLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6907.JPG';
 import imgLimpiaVidrios2 from './imagenes/Limpiadores/limpia-vidrios/DSC_7060.JPG';
 
 import imgRonQuemar1 from './imagenes/Limpiadores/ron-de-quemar/DSC_6885.JPG';
-import imgRonQuemar2 from './imagenes/Limpiadores/ron-de-quemar/DSC_6954.JPG';
+import imgRonQuemar2 from './imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
 
 import imgJabonLiquido1 from './imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
 import imgJabonLiquido2 from './imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
