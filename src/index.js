@@ -126,7 +126,6 @@ import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, Sl
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
-import Pdf from './componentes/Pdf';
 
 
 
@@ -509,6 +508,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Pino"
           imagenesSecundarias={[imgPino1, imgPino2]}
           hola={SliderData30}
+          urlPdf="https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -525,7 +525,6 @@ const App = () => {
         <Whatsapp />
 
       </Route>
-      <Route exact path="/Pdf" component={Pdf}/>
     </BrowserRouter>
   )
 }
