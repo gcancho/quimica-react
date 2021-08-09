@@ -5,9 +5,10 @@ import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import iconoPdf from './../imagenes/iconos/ic-pdf.png';
 import ImageSlider from './ImageSlider';
 import { SliderData1, SliderData2 } from './SliderData';
+import { Link } from 'react-router-dom';
 
 
-const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola }) => {
+const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola, urlPdf }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
@@ -17,7 +18,7 @@ const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola }) =
                 <div className="caracteristicas__producto__wrap wrap">
                     <div className="caracteristicas__producto__izq">
                         <div className="producto__principal">
-                            <ImageSlider slides={imagenesSecundarias} tipoSlide={hola}/>
+                            <ImageSlider slides={imagenesSecundarias} tipoSlide={hola} />
                         </div>
                     </div>
                     <div className="caracteristicas__producto__der">
@@ -40,86 +41,11 @@ const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola }) =
                             <div>
                                 <p>Color: <span>Morado bajo</span></p>
                             </div>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
-                            <a href="#" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
+                            {(urlPdf) ?
+                                <a href={urlPdf} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar ficha técnica</a>
+                                :
+                                <></>
+                            }
                         </div>
                     </div>
                 </div>

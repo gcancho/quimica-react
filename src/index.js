@@ -8,7 +8,7 @@ import './normalize.css';
 import './scss/index.scss';
 import Whatsapp from './componentes/Whatsapp';
 import Contacto from './componentes/Contacto';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
 // Rutas imagenes, pero las esta jalando de SliderData 
 import imgLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6907.JPG';
@@ -126,6 +126,7 @@ import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, Sl
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
+import Pdf from './componentes/Pdf';
 
 
 
@@ -169,6 +170,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
           imagenesSecundarias={[imgLimpiaVidrios1, imgLimpiaVidrios2]}
           hola={SliderData1}
+          urlPdf="https://drive.google.com/file/d/1IMvEv7gUPjJRbJLp6tEzBeKXkW9BdbeJ/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -180,6 +182,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Ron de quemar"
           imagenesSecundarias={[imgRonQuemar1, imgRonQuemar2]}
           hola={SliderData2}
+          urlPdf="https://drive.google.com/file/d/1nTkfYMM1cVCwCI0iP7Ww13U9T2SwLPfz/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -191,6 +194,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Jabón Líquido"
           imagenesSecundarias={[imgJabonLiquido1, imgJabonLiquido2, imgJabonLiquido3, imgJabonLiquido4, imgJabonLiquido5, imgJabonLiquido6, imgJabonLiquido7, imgJabonLiquido8, imgJabonLiquido9]}
           hola={SliderData3}
+          urlPdf="https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -224,6 +228,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Aguarras"
           imagenesSecundarias={[imgAguarras1, imgAguarras2, imgAguarras3]}
           hola={SliderData6}
+          urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -235,6 +240,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Bencina"
           imagenesSecundarias={[imgBencina1, imgBencina2]}
           hola={SliderData7}
+          urlPdf="https://drive.google.com/file/d/1TgTxi0HnbGUChNjr22N1bpRNCJ8_vv--/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -246,6 +252,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Thinner acrílico"
           imagenesSecundarias={[imgThinnerAcrilico1, imgThinnerAcrilico2, imgThinnerAcrilico3]}
           hola={SliderData8}
+          urlPdf="https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -279,6 +286,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Preservante para madera"
           imagenesSecundarias={[imgPreservanteMadera1, imgPreservanteMadera2]}
           hola={SliderData11}
+          urlPdf="https://drive.google.com/file/d/1zPyeeip7H0EHpUzPBH5aWKOEU_fbsrcv/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -290,6 +298,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
           imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2, imgRenovadorLlanta3]}
           hola={SliderData12}
+          urlPdf="https://drive.google.com/file/d/17A19IEn4dg2LQQaOeC1s3mdfwWdXuZv3/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -301,6 +310,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Saca grasa"
           imagenesSecundarias={[imgSacaGrasa1, imgSacaGrasa2]}
           hola={SliderData13}
+          urlPdf="https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -323,6 +333,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua blanca"
           imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
           hola={SliderData15}
+          urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -367,6 +378,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Vaselina liquida"
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
           hola={SliderData19}
+          urlPdf="https://drive.google.com/file/d/18AElKiKcimwht1ChZfM0yzB0OT_bR2Uj/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -378,6 +390,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Acidos"
           imagenesSecundarias={[imgAcido1, imgAcido2, imgAcido3, imgAcido4]}
           hola={SliderData20}
+          urlPdf="https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -389,6 +402,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Agua para baterias"
           imagenesSecundarias={[imgAguaBaterias1, imgAguaBaterias2]}
           hola={SliderData21}
+          urlPdf="https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -400,6 +414,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Kresso"
           imagenesSecundarias={[imgKresso1, imgKresso2, imgKresso3]}
           hola={SliderData22}
+          urlPdf="https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -411,6 +426,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Quita sarro"
           imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
           hola={SliderData23}
+          urlPdf="https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -422,6 +438,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Silicona cristal"
           imagenesSecundarias={[imgSiliconaCristal1, imgSiliconaCristal2]}
           hola={SliderData24}
+          urlPdf="https://drive.google.com/file/d/1Tkhdjm8uiIDDN_xmc7TLi4FaAq0S_SXI/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -433,6 +450,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Silicona cristal"
           imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
           hola={SliderData25}
+          urlPdf="https://drive.google.com/file/d/1XNdU58v7mEeuNRiRZQl-SyWKYIxlx7bx/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -455,6 +473,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Lejia"
           imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
           hola={SliderData27}
+          urlPdf="https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -466,6 +485,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma bebe"
           imagenesSecundarias={[imgLimpiaTodoBebe1, imgLimpiaTodoBebe2]}
           hola={SliderData28}
+          urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -477,6 +497,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma lavanda"
           imagenesSecundarias={[imgLimpiaTodoLavanda1, imgLimpiaTodoLavanda2]}
           hola={SliderData29}
+          urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -504,6 +525,7 @@ const App = () => {
         <Whatsapp />
 
       </Route>
+      <Route exact path="/Pdf" component={Pdf}/>
     </BrowserRouter>
   )
 }

@@ -21,7 +21,6 @@ const CardProductoInicio = ({nombre,descripcion,presentacion,imagen, ruta}) => {
                 </div>
             </div>
         </div>
-        // <h1>aaa</h1>
     );
 }
 
