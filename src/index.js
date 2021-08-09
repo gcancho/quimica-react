@@ -126,6 +126,7 @@ import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, Sl
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
+import ScrollToTop from './componentes/ScrollToTop';
 
 
 
@@ -138,6 +139,7 @@ const App = () => {
       <Helmet>
         <title>{TITLE}</title>
       </Helmet>
+      <ScrollToTop/>
       <Route path="/" exact={true}>
 
         <Header />
