@@ -5,7 +5,7 @@ const Banner = () => {
     return (
         <section className="banner">
             <div className="banner__container">
-                <img src={imgBanner}/>
+                <img className="banner__img" loading="lazy" src={imgBanner}/>
             </div>
         </section>
     );

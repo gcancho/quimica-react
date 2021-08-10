@@ -1,5 +1,67 @@
-.nosotros{
-    h2{
-        padding-top: $altoHeader;
+.nosotros {
+    margin-top: $altoHeader;
+    background-color: #001031;
+    .nosotros__izq {
+        color: #fff;
+        background-color: #001031;
+        .vision{
+            padding: 10px 0;
+            img{
+                margin-bottom: 10px;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+        .mision{
+            padding: 10px 0;
+            img{
+                margin-bottom: 10px;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+    .nosotros__der {
+        color: #000;
+        background-color: #fff;
+        .wrap{
+            padding: 10px 0;
+        }
+        img{
+            width: 70px;
+        }
+        h5{
+            font-size: 2.2em;
+            text-transform: uppercase;
+        }
+        ul{
+            list-style: initial;
+            li{
+                margin-left: 20px;
+                font-size: 1.4em;
+                margin-top: 24px;
+            }
+        }
+    }
+    .nosotros__wrap {
+        display: block;
+        margin-top: -4px;
+    }
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        .nosotros__wrap {
+            display: flex;
+            // flex-direction: row;
+            .nosotros__izq {
+                width: 50%;
+            }
+            .nosotros__der {
+                width: 50%;
+            }
+        }
     }
 }

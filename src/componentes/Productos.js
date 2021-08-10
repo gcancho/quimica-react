@@ -36,7 +36,7 @@ import imgLimpiaTodoAromaBebe from './../imagenes/Desinfectantes/limpia-todo-aro
 import imgLimpiaTodoAromaLavanda from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
 import imgPino from './../imagenes/Desinfectantes/pino/DSC_689506.jpg';
 import imgPotenteDesinfectante from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
-
+import imgProductos from './../imagenes/Banner/productos.jpg';
 
 const Productos = () => {
 
@@ -46,6 +46,9 @@ const Productos = () => {
     }
     return (
         <section className="productos" id="productos">
+            <div className="productos__container">
+                <img className="banner__img" loading="lazy" src={imgProductos} />
+            </div>
             <div className="wrap">
                 <h2 className="productos__titulo">Productos</h2>
             </div>
