@@ -136,18 +136,21 @@ const Productos = () => {
                 <ProductosAbrillantadores
                     nombre1="Preservante de madera"
                     imagen1={imgPreservanteMadera}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Galón','Litro','Medio Litro','Bidón']}
+                    descripcion1="Es un protector y repelente de insectos desarrollado con ingredientes activos que
+                    además previenen el crecimiento de hongos."
 
                     nombre2="Renovador de llantas"
                     imagen2={imgRenovadorLlantas}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['Envase de litro','Medio Litro','Galón','Bidón']}
+                    descripcion2="Siliconas, emulsionantes, humectantes, preservante, agua. No posee
+                    ingredientes de riesgo."
 
                     nombre3="Saca Grasa"
                     imagen3={imgSacaGrasa}
-                    presentaciones3={['lorem']}
-                    descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones3={['Litro','Medio Litro','Bidón']}
+                    descripcion3="Anti-grasa máximo poder desengrasante, en cocina, microondas,
+                    electrodomésticos."
 
                     clase={toggleState === 5 ? "producto-tab-active" : ""}
                 />
@@ -159,8 +162,11 @@ const Productos = () => {
 
                     nombre2="Cera al agua blanca"
                     imagen2={imgCeraAguaBlanca}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['Bidón','Galón']}
+                    descripcion2="Por su
+                    durabilidad y resistencia al agua, este producto está especialmente diseñado para
+                    áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
+                    restaurantes y el hogar."
 
                     nombre3="Cera al agua negra"
                     imagen3={imgCeraAguaNegra}
@@ -183,40 +189,48 @@ const Productos = () => {
                     nombre2="Vaselina Líquida"
                     imagen2={imgVaselinaLiquida}
                     presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    descripcion2="Liquido viscoso, transparente, más liviano que el agua. Insoluble
+                    en agua."
 
                     clase={toggleState === 7 ? "producto-tab-active" : ""}
                 />
                 <ProductosDesincrustantes
                     nombre1="Ácidos"
                     imagen1={imgAcidos}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Botella','Galón','Bidón','Cilindro','Toten']}
+                    descripcion1="Es un potente limpiador que destruye el sarro, desmancha y desinfecta, ideal
+                    para baños, pisos, inodoros, etc."
 
                     nombre2="Agua para baterias"
                     imagen2={imgAguaBaterias}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['Frasco de 1 L.','1⁄2 L.','Galón','Cilindro','Bidón']}
+                    descripcion2="Es un producto que resulta de un eficiente tratamiento químico que
+                    elimina el contenido de minerales e impurezas."
 
                     nombre3="Kresso"
                     imagen3={imgKresso}
-                    presentaciones3={['lorem']}
-                    descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones3={['Frasco de 1 L.','Bidones','Galón']}
+                    descripcion3="Desinfectante para limpieza y desinfección de instalaciones
+                    pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales."
 
                     nombre4="Quitasarro"
                     imagen4={imgQuitasarro}
-                    presentaciones4={['lorem']}
-                    descripcion4="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones4={['Frasco de 1L., 1⁄2 L.','Bidón','Galón','Cilindro']}
+                    descripcion4="Desinfectante para limpieza y desinfección de instalaciones
+                    pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales."
 
                     nombre5="Silicona para cristal"
                     imagen5={imgSiliconaCristal}
-                    presentaciones5={['lorem']}
-                    descripcion5="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones5={['Frasco de 1 Lt','Medio Litro','Bidón','Galón']}
+                    descripcion5="Producto formulado específicamente para remover la suciedad,
+                    dar brillo, proteger y humectar la superficie donde es aplicado."
 
                     nombre6="Silicona para tablero"
                     imagen6={imgSiliconaTablero}
-                    presentaciones6={['lorem']}
-                    descripcion6="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones6={['Frasco de 1 Lt','Medio Litro','Bidón','Galón']}
+                    descripcion6="La formula premium de nuestra silicona perfumada penetra y
+                    se adhiere a la superficie para mejorar la apariencia del vinílico, caucho, plástico,
+                    renueva el lustre y remueva la suciedad."
                     clase={toggleState === 8 ? "producto-tab-active" : ""}
                 />
                 <ProductosDesinfectantes
@@ -227,23 +241,29 @@ const Productos = () => {
 
                     nombre2="Lejía"
                     imagen2={imgLejia}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['Cojines','Botella','Galón','Bidón','Cilindro','Toten']}
+                    descripcion2="Eficaz frente a los
+                    microorganismos más comunes, es usada para limpieza y desinfección de superficies inertes,
+                    como: pisos, mesas, paredes, baños, duchas. etc"
 
                     nombre3="Limpiatodo aroma bebe"
                     imagen3={imgLimpiaTodoAromaBebe}
-                    presentaciones3={['lorem']}
-                    descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones3={['Frasco de 1 L.','Bidones','Galón']}
+                    descripcion3="Una pequeña cantidad
+                    en un balde con agua, bastan para dejar todo el hogar, oficina o local comercial
+                    impecablemente limpios y deliciosamente perfumados."
 
                     nombre4="Limpiatodo aroma lavanda"
                     imagen4={imgLimpiaTodoAromaLavanda}
-                    presentaciones4={['lorem']}
-                    descripcion4="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones4={['Frasco de 1 L.','Bidones','Galón']}
+                    descripcion4="Una pequeña cantidad
+                    en un balde con agua, bastan para dejar todo el hogar, oficina o local comercial
+                    impecablemente limpios y deliciosamente perfumados."
 
                     nombre5="Pino"
                     imagen5={imgPino}
-                    presentaciones5={['lorem']}
-                    descripcion5="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones5={['1 L.', 'Galón', 'Bidón', 'Cilindro']}
+                    descripcion5="Puede ser utilizado en pisos, baños, vidrios y paredes."
 
                     nombre6="Potente Desinfectante"
                     imagen6={imgPotenteDesinfectante}

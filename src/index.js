@@ -427,7 +427,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Quita sarro"
           imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
           hola={SliderData23}
-          urlPdf="https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing"
+          urlPdf="https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
