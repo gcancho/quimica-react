@@ -139,7 +139,7 @@ const App = () => {
       <Helmet>
         <title>{TITLE}</title>
       </Helmet>
-      <ScrollToTop/>
+      <ScrollToTop />
       <Route path="/" exact={true}>
 
         <Header />
@@ -172,6 +172,7 @@ const App = () => {
           imagenesSecundarias={[imgLimpiaVidrios1, imgLimpiaVidrios2]}
           hola={SliderData1}
           urlPdf="https://drive.google.com/file/d/1IMvEv7gUPjJRbJLp6tEzBeKXkW9BdbeJ/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1f3HEJd-s9Wc4qioZhTrxmiW2MAp4bgAp/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -184,6 +185,7 @@ const App = () => {
           imagenesSecundarias={[imgRonQuemar1, imgRonQuemar2]}
           hola={SliderData2}
           urlPdf="https://drive.google.com/file/d/1nTkfYMM1cVCwCI0iP7Ww13U9T2SwLPfz/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/179iASaQK2ahA0cSgHQLioHzLUuleufhR/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -196,6 +198,7 @@ const App = () => {
           imagenesSecundarias={[imgJabonLiquido1, imgJabonLiquido2, imgJabonLiquido3, imgJabonLiquido4, imgJabonLiquido5, imgJabonLiquido6, imgJabonLiquido7, imgJabonLiquido8, imgJabonLiquido9]}
           hola={SliderData3}
           urlPdf="https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1we2XtF8KO3kN9vdBuZRyUobPhT8Brt9N/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -230,6 +233,7 @@ const App = () => {
           imagenesSecundarias={[imgAguarras1, imgAguarras2, imgAguarras3]}
           hola={SliderData6}
           urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -242,6 +246,7 @@ const App = () => {
           imagenesSecundarias={[imgBencina1, imgBencina2]}
           hola={SliderData7}
           urlPdf="https://drive.google.com/file/d/1TgTxi0HnbGUChNjr22N1bpRNCJ8_vv--/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/17Nz3Iou1FD95E3zyn39wDrnvvcGqpype/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -254,6 +259,7 @@ const App = () => {
           imagenesSecundarias={[imgThinnerAcrilico1, imgThinnerAcrilico2, imgThinnerAcrilico3]}
           hola={SliderData8}
           urlPdf="https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -288,6 +294,7 @@ const App = () => {
           imagenesSecundarias={[imgPreservanteMadera1, imgPreservanteMadera2]}
           hola={SliderData11}
           urlPdf="https://drive.google.com/file/d/1zPyeeip7H0EHpUzPBH5aWKOEU_fbsrcv/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1c-rH6oLcLuD274kW1tb2snXzt8HxXzEY/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -300,6 +307,7 @@ const App = () => {
           imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2, imgRenovadorLlanta3]}
           hola={SliderData12}
           urlPdf="https://drive.google.com/file/d/17A19IEn4dg2LQQaOeC1s3mdfwWdXuZv3/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/16y-8kp5THCI-DCkzIS-lc6a6GzwqW8NA/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -312,6 +320,7 @@ const App = () => {
           imagenesSecundarias={[imgSacaGrasa1, imgSacaGrasa2]}
           hola={SliderData13}
           urlPdf="https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -323,6 +332,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua amarilla"
           imagenesSecundarias={[imgCeraAguaAmarilla1, imgCeraAguaAmarilla2]}
           hola={SliderData14}
+          urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -335,6 +345,7 @@ const App = () => {
           imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
           hola={SliderData15}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -346,6 +357,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua negra"
           imagenesSecundarias={[imgCeraAguaNegra1, imgCeraAguaNegra2]}
           hola={SliderData16}
+          urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -357,6 +369,7 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua roja"
           imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
           hola={SliderData17}
+          urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -380,6 +393,7 @@ const App = () => {
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
           hola={SliderData19}
           urlPdf="https://drive.google.com/file/d/18AElKiKcimwht1ChZfM0yzB0OT_bR2Uj/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -392,6 +406,7 @@ const App = () => {
           imagenesSecundarias={[imgAcido1, imgAcido2, imgAcido3, imgAcido4]}
           hola={SliderData20}
           urlPdf="https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -404,6 +419,7 @@ const App = () => {
           imagenesSecundarias={[imgAguaBaterias1, imgAguaBaterias2]}
           hola={SliderData21}
           urlPdf="https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -416,6 +432,7 @@ const App = () => {
           imagenesSecundarias={[imgKresso1, imgKresso2, imgKresso3]}
           hola={SliderData22}
           urlPdf="https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -428,6 +445,7 @@ const App = () => {
           imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
           hola={SliderData23}
           urlPdf="https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -440,6 +458,7 @@ const App = () => {
           imagenesSecundarias={[imgSiliconaCristal1, imgSiliconaCristal2]}
           hola={SliderData24}
           urlPdf="https://drive.google.com/file/d/1Tkhdjm8uiIDDN_xmc7TLi4FaAq0S_SXI/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1uknsgyPla7tRqfmWPaMOP8stXCd3bc32/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -448,10 +467,11 @@ const App = () => {
       <Route path="/Silicona-para-tablero">
 
         <Header />
-        <ProductoDetalle tituloProductoDetalle="Silicona cristal"
+        <ProductoDetalle tituloProductoDetalle="Silicona tablero"
           imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
           hola={SliderData25}
           urlPdf="https://drive.google.com/file/d/1XNdU58v7mEeuNRiRZQl-SyWKYIxlx7bx/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1OGxG08zs-yDEDpCq0nnymnNC-nMzdQmP/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -475,6 +495,7 @@ const App = () => {
           imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
           hola={SliderData27}
           urlPdf="https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1TwdUNv8Rv-FqEBAjx2zvWshrFnPiUIiN/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -487,6 +508,7 @@ const App = () => {
           imagenesSecundarias={[imgLimpiaTodoBebe1, imgLimpiaTodoBebe2]}
           hola={SliderData28}
           urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -499,6 +521,7 @@ const App = () => {
           imagenesSecundarias={[imgLimpiaTodoLavanda1, imgLimpiaTodoLavanda2]}
           hola={SliderData29}
           urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -511,6 +534,7 @@ const App = () => {
           imagenesSecundarias={[imgPino1, imgPino2]}
           hola={SliderData30}
           urlPdf="https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
