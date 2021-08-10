@@ -8,7 +8,7 @@ import { SliderData1, SliderData2 } from './SliderData';
 import { Link } from 'react-router-dom';
 
 
-const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola, urlPdf, urlPdf2 }) => {
+const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, usos, apariencia, colores, imagenesSecundarias, hola, urlPdf, urlPdf2, }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
@@ -24,30 +24,53 @@ const ProductoDetalle = ({ tituloProductoDetalle, imagenesSecundarias, hola, url
                     <div className="caracteristicas__producto__der">
                         <h4>Catacterísticas</h4>
                         <div className="caracteristicas__producto__der__info">
-                            <div>
-                                <p>Tipo de producto: <span>Desinfectante</span></p>
-                            </div>
-                            <div>
-                                <p>Presentaciones: <span>Frasco de 1L., bidones y galón</span></p>
-                            </div>
-                            <div>
-                                <p>Usos</p>
-                                <span>Desinfección: dilución de 1.5 20ml de desinfectante por cada litro de agua.</span>
-                                <span>Santificación: dilución de 1.100 10ml de desinfectante por cada litro de agua.</span>
-                            </div>
-                            <div>
-                                <p>Aspecto: <span>Liquido traslucido</span></p>
-                            </div>
-                            <div>
-                                <p>Color: <span>Morado bajo</span></p>
-                            </div>
+                            {(tipoProducto) ?
+                                <div>
+                                    <p>Tipo de producto: <span>{tipoProducto}</span></p>
+                                </div>
+                                :
+                                <></>
+                            }
+                            {(presentaciones) ?
+                                <div>
+                                    <p>Presentaciones: <span>{presentaciones}</span></p>
+                                </div>
+                                :
+                                <></>
+                            }
+                            {(usos) ?
+                                <div className="usos">
+                                    <>
+                                        {/* {presentacion.map((p, index) => <li key={index}>{p}</li>)} */}
+                                        <p>Usos</p>
+                                        {usos.map((u, index) => <li key={index}>{u}</li>)}
+                                    </>
+                                </div>
+                                :
+                                <></>
+                            }
+                            {(apariencia) ?
+                                <div>
+                                    <p>Apariencia: <span>{apariencia}</span></p>
+                                </div>
+                                :
+                                <></>
+                            }
+                            {(colores) ?
+                                <div>
+                                    <p>Color: <span>{colores}</span></p>
+
+                                </div>
+                                :
+                                <></>
+                            }
                             {(urlPdf) ?
                                 <a href={urlPdf} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Ficha Técnica</a>
                                 :
                                 <></>
                             }
                             {(urlPdf2) ?
-                                <a href={urlPdf} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Hoja de Seguridad</a>
+                                <a href={urlPdf2} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Hoja de Seguridad</a>
                                 :
                                 <></>
                             }

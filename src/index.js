@@ -171,6 +171,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
           imagenesSecundarias={[imgLimpiaVidrios1, imgLimpiaVidrios2]}
           hola={SliderData1}
+          tipoProducto="Limpiadores"
+          presentaciones="Bidón, Galón, Litro"
+          apariencia="Líquido Transparente azulado"
+          usos={['Aplique en forma uniforme con la ayuda de una esponja para paredes o con un trapeador para pisos, y deje secar durante cinco minutos.',
+            'Para los lugares más grasosos aplique directamente.',
+            'Puede ser utilizado en pisos, baños, vidrios y paredes.']}
           urlPdf="https://drive.google.com/file/d/1IMvEv7gUPjJRbJLp6tEzBeKXkW9BdbeJ/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1f3HEJd-s9Wc4qioZhTrxmiW2MAp4bgAp/view?usp=sharing"
         />
@@ -184,6 +190,13 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Ron de quemar"
           imagenesSecundarias={[imgRonQuemar1, imgRonQuemar2]}
           hola={SliderData2}
+          tipoProducto="Limpiadores"
+          presentaciones="Frasco de 1 L, Bidón, Galón, Cilindro"
+          apariencia="Líquido"
+          colores="Azul"
+          usos={['Usar de acuerdo a las necesidades, se utiliza mayoritariamente a nivel industrial, como disolvente de resinas, lacas y pinturas.',
+            'Combustible de mecheros, para encendido de cocinas a Kerosenes industriales, en algunos casos para limpieza de vidrios, etc.',
+            'No es necesario diluir, se puede usar puro.']}
           urlPdf="https://drive.google.com/file/d/1nTkfYMM1cVCwCI0iP7Ww13U9T2SwLPfz/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/179iASaQK2ahA0cSgHQLioHzLUuleufhR/view?usp=sharing"
         />
@@ -197,6 +210,13 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Jabón Líquido"
           imagenesSecundarias={[imgJabonLiquido1, imgJabonLiquido2, imgJabonLiquido3, imgJabonLiquido4, imgJabonLiquido5, imgJabonLiquido6, imgJabonLiquido7, imgJabonLiquido8, imgJabonLiquido9]}
           hola={SliderData3}
+          tipoProducto="Detergente"
+          presentaciones="Bidón, Galón, Litro"
+          colores="Morado, Verde, Naranja, Rosa"
+          usos={['Por el tipo de envase en el que viene el jabón líquido la persona apenas está en contacto con él y de esta manera se evita estar en contacto alguna bacteria que pudiera quedar en el jabón en barra.',
+            'El jabón líquido por el tipo de componentes que contiene no genera resequedad piel.',
+            'La espuma es menor y es más fácil evitar que queden residuos en la piel.',
+            'Los jabones líquidos mantienen mejor el equilibrio del ph de la piel.']}
           urlPdf="https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1we2XtF8KO3kN9vdBuZRyUobPhT8Brt9N/view?usp=sharing"
         />
