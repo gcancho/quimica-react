@@ -33,9 +33,9 @@ const Contacto = () => {
                                 <h3 className="contacto__formulario__titulo">
                                     Envianos un mensaje
                                 </h3>
-                                <input className="contacto__input contacto__caja" type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required="" />
-                                <input className="contacto__input contacto__caja" type="text" id="correo" name="correo" placeholder="Correo de contacto" required="" />
-                                <textarea className="contacto__textarea contacto__caja" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje :" required=""></textarea>
+                                <input className="contacto__input contacto__caja" type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required />
+                                <input className="contacto__input contacto__caja" type="email" id="correo" name="correo" placeholder="Correo de contacto" required />
+                                <textarea className="contacto__textarea contacto__caja" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje :" required></textarea>
                                 <input type="submit" value="enviar" className="boton boton--formulario" />
                                 <div className="contacto__mensajes">
                                     <p className="respuesta" id="respuesta">Mensaje enviado</p>

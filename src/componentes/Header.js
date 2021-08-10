@@ -22,7 +22,7 @@ const Header = () => {
                     <Link to="/">Inicio</Link>
                     <Link to="/Nosotros">Nosotros</Link>
                     <Link to="/Productos">Productos</Link>
-                    <a href="/#contacto">Contacto</a>
+                    <a onClick={toogleMenu} href="/#contacto">Contacto</a>
                 </nav>
             </div>
         </header>
