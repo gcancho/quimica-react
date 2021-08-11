@@ -27,6 +27,12 @@
                 text-transform: capitalize;
                 color: rgb(128, 128, 128);
             }
+            ul{
+                color: gray;
+                margin-top: 5px;
+                list-style: disc;
+                text-align: left;
+            }
         }
     }
 }
@@ -37,7 +43,7 @@
         .servicios__wrap {
             flex-direction: row;
             .servicios__card {
-                margin: 0 14px;
+                margin: 0 8px;
                 .servicios__card__icono {
                     font-size: 40px;
                 }

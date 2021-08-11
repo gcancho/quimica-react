@@ -10,7 +10,7 @@
     align-items: center;
     border-radius: var(--borderRadius);
     .slider {
-        svg{
+        svg {
             top: 40%;
             font-size: 53px;
             cursor: pointer;
@@ -63,6 +63,9 @@
     border-radius: var(--borderRadius);
 }
 
+.caracteristicas__producto{
+    margin-top: 12px;
+}
 .caracteristicas__producto__izq {
     padding: 5px 10px;
     width: 100%;
@@ -72,9 +75,9 @@
 .caracteristicas__producto__der {
     padding: 5px 10px;
     width: 100%;
-    .usos{
+    .usos {
         list-style: square;
-        li{
+        li {
             text-align: left;
             margin: 4px 0;
         }
@@ -115,8 +118,11 @@
     background: #db5657;
     align-items: center;
     width: 250px;
-    justify-content: center;
+    justify-content: left;
     margin-top: 20px;
+}
+.boton.boton-pdf {
+    padding: 15px 14px;
 }
 
 .boton-pdf .ic-pdf {

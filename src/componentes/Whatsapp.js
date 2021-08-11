@@ -4,7 +4,7 @@ import imgWsp from '../imagenes/wsp.png';
 const Whatsapp = () => {
     return (
         <div className="container-wsp">
-            <a href="https://wa.me/51921920359?text=Hola" >
+            <a href="wa.link/ksab6h" >
                 <img className="wsp" src={imgWsp} alt="" />
             </a>
         </div>

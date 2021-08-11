@@ -20,9 +20,8 @@ import imgShampooAlfombra2 from './../imagenes/Detergentes/shampoo-para-alfonbra
 import imgShampooAuto1 from './../imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
 import imgShampooAuto2 from './../imagenes/Detergentes/shampoo-para-auto/DSC_7082.JPG';
 
-import imgAguarras1 from './../imagenes/Disolventes/aguarras/DSC_6945.JPG';
-import imgAguarras2 from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
-import imgAguarras3 from './../imagenes/Disolventes/aguarras/DSC_7094.JPG';
+import imgAguarras1 from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
+import imgAguarras2 from './../imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
 import imgBencina1 from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './../imagenes/Disolventes/bencina/DSC_7100.jpg';
@@ -198,10 +197,6 @@ export const SliderData6 = [
   {
     image:
       imgAguarras2
-  },
-  {
-    image:
-      imgAguarras3
   },
 ];
 

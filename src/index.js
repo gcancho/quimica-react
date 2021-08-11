@@ -33,9 +33,8 @@ import imgShampooAlfombra2 from './imagenes/Detergentes/shampoo-para-alfonbras/D
 import imgShampooAuto1 from './imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
 import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.JPG';
 
-import imgAguarras1 from './imagenes/Disolventes/aguarras/DSC_6945.JPG';
-import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_6966.JPG';
-import imgAguarras3 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
+import imgAguarras1 from './imagenes/Disolventes/aguarras/DSC_6966.JPG';
+import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
 import imgBencina1 from './imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './imagenes/Disolventes/bencina/DSC_7100.jpg';
@@ -233,6 +232,8 @@ const App = () => {
           tipoProducto="Detergente"
           presentaciones="Bidón, Galón, Litro"
           usos={['Aspire la alfombra, retire todo el polvo de la superficie.', 'Diluya el producto de acuerdo al tipo de limpieza que va a emplear.']}
+          urlPdf="https://drive.google.com/file/d/1dNg8eEnerajK1hQWmxYkKW71JuP3PiHU/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1IN3HF1uIsxJ2kpLJM5bDxYpVpHlz1t6V/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -256,11 +257,11 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Aguarras"
-          imagenesSecundarias={[imgAguarras1, imgAguarras2, imgAguarras3]}
+          imagenesSecundarias={[imgAguarras1, imgAguarras2]}
           hola={SliderData6}
           tipoProducto="Disolventes"
           presentaciones="Galón, Litro, Medio litro, Bidón"
-          usos="Dilución y limpieza de pinturas sintéticas."
+          usos={['Dilución y limpieza de pinturas sintéticas.']}
           urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
         />
@@ -494,6 +495,11 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Acidos"
           imagenesSecundarias={[imgAcido1, imgAcido2, imgAcido3, imgAcido4]}
           hola={SliderData20}
+          tipoProducto="Desincrustantes"
+          presentaciones="Botella, Galón, Bidón, Cilindro, Toten"
+          usos={['Producto de limpieza y desinfección (baños, mayólicas, tinas, lavatorios, etc.), capaz de remover manchas de sarro y caliche.',
+            'Se usa también en mantenimiento de aguas y piscinas (regula pH, elimina    algas y limpia mayólicas)',
+            'No usar en baldosas a base de cemento ni mármol.']}
           urlPdf="https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
         />
@@ -507,6 +513,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Agua para baterias"
           imagenesSecundarias={[imgAguaBaterias1, imgAguaBaterias2]}
           hola={SliderData21}
+          tipoProducto="Desincrustantes"
+          presentaciones="Frasco de 1 L., 1⁄2 L., Galón, Cilindro, Bidón"
+          usos={['Uso automotriz e industrial.',
+            'Uso farmacéutico y doméstico (planchas a vapor, dilución de pinturas de cerámicas, etc.).']}
           urlPdf="https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing"
         />
@@ -520,6 +530,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Kresso"
           imagenesSecundarias={[imgKresso1, imgKresso2, imgKresso3]}
           hola={SliderData22}
+          tipoProducto="Desincrustantes"
+          presentaciones="Frasco de 1 L., Bidones, Galón"
+          usos={['Uso Industrial, principalmente en pozas de desinfección, granjas, pozos sépticos.']}
           urlPdf="https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing"
         />
@@ -533,6 +546,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Quita sarro"
           imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
           hola={SliderData23}
+          tipoProducto="Desincrustantes"
+          presentaciones="Frasco de 1L., 1⁄2 L., Bidón, Galón, Cilindro"
+          usos={['Aplique una pequeña cantidad en el sanitario, deje actuar unos minutos, refriegue y enjuague.',
+            'No se recomienda aplicar sobre partes cromadas, aluminio y fierro.',
+            'No se use en superficies sensibles a los ácidos.',
+            'Lo mejor es si el sarricida se usa frecuentemente.']}
           urlPdf="https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing"
         />
@@ -546,6 +565,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Silicona cristal"
           imagenesSecundarias={[imgSiliconaCristal1, imgSiliconaCristal2]}
           hola={SliderData24}
+          tipoProducto="Desincrustantes"
+          presentaciones="Frasco de 1L., Medio Litro, Bidón, Galón"
+          usos={['Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar.',
+            'Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar.',
+            'Puede ser usado sobre superficies de fórmica, metales, vinilos, lonas, tableros de auto, etc.'
+          ]}
           urlPdf="https://drive.google.com/file/d/1Tkhdjm8uiIDDN_xmc7TLi4FaAq0S_SXI/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1uknsgyPla7tRqfmWPaMOP8stXCd3bc32/view?usp=sharing"
         />
@@ -559,6 +584,11 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Silicona tablero"
           imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
           hola={SliderData25}
+          tipoProducto="Desincrustantes"
+          presentaciones="Frasco de 1 Lt, Medio Litro, Bidón, Galón"
+          usos={['Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar.',
+            'Puede ser usado sobre superficies de fórmica, metales, vinilos, lonas, tableros de auto, etc.',
+            'Aplíquese en tableros de autos, equipos de sonido, computadoras y otros.']}
           urlPdf="https://drive.google.com/file/d/1XNdU58v7mEeuNRiRZQl-SyWKYIxlx7bx/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1OGxG08zs-yDEDpCq0nnymnNC-nMzdQmP/view?usp=sharing"
         />
@@ -572,6 +602,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cloro"
           imagenesSecundarias={[imgCloro1, imgCloro2]}
           hola={SliderData26}
+          tipoProducto="Desinfectantes"
+          presentaciones="Bidón, Galón"
+          usos={['El cloro destruye los gérmenes que causan enfermedades y permite que el agua sea segura',
+            'Además de matar gérmenes peligrosos como bacterias, virus y parásitos, el cloro ayuda a reducir los gustos y olores desagradables en el agua']}
         />
         <Footer />
         <Whatsapp />
@@ -583,6 +617,11 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Lejia"
           imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
           hola={SliderData27}
+          tipoProducto="Desinfectantes"
+          presentaciones=""
+          usos={['Lejía Concentrada, es usada para limpieza y desinfección de superficies inertes, como: pisos, mesas, paredes, baños, duchas. etc.',
+            'Es utilizado como desinfectante de uso de Salud Pública, ya que elimina eficazmente los microorganismos más comunes.']}
+          apariencia="Liquido"
           urlPdf="https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1TwdUNv8Rv-FqEBAjx2zvWshrFnPiUIiN/view?usp=sharing"
         />
@@ -596,6 +635,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma bebe"
           imagenesSecundarias={[imgLimpiaTodoBebe1, imgLimpiaTodoBebe2]}
           hola={SliderData28}
+          tipoProducto="Desinfectantes"
+          presentaciones="Frasco de 1 L., Bidones, Galón"
+          usos={['Diluya 1/4 de taza en un balde con 3 litros de agua',
+            ' No necesita enjuagar.']}
           urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
@@ -609,6 +652,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma lavanda"
           imagenesSecundarias={[imgLimpiaTodoLavanda1, imgLimpiaTodoLavanda2]}
           hola={SliderData29}
+          tipoProducto="Desinfectantes"
+          presentaciones="Frasco de 1 L., Bidones, Galón"
+          usos={['Diluya 1/4 de taza en un balde con 3 litros de agua',
+            ' No necesita enjuagar.']}
           urlPdf="https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
@@ -622,6 +669,13 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Pino"
           imagenesSecundarias={[imgPino1, imgPino2]}
           hola={SliderData30}
+          tipoProducto="Desinfectantes"
+          presentaciones="1 L., Galón, Bidón, Cilindro"
+          usos={['Aplique en forma uniforme con la ayuda de una esponja para paredes o con un trapeador para pisos, y deje secar durante cinco minutos',
+            'Para los lugares más grasosos aplique directamente.',
+            'Puede ser utilizado en pisos, baños, vidrios y paredes.']}
+          apariencia="Liquido"
+          colores="Verde"
           urlPdf="https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing"
         />
@@ -635,6 +689,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Potente desinfectante"
           imagenesSecundarias={[imgPotenteDesinfectante1, imgPotenteDesinfectante2]}
           hola={SliderData31}
+          tipoProducto="Desinfectantes"
+          presentaciones="Bidón, Galón"
+          usos={['Se puede utilizar en todo tipo de superficies lavables: lavabos, bañeras, bidés, inodoros, duchas']}
         />
         <Footer />
         <Whatsapp />

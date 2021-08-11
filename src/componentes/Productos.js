@@ -9,7 +9,7 @@ import imgRonQuemar from './../imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
 import imgJabonLiquido from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
 import imgShampooAlfombra from './../imagenes/Detergentes/shampoo-para-alfonbras/DSC_6923.JPG';
 import imgShampooAuto from './../imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
-import imgAguarras from './../imagenes/Disolventes/aguarras/DSC_6945.JPG';
+import imgAguarras from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
 import imgBencina from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgThinnerAcrilico from './../imagenes/Disolventes/thinner-acrilico/DSC_6951.jpg';
 import imgAmbientadorBebe from './../imagenes/Perfumadores/ambientador-bebe/DSC_6892.jpg';
@@ -212,7 +212,7 @@ const Productos = () => {
 
                     nombre2="Agua para baterias"
                     imagen2={imgAguaBaterias}
-                    presentaciones2={['Frasco de 1 L.','1⁄2 L.','Galón','Cilindro','Bidón']}
+                    presentaciones2={['Frasco de 1 L.','Frasco 1⁄2 L.','Galón','Cilindro','Bidón']}
                     descripcion2="Es un producto que resulta de un eficiente tratamiento químico que
                     elimina el contenido de minerales e impurezas."
 
@@ -224,7 +224,7 @@ const Productos = () => {
 
                     nombre4="Quitasarro"
                     imagen4={imgQuitasarro}
-                    presentaciones4={['Frasco de 1L., 1⁄2 L.','Bidón','Galón','Cilindro']}
+                    presentaciones4={['Frasco de 1L.','Frasco 1⁄2 L.','Bidón','Galón','Cilindro']}
                     descripcion4="Desinfectante para limpieza y desinfección de instalaciones
                     pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales."
 
