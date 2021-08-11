@@ -80,7 +80,7 @@ const Productos = () => {
                     nombre2="Ron de quemar"
                     imagen2={imgRonQuemar}
                     descripcion2=" Líquido azulado y volátil, que tiene aplicaciones en la industria como disolvente para lacas, barnices, perfumes; como medio para reacciones químicas."
-                    presentaciones2={['frasco de 1 L.', 'bidones', 'galón', 'clindro']}
+                    presentaciones2={['Frasco de 1 L.', 'Bidones', 'Galón', 'Cilindro']}
                     clase={toggleState === 1 ? "producto-tab-active" : ""}
                 />
 
@@ -92,13 +92,13 @@ const Productos = () => {
 
                     nombre2="Shampoo para alfombras"
                     imagen2={imgShampooAlfombra}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['1Lt','Galón','Bidón']}
+                    descripcion2="Limpia y renueva tus alfombras y cortinas con el shampoo para alfombras, ideal para todo tu hogar."
 
                     nombre3="Shampoo para autos"
                     imagen3={imgShampooAuto}
-                    presentaciones3={['lorem']}
-                    descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones3={['1Lt','Galón','Bidón']}
+                    descripcion3="Lave y brille su auto en un solo paso, sin esfuerzo o la necesidad de recurrir a mas productos."
 
                     clase={toggleState === 2 ? "producto-tab-active" : ""}
                 />
@@ -123,13 +123,13 @@ const Productos = () => {
                 <ProductosPerfumadores
                     nombre1="Ambientador Bebe"
                     imagen1={imgAmbientadorBebe}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Galón','Litro']}
+                    descripcion1="Crea ambientes agradables y con olores frescos gracias a los ambientadores para hogar y coche más buscados, diferentes formas, perfrumes y cantidades al alcance de todos"
 
                     nombre2="Ambientador Lavanda"
                     imagen2={imgAmbientadorLavanda}
-                    presentaciones2={['lorem']}
-                    descripcion2="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones2={['Galón','Litro']}
+                    descripcion2="Crea ambientes agradables y con olores frescos gracias a los ambientadores para hogar y coche más buscados, diferentes formas, perfrumes y cantidades al alcance de todos"
 
                     clase={toggleState === 4 ? "producto-tab-active" : ""}
                 />
@@ -157,8 +157,11 @@ const Productos = () => {
                 <ProductosCeras
                     nombre1="Cera al agua marina"
                     imagen1={imgCeraAguaAmarilla}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Bidón','Galón']}
+                    descripcion1="Por su
+                    durabilidad y resistencia al agua, este producto está especialmente diseñado para
+                    áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
+                    restaurantes y el hogar."
 
                     nombre2="Cera al agua blanca"
                     imagen2={imgCeraAguaBlanca}
@@ -170,25 +173,31 @@ const Productos = () => {
 
                     nombre3="Cera al agua negra"
                     imagen3={imgCeraAguaNegra}
-                    presentaciones3={['lorem']}
-                    descripcion3="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones3={['Bidón','Galón']}
+                    descripcion3="Por su
+                    durabilidad y resistencia al agua, este producto está especialmente diseñado para
+                    áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
+                    restaurantes y el hogar."
 
                     nombre4="Cera al agua roja"
                     imagen4={imgCeraAguaRoja}
-                    presentaciones4={['lorem']}
-                    descripcion4="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones4={['Bidón','Galón']}
+                    descripcion4="Por su
+                    durabilidad y resistencia al agua, este producto está especialmente diseñado para
+                    áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
+                    restaurantes y el hogar."
 
                     clase={toggleState === 6 ? "producto-tab-active" : ""}
                 />
                 <ProductosRemovedores
                     nombre1="Saca Óxido"
                     imagen1={imgSacaOxido}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Frasco de 1L.','Medio litro','Bidón','Galón']}
+                    descripcion1="Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales."
 
                     nombre2="Vaselina Líquida"
                     imagen2={imgVaselinaLiquida}
-                    presentaciones2={['lorem']}
+                    presentaciones2={['Frasco de 1L.','Medio litro','Bidón','Galón']}
                     descripcion2="Liquido viscoso, transparente, más liviano que el agua. Insoluble
                     en agua."
 
@@ -236,8 +245,8 @@ const Productos = () => {
                 <ProductosDesinfectantes
                     nombre1="Cloro"
                     imagen1={imgCloro}
-                    presentaciones1={['lorem']}
-                    descripcion1="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones1={['Bidón','Galón']}
+                    descripcion1="Destruye los gérmenes que causan enfermedades y permite que el agua sea segura. Ayuda a reducir los gustos y olores desagradables en el agua"
 
                     nombre2="Lejía"
                     imagen2={imgLejia}
@@ -267,8 +276,8 @@ const Productos = () => {
 
                     nombre6="Potente Desinfectante"
                     imagen6={imgPotenteDesinfectante}
-                    presentaciones6={['lorem']}
-                    descripcion6="Lorem ipsum dolor sit amet consectetur adipiscing, elit auctor ad leo ac facilisis, conubia netus sem velit malesuada."
+                    presentaciones6={['Bidón','Galón']}
+                    descripcion6="Producto bactericida y virucida deal para autos, oficinas, hospitales, techos, escaleras, etc."
                     clase={toggleState === 9 ? "producto-tab-active" : ""}
                 />
             </div>

@@ -74,6 +74,10 @@
     width: 100%;
     .usos{
         list-style: square;
+        li{
+            text-align: left;
+            margin: 4px 0;
+        }
     }
 }
 

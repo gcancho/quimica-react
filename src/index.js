@@ -230,6 +230,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Shampoo para alfombras"
           imagenesSecundarias={[imgShampooAlfombra1, imgShampooAlfombra2]}
           hola={SliderData4}
+          tipoProducto="Detergente"
+          presentaciones="Bidón, Galón, Litro"
+          usos={['Aspire la alfombra, retire todo el polvo de la superficie.', 'Diluya el producto de acuerdo al tipo de limpieza que va a emplear.']}
         />
         <Footer />
         <Whatsapp />
@@ -241,6 +244,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Shampoo para alfombras"
           imagenesSecundarias={[imgShampooAuto1, imgShampooAuto2]}
           hola={SliderData5}
+          tipoProducto="Detergente"
+          presentaciones="Bidón, Galón, Litro"
+          usos={['El shampoo para auto deberá ser aplicado poco a poco', 'Se aconseja que empiece por la parte superior y siempre deberá usar algún paño elaborado de microfibra especial para el lavado de autos.', 'Usar dos baldes, el primero que contenga shampoo para autos y agua  y el  otro balde deberá contener solamente agua que servirá para remover excedentes de la microfibra para no contaminar el shampoo.']}
         />
         <Footer />
         <Whatsapp />
@@ -252,6 +258,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Aguarras"
           imagenesSecundarias={[imgAguarras1, imgAguarras2, imgAguarras3]}
           hola={SliderData6}
+          tipoProducto="Disolventes"
+          presentaciones="Galón, Litro, Medio litro, Bidón"
+          usos="Dilución y limpieza de pinturas sintéticas."
           urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
         />
@@ -265,6 +274,11 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Bencina"
           imagenesSecundarias={[imgBencina1, imgBencina2]}
           hola={SliderData7}
+          tipoProducto="Disolventes"
+          presentaciones="Frasco de 1Lt, Bidón, Galón, Cilindro"
+          usos={['Su uso principal está en actividades de limpieza y desengrasado.',
+            'En la industria de pinturas se usa como componente de diluyentes.',
+            'En la industria química se usa como medio de extracción, y también como diluyente de breas y Alquitranes.']}
           urlPdf="https://drive.google.com/file/d/1TgTxi0HnbGUChNjr22N1bpRNCJ8_vv--/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/17Nz3Iou1FD95E3zyn39wDrnvvcGqpype/view?usp=sharing"
         />
@@ -278,6 +292,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Thinner acrílico"
           imagenesSecundarias={[imgThinnerAcrilico1, imgThinnerAcrilico2, imgThinnerAcrilico3]}
           hola={SliderData8}
+          tipoProducto="Disolventes"
+          presentaciones="Galón, Litro, Medio Litro, Bidón"
+          usos={['Como disolvente de pinturas al duco',
+            'Como disolvente de pinturas esmalte',
+            'Como limpiador de algunos equipos',
+            'Como limpiador y desmanchado']}
           urlPdf="https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
         />
@@ -291,6 +311,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Ambientador Bebe"
           imagenesSecundarias={[imgAmbientadorBebe1, imgAmbientadorBebe2]}
           hola={SliderData9}
+          tipoProducto="Perfumadores"
+          presentaciones="Galón, Litro"
+          usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
+            'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
         <Footer />
         <Whatsapp />
@@ -302,6 +326,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Ambientador Lavanda"
           imagenesSecundarias={[imgAmbientadorLavanda1, imgAmbientadorLavanda2]}
           hola={SliderData10}
+          tipoProducto="Perfumadores"
+          presentaciones="Galón, Litro"
+          usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
+            'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
         <Footer />
         <Whatsapp />
@@ -313,6 +341,13 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Preservante para madera"
           imagenesSecundarias={[imgPreservanteMadera1, imgPreservanteMadera2]}
           hola={SliderData11}
+          tipoProducto="Abrillantadores"
+          presentaciones="Galón, Litro, Medio Litro, Bidón"
+          usos={['Se recomienda para ser usada como prevante para madera nueva y aglomerados utilizados en la fabricación de muebles.',
+            'Aplique preservante sobre madera nueva sólida y aglomerados.',
+            'Por ser tóxico a la vegetación y alimentos este producto no debe usarse en áreas que estén en contacto directo con alimentos y bebidas, plantas, animales, invernaderos, etc.',
+            'Durante la aplicación, debe mantenerse en constante agitación para mantener el balance de los componentes  Aplique con brocha o inmersión.',
+          ]}
           urlPdf="https://drive.google.com/file/d/1zPyeeip7H0EHpUzPBH5aWKOEU_fbsrcv/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1c-rH6oLcLuD274kW1tb2snXzt8HxXzEY/view?usp=sharing"
         />
@@ -326,6 +361,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
           imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2, imgRenovadorLlanta3]}
           hola={SliderData12}
+          tipoProducto="Abrillantadores"
+          presentaciones="Envase de litro, Medio Litro, Galón, Bidón"
+          usos={['Lave y limpie la superficie de la llanta.',
+            'Aplique en la parte lateral de las llantas esparcirlo de forma homogénea, evitando aplicarlo en zonas de contacto con el suelo.',
+            'Frote con un paño limpio y seco.',
+            'Úselo para mejorar el brillo y limpieza en accesorios de caucho, metal, plástico.']}
           urlPdf="https://drive.google.com/file/d/17A19IEn4dg2LQQaOeC1s3mdfwWdXuZv3/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/16y-8kp5THCI-DCkzIS-lc6a6GzwqW8NA/view?usp=sharing"
         />
@@ -339,6 +380,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Saca grasa"
           imagenesSecundarias={[imgSacaGrasa1, imgSacaGrasa2]}
           hola={SliderData13}
+          tipoProducto="Abrillantadores"
+          presentaciones="Litro, Medio Litro, Bidón"
+          usos={['Elimina fácilmente la grasa sin restregar, ni enjuagar.',
+            'Deja la superficie limpia y con un agradable aroma.']}
           urlPdf="https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing"
         />
@@ -352,6 +397,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua amarilla"
           imagenesSecundarias={[imgCeraAguaAmarilla1, imgCeraAguaAmarilla2]}
           hola={SliderData14}
+          tipoProducto="Ceras"
+          presentaciones="Bidón, Galón"
+          usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
+          urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
@@ -364,6 +413,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua blanca"
           imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
           hola={SliderData15}
+          tipoProducto="Ceras"
+          presentaciones="Bidón, Galón"
+          usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
@@ -377,6 +429,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua negra"
           imagenesSecundarias={[imgCeraAguaNegra1, imgCeraAguaNegra2]}
           hola={SliderData16}
+          tipoProducto="Ceras"
+          presentaciones="Bidón, Galón"
+          usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
+          urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
@@ -389,6 +445,10 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Cera al agua roja"
           imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
           hola={SliderData17}
+          tipoProducto="Ceras"
+          presentaciones="Bidón, Galón"
+          usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
+          urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
@@ -401,6 +461,9 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Saca óxido"
           imagenesSecundarias={[imgSacaOxido1, imgSacaOxido2]}
           hola={SliderData18}
+          tipoProducto="Removedores"
+          presentaciones="Frasco de 1L., Medio litro, Bidón, Galón"
+          usos={['Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales.']}
         />
         <Footer />
         <Whatsapp />
@@ -412,6 +475,12 @@ const App = () => {
         <ProductoDetalle tituloProductoDetalle="Vaselina liquida"
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
           hola={SliderData19}
+          tipoProducto="Removedores"
+          presentaciones="Frasco de 1L., Medio litro, Bidón, Galón"
+          usos={['En Lubricante industrial la vaselina liquida es utilizada en el aflojamiento de tornillos, remoción de herrumbre, desmoldaste para aplicaciones plásticas-yeso.',
+            'Esta vaselina es de grado muy refinado.',
+            'Por su característica repelencia al agua, puedeser utilizado como protección en la penetración de humedad en superficies lavables.',
+            'Por su particular composición, también puede ser utilizado en el abrillantamiento de superficies lavables como: Acero inoxidable, plástico, entre otros.']}
           urlPdf="https://drive.google.com/file/d/18AElKiKcimwht1ChZfM0yzB0OT_bR2Uj/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
         />
