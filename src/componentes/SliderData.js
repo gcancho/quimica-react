@@ -103,8 +103,8 @@ import imgLimpiaTodoLavanda2 from './../imagenes/Desinfectantes/limpia-todo-arom
 import imgPino1 from './../imagenes/Desinfectantes/pino/DSC_689506.jpg';
 import imgPino2 from './../imagenes/Desinfectantes/pino/DSC_706954.jpg';
 
-import imgPotenteDesinfectante1 from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
-import imgPotenteDesinfectante2 from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701840.jpg';
+import imgAlcoholIso1 from './../imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
+import imgAlcoholIso2 from './../imagenes/Desinfectantes/alcohol-isopropilico/DSC_701840.jpg';
 
 export const SliderData1 = [
   {
@@ -496,14 +496,14 @@ export const SliderData30 = [
   },
 ];
 
-// export const SliderData31 = [
-//   {
-//     image:
-//       imgPotenteDesinfectante1
-//   },
-//   {
-//     image:
-//       imgPotenteDesinfectante2
-//   },
-// ];
+export const SliderData31 = [
+  {
+    image:
+      imgAlcoholIso1
+  },
+  {
+    image:
+      imgAlcoholIso2
+  },
+];
 

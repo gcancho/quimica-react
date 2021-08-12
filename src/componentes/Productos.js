@@ -35,7 +35,7 @@ import imgLejia from './../imagenes/Desinfectantes/lejia/DSC_698722.jpg';
 import imgLimpiaTodoAromaBebe from './../imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_686801.jpg';
 import imgLimpiaTodoAromaLavanda from './../imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
 import imgPino from './../imagenes/Desinfectantes/pino/DSC_689506.jpg';
-import imgPotenteDesinfectante from './../imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
+import imgAlcoholIso from './../imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
 import imgProductos from './../imagenes/Banner/productos.jpg';
 
 const Productos = () => {
@@ -87,17 +87,17 @@ const Productos = () => {
                 <ProductosDetergentes
                     nombre1="Jabón Líquido"
                     imagen1={imgJabonLiquido}
-                    presentaciones1={['1Lt','Frasco x 480 ML','Galón','Bidón','Cilindro']}
+                    presentaciones1={['1Lt', 'Frasco x 480 ML', 'Galón', 'Bidón', 'Cilindro']}
                     descripcion1="Los jabones líquidos mantienen mejor el equilibrio del ph de la piel"
 
                     nombre2="Shampoo para alfombras"
                     imagen2={imgShampooAlfombra}
-                    presentaciones2={['Galón','Bidón']}
+                    presentaciones2={['Galón', 'Bidón']}
                     descripcion2="Limpia y renueva tus alfombras y cortinas con el shampoo para alfombras, ideal para todo tu hogar."
 
                     nombre3="Shampoo para autos"
                     imagen3={imgShampooAuto}
-                    presentaciones3={['Galón','Bidón']}
+                    presentaciones3={['Galón', 'Bidón']}
                     descripcion3="Lave y brille su auto en un solo paso, sin esfuerzo o la necesidad de recurrir a mas productos."
 
                     clase={toggleState === 2 ? "producto-tab-active" : ""}
@@ -105,17 +105,17 @@ const Productos = () => {
                 <ProductosDisolventes
                     nombre1="Aguarras"
                     imagen1={imgAguarras}
-                    presentaciones1={['Galón','Litro','Medio litro','Bidón']}
+                    presentaciones1={['Galón', 'Litro', 'Medio litro', 'Bidón']}
                     descripcion1="Disolvente a base de hidrocarburos alifáticos desaromatizados y terpenos."
 
                     nombre2="Bencina"
                     imagen2={imgBencina}
-                    presentaciones2={['Frasco de 1Lt','Bidón','Galón','Cilindro']}
+                    presentaciones2={['Frasco de 1Lt', 'Bidón', 'Galón', 'Cilindro']}
                     descripcion2="Líquido claro o débilmente coloreado. Mezcla de hidrocarburos del petróleo."
 
                     nombre3="Thinner Acrílico"
                     imagen3={imgThinnerAcrilico}
-                    presentaciones3={['Galón','Litro','Medio Litro','Bidón']}
+                    presentaciones3={['Galón', 'Litro', 'Medio Litro', 'Bidón']}
                     descripcion3="Liquido combustible puede acumular cargas estáticas. El vapor es más pesado que el aire y puede dispersarse distancias largas y acumularse en zonas bajas alta mente inflamable."
 
                     clase={toggleState === 3 ? "producto-tab-active" : ""}
@@ -128,7 +128,7 @@ const Productos = () => {
 
                     nombre2="Ambientador Lavanda"
                     imagen2={imgAmbientadorLavanda}
-                    presentaciones2={['Galón','Bidón']}
+                    presentaciones2={['Galón', 'Bidón']}
                     descripcion2="Crea ambientes agradables y con olores frescos gracias a los ambientadores para hogar y coche más buscados, diferentes formas, perfrumes y cantidades al alcance de todos"
 
                     clase={toggleState === 4 ? "producto-tab-active" : ""}
@@ -136,19 +136,19 @@ const Productos = () => {
                 <ProductosAbrillantadores
                     nombre1="Preservante de madera"
                     imagen1={imgPreservanteMadera}
-                    presentaciones1={['Galón','Litro','Medio Litro','Bidón']}
+                    presentaciones1={['Galón', 'Litro', 'Medio Litro', 'Bidón']}
                     descripcion1="Es un protector y repelente de insectos desarrollado con ingredientes activos que
                     además previenen el crecimiento de hongos."
 
                     nombre2="Renovador de llantas"
                     imagen2={imgRenovadorLlantas}
-                    presentaciones2={['Envase de litro','Medio Litro','Galón','Bidón']}
+                    presentaciones2={['Envase de litro', 'Medio Litro', 'Galón', 'Bidón']}
                     descripcion2="Siliconas, emulsionantes, humectantes, preservante, agua. No posee
                     ingredientes de riesgo."
 
                     nombre3="Saca Grasa"
                     imagen3={imgSacaGrasa}
-                    presentaciones3={['Litro','Medio Litro','Bidón']}
+                    presentaciones3={['Litro', 'Medio Litro', 'Bidón']}
                     descripcion3="Anti-grasa máximo poder desengrasante, en cocina, microondas,
                     electrodomésticos."
 
@@ -157,7 +157,7 @@ const Productos = () => {
                 <ProductosCeras
                     nombre1="Cera al agua marina"
                     imagen1={imgCeraAguaAmarilla}
-                    presentaciones1={['Galón','Bidón']}
+                    presentaciones1={['Galón', 'Bidón']}
                     descripcion1="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -165,7 +165,7 @@ const Productos = () => {
 
                     nombre2="Cera al agua blanca"
                     imagen2={imgCeraAguaBlanca}
-                    presentaciones2={['Galón','Bidón']}
+                    presentaciones2={['Galón', 'Bidón']}
                     descripcion2="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -173,7 +173,7 @@ const Productos = () => {
 
                     nombre3="Cera al agua negra"
                     imagen3={imgCeraAguaNegra}
-                    presentaciones3={['Galón','Bidón']}
+                    presentaciones3={['Galón', 'Bidón']}
                     descripcion3="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -181,7 +181,7 @@ const Productos = () => {
 
                     nombre4="Cera al agua roja"
                     imagen4={imgCeraAguaRoja}
-                    presentaciones4={['Galón','Bidón']}
+                    presentaciones4={['Galón', 'Bidón']}
                     descripcion4="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -206,37 +206,37 @@ const Productos = () => {
                 <ProductosDesincrustantes
                     nombre1="Ácidos"
                     imagen1={imgAcidos}
-                    presentaciones1={['Botella','Galón','Bidón','Cilindro','Toten']}
+                    presentaciones1={['Botella', 'Galón', 'Bidón', 'Cilindro', 'Toten']}
                     descripcion1="Es un potente limpiador que destruye el sarro, desmancha y desinfecta, ideal
                     para baños, pisos, inodoros, etc."
 
                     nombre2="Agua para baterias"
                     imagen2={imgAguaBaterias}
-                    presentaciones2={['Frasco de 1 L.','Frasco 1⁄2 L.','Galón','Cilindro','Bidón']}
+                    presentaciones2={['Frasco de 1 L.', 'Frasco 1⁄2 L.', 'Galón', 'Cilindro', 'Bidón']}
                     descripcion2="Es un producto que resulta de un eficiente tratamiento químico que
                     elimina el contenido de minerales e impurezas."
 
                     nombre3="Kresso"
                     imagen3={imgKresso}
-                    presentaciones3={['Frasco de 1 L.','Bidones','Galón']}
+                    presentaciones3={['Frasco de 1 L.', 'Bidones', 'Galón']}
                     descripcion3="Desinfectante para limpieza y desinfección de instalaciones
                     pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales."
 
                     nombre4="Quitasarro"
                     imagen4={imgQuitasarro}
-                    presentaciones4={['Frasco de 1L.','Frasco 1⁄2 L.','Bidón','Galón','Cilindro']}
+                    presentaciones4={['Frasco de 1L.', 'Frasco 1⁄2 L.', 'Bidón', 'Galón', 'Cilindro']}
                     descripcion4="Desinfectante para limpieza y desinfección de instalaciones
                     pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales."
 
                     nombre5="Silicona para cristal"
                     imagen5={imgSiliconaCristal}
-                    presentaciones5={['Frasco de 1 Lt','Medio Litro','Bidón','Galón']}
+                    presentaciones5={['Frasco de 1 Lt', 'Medio Litro', 'Bidón', 'Galón']}
                     descripcion5="Producto formulado específicamente para remover la suciedad,
                     dar brillo, proteger y humectar la superficie donde es aplicado."
 
                     nombre6="Silicona para tablero"
                     imagen6={imgSiliconaTablero}
-                    presentaciones6={['Frasco de 1 Lt','Medio Litro','Bidón','Galón']}
+                    presentaciones6={['Frasco de 1 Lt', 'Medio Litro', 'Bidón', 'Galón']}
                     descripcion6="La formula premium de nuestra silicona perfumada penetra y
                     se adhiere a la superficie para mejorar la apariencia del vinílico, caucho, plástico,
                     renueva el lustre y remueva la suciedad."
@@ -245,26 +245,26 @@ const Productos = () => {
                 <ProductosDesinfectantes
                     nombre1="Cloro"
                     imagen1={imgCloro}
-                    presentaciones1={['Galón','Bidón']}
+                    presentaciones1={['Galón', 'Bidón']}
                     descripcion1="Destruye los gérmenes que causan enfermedades y permite que el agua sea segura. Ayuda a reducir los gustos y olores desagradables en el agua"
 
                     nombre2="Lejía"
                     imagen2={imgLejia}
-                    presentaciones2={['Botella','Galón','Bidón','Cilindro']}
+                    presentaciones2={['Botella', 'Galón', 'Bidón', 'Cilindro']}
                     descripcion2="Eficaz frente a los
                     microorganismos más comunes, es usada para limpieza y desinfección de superficies inertes,
                     como: pisos, mesas, paredes, baños, duchas. etc"
 
                     nombre3="Limpiatodo aroma bebe"
                     imagen3={imgLimpiaTodoAromaBebe}
-                    presentaciones3={['Frasco de 1 L.','Bidones','Galón']}
+                    presentaciones3={['Frasco de 1 L.', 'Bidones', 'Galón']}
                     descripcion3="Una pequeña cantidad
                     en un balde con agua, bastan para dejar todo el hogar, oficina o local comercial
                     impecablemente limpios y deliciosamente perfumados."
 
                     nombre4="Limpiatodo aroma lavanda"
                     imagen4={imgLimpiaTodoAromaLavanda}
-                    presentaciones4={['Frasco de 1 L.','Bidones','Galón']}
+                    presentaciones4={['Frasco de 1 L.', 'Bidones', 'Galón']}
                     descripcion4="Una pequeña cantidad
                     en un balde con agua, bastan para dejar todo el hogar, oficina o local comercial
                     impecablemente limpios y deliciosamente perfumados."
@@ -274,10 +274,10 @@ const Productos = () => {
                     presentaciones5={['1 L.', 'Galón', 'Bidón', 'Cilindro']}
                     descripcion5="Puede ser utilizado en pisos, baños, vidrios y paredes."
 
-                    // nombre6="Potente Desinfectante"
-                    // imagen6={imgPotenteDesinfectante}
-                    // presentaciones6={['Bidón','Galón']}
-                    // descripcion6="Producto bactericida y virucida deal para autos, oficinas, hospitales, techos, escaleras, etc."
+                    nombre6="Alcohol Isopropilicoco"
+                    imagen6={imgAlcoholIso}
+                    presentaciones6={['Frascos', 'Galón', 'Bidón', 'Cilindro', 'Tanque']}
+                    descripcion6="Este alcohol sirve como antiséptico, disolvente y tiene propiedades limpiadoras particulares."
                     clase={toggleState === 9 ? "producto-tab-active" : ""}
                 />
             </div>

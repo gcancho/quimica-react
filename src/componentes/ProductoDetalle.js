@@ -8,7 +8,7 @@ import { SliderData1, SliderData2 } from './SliderData';
 import { Link } from 'react-router-dom';
 
 
-const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, usos, apariencia, colores, imagenesSecundarias, hola, urlPdf, urlPdf2, }) => {
+const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, usos, apariencia, colores, imagenesSecundarias, hola, urlPdf, urlPdf2, urlPdf3 }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
@@ -71,6 +71,11 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, 
                             }
                             {(urlPdf2) ?
                                 <a href={urlPdf2} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Hoja de Seguridad</a>
+                                :
+                                <></>
+                            }
+                            {(urlPdf3) ?
+                                <a href={urlPdf3} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Registro Sanitario</a>
                                 :
                                 <></>
                             }

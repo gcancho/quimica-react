@@ -148,7 +148,7 @@ const ProductosDesinfectantes = ({ clase, nombre1, imagen1, descripcion1, presen
     const rutaLimpiaTodoAromaBebe = "/Limpia-todo-aroma-bebe";
     const rutaLimpiaTodoAromaLavanda = "/Limpia-todo-aroma-lavanda";
     const rutaPino = "/Pino";
-    const rutaPotenteDesinfectante = "/Potente-desinfectante";
+    const rutaAlcoholIso = "/Alcohol-isopropilico";
     
     return (
         <article className={`producto-tab ${clase}`}>
@@ -161,7 +161,7 @@ const ProductosDesinfectantes = ({ clase, nombre1, imagen1, descripcion1, presen
                 <CardProductoInicio nombre={nombre3} descripcion={descripcion3} presentacion={presentaciones3} imagen={imagen3} ruta={rutaLimpiaTodoAromaBebe}/>
                 <CardProductoInicio nombre={nombre4} descripcion={descripcion4} presentacion={presentaciones4} imagen={imagen4} ruta={rutaLimpiaTodoAromaLavanda}/>
                 <CardProductoInicio nombre={nombre5} descripcion={descripcion5} presentacion={presentaciones5} imagen={imagen5} ruta={rutaPino}/>
-                {/* <CardProductoInicio nombre={nombre6} descripcion={descripcion6} presentacion={presentaciones6} imagen={imagen6} ruta={rutaPotenteDesinfectante}/> */}
+                <CardProductoInicio nombre={nombre6} descripcion={descripcion6} presentacion={presentaciones6} imagen={imagen6} ruta={rutaAlcoholIso}/>
             </div>
         </article>
     );

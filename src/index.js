@@ -116,8 +116,8 @@ import imgLimpiaTodoLavanda2 from './imagenes/Desinfectantes/limpia-todo-aroma-l
 import imgPino1 from './imagenes/Desinfectantes/pino/DSC_689506.jpg';
 import imgPino2 from './imagenes/Desinfectantes/pino/DSC_706954.jpg';
 
-import imgPotenteDesinfectante1 from './imagenes/Desinfectantes/potente-desinfectante/DSC_701638.jpg';
-import imgPotenteDesinfectante2 from './imagenes/Desinfectantes/potente-desinfectante/DSC_701840.jpg';
+import imgAlcoholIso1 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
+import imgAlcoholIso2 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701840.jpg';
 
 
 
@@ -683,20 +683,24 @@ const App = () => {
         <Whatsapp />
 
       </Route>
-      {/* <Route path="/Potente-desinfectante">
+      <Route path="/Alcohol-isopropilico">
 
         <Header />
-        <ProductoDetalle tituloProductoDetalle="Potente desinfectante"
-          imagenesSecundarias={[imgPotenteDesinfectante1, imgPotenteDesinfectante2]}
+        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilicoco"
+          imagenesSecundarias={[imgAlcoholIso1, imgAlcoholIso2]}
           hola={SliderData31}
           tipoProducto="Desinfectantes"
-          presentaciones="Bidón, Galón"
-          usos={['Se puede utilizar en todo tipo de superficies lavables: lavabos, bañeras, bidés, inodoros, duchas']}
+          presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
+          usos={['Humedezca un paño limpio con Alcohol Isopropílico Multiusos, luego aplique sobre la superficie a tratar.',
+          'Frote y deje secar.']}
+          urlPdf="https://drive.google.com/file/d/1xeme2x7vJTl8Jnno_pH-leWlf8II9zEu/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1qf1an1k5XfUOjcjTDcJhUQoWDIBfnkUR/view?usp=sharing"
+          urlPdf3="https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
 
-      </Route> */}
+      </Route>
     </BrowserRouter>
   )
 }
