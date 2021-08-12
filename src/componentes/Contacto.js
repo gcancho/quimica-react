@@ -20,6 +20,7 @@ const Contacto = () => {
                             <div className="contacto__datos__item">
                                 <h5>Teléfono</h5>
                                 <p>994 268 798</p>
+                                <p>955 310 163</p>
                             </div>
                             <div className="contacto__datos__item">
                                 <h5>Correo</h5>

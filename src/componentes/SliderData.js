@@ -496,14 +496,14 @@ export const SliderData30 = [
   },
 ];
 
-export const SliderData31 = [
-  {
-    image:
-      imgPotenteDesinfectante1
-  },
-  {
-    image:
-      imgPotenteDesinfectante2
-  },
-];
+// export const SliderData31 = [
+//   {
+//     image:
+//       imgPotenteDesinfectante1
+//   },
+//   {
+//     image:
+//       imgPotenteDesinfectante2
+//   },
+// ];
 

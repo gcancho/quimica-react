@@ -92,12 +92,12 @@ const Productos = () => {
 
                     nombre2="Shampoo para alfombras"
                     imagen2={imgShampooAlfombra}
-                    presentaciones2={['1Lt','Galón','Bidón']}
+                    presentaciones2={['Galón','Bidón']}
                     descripcion2="Limpia y renueva tus alfombras y cortinas con el shampoo para alfombras, ideal para todo tu hogar."
 
                     nombre3="Shampoo para autos"
                     imagen3={imgShampooAuto}
-                    presentaciones3={['1Lt','Galón','Bidón']}
+                    presentaciones3={['Galón','Bidón']}
                     descripcion3="Lave y brille su auto en un solo paso, sin esfuerzo o la necesidad de recurrir a mas productos."
 
                     clase={toggleState === 2 ? "producto-tab-active" : ""}
@@ -123,12 +123,12 @@ const Productos = () => {
                 <ProductosPerfumadores
                     nombre1="Ambientador Bebe"
                     imagen1={imgAmbientadorBebe}
-                    presentaciones1={['Galón','Litro']}
+                    presentaciones1={['Galón', 'Bidón']}
                     descripcion1="Crea ambientes agradables y con olores frescos gracias a los ambientadores para hogar y coche más buscados, diferentes formas, perfrumes y cantidades al alcance de todos"
 
                     nombre2="Ambientador Lavanda"
                     imagen2={imgAmbientadorLavanda}
-                    presentaciones2={['Galón','Litro']}
+                    presentaciones2={['Galón','Bidón']}
                     descripcion2="Crea ambientes agradables y con olores frescos gracias a los ambientadores para hogar y coche más buscados, diferentes formas, perfrumes y cantidades al alcance de todos"
 
                     clase={toggleState === 4 ? "producto-tab-active" : ""}
@@ -157,7 +157,7 @@ const Productos = () => {
                 <ProductosCeras
                     nombre1="Cera al agua marina"
                     imagen1={imgCeraAguaAmarilla}
-                    presentaciones1={['Bidón','Galón']}
+                    presentaciones1={['Galón','Bidón']}
                     descripcion1="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -165,7 +165,7 @@ const Productos = () => {
 
                     nombre2="Cera al agua blanca"
                     imagen2={imgCeraAguaBlanca}
-                    presentaciones2={['Bidón','Galón']}
+                    presentaciones2={['Galón','Bidón']}
                     descripcion2="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -173,7 +173,7 @@ const Productos = () => {
 
                     nombre3="Cera al agua negra"
                     imagen3={imgCeraAguaNegra}
-                    presentaciones3={['Bidón','Galón']}
+                    presentaciones3={['Galón','Bidón']}
                     descripcion3="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -181,7 +181,7 @@ const Productos = () => {
 
                     nombre4="Cera al agua roja"
                     imagen4={imgCeraAguaRoja}
-                    presentaciones4={['Bidón','Galón']}
+                    presentaciones4={['Galón','Bidón']}
                     descripcion4="Por su
                     durabilidad y resistencia al agua, este producto está especialmente diseñado para
                     áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel,
@@ -192,12 +192,12 @@ const Productos = () => {
                 <ProductosRemovedores
                     nombre1="Saca Óxido"
                     imagen1={imgSacaOxido}
-                    presentaciones1={['Frasco de 1L.','Medio litro','Bidón','Galón']}
+                    presentaciones1={['Galón']}
                     descripcion1="Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales."
 
                     nombre2="Vaselina Líquida"
                     imagen2={imgVaselinaLiquida}
-                    presentaciones2={['Frasco de 1L.','Medio litro','Bidón','Galón']}
+                    presentaciones2={['Galón', 'Litro']}
                     descripcion2="Liquido viscoso, transparente, más liviano que el agua. Insoluble
                     en agua."
 
@@ -245,12 +245,12 @@ const Productos = () => {
                 <ProductosDesinfectantes
                     nombre1="Cloro"
                     imagen1={imgCloro}
-                    presentaciones1={['Bidón','Galón']}
+                    presentaciones1={['Galón','Bidón']}
                     descripcion1="Destruye los gérmenes que causan enfermedades y permite que el agua sea segura. Ayuda a reducir los gustos y olores desagradables en el agua"
 
                     nombre2="Lejía"
                     imagen2={imgLejia}
-                    presentaciones2={['Cojines','Botella','Galón','Bidón','Cilindro','Toten']}
+                    presentaciones2={['Botella','Galón','Bidón','Cilindro']}
                     descripcion2="Eficaz frente a los
                     microorganismos más comunes, es usada para limpieza y desinfección de superficies inertes,
                     como: pisos, mesas, paredes, baños, duchas. etc"
@@ -274,10 +274,10 @@ const Productos = () => {
                     presentaciones5={['1 L.', 'Galón', 'Bidón', 'Cilindro']}
                     descripcion5="Puede ser utilizado en pisos, baños, vidrios y paredes."
 
-                    nombre6="Potente Desinfectante"
-                    imagen6={imgPotenteDesinfectante}
-                    presentaciones6={['Bidón','Galón']}
-                    descripcion6="Producto bactericida y virucida deal para autos, oficinas, hospitales, techos, escaleras, etc."
+                    // nombre6="Potente Desinfectante"
+                    // imagen6={imgPotenteDesinfectante}
+                    // presentaciones6={['Bidón','Galón']}
+                    // descripcion6="Producto bactericida y virucida deal para autos, oficinas, hospitales, techos, escaleras, etc."
                     clase={toggleState === 9 ? "producto-tab-active" : ""}
                 />
             </div>

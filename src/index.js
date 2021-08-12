@@ -230,7 +230,7 @@ const App = () => {
           imagenesSecundarias={[imgShampooAlfombra1, imgShampooAlfombra2]}
           hola={SliderData4}
           tipoProducto="Detergente"
-          presentaciones="Bidón, Galón, Litro"
+          presentaciones="Galón, Bidón"
           usos={['Aspire la alfombra, retire todo el polvo de la superficie.', 'Diluya el producto de acuerdo al tipo de limpieza que va a emplear.']}
           urlPdf="https://drive.google.com/file/d/1dNg8eEnerajK1hQWmxYkKW71JuP3PiHU/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1IN3HF1uIsxJ2kpLJM5bDxYpVpHlz1t6V/view?usp=sharing"
@@ -246,7 +246,7 @@ const App = () => {
           imagenesSecundarias={[imgShampooAuto1, imgShampooAuto2]}
           hola={SliderData5}
           tipoProducto="Detergente"
-          presentaciones="Bidón, Galón, Litro"
+          presentaciones="Galón, Bidón"
           usos={['El shampoo para auto deberá ser aplicado poco a poco', 'Se aconseja que empiece por la parte superior y siempre deberá usar algún paño elaborado de microfibra especial para el lavado de autos.', 'Usar dos baldes, el primero que contenga shampoo para autos y agua  y el  otro balde deberá contener solamente agua que servirá para remover excedentes de la microfibra para no contaminar el shampoo.']}
         />
         <Footer />
@@ -313,7 +313,7 @@ const App = () => {
           imagenesSecundarias={[imgAmbientadorBebe1, imgAmbientadorBebe2]}
           hola={SliderData9}
           tipoProducto="Perfumadores"
-          presentaciones="Galón, Litro"
+          presentaciones="Galón, Bidón"
           usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
             'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
@@ -328,7 +328,7 @@ const App = () => {
           imagenesSecundarias={[imgAmbientadorLavanda1, imgAmbientadorLavanda2]}
           hola={SliderData10}
           tipoProducto="Perfumadores"
-          presentaciones="Galón, Litro"
+          presentaciones="Galón, Bidón"
           usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
             'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
@@ -399,7 +399,7 @@ const App = () => {
           imagenesSecundarias={[imgCeraAguaAmarilla1, imgCeraAguaAmarilla2]}
           hola={SliderData14}
           tipoProducto="Ceras"
-          presentaciones="Bidón, Galón"
+          presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
@@ -415,7 +415,7 @@ const App = () => {
           imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
           hola={SliderData15}
           tipoProducto="Ceras"
-          presentaciones="Bidón, Galón"
+          presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
@@ -431,7 +431,7 @@ const App = () => {
           imagenesSecundarias={[imgCeraAguaNegra1, imgCeraAguaNegra2]}
           hola={SliderData16}
           tipoProducto="Ceras"
-          presentaciones="Bidón, Galón"
+          presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
@@ -447,7 +447,7 @@ const App = () => {
           imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
           hola={SliderData17}
           tipoProducto="Ceras"
-          presentaciones="Bidón, Galón"
+          presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
           urlPdf="https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
@@ -463,7 +463,7 @@ const App = () => {
           imagenesSecundarias={[imgSacaOxido1, imgSacaOxido2]}
           hola={SliderData18}
           tipoProducto="Removedores"
-          presentaciones="Frasco de 1L., Medio litro, Bidón, Galón"
+          presentaciones="Galón"
           usos={['Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales.']}
         />
         <Footer />
@@ -477,7 +477,7 @@ const App = () => {
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
           hola={SliderData19}
           tipoProducto="Removedores"
-          presentaciones="Frasco de 1L., Medio litro, Bidón, Galón"
+          presentaciones="Galón, Litro"
           usos={['En Lubricante industrial la vaselina liquida es utilizada en el aflojamiento de tornillos, remoción de herrumbre, desmoldaste para aplicaciones plásticas-yeso.',
             'Esta vaselina es de grado muy refinado.',
             'Por su característica repelencia al agua, puedeser utilizado como protección en la penetración de humedad en superficies lavables.',
@@ -603,7 +603,7 @@ const App = () => {
           imagenesSecundarias={[imgCloro1, imgCloro2]}
           hola={SliderData26}
           tipoProducto="Desinfectantes"
-          presentaciones="Bidón, Galón"
+          presentaciones="Galón, Bidón"
           usos={['El cloro destruye los gérmenes que causan enfermedades y permite que el agua sea segura',
             'Además de matar gérmenes peligrosos como bacterias, virus y parásitos, el cloro ayuda a reducir los gustos y olores desagradables en el agua']}
         />
@@ -618,7 +618,7 @@ const App = () => {
           imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
           hola={SliderData27}
           tipoProducto="Desinfectantes"
-          presentaciones=""
+          presentaciones="Botella, Galón, Bidón, Cilindro"
           usos={['Lejía Concentrada, es usada para limpieza y desinfección de superficies inertes, como: pisos, mesas, paredes, baños, duchas. etc.',
             'Es utilizado como desinfectante de uso de Salud Pública, ya que elimina eficazmente los microorganismos más comunes.']}
           apariencia="Liquido"
@@ -683,7 +683,7 @@ const App = () => {
         <Whatsapp />
 
       </Route>
-      <Route path="/Potente-desinfectante">
+      {/* <Route path="/Potente-desinfectante">
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Potente desinfectante"
@@ -696,7 +696,7 @@ const App = () => {
         <Footer />
         <Whatsapp />
 
-      </Route>
+      </Route> */}
     </BrowserRouter>
   )
 }
