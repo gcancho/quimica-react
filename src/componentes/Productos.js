@@ -12,6 +12,7 @@ import imgShampooAuto from './../imagenes/Detergentes/shampoo-para-auto/DSC_6904
 import imgAguarras from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
 import imgBencina from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgThinnerAcrilico from './../imagenes/Disolventes/thinner-acrilico/DSC_6951.jpg';
+import imgAlcoholIndustrial from './../imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
 import imgAmbientadorBebe from './../imagenes/Perfumadores/ambientador-bebe/DSC_6892.jpg';
 import imgAmbientadorLavanda from './../imagenes/Perfumadores/ambientador-lavanda/DSC_6914.jpg';
 import imgPreservanteMadera from './../imagenes/Abrillantadores/preservante-para-madera/DSC_6888.jpg';
@@ -117,6 +118,13 @@ const Productos = () => {
                     imagen3={imgThinnerAcrilico}
                     presentaciones3={['Galón', 'Litro', 'Medio Litro', 'Bidón']}
                     descripcion3="Liquido combustible puede acumular cargas estáticas. El vapor es más pesado que el aire y puede dispersarse distancias largas y acumularse en zonas bajas alta mente inflamable."
+
+                    nombre4="Alcohol industrial"
+                    imagen4={imgAlcoholIndustrial}
+                    presentaciones4={['Litro', 'Medio litro', 'Galón', 'Bidón', 'Cilindro.']}
+                    descripcion4="Producto con concentrado de con genéricos o impurezas por lo que es orientado para usos
+                    industriales, como solventes, anticongelantes, agentes de extracción y como intermedio
+                    en la síntesis de otros productos orgánicos."
 
                     clase={toggleState === 3 ? "producto-tab-active" : ""}
                 />

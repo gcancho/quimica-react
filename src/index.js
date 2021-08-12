@@ -36,6 +36,9 @@ import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.J
 import imgAguarras1 from './imagenes/Disolventes/aguarras/DSC_6966.JPG';
 import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
+import imgAlcoholIndustrial1 from './imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
+import imgAlcoholIndustrial2 from './imagenes/Disolventes/alcohol-industrial/DSC_707532.jpg';
+
 import imgBencina1 from './imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './imagenes/Disolventes/bencina/DSC_7100.jpg';
 
@@ -121,7 +124,7 @@ import imgAlcoholIso2 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_7
 
 
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData26, SliderData27, SliderData28, SliderData29, SliderData30, SliderData31, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData26, SliderData27, SliderData28, SliderData29, SliderData30, SliderData31, SliderData32, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -218,6 +221,7 @@ const App = () => {
             'Los jabones líquidos mantienen mejor el equilibrio del ph de la piel.']}
           urlPdf="https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1we2XtF8KO3kN9vdBuZRyUobPhT8Brt9N/view?usp=sharing"
+          urlPdf3="https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -269,6 +273,7 @@ const App = () => {
         <Whatsapp />
 
       </Route>
+
       <Route path="/Bencina">
 
         <Header />
@@ -306,12 +311,28 @@ const App = () => {
         <Whatsapp />
 
       </Route>
+      <Route path="/Alcohol-industrial">
+
+        <Header />
+        <ProductoDetalle tituloProductoDetalle="Alcohol industrial"
+          imagenesSecundarias={[imgAlcoholIndustrial1, imgAlcoholIndustrial2]}
+          hola={SliderData9}
+          tipoProducto="Disolventes"
+          presentaciones="Litro, Medio litro, Galón, Bidón, Cilindro."
+          usos={['De gran aplicación en muchos sectores industriales y otras aplicaciones químicas.']}
+          urlPdf="https://drive.google.com/file/d/1cnO2VOAAtw_mP93N0-xk1aH4AKvge_3V/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/10g3s_OkQ5AiwP39h24Gxy4rZdawcLubY/view?usp=sharing"
+        />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
       <Route path="/Ambientador-bebe">
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Ambientador Bebe"
           imagenesSecundarias={[imgAmbientadorBebe1, imgAmbientadorBebe2]}
-          hola={SliderData9}
+          hola={SliderData10}
           tipoProducto="Perfumadores"
           presentaciones="Galón, Bidón"
           usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
@@ -326,7 +347,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Ambientador Lavanda"
           imagenesSecundarias={[imgAmbientadorLavanda1, imgAmbientadorLavanda2]}
-          hola={SliderData10}
+          hola={SliderData11}
           tipoProducto="Perfumadores"
           presentaciones="Galón, Bidón"
           usos={['Se recomienda, sobre todo, para utilizar en baños y lavabos',
@@ -341,7 +362,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Preservante para madera"
           imagenesSecundarias={[imgPreservanteMadera1, imgPreservanteMadera2]}
-          hola={SliderData11}
+          hola={SliderData12}
           tipoProducto="Abrillantadores"
           presentaciones="Galón, Litro, Medio Litro, Bidón"
           usos={['Se recomienda para ser usada como prevante para madera nueva y aglomerados utilizados en la fabricación de muebles.',
@@ -361,7 +382,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
           imagenesSecundarias={[imgRenovadorLlanta1, imgRenovadorLlanta2, imgRenovadorLlanta3]}
-          hola={SliderData12}
+          hola={SliderData13}
           tipoProducto="Abrillantadores"
           presentaciones="Envase de litro, Medio Litro, Galón, Bidón"
           usos={['Lave y limpie la superficie de la llanta.',
@@ -380,7 +401,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Saca grasa"
           imagenesSecundarias={[imgSacaGrasa1, imgSacaGrasa2]}
-          hola={SliderData13}
+          hola={SliderData14}
           tipoProducto="Abrillantadores"
           presentaciones="Litro, Medio Litro, Bidón"
           usos={['Elimina fácilmente la grasa sin restregar, ni enjuagar.',
@@ -397,7 +418,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cera al agua amarilla"
           imagenesSecundarias={[imgCeraAguaAmarilla1, imgCeraAguaAmarilla2]}
-          hola={SliderData14}
+          hola={SliderData15}
           tipoProducto="Ceras"
           presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
@@ -413,7 +434,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cera al agua blanca"
           imagenesSecundarias={[imgCeraAguaBlanca1, imgCeraAguaBlanca2]}
-          hola={SliderData15}
+          hola={SliderData16}
           tipoProducto="Ceras"
           presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
@@ -429,7 +450,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cera al agua negra"
           imagenesSecundarias={[imgCeraAguaNegra1, imgCeraAguaNegra2]}
-          hola={SliderData16}
+          hola={SliderData17}
           tipoProducto="Ceras"
           presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
@@ -445,7 +466,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cera al agua roja"
           imagenesSecundarias={[imgCeraAguaRoja1, imgCeraAguaRoja2]}
-          hola={SliderData17}
+          hola={SliderData18}
           tipoProducto="Ceras"
           presentaciones="Galón, Bidón"
           usos={['Aplicable sobre vinilo, losetas, pisos cerámicos, cemento pulido, terrazos y mármol.']}
@@ -461,7 +482,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Saca óxido"
           imagenesSecundarias={[imgSacaOxido1, imgSacaOxido2]}
-          hola={SliderData18}
+          hola={SliderData19}
           tipoProducto="Removedores"
           presentaciones="Galón"
           usos={['Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales.']}
@@ -475,7 +496,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Vaselina liquida"
           imagenesSecundarias={[imgVaselinaLiquida1, imgVaselinaLiquida2]}
-          hola={SliderData19}
+          hola={SliderData20}
           tipoProducto="Removedores"
           presentaciones="Galón, Litro"
           usos={['En Lubricante industrial la vaselina liquida es utilizada en el aflojamiento de tornillos, remoción de herrumbre, desmoldaste para aplicaciones plásticas-yeso.',
@@ -494,7 +515,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Acidos"
           imagenesSecundarias={[imgAcido1, imgAcido2, imgAcido3, imgAcido4]}
-          hola={SliderData20}
+          hola={SliderData21}
           tipoProducto="Desincrustantes"
           presentaciones="Botella, Galón, Bidón, Cilindro, Toten"
           usos={['Producto de limpieza y desinfección (baños, mayólicas, tinas, lavatorios, etc.), capaz de remover manchas de sarro y caliche.',
@@ -502,6 +523,7 @@ const App = () => {
             'No usar en baldosas a base de cemento ni mármol.']}
           urlPdf="https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
+          urlPdf3="https://drive.google.com/file/d/1GsAOLC9-lmBCp2cGOZAZ13BJnOMTl71E/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -512,7 +534,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Agua para baterias"
           imagenesSecundarias={[imgAguaBaterias1, imgAguaBaterias2]}
-          hola={SliderData21}
+          hola={SliderData22}
           tipoProducto="Desincrustantes"
           presentaciones="Frasco de 1 L., 1⁄2 L., Galón, Cilindro, Bidón"
           usos={['Uso automotriz e industrial.',
@@ -529,7 +551,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Kresso"
           imagenesSecundarias={[imgKresso1, imgKresso2, imgKresso3]}
-          hola={SliderData22}
+          hola={SliderData23}
           tipoProducto="Desincrustantes"
           presentaciones="Frasco de 1 L., Bidones, Galón"
           usos={['Uso Industrial, principalmente en pozas de desinfección, granjas, pozos sépticos.']}
@@ -545,7 +567,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Quita sarro"
           imagenesSecundarias={[imgQuitaSarro1, imgQuitaSarro2, imgQuitaSarro3, imgQuitaSarro4]}
-          hola={SliderData23}
+          hola={SliderData24}
           tipoProducto="Desincrustantes"
           presentaciones="Frasco de 1L., 1⁄2 L., Bidón, Galón, Cilindro"
           usos={['Aplique una pequeña cantidad en el sanitario, deje actuar unos minutos, refriegue y enjuague.',
@@ -564,7 +586,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Silicona cristal"
           imagenesSecundarias={[imgSiliconaCristal1, imgSiliconaCristal2]}
-          hola={SliderData24}
+          hola={SliderData25}
           tipoProducto="Desincrustantes"
           presentaciones="Frasco de 1L., Medio Litro, Bidón, Galón"
           usos={['Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar.',
@@ -583,7 +605,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Silicona tablero"
           imagenesSecundarias={[imgSiliconaTablero1, imgSiliconaTablero2]}
-          hola={SliderData25}
+          hola={SliderData26}
           tipoProducto="Desincrustantes"
           presentaciones="Frasco de 1 Lt, Medio Litro, Bidón, Galón"
           usos={['Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar.',
@@ -601,7 +623,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cloro"
           imagenesSecundarias={[imgCloro1, imgCloro2]}
-          hola={SliderData26}
+          hola={SliderData27}
           tipoProducto="Desinfectantes"
           presentaciones="Galón, Bidón"
           usos={['El cloro destruye los gérmenes que causan enfermedades y permite que el agua sea segura',
@@ -616,7 +638,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Lejia"
           imagenesSecundarias={[imgLejia1, imgLejia2, imgLejia3]}
-          hola={SliderData27}
+          hola={SliderData28}
           tipoProducto="Desinfectantes"
           presentaciones="Botella, Galón, Bidón, Cilindro"
           usos={['Lejía Concentrada, es usada para limpieza y desinfección de superficies inertes, como: pisos, mesas, paredes, baños, duchas. etc.',
@@ -624,6 +646,7 @@ const App = () => {
           apariencia="Liquido"
           urlPdf="https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1TwdUNv8Rv-FqEBAjx2zvWshrFnPiUIiN/view?usp=sharing"
+          urlPdf3="https://drive.google.com/file/d/1wen8m27eXo3A_INgVvgSxycz1xvu3H-c/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -634,7 +657,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma bebe"
           imagenesSecundarias={[imgLimpiaTodoBebe1, imgLimpiaTodoBebe2]}
-          hola={SliderData28}
+          hola={SliderData29}
           tipoProducto="Desinfectantes"
           presentaciones="Frasco de 1 L., Bidones, Galón"
           usos={['Diluya 1/4 de taza en un balde con 3 litros de agua',
@@ -651,7 +674,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Limpiatodo aroma lavanda"
           imagenesSecundarias={[imgLimpiaTodoLavanda1, imgLimpiaTodoLavanda2]}
-          hola={SliderData29}
+          hola={SliderData30}
           tipoProducto="Desinfectantes"
           presentaciones="Frasco de 1 L., Bidones, Galón"
           usos={['Diluya 1/4 de taza en un balde con 3 litros de agua',
@@ -668,7 +691,7 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Pino"
           imagenesSecundarias={[imgPino1, imgPino2]}
-          hola={SliderData30}
+          hola={SliderData31}
           tipoProducto="Desinfectantes"
           presentaciones="1 L., Galón, Bidón, Cilindro"
           usos={['Aplique en forma uniforme con la ayuda de una esponja para paredes o con un trapeador para pisos, y deje secar durante cinco minutos',
@@ -678,6 +701,7 @@ const App = () => {
           colores="Verde"
           urlPdf="https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing"
+          urlPdf3="https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -688,11 +712,11 @@ const App = () => {
         <Header />
         <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilicoco"
           imagenesSecundarias={[imgAlcoholIso1, imgAlcoholIso2]}
-          hola={SliderData31}
+          hola={SliderData32}
           tipoProducto="Desinfectantes"
           presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
           usos={['Humedezca un paño limpio con Alcohol Isopropílico Multiusos, luego aplique sobre la superficie a tratar.',
-          'Frote y deje secar.']}
+            'Frote y deje secar.']}
           urlPdf="https://drive.google.com/file/d/1xeme2x7vJTl8Jnno_pH-leWlf8II9zEu/view?usp=sharing"
           urlPdf2="https://drive.google.com/file/d/1qf1an1k5XfUOjcjTDcJhUQoWDIBfnkUR/view?usp=sharing"
           urlPdf3="https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing"

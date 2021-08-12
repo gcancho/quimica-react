@@ -34,10 +34,11 @@ const ProductosDetergentes = ({ clase, nombre1, imagen1, descripcion1, presentac
         </article>
     );
 }
-const ProductosDisolventes = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2, nombre3, imagen3, descripcion3, presentaciones3 }) => {
+const ProductosDisolventes = ({ clase, nombre1, imagen1, descripcion1, presentaciones1, nombre2, imagen2, descripcion2, presentaciones2, nombre3, imagen3, descripcion3, presentaciones3, nombre4, imagen4, descripcion4, presentaciones4 }) => {
     const rutaAguarras = "/Aguarras";
     const rutaBencina = "/Bencina";
     const rutaThinnerAcrilico = "/Thinner-acrilico";
+    const rutaAlcoholIndustrial = "/Alcohol-industrial";
 
     return (
         <article className={`producto-tab ${clase}`}>
@@ -48,6 +49,7 @@ const ProductosDisolventes = ({ clase, nombre1, imagen1, descripcion1, presentac
                 <CardProductoInicio nombre={nombre1} descripcion={descripcion1} presentacion={presentaciones1} imagen={imagen1} ruta={rutaAguarras} />
                 <CardProductoInicio nombre={nombre2} descripcion={descripcion2} presentacion={presentaciones2} imagen={imagen2} ruta={rutaBencina} />
                 <CardProductoInicio nombre={nombre3} descripcion={descripcion3} presentacion={presentaciones3} imagen={imagen3} ruta={rutaThinnerAcrilico} />
+                <CardProductoInicio nombre={nombre4} descripcion={descripcion4} presentacion={presentaciones4} imagen={imagen4} ruta={rutaAlcoholIndustrial} />
             </div>
         </article>
     );

@@ -23,6 +23,9 @@ import imgShampooAuto2 from './../imagenes/Detergentes/shampoo-para-auto/DSC_708
 import imgAguarras1 from './../imagenes/Disolventes/aguarras/DSC_6966.JPG';
 import imgAguarras2 from './../imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
+import imgAlcoholIndustrial1 from './../imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
+import imgAlcoholIndustrial2 from './../imagenes/Disolventes/alcohol-industrial/DSC_707532.jpg';
+
 import imgBencina1 from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './../imagenes/Disolventes/bencina/DSC_7100.jpg';
 
@@ -229,6 +232,17 @@ export const SliderData8 = [
 export const SliderData9 = [
   {
     image:
+      imgAlcoholIndustrial1
+  },
+  {
+    image:
+      imgAlcoholIndustrial2
+  },
+];
+
+export const SliderData10 = [
+  {
+    image:
       imgAmbientadorBebe1
   },
   {
@@ -237,7 +251,7 @@ export const SliderData9 = [
   },
 ];
 
-export const SliderData10 = [
+export const SliderData11 = [
   {
     image:
       imgAmbientadorLavanda1
@@ -248,7 +262,7 @@ export const SliderData10 = [
   },
 ];
 
-export const SliderData11 = [
+export const SliderData12 = [
   {
     image:
       imgPreservanteMadera1
@@ -259,7 +273,7 @@ export const SliderData11 = [
   },
 ];
 
-export const SliderData12 = [
+export const SliderData13 = [
   {
     image:
       imgRenovadorLlanta1
@@ -274,7 +288,7 @@ export const SliderData12 = [
   },
 ];
 
-export const SliderData13 = [
+export const SliderData14 = [
   {
     image:
       imgSacaGrasa1
@@ -285,7 +299,7 @@ export const SliderData13 = [
   },
 ];
 
-export const SliderData14 = [
+export const SliderData15 = [
   {
     image:
       imgCeraAguaAmarilla1
@@ -296,7 +310,7 @@ export const SliderData14 = [
   },
 ];
 
-export const SliderData15 = [
+export const SliderData16 = [
   {
     image:
       imgCeraAguaBlanca1
@@ -307,7 +321,7 @@ export const SliderData15 = [
   },
 ];
 
-export const SliderData16 = [
+export const SliderData17 = [
   {
     image:
       imgCeraAguaNegra1
@@ -318,7 +332,7 @@ export const SliderData16 = [
   },
 ];
 
-export const SliderData17 = [
+export const SliderData18 = [
   {
     image:
       imgCeraAguaRoja1
@@ -329,7 +343,7 @@ export const SliderData17 = [
   },
 ];
 
-export const SliderData18 = [
+export const SliderData19 = [
   {
     image:
       imgSacaOxido1
@@ -340,7 +354,7 @@ export const SliderData18 = [
   },
 ];
 
-export const SliderData19 = [
+export const SliderData20 = [
   {
     image:
       imgVaselinaLiquida1
@@ -351,7 +365,7 @@ export const SliderData19 = [
   },
 ];
 
-export const SliderData20 = [
+export const SliderData21 = [
   {
     image:
       imgAcido1
@@ -370,7 +384,7 @@ export const SliderData20 = [
   },
 ];
 
-export const SliderData21 = [
+export const SliderData22 = [
   {
     image:
       imgAguaBaterias1
@@ -381,7 +395,7 @@ export const SliderData21 = [
   },
 ];
 
-export const SliderData22 = [
+export const SliderData23 = [
   {
     image:
       imgKresso1
@@ -396,7 +410,7 @@ export const SliderData22 = [
   },
 ];
 
-export const SliderData23 = [
+export const SliderData24 = [
   {
     image:
       imgQuitaSarro1
@@ -415,7 +429,7 @@ export const SliderData23 = [
   },
 ];
 
-export const SliderData24 = [
+export const SliderData25 = [
   {
     image:
       imgSiliconaCristal1
@@ -426,7 +440,7 @@ export const SliderData24 = [
   },
 ];
 
-export const SliderData25 = [
+export const SliderData26 = [
   {
     image:
       imgSiliconaTablero1
@@ -437,7 +451,7 @@ export const SliderData25 = [
   },
 ];
 
-export const SliderData26 = [
+export const SliderData27 = [
   {
     image:
       imgCloro1
@@ -448,7 +462,7 @@ export const SliderData26 = [
   },
 ];
 
-export const SliderData27 = [
+export const SliderData28 = [
   {
     image:
       imgLejia1
@@ -463,7 +477,7 @@ export const SliderData27 = [
   },
 ];
 
-export const SliderData28 = [
+export const SliderData29 = [
   {
     image:
       imgLimpiaTodoBebe1
@@ -474,7 +488,7 @@ export const SliderData28 = [
   },
 ];
 
-export const SliderData29 = [
+export const SliderData30 = [
   {
     image:
       imgLimpiaTodoLavanda1
@@ -485,7 +499,7 @@ export const SliderData29 = [
   },
 ];
 
-export const SliderData30 = [
+export const SliderData31 = [
   {
     image:
       imgPino1
@@ -496,7 +510,7 @@ export const SliderData30 = [
   },
 ];
 
-export const SliderData31 = [
+export const SliderData32 = [
   {
     image:
       imgAlcoholIso1
