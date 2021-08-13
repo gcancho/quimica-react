@@ -246,12 +246,17 @@ const App = () => {
       <Route path="/Shampoo-para-autos">
 
         <Header />
-        <ProductoDetalle tituloProductoDetalle="Shampoo para alfombras"
+        <ProductoDetalle tituloProductoDetalle="Shampoo para autos"
           imagenesSecundarias={[imgShampooAuto1, imgShampooAuto2]}
           hola={SliderData5}
           tipoProducto="Detergente"
           presentaciones="Galón, Bidón"
-          usos={['El shampoo para auto deberá ser aplicado poco a poco', 'Se aconseja que empiece por la parte superior y siempre deberá usar algún paño elaborado de microfibra especial para el lavado de autos.', 'Usar dos baldes, el primero que contenga shampoo para autos y agua  y el  otro balde deberá contener solamente agua que servirá para remover excedentes de la microfibra para no contaminar el shampoo.']}
+          usos={['Limpie todo el polvo acumulado en el vehículo con una manguera a presión.',
+            'Se recomienda colocar directo el producto o combinarlo con agua de tal manera que frote con el paño y remueva las impurezas.',
+            'Enjuague el vehículo con abundante agua removiendo los restos del producto.',
+            'Lava el vehículo usando el paño de microfibra o un trapo tipo franela.']}
+          urlPdf="https://drive.google.com/file/d/1vNFt9FvkJB90-It0x4daHspyEMiewfAt/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1vJbe02te5ew-dauvkGKIC8qLccmZMKMS/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -628,6 +633,8 @@ const App = () => {
           presentaciones="Galón, Bidón"
           usos={['El cloro destruye los gérmenes que causan enfermedades y permite que el agua sea segura',
             'Además de matar gérmenes peligrosos como bacterias, virus y parásitos, el cloro ayuda a reducir los gustos y olores desagradables en el agua']}
+          urlPdf="https://drive.google.com/file/d/1445lrGhVMOXwV7gFwYqiqA3SmCXQhJ_v/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1AJagXy4IMMFBiGzcn6dETqlh6NInOned/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
