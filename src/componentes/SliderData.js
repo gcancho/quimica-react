@@ -25,6 +25,7 @@ import imgAguarras2 from './../imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
 import imgAlcoholIndustrial1 from './../imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
 import imgAlcoholIndustrial2 from './../imagenes/Disolventes/alcohol-industrial/DSC_707532.jpg';
+import imgAlcoholIndustrial3 from './../imagenes/Disolventes/alcohol-industrial/alcohol21.jpg';
 
 import imgBencina1 from './../imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './../imagenes/Disolventes/bencina/DSC_7100.jpg';
@@ -92,6 +93,8 @@ import imgSiliconaTablero2 from './../imagenes/Desincrustantes/silicona-para-tab
 
 import imgCloro1 from './../imagenes/Desinfectantes/cloro/DSC_707257.jpg';
 import imgCloro2 from './../imagenes/Desinfectantes/cloro/DSC_709763.jpg';
+import imgCloro3 from './../imagenes/Desinfectantes/cloro/Cloro0001.jpg';
+
 
 import imgLejia1 from './../imagenes/Desinfectantes/lejia/DSC_698722.jpg';
 import imgLejia2 from './../imagenes/Desinfectantes/lejia/DSC_699025.jpg';
@@ -237,6 +240,10 @@ export const SliderData9 = [
   {
     image:
       imgAlcoholIndustrial2
+  },
+  {
+    image:
+      imgAlcoholIndustrial3
   },
 ];
 
@@ -459,6 +466,10 @@ export const SliderData27 = [
   {
     image:
       imgCloro2
+  },
+  {
+    image:
+      imgCloro3
   },
 ];
 

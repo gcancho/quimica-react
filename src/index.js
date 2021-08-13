@@ -38,6 +38,7 @@ import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
 
 import imgAlcoholIndustrial1 from './imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
 import imgAlcoholIndustrial2 from './imagenes/Disolventes/alcohol-industrial/DSC_707532.jpg';
+import imgAlcoholIndustrial3 from './imagenes/Disolventes/alcohol-industrial/alcohol21.jpg';
 
 import imgBencina1 from './imagenes/Disolventes/bencina/DSC_6976.jpg';
 import imgBencina2 from './imagenes/Disolventes/bencina/DSC_7100.jpg';
@@ -105,6 +106,7 @@ import imgSiliconaTablero2 from './imagenes/Desincrustantes/silicona-para-tabler
 
 import imgCloro1 from './imagenes/Desinfectantes/cloro/DSC_707257.jpg';
 import imgCloro2 from './imagenes/Desinfectantes/cloro/DSC_709763.jpg';
+import imgCloro3 from './imagenes/Desinfectantes/cloro/Cloro0001.jpg';
 
 import imgLejia1 from './imagenes/Desinfectantes/lejia/DSC_698722.jpg';
 import imgLejia2 from './imagenes/Desinfectantes/lejia/DSC_699025.jpg';
@@ -320,7 +322,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Alcohol industrial"
-          imagenesSecundarias={[imgAlcoholIndustrial1, imgAlcoholIndustrial2]}
+          imagenesSecundarias={[imgAlcoholIndustrial1, imgAlcoholIndustrial2, imgAlcoholIndustrial3]}
           hola={SliderData9}
           tipoProducto="Disolventes"
           presentaciones="Litro, Medio litro, Galón, Bidón, Cilindro."
@@ -491,6 +493,8 @@ const App = () => {
           tipoProducto="Removedores"
           presentaciones="Galón"
           usos={['Ácido fuerte que se utiliza para facilitar la remoción de las partes oxidadas de elementos metálicos, sean estos decorativos o estructurales.']}
+          urlPdf="https://drive.google.com/file/d/1iKSHsKhVFw7dEru7nTJh0TF-j2hiR6KU/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/10dtIvW8AfKHiiPxh-hjovUNGo6JSMFLR/view?usp=sharing"
         />
         <Footer />
         <Whatsapp />
@@ -627,7 +631,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cloro"
-          imagenesSecundarias={[imgCloro1, imgCloro2]}
+          imagenesSecundarias={[imgCloro1, imgCloro2, imgCloro3]}
           hola={SliderData27}
           tipoProducto="Desinfectantes"
           presentaciones="Galón, Bidón"
