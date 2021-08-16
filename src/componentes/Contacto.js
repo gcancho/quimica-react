@@ -1,6 +1,17 @@
+import emailjs from 'emailjs-com';
 import React from 'react';
 
 const Contacto = () => {
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_faaahvm', e.target, 'user_rEBXxhLtAEhIicpXovAuE')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      }
     return (
         <section className="contacto" id="contacto">
             <h3 className="contacto__titulo">Contacto</h3>
@@ -30,13 +41,14 @@ const Contacto = () => {
                     </article>
                     <article className="contacto__formulario">
                         <div className="contacto__formulario__wrap wrap">
-                            <form action="Correo.php" method="post" className="contacto__formulario" id="formulario">
+                            <form onSubmit={sendEmail} className="contacto__formulario" id="formulario">
                                 <h3 className="contacto__formulario__titulo">
                                     Envianos un mensaje
                                 </h3>
-                                <input className="contacto__input contacto__caja" type="text" id="nombre" name="nombre" placeholder="Nombre y apellidos" required />
-                                <input className="contacto__input contacto__caja" type="email" id="correo" name="correo" placeholder="Correo de contacto" required />
-                                <textarea className="contacto__textarea contacto__caja" id="mensaje" name="mensaje" placeholder="Escribe aquí tu mensaje :" required></textarea>
+                                {/* <input className="contacto__input contacto__caja" type="text" id="asunto" name="asunto" placeholder="Asunto" name="asunto" required /> */}
+                                <input className="contacto__input contacto__caja" type="text" id="nombre" placeholder="Nombre y apellidos" name="nombre" required />
+                                <input className="contacto__input contacto__caja" type="text" id="telefono" placeholder="Telefono" name="telefono" required />
+                                <textarea className="contacto__textarea contacto__caja" id="mensaje" placeholder="Escribe aquí tu mensaje :" name="mensaje" required></textarea>
                                 <input type="submit" value="enviar" className="boton boton--formulario" />
                                 <div className="contacto__mensajes">
                                     <p className="respuesta" id="respuesta">Mensaje enviado</p>

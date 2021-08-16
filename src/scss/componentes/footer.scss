@@ -13,3 +13,9 @@ label {
     -ms-user-select: none;
     user-select: none;
 }
+
+@media (min-width: 768px) {
+    .footer {
+        margin-top: 50px;
+    }
+}
