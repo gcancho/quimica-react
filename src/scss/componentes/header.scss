@@ -1,4 +1,4 @@
-$colorHeader: #0c2246;
+$colorHeader: #001031;
 $colorMenu: rgba(12, 34, 70, 0.5);
 $altoHeader: 70px;
 
@@ -49,24 +49,26 @@ $altoHeader: 70px;
     top: $altoHeader;
     display: flex;
     flex-direction: column;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     padding: 5px 0;
     background-color: inherit;
     a {
         margin: 8px 0;
         font-size: 1.2em;
+        text-shadow: 1px 1px 5px #000
     }
 }
 .menu.active {
     background-color: $colorHeader;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     left: 0;
     height: auto;
     // left: 0;
 }
 @media (min-width: 768px) {
     .header {
-        box-shadow: 0 0 2px #fff;
+        // box-shadow: 0 0 2px #000;
+        border-bottom: 1px solid #000;
     }
     .header__wrap {
         position: relative;
@@ -103,5 +105,22 @@ $altoHeader: 70px;
     }
     .menu.active{
         left: initial;
+    }
+}
+
+@media (min-width: 1800px) {
+    $altoHeader: 90px;
+    .header{
+        height: $altoHeader;
+    }
+    .menu{
+        a{
+            font-size: 1.5em;
+        }
+    }
+    .logo__container {
+        .logo {
+            width: 120px;
+        }
     }
 }

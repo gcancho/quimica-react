@@ -30,7 +30,7 @@ const Contacto = () => {
                     </article>
                     <article className="contacto__formulario">
                         <div className="contacto__formulario__wrap wrap">
-                            <form action="enviar-correo.php" method="post" className="contacto__formulario" id="formulario">
+                            <form action="Correo.php" method="post" className="contacto__formulario" id="formulario">
                                 <h3 className="contacto__formulario__titulo">
                                     Envianos un mensaje
                                 </h3>

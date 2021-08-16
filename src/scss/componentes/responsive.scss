@@ -110,7 +110,13 @@
 /* Large devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    body {
-        /* background-color: yellow; */
+    .producto-tab__item{
+        padding: 15px 10px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .producto-tab__item{
+        width: 550px;
     }
 }

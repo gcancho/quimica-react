@@ -1,3 +1,5 @@
+$colorBotonFormulario: $colorHeader;
+
 .contacto {
     background-color: #292929;
 }
@@ -67,15 +69,26 @@
 }
 
 .boton--formulario {
-    background-color: var(--color2);
+    background-color: $colorBotonFormulario;
     color: #fff;
     cursor: pointer;
 }
 
 .boton--formulario:hover {
-    background-color: #d21119;
+    background-color: $colorBotonFormulario;
 }
 
 .contacto__mensajes {
     display: none;
+}
+
+@media (min-width: 1800px) {
+    $altoHeader: 90px;
+    .contacto__titulo {
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #000;
+        color: #fff;
+        padding-top: $altoHeader !important;
+    }
 }
