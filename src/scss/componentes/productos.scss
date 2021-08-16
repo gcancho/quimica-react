@@ -12,7 +12,8 @@
 .categorias__titulo {
     text-align: left;
     margin-bottom: 10px;
-    margin-top: 30px;
+    display: none;
+    // margin-top: 30px;
 }
 
 .categorias__conjunto {
@@ -20,6 +21,8 @@
     border-radius: var(--borderRadius);
     width: 1150px;
     padding: 8px 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .categorias__conjunto a {
@@ -27,9 +30,15 @@
     display: block;
     text-align: left;
     margin: 8px 0;
-    font-weight: 600;
+    font-weight: 500;
     cursor: pointer;
+    // transition: all 0.3s ease-out;
+
     /* text-decoration: underline; */
+    &:hover {
+        font-weight: 800;
+        // transition: all 0.3s ease-out;
+    }
 }
 
 .categorias__conjunto a svg {
@@ -104,3 +113,11 @@
     font-weight: bold;
 }
 
+@media (min-width: 768px) {
+    .categorias__titulo {
+        display: block;
+    }
+    .categorias__conjunto {
+        display: initial;
+    }
+}

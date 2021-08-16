@@ -96,6 +96,9 @@ $altoHeader: 70px;
         a {
             margin-left: 60px;
             font-size: 1.3em;
+            &:hover{
+                text-decoration: underline;
+            }
         }
     }
     .menu.active{

@@ -60,15 +60,19 @@ const Productos = () => {
                     </div>
                     <div className="categorias__wrap wrap">
                         <div className="categorias__conjunto">
-                            <a onClick={() => toogleTab(1)}><FontAwesomeIcon icon={faCaretRight} />Limpiadores</a>
-                            <a onClick={() => toogleTab(2)}><FontAwesomeIcon icon={faCaretRight} />Detergentes</a>
-                            <a onClick={() => toogleTab(3)}><FontAwesomeIcon icon={faCaretRight} />Disolventes</a>
-                            <a onClick={() => toogleTab(4)}><FontAwesomeIcon icon={faCaretRight} />Perfumadores</a>
-                            <a onClick={() => toogleTab(5)}><FontAwesomeIcon icon={faCaretRight} />Abrillantadores</a>
-                            <a onClick={() => toogleTab(6)}><FontAwesomeIcon icon={faCaretRight} />Ceras</a>
-                            <a onClick={() => toogleTab(7)}><FontAwesomeIcon icon={faCaretRight} />Removedores</a>
-                            <a onClick={() => toogleTab(8)}><FontAwesomeIcon icon={faCaretRight} />Desincrustantes</a>
-                            <a onClick={() => toogleTab(9)}><FontAwesomeIcon icon={faCaretRight} />Desinfectantes</a>
+                            <div>
+                                <a onClick={() => toogleTab(1)}><FontAwesomeIcon icon={faCaretRight} />Limpiadores</a>
+                                <a onClick={() => toogleTab(2)}><FontAwesomeIcon icon={faCaretRight} />Detergentes</a>
+                                <a onClick={() => toogleTab(3)}><FontAwesomeIcon icon={faCaretRight} />Disolventes</a>
+                                <a onClick={() => toogleTab(4)}><FontAwesomeIcon icon={faCaretRight} />Perfumadores</a>
+                                <a onClick={() => toogleTab(5)}><FontAwesomeIcon icon={faCaretRight} />Abrillantadores</a>
+                            </div>
+                            <div>
+                                <a onClick={() => toogleTab(6)}><FontAwesomeIcon icon={faCaretRight} />Ceras</a>
+                                <a onClick={() => toogleTab(7)}><FontAwesomeIcon icon={faCaretRight} />Removedores</a>
+                                <a onClick={() => toogleTab(8)}><FontAwesomeIcon icon={faCaretRight} />Desincrustantes</a>
+                                <a onClick={() => toogleTab(9)}><FontAwesomeIcon icon={faCaretRight} />Desinfectantes</a>
+                            </div>
                         </div>
                     </div>
                 </article>
