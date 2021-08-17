@@ -105,8 +105,7 @@ import imgSiliconaTablero1 from './imagenes/Desincrustantes/silicona-para-tabler
 import imgSiliconaTablero2 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
 
 import imgCloro1 from './imagenes/Desinfectantes/cloro/DSC_707257.jpg';
-import imgCloro2 from './imagenes/Desinfectantes/cloro/DSC_709763.jpg';
-import imgCloro3 from './imagenes/Desinfectantes/cloro/Cloro0001.jpg';
+import imgCloro2 from './imagenes/Desinfectantes/cloro/Cloro0001.jpg';
 
 import imgLejia1 from './imagenes/Desinfectantes/lejia/DSC_698722.jpg';
 import imgLejia2 from './imagenes/Desinfectantes/lejia/DSC_699025.jpg';
@@ -631,7 +630,7 @@ const App = () => {
 
         <Header />
         <ProductoDetalle tituloProductoDetalle="Cloro"
-          imagenesSecundarias={[imgCloro1, imgCloro2, imgCloro3]}
+          imagenesSecundarias={[imgCloro1, imgCloro2]}
           hola={SliderData27}
           tipoProducto="Desinfectantes"
           presentaciones="Galón, Bidón"

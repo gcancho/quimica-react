@@ -92,8 +92,7 @@ import imgSiliconaTablero1 from './../imagenes/Desincrustantes/silicona-para-tab
 import imgSiliconaTablero2 from './../imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
 
 import imgCloro1 from './../imagenes/Desinfectantes/cloro/DSC_707257.jpg';
-import imgCloro2 from './../imagenes/Desinfectantes/cloro/DSC_709763.jpg';
-import imgCloro3 from './../imagenes/Desinfectantes/cloro/Cloro0001.jpg';
+import imgCloro2 from './../imagenes/Desinfectantes/cloro/Cloro0001.jpg';
 
 
 import imgLejia1 from './../imagenes/Desinfectantes/lejia/DSC_698722.jpg';
@@ -466,10 +465,6 @@ export const SliderData27 = [
   {
     image:
       imgCloro2
-  },
-  {
-    image:
-      imgCloro3
   },
 ];
 
