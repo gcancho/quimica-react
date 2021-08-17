@@ -5,12 +5,13 @@ const Contacto = () => {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('gmail', 'template_faaahvm', e.target, 'user_rEBXxhLtAEhIicpXovAuE')
+        emailjs.sendForm('service_ljlvubo', 'template_jxzhcbq', e.target, 'user_rEBXxhLtAEhIicpXovAuE')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
               console.log(error.text);
           });
+        e.target.reset()
       }
     return (
         <section className="contacto" id="contacto">
@@ -35,7 +36,7 @@ const Contacto = () => {
                             </div>
                             <div className="contacto__datos__item">
                                 <h5>Correo</h5>
-                                <p> quimica_rodriguez@hotmail.com</p>
+                                <p>informes@quimicarodriguez.com</p>
                             </div>
                         </div>
                     </article>
