@@ -1,8 +1,63 @@
+$colorTitulosFooter: #19778c;
+$colorTextoFooter: #818284;
+$colorIconosFooter: #1a3e53;
+// $paddingFooterItem: 20px 0;
+
 .footer {
-    background-color: #000;
+    background-color: #ececec;
     padding: 20px 0;
-    color: #fff;
+    color: #818284;
     text-align: center;
+    .footer__item {
+        padding: 20px 70px;
+        h4{
+            position: relative;
+            margin: 8px auto;
+            width: 160px;
+            color: $colorTitulosFooter;
+            &::after{
+                position: absolute;
+                display: block;
+                content: '';
+                left: 0;
+                width: inherit;
+                height: 1px;
+                background-color: $colorTitulosFooter;
+            }
+        }
+        span {
+            svg {
+                margin-right: 8px;
+            }
+        }
+    }
+    .footer__item--logo {
+        img {
+            display: block;
+            margin: 10px auto;
+            width: 120px;
+        }
+        span {
+            display: block;
+            margin: 10px 0;
+            svg{
+                margin-right: 8px;
+            }
+        }
+        .redes__sociales {
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-evenly;
+            color: $colorIconosFooter;
+        }
+    }
+    span {
+        display: block;
+        color: $colorTextoFooter;
+    }
+    svg {
+        color: $colorIconosFooter;
+    }
 }
 
 label {
@@ -17,5 +72,25 @@ label {
 @media (min-width: 768px) {
     .footer {
         margin-top: 50px;
+        font-size: 0.9em;
+        .footer__wrap{
+            display: flex;
+            .footer__item{
+                flex-basis: 0;//Con esta linea aplicada a los hijos hace que el flex-grow funcione correctamente
+                flex-grow: 1;
+                padding: 20px 18px;
+                h4{
+                    width: initial;
+                    text-align: left;
+                    &::after{
+                        width: 56px;
+                    }
+                }
+                span{
+                    text-align: left;
+                    line-height: 22px;
+                }
+            }
+        }
     }
 }

@@ -22,7 +22,7 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, 
                         </div>
                     </div>
                     <div className="caracteristicas__producto__der">
-                        <h4>Catacterísticas</h4>
+                        <h4>Características</h4>
                         <div className="caracteristicas__producto__der__info">
                             {(tipoProducto) ?
                                 <div>

@@ -70,6 +70,7 @@
     padding: 5px 10px;
     width: 100%;
     border: 1px solid var(--bordeGris);
+    border-radius: 6px;
 }
 
 .caracteristicas__producto__der {
@@ -120,7 +121,11 @@
     width: 250px;
     justify-content: left;
     margin-top: 20px;
+    &:hover{
+        background: #ac3e3e;
+    }
 }
+
 .boton.boton-pdf {
     padding: 15px 14px;
 }
