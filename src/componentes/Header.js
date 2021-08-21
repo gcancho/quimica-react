@@ -54,21 +54,21 @@ const Header = () => {
                     <div class="ctn-bars-search" id="ctn-bars-search">
                         <input type="text" className="input-search" id="inputSearch" placeholder="¿Qué desea buscar?" onKeyUp={buscador_interno} />
                         <FontAwesomeIcon icon={faSearch} />
+                        <ul className="box-search" id="box-search">
+                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src="img/img4.jpg" width="20px" />REACT</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Cloro</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Limpia Vidrios</a></li>
+                        </ul>
                     </div>
-                    <ul className="box-search" id="box-search">
-                        <li><a href="articulo.html"><i class="fas fa-search"></i><img src="img/img4.jpg" width="20px" />REACT</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>Cloro</a></li>
-                        <li><a href="articulo.html"><i class="fas fa-search"></i>Limpia Vidrios</a></li>
-                    </ul>
 
-                    <div id="cover-ctn-search"></div>
+                    {/* <div id="cover-ctn-search"></div> */}
                     {/*  */}
                     <div className="horario">
                         <div className="horario__icono">
@@ -77,11 +77,11 @@ const Header = () => {
                         <div className="horario__info">
                             <h6>Central</h6>
                             <div>
-                                <p>Lunes - Viernes:</p>
+                                <p>L - V :</p>
                                 <p>8:00 pm - 6:00 pm</p>
                             </div>
                             <div>
-                                <p>Sábado:</p>
+                                <p>Sábado :</p>
                                 <p>8:00 pm - 12:00 pm</p>
                             </div>
                             <p>994 268 798</p>

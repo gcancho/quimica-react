@@ -4,12 +4,24 @@ $altoHeader: 70px;
 $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
 
+.ctn-bars-search {
+    position: relative;
+}
 .box-search {
+    background-color: #fff;
     display: none;
+    width: 100%; // Ancho cambiante
+    position: absolute;
+    left: 0;
+    top: 50px;
+    box-shadow: 0 0 1px #000;
+    z-index: 999;
+    border-radius: 4px;
     a {
         color: #000;
     }
 }
+
 .header {
     color: #fff;
     background-color: $colorHeader;
@@ -22,7 +34,7 @@ $colorBordesCajas: #e8e8e8;
         .logo__principal {
             display: block;
             text-align: center;
-            padding: 10px 0;
+            // padding: 10px 0;
             .logo {
                 width: 80px;
             }
@@ -30,6 +42,7 @@ $colorBordesCajas: #e8e8e8;
         .container__buscador__horario {
             display: flex;
             padding: 0 6px;
+            position: relative;
             // Buscador
             .ctn-bars-search {
                 display: flex;
@@ -40,9 +53,10 @@ $colorBordesCajas: #e8e8e8;
                 margin-right: 4px;
                 height: 50px;
                 border: 1px solid $colorBordesCajas;
-                border-radius: 6px;
+                border-radius: 4px;
                 padding: 8px;
                 .input-search {
+                    width: 100%;
                     border: none;
                     font-size: 0.9em;
                     &:focus {
@@ -154,60 +168,84 @@ $colorBordesCajas: #e8e8e8;
         // box-shadow: 0 0 2px #000;
         border-bottom: 1px solid #000;
         background-color: #ececec;
-    }
-    .header__arriba {
-        background-color: #fff;
-        display: flex;
-        .logo__principal {
-            flex-basis: 0;
-            flex-grow: 1;
-        }
-        .container__buscador__horario {
-            flex-basis: 0;
-            flex-grow: 5;
-            padding: 0 !important;
-        }
-    }
-    .header__abajo {
-        background-color: #ececec;
-        position: relative;
-        height: inherit;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .toggle__container {
-        display: none;
-    }
-    .logo__container {
-        display: none;
-        position: initial;
-        position: absolute;
-        left: 30px;
-    }
-    .menu {
-        position: initial;
-        top: initial;
-        right: initial;
-        height: initial;
-        flex-direction: row;
-        width: auto;
-        position: absolute;
-        right: 30px;
-        left: 0;
-        a {
-            color: #818284;
-            margin-left: 60px;
-            font-size: 0.9em;
-            font-weight: 600;
-            text-shadow: initial;
-            text-transform: uppercase;
-            &:hover {
-                color: #19778c;
+        .header__arriba {
+            background-color: #fff;
+            display: flex;
+            .logo__principal {
+                flex-basis: 0;
+                flex-grow: 1;
+                .logo {
+                    width: 120px;
+                }
+            }
+            .container__buscador__horario {
+                flex-basis: 0;
+                flex-grow: 6;
+                padding: 0 !important;
+                .ctn-bars-search {
+                    flex-grow: 5;
+                }
+                .horario {
+                    flex-grow: 1;
+                    margin-left: 20px;
+                    .horario__info{
+                        flex-grow: 5;
+                        div{
+                            margin: 2px 0;
+                            display: flex;
+                            p{
+                                margin-right: 4px;
+                            }
+                        }
+                        p{
+                            margin: 2px 0;
+                        }
+                    }
+                }
             }
         }
-    }
-    .menu.active {
-        left: initial;
+        .header__abajo {
+            background-color: #ececec;
+            position: relative;
+            height: inherit;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .toggle__container {
+            display: none;
+        }
+        .logo__container {
+            display: none;
+            position: initial;
+            position: absolute;
+            left: 30px;
+        }
+        .menu {
+            position: initial;
+            top: initial;
+            right: initial;
+            height: initial;
+            flex-direction: row;
+            width: auto;
+            position: absolute;
+            right: 30px;
+            left: 0;
+            a {
+                color: #818284;
+                margin-left: 60px;
+                font-size: 0.9em;
+                font-weight: 600;
+                text-shadow: initial;
+                text-transform: uppercase;
+                &:hover {
+                    color: #19778c;
+                }
+            }
+        }
+        .menu.active {
+            left: initial;
+        }
     }
 }
 
