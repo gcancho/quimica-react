@@ -4,6 +4,12 @@ $altoHeader: 70px;
 $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
 
+.box-search {
+    display: none;
+    a {
+        color: #000;
+    }
+}
 .header {
     color: #fff;
     background-color: $colorHeader;
@@ -152,11 +158,11 @@ $colorBordesCajas: #e8e8e8;
     .header__arriba {
         background-color: #fff;
         display: flex;
-        .logo__principal{
+        .logo__principal {
             flex-basis: 0;
             flex-grow: 1;
         }
-        .container__buscador__horario{
+        .container__buscador__horario {
             flex-basis: 0;
             flex-grow: 5;
             padding: 0 !important;
