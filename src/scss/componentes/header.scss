@@ -1,29 +1,106 @@
 $colorHeader: #001031;
 $colorMenu: rgba(12, 34, 70, 0.5);
 $altoHeader: 70px;
+$colorTextoHeader: #818284;
+$colorBordesCajas: #e8e8e8;
 
 .header {
-    position: fixed;
-    top: 0;
     color: #fff;
     background-color: $colorHeader;
-    z-index: 999;
     display: block;
     width: 100%;
-    height: $altoHeader;
-    .header__wrap {
-        position: relative;
-        // width: 95%;
-        width: 100%;
-        margin: 0 auto;
-        height: inherit;
-        display: flex;
-        align-items: center;
+    .header__arriba {
+        padding: 6px 0;
+        background-color: #fff;
+        border-bottom: 1px solid $colorBordesCajas;
+        .logo__principal {
+            display: block;
+            text-align: center;
+            padding: 10px 0;
+            .logo {
+                width: 80px;
+            }
+        }
+        .container__buscador__horario {
+            display: flex;
+            padding: 0 6px;
+            // Buscador
+            .ctn-bars-search {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-basis: 0;
+                flex-grow: 4;
+                margin-right: 4px;
+                height: 50px;
+                border: 1px solid $colorBordesCajas;
+                border-radius: 6px;
+                padding: 8px;
+                .input-search {
+                    border: none;
+                    font-size: 0.9em;
+                    &:focus {
+                        // Al hacer focus no tendrá el borde alrededor por defecto que tenia
+                        outline: none;
+                    }
+                }
+                svg {
+                    color: $colorTextoHeader;
+                }
+            }
+            .horario {
+                flex-basis: 0;
+                flex-grow: 2;
+                // height: 60px;
+                border-radius: 6px;
+                padding: 6px;
+                border: 1px solid $colorBordesCajas;
+                color: $colorTextoHeader;
+                display: flex;
+                // width: 200px;
+                .horario__icono {
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    svg {
+                        font-size: 20px;
+                        color: $color1;
+                    }
+                }
+                .horario__info {
+                    flex-basis: 0;
+                    flex-grow: 3;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    h6 {
+                        font-size: 0.8em;
+                        color: $color1;
+                    }
+                    p {
+                        font-size: 0.55em;
+                        &:nth-child(6),
+                        &:nth-child(7) {
+                            color: $color1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .header__abajo {
     }
 }
 .logo__container {
+    // display: none;
     position: absolute;
-    left: 10px;
+    // right: 10px;
+    right: calc(50% - 50px);
     .logo {
         width: 100px;
     }
@@ -31,8 +108,9 @@ $altoHeader: 70px;
 
 .toggle__container {
     position: absolute;
-    right: 10px;
+    left: 10px;
     svg {
+        color: #000;
         font-size: 20px;
         cursor: pointer;
     }
@@ -42,7 +120,7 @@ $altoHeader: 70px;
     // display: none;
     position: absolute;
     width: 100%;
-    left: 100%;
+    right: 100%;
     text-align: center;
     height: 80px;
     height: auto;
@@ -55,13 +133,13 @@ $altoHeader: 70px;
     a {
         margin: 8px 0;
         font-size: 1.2em;
-        text-shadow: 1px 1px 5px #000
+        text-shadow: 1px 1px 5px #000;
     }
 }
 .menu.active {
     background-color: $colorHeader;
     transition: all 0.5s ease-out;
-    left: 0;
+    right: 0;
     height: auto;
     // left: 0;
 }
@@ -69,10 +147,24 @@ $altoHeader: 70px;
     .header {
         // box-shadow: 0 0 2px #000;
         border-bottom: 1px solid #000;
+        background-color: #ececec;
     }
-    .header__wrap {
-        position: relative;
+    .header__arriba {
+        background-color: #fff;
         display: flex;
+        .logo__principal{
+            flex-basis: 0;
+            flex-grow: 1;
+        }
+        .container__buscador__horario{
+            flex-basis: 0;
+            flex-grow: 5;
+            padding: 0 !important;
+        }
+    }
+    .header__abajo {
+        background-color: #ececec;
+        position: relative;
         height: inherit;
         justify-content: space-between;
         align-items: center;
@@ -81,6 +173,7 @@ $altoHeader: 70px;
         display: none;
     }
     .logo__container {
+        display: none;
         position: initial;
         position: absolute;
         left: 30px;
@@ -94,27 +187,31 @@ $altoHeader: 70px;
         width: auto;
         position: absolute;
         right: 30px;
-        left: initial;
+        left: 0;
         a {
+            color: #818284;
             margin-left: 60px;
-            font-size: 1.3em;
-            &:hover{
-                text-decoration: underline;
+            font-size: 0.9em;
+            font-weight: 600;
+            text-shadow: initial;
+            text-transform: uppercase;
+            &:hover {
+                color: #19778c;
             }
         }
     }
-    .menu.active{
+    .menu.active {
         left: initial;
     }
 }
 
 @media (min-width: 1800px) {
     $altoHeader: 90px;
-    .header{
+    .header {
         height: $altoHeader;
     }
-    .menu{
-        a{
+    .menu {
+        a {
             font-size: 1.5em;
         }
     }

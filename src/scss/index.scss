@@ -11,11 +11,13 @@
      :root {
         --paddingSections: 20px 0;
         --borderRadius: 6px;
-        --color1: #0C2246;
+        --color1: #19778c;
         --color2: #FF151F;
         --altoHeader: 60px;
         --bordeGris: #dbdbdb;
     }
+
+    $color1: #19778c;
     
     html {
         scroll-behavior: smooth;
