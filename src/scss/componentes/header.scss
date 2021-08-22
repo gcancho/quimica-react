@@ -1,8 +1,9 @@
-$colorHeader: #001031;
+$colorHeader: #fff;
 $colorMenu: rgba(12, 34, 70, 0.5);
 $altoHeader: 70px;
 $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
+$altoLiBuscador: 65px;
 
 .ctn-bars-search {
     position: relative;
@@ -17,8 +18,28 @@ $colorBordesCajas: #e8e8e8;
     box-shadow: 0 0 1px #000;
     z-index: 999;
     border-radius: 4px;
-    a {
-        color: #000;
+    max-height: $altoLiBuscador * 3; //Maximo de alto del ul
+    overflow: auto;
+    li {
+        width: 100%;
+        height: $altoLiBuscador;
+        border-bottom: 1px solid $colorBordesCajas;
+        &:hover {
+            background-color: rgb(240, 250, 255);
+        }
+        a {
+            padding: 8px 8px;
+            display: block;
+            display: flex;
+            align-items: center;
+            width: inherit;
+            height: inherit;
+            color: #000;
+            font-size: 0.85em;
+            img {
+                margin-right: 5px;
+            }
+        }
     }
 }
 
@@ -36,7 +57,7 @@ $colorBordesCajas: #e8e8e8;
             text-align: center;
             // padding: 10px 0;
             .logo {
-                width: 80px;
+                width: 100px;
             }
         }
         .container__buscador__horario {
@@ -51,7 +72,7 @@ $colorBordesCajas: #e8e8e8;
                 flex-basis: 0;
                 flex-grow: 4;
                 margin-right: 4px;
-                height: 50px;
+                height: 58px;
                 border: 1px solid $colorBordesCajas;
                 border-radius: 4px;
                 padding: 8px;
@@ -86,27 +107,30 @@ $colorBordesCajas: #e8e8e8;
                     flex-basis: 0;
                     flex-grow: 1;
                     svg {
-                        font-size: 20px;
+                        font-size: 16px;
                         color: $color1;
+                        transform: rotate(-45deg);
                     }
                 }
                 .horario__info {
                     flex-basis: 0;
-                    flex-grow: 3;
+                    flex-grow: 4;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
+                    div {
+                        display: flex;
+                    }
                     h6 {
                         font-size: 0.8em;
                         color: $color1;
                     }
                     p {
                         font-size: 0.55em;
-                        &:nth-child(6),
-                        &:nth-child(7) {
-                            color: $color1;
-                        }
+                    }
+                    > p {
+                        color: $color1;
                     }
                 }
             }
@@ -114,6 +138,11 @@ $colorBordesCajas: #e8e8e8;
     }
 
     .header__abajo {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        box-shadow: 0 0 1px rgb(129, 129, 129);
+        height: 50px;
     }
 }
 .logo__container {
@@ -128,46 +157,92 @@ $colorBordesCajas: #e8e8e8;
 
 .toggle__container {
     position: absolute;
-    left: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 8px;
+    color: #000;
+    background-color: $color1;
+    color: #fff;
     svg {
-        color: #000;
         font-size: 20px;
         cursor: pointer;
+    }
+    label{
+        margin-left: 5px;
     }
 }
 
 .menu {
-    // display: none;
+    height: 100vh;
     position: absolute;
-    width: 100%;
+    top: -6px;
+    width: 50%;
     right: 100%;
     text-align: center;
-    height: 80px;
-    height: auto;
-    top: $altoHeader;
     display: flex;
     flex-direction: column;
-    transition: all 0.5s ease-out;
+    transition: all 0.5s;
     padding: 5px 0;
-    background-color: inherit;
-    a {
-        margin: 8px 0;
-        font-size: 1.2em;
-        text-shadow: 1px 1px 5px #000;
+    background-color: #fff;
+    box-shadow: 0 0 0 #000;
+    .boton__cerrar__menu {
+        cursor: pointer;
+        background-color: $color1;
+        color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px 10px;
+        a {
+            text-transform: uppercase;
+            margin-right: 5px;
+            font-size: 0.8em;
+        }
+    }
+    > a {
+        padding: 20px 0;
+        text-transform: uppercase;
+        font-size: 0.8em;
+        color: #000;
+        border-bottom: 1px solid $colorBordesCajas;
+    }
+    .categoria__link {
+        color: $color1;
+        font-weight: 600;
     }
 }
 .menu.active {
+    position: absolute;
+    top: -6px;
+    right: 50%;
     background-color: $colorHeader;
-    transition: all 0.5s ease-out;
-    right: 0;
-    height: auto;
-    // left: 0;
+    transition: all 0.5s;
+    height: 102vh;
+    box-shadow: 1px 0px 4px #000;
 }
+
+@media (min-width: 500px) {
+    .horario__icono {
+        svg {
+            font-size: 30px !important;
+        }
+    }
+}
+
 @media (min-width: 768px) {
+    .contenedor {
+        margin: 0 auto;
+        max-width: 90em;
+        width: 95%;
+    }
+    .boton__cerrar__menu {
+        display: none !important;
+    }
     .header {
         // box-shadow: 0 0 2px #000;
         border-bottom: 1px solid #000;
-        background-color: #ececec;
         .header__arriba {
             background-color: #fff;
             display: flex;
@@ -183,21 +258,23 @@ $colorBordesCajas: #e8e8e8;
                 flex-grow: 6;
                 padding: 0 !important;
                 .ctn-bars-search {
-                    flex-grow: 5;
+                    flex-grow: 4;
+                    margin-left: 12px;
+                    margin-right: 4px;
                 }
                 .horario {
-                    flex-grow: 1;
+                    flex-grow: 2;
                     margin-left: 20px;
-                    .horario__info{
+                    .horario__info {
                         flex-grow: 5;
-                        div{
+                        div {
                             margin: 2px 0;
                             display: flex;
-                            p{
+                            p {
                                 margin-right: 4px;
                             }
                         }
-                        p{
+                        p {
                             margin: 2px 0;
                         }
                     }
@@ -249,19 +326,34 @@ $colorBordesCajas: #e8e8e8;
     }
 }
 
-@media (min-width: 1800px) {
-    $altoHeader: 90px;
-    .header {
-        height: $altoHeader;
+@media (min-width: 992px) {
+    body {
+        font-size: 18px !important; //Esto puede cambiar, ya veremos
     }
-    .menu {
-        a {
-            font-size: 1.5em;
-        }
-    }
-    .logo__container {
-        .logo {
-            width: 120px;
-        }
+    .header .header__arriba .container__buscador__horario .horario {
+        flex-grow: 1;
     }
 }
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px !important;
+    }
+}
+
+// @media (min-width: 1800px) {
+//     $altoHeader: 90px;
+//     .header {
+//         height: $altoHeader;
+//     }
+//     .menu {
+//         a {
+//             font-size: 1.5em;
+//         }
+//     }
+//     .logo__container {
+//         .logo {
+//             width: 120px;
+//         }
+//     }
+// }
