@@ -125,6 +125,7 @@ $altoLiBuscador: 65px;
                     h6 {
                         font-size: 0.8em;
                         color: $color1;
+                        text-transform: uppercase;
                     }
                     p {
                         font-size: 0.55em;
@@ -169,7 +170,7 @@ $altoLiBuscador: 65px;
         font-size: 20px;
         cursor: pointer;
     }
-    label{
+    label {
         margin-left: 5px;
     }
 }
@@ -241,8 +242,6 @@ $altoLiBuscador: 65px;
         display: none !important;
     }
     .header {
-        // box-shadow: 0 0 2px #000;
-        border-bottom: 1px solid #000;
         .header__arriba {
             background-color: #fff;
             display: flex;
@@ -287,6 +286,7 @@ $altoLiBuscador: 65px;
             height: inherit;
             justify-content: space-between;
             align-items: center;
+            width: 100%;
         }
 
         .toggle__container {
@@ -299,19 +299,26 @@ $altoLiBuscador: 65px;
             left: 30px;
         }
         .menu {
+            background-color: #ececec;
             position: initial;
-            top: initial;
+            top: 0;
             right: initial;
             height: initial;
             flex-direction: row;
-            width: auto;
+            align-items: center;
+            width: inherit;
             position: absolute;
-            right: 30px;
-            left: 0;
+            padding: initial;
+            .categoria__link {
+                display: none;
+            }
+            > a {
+                padding: 8px 0;
+            }
             a {
                 color: #818284;
                 margin-left: 60px;
-                font-size: 0.9em;
+                font-size: 0.8em;
                 font-weight: 600;
                 text-shadow: initial;
                 text-transform: uppercase;
@@ -320,8 +327,43 @@ $altoLiBuscador: 65px;
                 }
             }
         }
-        .menu.active {
-            left: initial;
+        /*Componente menu__categorias (pienso que asi se leeria mejor el codigo css*/
+        .menu__categorias {
+            position: relative;
+            display: flex;
+            cursor: pointer;
+            .menu__categorias__icono {
+                padding: 8px 12px;
+                background-color: #4397aa;
+                svg {
+                    color: #fff;
+                    font-size: 35px;
+                }
+            }
+            .menu__categorias__texto {
+                display: flex;
+                align-items: center;
+                padding: 8px 12px;
+                background-color: $color1;
+                label {
+                    font-weight: 600;
+                }
+                svg {
+                    margin-left: 8px;
+                }
+            }
+        }
+        .menu__raro{
+            display: none;
+            position: absolute;
+            left: 0;
+            top: 100%;
+            color: #000;
+            background-color: blueviolet;
+        }
+
+        .menu__raro.active{
+            display: block;
         }
     }
 }

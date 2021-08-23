@@ -1,7 +1,7 @@
 import React from 'react';
 import imgLogo from '../imagenes/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
@@ -13,8 +13,10 @@ import Imagenes from './Imagenes';
 const Header = () => {
 
     const [hola, cambiarMenu] = useState(true);
-
     const toogleMenu = () => cambiarMenu(!hola);
+
+    const [hola2, cambiarMenu2] = useState(true);
+    const toogleMenu2 = () => cambiarMenu2(!hola2);
 
     const buscador_interno = () => {
         let bars_search = document.getElementById("ctn-bars-search");
@@ -103,13 +105,23 @@ const Header = () => {
                 </div>
                 <nav className={hola ? "menu" : "menu active"}>
                     <div className="boton__cerrar__menu" onClick={toogleMenu}><a>Cerrar</a><FontAwesomeIcon icon={faTimes}/></div>
+                    <article className="menu__categorias" onClick={toogleMenu2}>
+                        <div className="menu__categorias__icono">
+                            <FontAwesomeIcon icon={faBars} />
+                        </div>
+                        <div className="menu__categorias__texto">
+                            <label>CATEGORÍAS</label>
+                            <FontAwesomeIcon icon={hola2 ? faChevronDown : faChevronUp}/>
+                        </div>
+                        <div className={hola2 ? "menu__raro" : "menu__raro active"}>aaaaaaa  </div>
+                    </article>
                     <Link to="/">Inicio</Link>
                     <Link to="/Nosotros">Nosotros</Link>
                     <Link to="/Productos">Productos</Link>
-                    <Link to="/Contacto">Contacto</Link>
                     <Link className="categoria__link" to="/Categoria1">Limpieza y desinfección</Link>
                     <Link className="categoria__link" to="/Categoria2">Disolventes y uso industrial</Link>
                     <Link className="categoria__link" to="/Categoria3">Línea automotriz</Link>
+                    <Link to="/Contacto">Contacto</Link>
                 </nav>
             </div>
         </header>
