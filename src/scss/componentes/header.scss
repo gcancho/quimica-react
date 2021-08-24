@@ -223,6 +223,10 @@ $altoLiBuscador: 65px;
     height: 102vh;
     box-shadow: 1px 0px 4px #000;
 }
+/*Componente menu__categorias*/
+.menu__categorias {
+    display: none;
+}
 
 @media (min-width: 500px) {
     .horario__icono {
@@ -332,6 +336,8 @@ $altoLiBuscador: 65px;
             position: relative;
             display: flex;
             cursor: pointer;
+            width: 280px;
+            background-color: $color1;
             .menu__categorias__icono {
                 padding: 8px 12px;
                 background-color: #4397aa;
@@ -341,8 +347,10 @@ $altoLiBuscador: 65px;
                 }
             }
             .menu__categorias__texto {
+                font-size: 0.8em;
                 display: flex;
                 align-items: center;
+                width: inherit;
                 padding: 8px 12px;
                 background-color: $color1;
                 label {
@@ -353,19 +361,108 @@ $altoLiBuscador: 65px;
                 }
             }
         }
-        .menu__raro{
+        .lista__categoria {
+            display: block;
+            background-color: #fff;
+            box-shadow: 0 0 6px #000;
+        }
+
+        .menu__raro {
             display: none;
             position: absolute;
+            width: calc(280px - 1px);
+            // padding: 0 10px;
             left: 0;
             top: 100%;
             color: #000;
-            background-color: blueviolet;
+            background-color: #fff;
+            box-shadow: 0 0 2px #000;
+            .menu__raro__item {
+                font-size: 0.8em;
+                line-height: 36px;
+                padding: 6px 6px;
+                background-color: #fff;
+                color: $colorTextoHeader;
+                height: 50px;
+                border-top: 1px solid $colorBordesCajas;
+                .menu1 {
+                    text-align: left;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+                &:hover {
+                    color: $color1;
+                }
+                label {
+                    font-family: "Segoe Pro Regular";
+                }
+            }
+            .menu2 {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: calc(100% + 0.5px);
+                background: #fff;
+                min-width: 270px;
+                max-width: 300px;
+                padding: 8px 30px;
+                box-shadow: 0 0 2px #000;
+                transition: all 2s;
+                h6 {
+                    font-family: "Segoe Pro Regular";
+                    color: $color1;
+                    text-decoration: underline;
+                    font-size: 1em;
+                    text-align: left;
+                }
+                li {
+                    font-family: "Segoe Pro Regular";
+                    display: block;
+                    margin: 4px 0;
+                    font-size: 0.95em;
+                    text-align: left;
+                    color: #818284;
+                    &:hover {
+                        color: $color1;
+                    }
+                }
+            }
         }
-
-        .menu__raro.active{
+        .menu__raro__item:nth-child(1):hover div:nth-child(2) {
+            display: block;
+        }
+        .menu__raro__item:nth-child(2):hover div:nth-child(2) {
+            display: block;
+        }
+        .menu__raro__item:nth-child(3):hover div:nth-child(2) {
             display: block;
         }
     }
+
+    .menu__raro.active {
+        display: block;
+    }
+
+    // .lista__categoria1 {
+    //     display: none;
+    //     position: absolute;
+    //     top: 0;
+    //     left: calc(100% + 8px);
+    //     &:active{
+    //         display: block;
+    //     }
+    // }
+    // .lista__categoria2 {
+    //     position: absolute;
+    //     top: 50px;
+    //     left: calc(100% + 8px);
+    // }
+    // .lista__categoria3 {
+    //     position: absolute;
+    //     top: 100px;
+    //     left: calc(100% + 8px);
+    // }
 }
 
 @media (min-width: 992px) {

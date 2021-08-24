@@ -1,7 +1,7 @@
 import React from 'react';
 import imgLogo from '../imagenes/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faBars, faChevronDown, faChevronRight, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneVolume } from '@fortawesome/free-solid-svg-icons';
@@ -11,6 +11,18 @@ import { useState } from 'react';
 import Imagenes from './Imagenes';
 
 const Header = () => {
+
+    const nombreCategoria1 = "Limpieza y desinfección";
+    const nombreCategoria2 = "Disolventes y uso industrial";
+    const nombreCategoria3 = "Línea Automotriz";
+
+    const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
+        'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
+    const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
+        'Alcohol isopropilico', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+    const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
+        'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
+
 
     const [hola, cambiarMenu] = useState(true);
     const toogleMenu = () => cambiarMenu(!hola);
@@ -53,49 +65,49 @@ const Header = () => {
     return (
         <header className="header">
             <article className="header__arriba contenedor">
-                    <a className="logo__principal" href="/"><img className="logo" src={imgLogo} alt="" /></a>
-                    {/* Buscador */}
-                    <div className="container__buscador__horario">
-                        <div class="ctn-bars-search" id="ctn-bars-search">
-                            <input type="text" className="input-search" id="inputSearch" placeholder="¿Qué desea buscar?" onKeyUp={buscador_interno} />
-                            <FontAwesomeIcon icon={faSearch} />
-                            <ul className="box-search" id="box-search">
-                                <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera1} width="40px" />Preservante de madera</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera2} width="40px" />Preservante de madera 2</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido1} width="40px" />Jabon liquido 1</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido2} width="40px" />Jabon liquido 2</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>Cloro</a></li>
-                                <li><a href="articulo.html"><i class="fas fa-search"></i>Limpia Vidrios</a></li>
-                            </ul>
-                        </div>
+                <a className="logo__principal" href="/"><img className="logo" src={imgLogo} alt="" /></a>
+                {/* Buscador */}
+                <div className="container__buscador__horario">
+                    <div class="ctn-bars-search" id="ctn-bars-search">
+                        <input type="text" className="input-search" id="inputSearch" placeholder="¿Qué desea buscar?" onKeyUp={buscador_interno} />
+                        <FontAwesomeIcon icon={faSearch} />
+                        <ul className="box-search" id="box-search">
+                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera1} width="40px" />Preservante de madera</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera2} width="40px" />Preservante de madera 2</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido1} width="40px" />Jabon liquido 1</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido2} width="40px" />Jabon liquido 2</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Cloro</a></li>
+                            <li><a href="articulo.html"><i class="fas fa-search"></i>Limpia Vidrios</a></li>
+                        </ul>
+                    </div>
 
-                        {/* <div id="cover-ctn-search"></div> */}
-                        {/*  */}
-                        <div className="horario">
-                            <div className="horario__icono">
-                                <FontAwesomeIcon icon={faPhoneVolume} />
+                    {/* <div id="cover-ctn-search"></div> */}
+                    {/*  */}
+                    <div className="horario">
+                        <div className="horario__icono">
+                            <FontAwesomeIcon icon={faPhoneVolume} />
+                        </div>
+                        <div className="horario__info">
+                            <h6>Central</h6>
+                            <div>
+                                <p>L - V :</p>
+                                <p>8:00 - 6:00 PM</p>
                             </div>
-                            <div className="horario__info">
-                                <h6>Central</h6>
-                                <div>
-                                    <p>L - V :</p>
-                                    <p>8:00 - 6:00 PM</p>
-                                </div>
-                                <div>
-                                    <p>S :</p>
-                                    <p>8:00 - 12:00 PM</p>
-                                </div>
-                                <p>(01) 315 3600</p>
+                            <div>
+                                <p>S :</p>
+                                <p>8:00 - 12:00 PM</p>
                             </div>
+                            <p>(01) 315 3600</p>
                         </div>
                     </div>
+                </div>
             </article>
             <div className="header__abajo">
                 {/* <a className="logo__container" href="/"><img className="logo" src={imgLogo} alt="" /></a> */}
@@ -104,23 +116,51 @@ const Header = () => {
                     <label>Menú</label>
                 </div>
                 <nav className={hola ? "menu" : "menu active"}>
-                    <div className="boton__cerrar__menu" onClick={toogleMenu}><a>Cerrar</a><FontAwesomeIcon icon={faTimes}/></div>
-                    <article className="menu__categorias" onClick={toogleMenu2}>
-                        <div className="menu__categorias__icono">
+                    <div className="boton__cerrar__menu" onClick={toogleMenu}><a>Cerrar</a><FontAwesomeIcon icon={faTimes} /></div>
+                    <article className="menu__categorias">
+                        <div className="menu__categorias__icono" onClick={toogleMenu2}>
                             <FontAwesomeIcon icon={faBars} />
                         </div>
-                        <div className="menu__categorias__texto">
+                        <div className="menu__categorias__texto" onClick={toogleMenu2}>
                             <label>CATEGORÍAS</label>
-                            <FontAwesomeIcon icon={hola2 ? faChevronDown : faChevronUp}/>
+                            <FontAwesomeIcon icon={hola2 ? faChevronDown : faChevronUp} />
                         </div>
-                        <div className={hola2 ? "menu__raro" : "menu__raro active"}>aaaaaaa  </div>
+                        <article className={hola2 ? "menu__raro" : "menu__raro active"}>
+                            <div className="menu__raro__item">
+                                <div className="menu1">
+                                    <label>{nombreCategoria1}</label><FontAwesomeIcon icon={faChevronRight} />
+                                </div>
+                                <div className="menu2">
+                                    <h6>Productos</h6>
+                                    {nombresProductosCategoria1.map((p1, index) => <li key={index}>{p1}</li>)}
+                                </div>
+                            </div>
+                            <div className="menu__raro__item">
+                                <div className="menu1">
+                                    <label>{nombreCategoria2}</label><FontAwesomeIcon icon={faChevronRight} />
+                                </div>
+                                <div className="menu2">
+                                    <h6>Productos</h6>
+                                    {nombresProductosCategoria2.map((p2, index) => <li key={index}>{p2}</li>)}
+                                </div>
+                            </div>
+                            <div className="menu__raro__item">
+                                <div className="menu1">
+                                    <label>{nombreCategoria3}</label><FontAwesomeIcon icon={faChevronRight} />
+                                </div>
+                                <div className="menu2">
+                                    <h6>Productos</h6>
+                                    {nombresProductosCategoria3.map((p3, index) => <li key={index}>{p3}</li>)}
+                                </div>
+                            </div>
+                        </article>
                     </article>
                     <Link to="/">Inicio</Link>
                     <Link to="/Nosotros">Nosotros</Link>
                     <Link to="/Productos">Productos</Link>
-                    <Link className="categoria__link" to="/Categoria1">Limpieza y desinfección</Link>
-                    <Link className="categoria__link" to="/Categoria2">Disolventes y uso industrial</Link>
-                    <Link className="categoria__link" to="/Categoria3">Línea automotriz</Link>
+                    <Link className="categoria__link" to="/Categoria1">{nombreCategoria1}</Link>
+                    <Link className="categoria__link" to="/Categoria2">{nombreCategoria2}</Link>
+                    <Link className="categoria__link" to="/Categoria3">{nombreCategoria3}</Link>
                     <Link to="/Contacto">Contacto</Link>
                 </nav>
             </div>
