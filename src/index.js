@@ -7,7 +7,7 @@ import Banner from './componentes/Banner';
 import './normalize.css';
 import './scss/index.scss';
 import Whatsapp from './componentes/Whatsapp';
-import Contacto from './componentes/Contacto';
+import Contacto from './componentes/Fomulario';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
 // Rutas imagenes, pero las esta jalando de SliderData 
@@ -130,6 +130,7 @@ import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from './componentes/ScrollToTop';
+import ContactoPrincipal from './componentes/ContactoPrincipal';
 
 
 
@@ -164,6 +165,14 @@ const App = () => {
 
         <Header />
         <Productos />
+        <Footer />
+        <Whatsapp />
+
+      </Route>
+      <Route path="/Contacto">
+
+        <Header />
+        <ContactoPrincipal/>
         <Footer />
         <Whatsapp />
 

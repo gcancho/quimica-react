@@ -9,7 +9,7 @@ const Nosotros = () => {
         <section className="nosotros">
             <div className="nosotros__container">
                 <img className="banner__img" loading="lazy" src={imgNosotros}></img>
-                <div className="nosotros__wrap">
+                <div className="nosotros__wrap contenedor">
                     <div className="nosotros__izq">
                         <div className="vision wrap">
                             <img src={imgVision} />

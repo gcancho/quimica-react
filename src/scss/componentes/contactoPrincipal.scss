@@ -1,0 +1,87 @@
+$colorTexto: #818284;
+
+.contenedor {
+    margin: 0 auto;
+    max-width: 90em;
+    width: 95%;
+}
+.contacto__principal {
+    display: flex;
+    padding: 10px 0;
+}
+
+/*Componente <ContactolInfo />*/
+.contacto__info {
+    border: 2px solid #e6e6e6;
+    padding: 15px 10px;
+    h2 {
+        font-family: "Segoe Pro Semibold";
+        color: $colorTexto;
+        text-align: left;
+        font-size: 1.8em;
+        line-height: 30px;
+        font-weight: 500;
+    }
+    h3 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+        text-align: left;
+        color: $color1;
+        text-transform: uppercase;
+        svg {
+            margin-right: 5px;
+        }
+    }
+    p {
+        color: $colorTexto;
+        font-family: "Segoe Pro regular";
+        &:nth-of-type(2) {
+            margin-top: 4px;
+        }
+        &:nth-of-type(4) {
+            margin-top: 10px;
+        }
+        &:nth-of-type(5) {
+            margin-top: 10px;
+        }
+        &:nth-of-type(6) {
+            margin-top: 4px;
+            color: $color1;
+        }
+    }
+    h5 {
+        margin-top: 10px;
+        font-family: "Segoe Pro Semibold";
+        color: $colorTexto;
+        font-weight: 600;
+        font-size: 1.1em;
+    }
+}
+
+.contacto__consultas {
+}
+
+@media (min-width: 768px) {
+    .contacto__info {
+        flex-basis: 0;
+        flex-grow: 2;
+        h2 {
+            font-size: 1.8em;
+        }
+        h3 {
+            font-size: 1.2em;
+        }
+        p {
+            font-size: 1em;
+        }
+        h5 {
+            font-size: 1.1em;
+        }
+    }
+
+    .contacto__consultas {
+        flex-basis: 0;
+        flex-grow: 4;
+    }
+}

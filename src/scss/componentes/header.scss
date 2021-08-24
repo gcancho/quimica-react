@@ -287,7 +287,7 @@ $altoLiBuscador: 65px;
         .header__abajo {
             background-color: #ececec;
             position: relative;
-            height: inherit;
+            // height: inherit;
             justify-content: space-between;
             align-items: center;
             width: 100%;
@@ -305,11 +305,11 @@ $altoLiBuscador: 65px;
         .menu {
             background-color: #ececec;
             position: initial;
-            top: 0;
             right: initial;
             height: initial;
             flex-direction: row;
             align-items: center;
+            justify-content: space-around;
             width: inherit;
             position: absolute;
             padding: initial;
@@ -401,8 +401,9 @@ $altoLiBuscador: 65px;
             .menu2 {
                 display: none;
                 position: absolute;
+                z-index: 10;
                 top: 0;
-                left: calc(100% + 0.5px);
+                left: calc(100% + 1px);
                 background: #fff;
                 min-width: 270px;
                 max-width: 300px;

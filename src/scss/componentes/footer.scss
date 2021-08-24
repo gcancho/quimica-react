@@ -10,20 +10,12 @@ $colorIconosFooter: #1a3e53;
     text-align: center;
     .footer__item {
         padding: 20px 30px;
-        h4{
+        h4 {
             position: relative;
             margin: 8px auto;
             width: 160px;
             color: $colorTitulosFooter;
-            &::after{
-                position: absolute;
-                display: block;
-                content: '';
-                left: 0;
-                width: inherit;
-                height: 1px;
-                background-color: $colorTitulosFooter;
-            }
+           
         }
         span {
             svg {
@@ -40,7 +32,7 @@ $colorIconosFooter: #1a3e53;
         span {
             display: block;
             margin: 10px 0;
-            svg{
+            svg {
                 margin-right: 8px;
             }
         }
@@ -72,24 +64,31 @@ label {
 @media (min-width: 768px) {
     .footer {
         margin-top: 50px;
-        font-size: 0.9em;
-        .footer__wrap{
+        font-size: 0.7em;
+        .footer__wrap {
             display: flex;
-            .footer__item{
-                flex-basis: 0;//Con esta linea aplicada a los hijos hace que el flex-grow funcione correctamente
+            .footer__item {
+                flex-basis: 0; //Con esta linea aplicada a los hijos hace que el flex-grow funcione correctamente
                 flex-grow: 1;
                 padding: 20px 18px;
-                h4{
+                h4 {
                     width: initial;
                     text-align: left;
-                    &::after{
-                        width: 56px;
+                    &::after {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        left: 0;
+                        width: 40px;
+                        height: 1px;
+                        background-color: $colorTitulosFooter;
                     }
                 }
-                span{
+                span {
                     text-align: left;
                     line-height: 22px;
                 }
+                
             }
         }
     }
