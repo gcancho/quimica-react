@@ -5,6 +5,8 @@ $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
 $altoLiBuscador: 65px;
 
+@import './variables.scss';
+
 .ctn-bars-search {
     position: relative;
 }
@@ -48,6 +50,14 @@ $altoLiBuscador: 65px;
     background-color: $colorHeader;
     display: block;
     width: 100%;
+    // Barra
+    .header__barra__arriba{
+        display: none;
+        padding: 8px 0;
+        color: #fff;
+        background: $color5;
+        text-align: center;
+    }
     .header__arriba {
         padding: 6px 0;
         background-color: #fff;
@@ -132,6 +142,7 @@ $altoLiBuscador: 65px;
                     }
                     > p {
                         color: $color1;
+                        font-weight: 600;   
                     }
                 }
             }
@@ -186,7 +197,7 @@ $altoLiBuscador: 65px;
     flex-direction: column;
     transition: all 0.5s;
     padding: 5px 0;
-    background-color: #fff;
+    background-color: $color5;
     box-shadow: 0 0 0 #000;
     .boton__cerrar__menu {
         cursor: pointer;
@@ -207,7 +218,7 @@ $altoLiBuscador: 65px;
         text-transform: uppercase;
         font-size: 0.8em;
         color: #000;
-        border-bottom: 1px solid $colorBordesCajas;
+        // border-bottom: 1px solid $colorBordesCajas;
     }
     .categoria__link {
         color: $color1;
@@ -237,15 +248,13 @@ $altoLiBuscador: 65px;
 }
 
 @media (min-width: 768px) {
-    .contenedor {
-        margin: 0 auto;
-        max-width: 90em;
-        width: 95%;
-    }
     .boton__cerrar__menu {
         display: none !important;
     }
     .header {
+        .header__barra__arriba{
+            display: block;
+        }
         .header__arriba {
             background-color: #fff;
             display: flex;
@@ -304,7 +313,7 @@ $altoLiBuscador: 65px;
             left: 30px;
         }
         .menu {
-            background-color: #ececec;
+            background: $color5;
             position: initial;
             right: initial;
             height: initial;
@@ -327,8 +336,9 @@ $altoLiBuscador: 65px;
                 font-weight: 600;
                 text-shadow: initial;
                 text-transform: uppercase;
+                color: #fff;
                 &:hover {
-                    color: #19778c;
+                    color: #fff;
                 }
             }
         }
@@ -341,7 +351,7 @@ $altoLiBuscador: 65px;
             background-color: $color1;
             .menu__categorias__icono {
                 padding: 8px 12px;
-                background-color: #4397aa;
+                background-color: #0402F6;
                 svg {
                     color: #fff;
                     font-size: 35px;
@@ -353,7 +363,7 @@ $altoLiBuscador: 65px;
                 align-items: center;
                 width: inherit;
                 padding: 8px 12px;
-                background-color: $color1;
+                background-color: #0402F6;
                 label {
                     font-weight: 600;
                 }

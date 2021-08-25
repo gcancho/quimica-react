@@ -20,20 +20,20 @@ import FooterItem from './FooterItem';
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="footer__wrap wrap">
+            <div className="footer__block contenedor">
                 <article className="footer__item footer__item--logo">
                     <img src={logo} />
                     <span><FontAwesomeIcon icon={faEnvelope} />informes@quimicarodriguez.com</span>
                     <div className="redes__sociales">
-                        <FontAwesomeIcon icon={faFacebook} />
-                        <FontAwesomeIcon icon={faInstagram} />
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        <FontAwesomeIcon icon={faYoutube} />
+                        <a><FontAwesomeIcon icon={faFacebook} /></a>
+                        <a><FontAwesomeIcon icon={faInstagram} /></a>
+                        <a><FontAwesomeIcon icon={faLinkedin} /></a>
+                        <a><FontAwesomeIcon icon={faYoutube} /></a>
                     </div>
                 </article>
-                <FooterItem titulo="Oficina Central" icono={faMapMarkedAlt} texto="Calle Los Cerezos Mz. J Lote 8B Lotización Chillon - Puente Piedra"/>
-                <FooterItem titulo="Horario de Atención" icono={faClock} texto="L - V: 8:00 am - 5:15 pm"/>
-                <FooterItem titulo="Teléfonos" icono={faPhone} texto="994 268 798 - 955 310 163"/>
+                <FooterItem titulo="Oficina Central" icono={faMapMarkedAlt} texto="Calle Los Cerezos Mz. J Lote 8B Lotización Chillon - Puente Piedra" />
+                <FooterItem titulo="Horario de Atención" icono={faClock} texto="L - V: 8:00 am - 5:15 pm" />
+                <FooterItem titulo="Teléfonos" icono={faPhone} texto="994 268 798 - 955 310 163" />
             </div>
         </footer>
     );

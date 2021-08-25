@@ -10,16 +10,12 @@ import { useState } from 'react';
 
 import Imagenes from './Imagenes';
 
-const Header = () => {
-
-    const nombreCategoria1 = "Limpieza y desinfección";
-    const nombreCategoria2 = "Disolventes y uso industrial";
-    const nombreCategoria3 = "Línea Automotriz";
+const Header = ({nombreCategoria1,nombreCategoria2,nombreCategoria3}) => {    
 
     const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
         'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
     const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
-        'Alcohol isopropilico', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+        'Alcohol isopropilico','Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
     const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
         'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
 
@@ -64,6 +60,9 @@ const Header = () => {
 
     return (
         <header className="header">
+            <article className="header__barra__arriba">
+                <p>Delivery Gratis por compras mínimas de 300 soles</p>
+            </article>
             <article className="header__arriba contenedor">
                 <a className="logo__principal" href="/"><img className="logo" src={imgLogo} alt="" /></a>
                 {/* Buscador */}

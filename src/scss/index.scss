@@ -6,6 +6,11 @@
         box-sizing: border-box;
         font-family: 'Segoe Pro';
     }
+    .contenedor {
+        margin: 0 auto;
+        max-width: 90em;
+        width: 95%;
+    }
 
     $boderRadius: 6px;
     

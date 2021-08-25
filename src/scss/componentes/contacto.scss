@@ -1,15 +1,18 @@
-$colorBotonFormulario: $colorHeader;
+@import './variables.scss';
 
 .contacto {
     background-color: #292929;
+    .contacto__abajo {
+        background-color: #fff;
+    }
 }
 
 .contacto__titulo {
     padding: 20px 0;
     text-align: center;
     text-transform: uppercase;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: $color1;
     padding-top: $altoHeader;
 }
 
@@ -27,23 +30,7 @@ $colorBotonFormulario: $colorHeader;
     padding: 10px 0;
 }
 
-.contacto__datos__item {
-    margin: 10px 0;
-}
 
-.contacto__datos__item h5 {
-    font-size: 1.2em;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-.contacto__datos__item p {
-    color: #828282;
-}
-
-.contacto__datos {
-    padding: 15px 0;
-}
 /* Contacto formlario*/
 
 .contacto__input,
@@ -54,6 +41,7 @@ $colorBotonFormulario: $colorHeader;
     padding: 10px 6px;
     border-radius: var(--borderRadius);
     height: 50px;
+    color: $color10;
 }
 
 .contacto__textarea {
@@ -61,21 +49,22 @@ $colorBotonFormulario: $colorHeader;
 }
 
 .contacto__formulario {
-    padding: var(--paddingSections);
+    margin: 20px 0;
 }
 
 .contacto__formulario__titulo {
-    color: #fff;
+    margin: 20px 0;
+    color: $color1;
 }
 
 .boton--formulario {
-    background-color: $colorBotonFormulario;
+    background: $color2;
     color: #fff;
     cursor: pointer;
 }
 
 .boton--formulario:hover {
-    background-color: $colorBotonFormulario;
+    background: $color3;
 }
 
 .contacto__mensajes {

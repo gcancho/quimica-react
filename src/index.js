@@ -131,11 +131,16 @@ import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
 import ScrollToTop from './componentes/ScrollToTop';
 import ContactoPrincipal from './componentes/ContactoPrincipal';
+import Productos2 from './componentes/Productos2';
 
 
 
 const App = () => {
   const TITLE = 'Quimica Rodriguez'
+  const nombreCategoria1 = "Limpieza y desinfección";
+  const nombreCategoria2 = "Disolventes y uso industrial";
+  const nombreCategoria3 = "Línea Automotriz";
+  const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
 
   return (
 
@@ -146,35 +151,37 @@ const App = () => {
       <ScrollToTop />
       <Route path="/" exact={true}>
 
-        <Header />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
         <Banner />
         <Servicios />
-        <Contacto />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp}/>
       </Route>
       <Route path="/Nosotros">
 
-        <Header />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
         <Nosotros />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Productos">
 
-        <Header />
-        <Productos />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+
+        {/* <Productos /> */}
+        <Productos2 nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Contacto">
 
-        <Header />
-        <ContactoPrincipal/>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+
+        <ContactoPrincipal rutaWsp={rutaWsp}/>
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Limpia-vidrios">
@@ -193,7 +200,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1f3HEJd-s9Wc4qioZhTrxmiW2MAp4bgAp/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Ron-de-quemar">
@@ -213,7 +220,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/179iASaQK2ahA0cSgHQLioHzLUuleufhR/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Jabon-liquido">
@@ -234,7 +241,7 @@ const App = () => {
           urlPdf3="https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Shampoo-para-alfombras">
@@ -250,7 +257,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1IN3HF1uIsxJ2kpLJM5bDxYpVpHlz1t6V/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Shampoo-para-autos">
@@ -269,7 +276,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1vJbe02te5ew-dauvkGKIC8qLccmZMKMS/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Aguarras">
@@ -285,7 +292,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
 
@@ -304,7 +311,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/17Nz3Iou1FD95E3zyn39wDrnvvcGqpype/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Thinner-acrilico">
@@ -323,7 +330,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Alcohol-industrial">
@@ -339,7 +346,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/10g3s_OkQ5AiwP39h24Gxy4rZdawcLubY/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Ambientador-bebe">
@@ -354,7 +361,7 @@ const App = () => {
             'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Ambientador-lavanda">
@@ -369,7 +376,7 @@ const App = () => {
             'Existen diferentes aromas del mismo producto, donde cada uno de ellos se puede recomendar para una zona del negocio o un tipo de profesión en concreto']}
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Preservante-para-madera">
@@ -389,7 +396,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1c-rH6oLcLuD274kW1tb2snXzt8HxXzEY/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Renovador-de-llantas">
@@ -408,7 +415,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/16y-8kp5THCI-DCkzIS-lc6a6GzwqW8NA/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Saca-grasa">
@@ -425,7 +432,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Cera-agua-amarilla">
@@ -441,7 +448,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Cera-agua-blanca">
@@ -457,7 +464,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Cera-agua-negra">
@@ -473,7 +480,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Cera-agua-roja">
@@ -489,7 +496,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Saca-oxido">
@@ -505,7 +512,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/10dtIvW8AfKHiiPxh-hjovUNGo6JSMFLR/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Vaselina-liquida">
@@ -524,7 +531,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1ap7VtIaDcayII4kfqGGMvLFKvX9vR-C7/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Acidos">
@@ -543,7 +550,7 @@ const App = () => {
           urlPdf3="https://drive.google.com/file/d/1GsAOLC9-lmBCp2cGOZAZ13BJnOMTl71E/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Agua-para-baterias">
@@ -560,7 +567,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Kresso">
@@ -576,7 +583,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Quita-sarro">
@@ -595,7 +602,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Silicona-para-cristal">
@@ -614,7 +621,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1uknsgyPla7tRqfmWPaMOP8stXCd3bc32/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Silicona-para-tablero">
@@ -632,7 +639,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1OGxG08zs-yDEDpCq0nnymnNC-nMzdQmP/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Cloro">
@@ -649,7 +656,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1AJagXy4IMMFBiGzcn6dETqlh6NInOned/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Lejia">
@@ -668,7 +675,7 @@ const App = () => {
           urlPdf3="https://drive.google.com/file/d/1wen8m27eXo3A_INgVvgSxycz1xvu3H-c/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Limpia-todo-aroma-bebe">
@@ -685,7 +692,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Limpia-todo-aroma-lavanda">
@@ -702,7 +709,7 @@ const App = () => {
           urlPdf2="https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Pino">
@@ -723,7 +730,7 @@ const App = () => {
           urlPdf3="https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Alcohol-isopropilico">
@@ -741,7 +748,7 @@ const App = () => {
           urlPdf3="https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing"
         />
         <Footer />
-        <Whatsapp />
+        <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
     </BrowserRouter>

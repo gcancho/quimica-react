@@ -1,10 +1,10 @@
 import React from 'react';
 import imgWsp from '../imagenes/wsp.png';
 
-const Whatsapp = () => {
+const Whatsapp = ({rutaWsp}) => {
     return (
         <div className="container-wsp">
-            <a href="https://wa.me/51994268798?text=Buen%20día%20Química%20Rodríguez" target="_blank">
+            <a href={rutaWsp} target="_blank">
                 <img className="wsp" src={imgWsp} alt="" />                
             </a>
         </div>

@@ -2,6 +2,7 @@ $colorTitulosFooter: #19778c;
 $colorTextoFooter: #818284;
 $colorIconosFooter: #1a3e53;
 // $paddingFooterItem: 20px 0;
+@import './variables.scss';
 
 .footer {
     background-color: #ececec;
@@ -9,13 +10,12 @@ $colorIconosFooter: #1a3e53;
     color: #818284;
     text-align: center;
     .footer__item {
-        padding: 20px 30px;
+        padding: 20px 0;
         h4 {
             position: relative;
             margin: 8px auto;
             width: 160px;
             color: $colorTitulosFooter;
-           
         }
         span {
             svg {
@@ -41,6 +41,11 @@ $colorIconosFooter: #1a3e53;
             display: flex;
             justify-content: space-evenly;
             color: $colorIconosFooter;
+            a {
+                svg {
+                    font-size: 25px;
+                }
+            }
         }
     }
     span {
@@ -64,31 +69,39 @@ label {
 @media (min-width: 768px) {
     .footer {
         margin-top: 50px;
-        font-size: 0.7em;
-        .footer__wrap {
+        font-size: 0.8em;
+        .footer__block {
             display: flex;
             .footer__item {
                 flex-basis: 0; //Con esta linea aplicada a los hijos hace que el flex-grow funcione correctamente
                 flex-grow: 1;
-                padding: 20px 18px;
+                padding: 20px 0;
                 h4 {
+                    color: $colorTitulosFooter;
                     width: initial;
-                    text-align: left;
-                    &::after {
-                        position: absolute;
-                        display: block;
-                        content: "";
-                        left: 0;
-                        width: 40px;
-                        height: 1px;
-                        background-color: $colorTitulosFooter;
-                    }
+                    text-align: center;
+                    // &::after {
+                    //     position: absolute;
+                    //     display: block;
+                    //     content: "";
+                    //     left: 0;
+                    //     width: 40px;
+                    //     height: 1px;
+                    //     background-color: $colorTitulosFooter;
+                    // }
                 }
                 span {
-                    text-align: left;
+                    text-align: center;
                     line-height: 22px;
+                    svg{
+                        color: $colorIconosFooter;
+                    }
                 }
-                
+                .redes__sociales{
+                    svg{
+                        color: $colorIconosFooter;
+                    }
+                }
             }
         }
     }
