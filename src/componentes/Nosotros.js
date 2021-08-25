@@ -9,7 +9,40 @@ const Nosotros = () => {
         <section className="nosotros">
             <div className="nosotros__container">
                 <img className="banner__img" loading="lazy" src={imgNosotros}></img>
-                <div className="nosotros__wrap contenedor">
+                <h2>Química Rodriguez</h2>
+                <p>Expertos en productos para limpieza</p>
+                <article className="nosotros__wrap contenedor">
+                    <div className="container__img">
+                        <img src={imgNosotros} />
+                    </div>
+                    <div className="nosotros__sobre">
+                        <h3>Sobre Nosotros</h3>
+                        <p>Somos una empresa peruana con más de 28 años en el mercado. Nos dedicamos a la fabricación y comercialización de una gran variedad de productos para la limpieza profesional.</p>
+                        <p>Detrás de Daryza SAC existe una historia empresarial que se remonta al año 1993. Hoy, apoyados en un equipo con más de 145 profesionales emprendedores, hemos logrado posicionarnos como una empresa líder en la fabricación y comercialización de productos de limpieza profesional garantizando la satisfacción de todos nuestros clientes.</p>
+                        <p>La extensa cartera de clientes que ha confiado en nuestro profesionalismo desde el primer momento, avalan nuestra especialización.</p>
+                    </div>
+                </article>
+                <article className="nosotros__wrap contenedor">
+                    <div className="nosotros__vismis">
+                        <h3>Visión</h3>
+                        <p>QUÍMICA RODRÍGUEZ y FLORES SAC, será en el futuro una de las empresas reconocidas en el mercado de la fabricación de productos de limpieza industrial y doméstica por su calidad y excelencia. La visión de la empresa seguir creciendo nacional e internacionalmente, llegar a hacer que QR sea una marca reconocida por todos los peruanos.</p>
+                        <h3>Misión</h3>
+                        <p>La empresa es una de las mejores fabricando productos de limpieza de uso industrial y del hogar. Nuestra misión es seguir elaborando productos de calidad y dar una excelente atención para brindar un mejor servicio a nuestros clientes.</p>
+                        <h3>Nuestros Valores</h3>
+                        <ul>
+                            <li>- Transparencia</li>
+                            <li>- Puntualidad de entrega</li>
+                            <li>- Excelencia</li>
+                            <li>- Adaptabilidad</li>
+                            <li>- Diligencia</li>
+                            <li>- Constancia</li>
+                        </ul>
+                    </div>
+                    <div className="container__img">
+                        <img src={imgNosotros} />
+                    </div>
+                </article>
+                {/* <div className="nosotros__wrap contenedor">
                     <div className="nosotros__izq">
                         <div className="vision wrap">
                             <img src={imgVision} />
@@ -34,7 +67,7 @@ const Nosotros = () => {
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="nosotros__certificado__container">
                     <div className="wrap">
                         <div className="nosotros__certificado">

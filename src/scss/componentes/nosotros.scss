@@ -1,76 +1,77 @@
+@import "./variables.scss";
+
 .nosotros {
-    margin-top: $altoHeader;
-    background-color: #001031;
-    .nosotros__izq {
-        color: #fff;
-        background-color: #001031;
-        .vision{
-            img{
-                margin-bottom: 10px;
-            }
-            p{
-                text-align: justify;
-                line-height: 25px;
-            }
-        }
-        .mision{
-            img{
-                margin-bottom: 10px;
-            }
-            p{
-                text-align: justify;
-                line-height: 25px;
-            }
-        }
+    margin-top: 10px;
+    background-color: #fff;
+    font-family: $fuente1;
+    color: $color10;
+    h3 {
+        color: $color10;
+        margin: 6px 0;
     }
-    .nosotros__der {
-        color: #000;
-        background-color: #fff;
-        .wrap{
-            padding: 10px 0;
-        }
-        img{
-            width: 70px;
-        }
-        h5{
-            font-size: 2.2em;
+    .nosotros__container {
+        h2 {
+            margin-top: 10px;
+            color: $color1;
+            text-align: center;
             text-transform: uppercase;
         }
-        ul{
-            list-style: initial;
-            li{
-                margin-left: 20px;
-                font-size: 1.2em;
-                margin-top: 24px;
+        > p {
+            margin-top: 8px;
+            margin-bottom: 10px;
+            color: $color10;
+            font-family: $fuente3;
+            text-align: center;
+        }
+        .nosotros__wrap {
+            display: block;
+            .container__img {
+                display: block;
+                img {
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+            .nosotros__sobre {
+                > p {
+                    margin: 8px 0;
+                    text-align: justify;
+                }
+            }
+            .nosotros__vismis {
+                > p {
+                    text-align: justify;
+                }
+                ul {
+                    li {
+                        margin: 6px 0;
+                    }
+                }
             }
         }
     }
-    .nosotros__wrap {
-        display: block;
-        margin-top: -4px;
-    }
-    .nosotros__certificado__container{
+    .nosotros__certificado__container {
         border-top: 1px solid #000;
         background-color: #fff;
         padding: 15px 0;
     }
-    .nosotros__certificado{
+    .nosotros__certificado {
         background-color: #fff;
         border: 1px solid #a3a3a3;
         border-radius: 8px;
         margin-top: 10px;
         padding: 10px;
-        h3{
+        h3 {
             margin: 8px 0;
         }
-        p{
+        p {
             margin: 10px 0;
         }
-        li{
+        li {
             list-style: none;
             display: block;
             margin: 8px 0;
-            span{
+            span {
                 color: #000;
                 font-weight: bold;
             }
@@ -80,14 +81,24 @@
 
 @media (min-width: 768px) {
     .nosotros {
-        .nosotros__wrap {
-            display: flex;
-            // flex-direction: row;
-            .nosotros__izq {
-                width: 50%;
-            }
-            .nosotros__der {
-                width: 50%;
+        .nosotros__container {
+            .nosotros__wrap {
+                display: flex !important;
+                margin: 20px auto;
+                .container__img {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                }
+                .nosotros__sobre {
+                    flex-basis: 0;
+                    flex-grow: 1;
+                    margin-left: 20px;
+                }
+                .nosotros__vismis {
+                    margin-right: 20px;
+                    flex-basis: 0;
+                    flex-grow: 1;
+                }
             }
         }
     }
