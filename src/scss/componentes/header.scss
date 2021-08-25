@@ -178,7 +178,7 @@ $altoLiBuscador: 65px;
 .menu {
     height: 100vh;
     position: absolute;
-    top: -6px;
+    // top: -6px;
     width: 50%;
     right: 100%;
     text-align: center;
@@ -291,6 +291,7 @@ $altoLiBuscador: 65px;
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            box-shadow: 0 0 0px #818181;
         }
 
         .toggle__container {
@@ -322,7 +323,7 @@ $altoLiBuscador: 65px;
             a {
                 color: #818284;
                 margin-left: 60px;
-                font-size: 0.8em;
+                font-size: 0.9em;
                 font-weight: 600;
                 text-shadow: initial;
                 text-transform: uppercase;
@@ -435,9 +436,11 @@ $altoLiBuscador: 65px;
         }
         .menu__raro__item:nth-child(2):hover div:nth-child(2) {
             display: block;
+            top: 50px;
         }
         .menu__raro__item:nth-child(3):hover div:nth-child(2) {
             display: block;
+            top: 100px;
         }
     }
 

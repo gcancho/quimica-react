@@ -6,7 +6,7 @@ $colorTexto: #818284;
     width: 95%;
 }
 .contacto__principal {
-    display: flex;
+    display: block;
     padding: 10px 0;
 }
 
@@ -29,6 +29,10 @@ $colorTexto: #818284;
         text-align: left;
         color: $color1;
         text-transform: uppercase;
+        &:nth-of-type(2){
+            margin: 10px 0;
+            color: $colorTexto;
+        }
         svg {
             margin-right: 5px;
         }
@@ -57,31 +61,111 @@ $colorTexto: #818284;
         font-weight: 600;
         font-size: 1.1em;
     }
+    .contacto__redes {
+        padding: 6px 0;
+        display: flex;
+        justify-content: start;
+        a {
+            color: $color1;
+            margin-right: 18px;
+            svg {
+                font-size: 25px;
+            }
+        }
+    }
 }
 
 .contacto__consultas {
+    padding: 20px 0;
+    > p {
+        padding: 20px 0;
+        text-align: justify;
+    }
+    p {
+        font-family: "Segoe Pro regular";
+        color: $colorTexto;
+        margin: 5px 0;
+    }
+    .contacto__consultas__item {
+        padding: 40px 0;
+        border-top: 1px solid $colorTexto;
+        color: $color1;
+        .container__consulta__boton {
+            text-align: end;
+            padding: 20px 0;
+            a {
+                padding: 8px 5px;
+                cursor: pointer;
+                span {
+                    color: $color1;
+                }
+                svg {
+                    margin-left: 8px;
+                    color: $color1;
+                }
+            }
+        }
+    }
 }
 
 @media (min-width: 768px) {
+    body{
+        font-size: 18px !important;
+    }
+    .contacto__principal {
+        display: flex;
+        padding: 20px 0;
+    }
     .contacto__info {
         flex-basis: 0;
         flex-grow: 2;
+        padding: 30px 15px;
         h2 {
-            font-size: 1.8em;
+            font-size: 1.6em;
         }
         h3 {
+            margin-top: 30px;
             font-size: 1.2em;
+                &:nth-of-type(2){
+                    margin: 30px 0;
+                }
         }
         p {
             font-size: 1em;
+            &:nth-of-type(1) {
+                margin-top: 35px;
+            }
+            &:nth-of-type(2) {
+                margin-top: 35px;
+            }
+            &:nth-of-type(4) {
+                margin-top: 35px;
+            }
+            &:nth-of-type(5) {
+                margin-top: 30px;
+            }
+            &:nth-of-type(6) {
+                margin-top: 10px;
+            }
         }
         h5 {
+            margin-top: 30px;
             font-size: 1.1em;
         }
     }
-
+    .contacto__redes{
+        a{
+            svg{
+                font-size: 30px;
+            }
+        }
+    }
     .contacto__consultas {
         flex-basis: 0;
         flex-grow: 4;
+        padding: 8px 24px;
+        .contacto__consultas__item {
+            padding: 20px 0;
+        }
     }
 }
