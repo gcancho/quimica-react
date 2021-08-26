@@ -141,10 +141,13 @@ const App = () => {
   const nombreCategoria2 = "Disolventes y uso industrial";
   const nombreCategoria3 = "Línea Automotriz";
 
+  // 9 productos
   const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
-    'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
+    'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
+  // 8 productos
   const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
     'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+  // 7 productos
   const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
     'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
 
