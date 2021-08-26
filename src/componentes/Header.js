@@ -10,14 +10,14 @@ import { useState } from 'react';
 
 import Imagenes from './Imagenes';
 
-const Header = ({nombreCategoria1,nombreCategoria2,nombreCategoria3}) => {    
+const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresProductosCategoria1, nombresProductosCategoria2, nombresProductosCategoria3 }) => {
 
-    const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
-        'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
-    const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
-        'Alcohol isopropilico','Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
-    const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
-        'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
+    // const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
+    //     'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
+    // const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
+    //     'Alcohol isopropilico','Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+    // const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
+    //     'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
 
 
     const [hola, cambiarMenu] = useState(true);

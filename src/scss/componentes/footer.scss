@@ -69,7 +69,6 @@ label {
 @media (min-width: 768px) {
     .footer {
         margin-top: 50px;
-        font-size: 0.8em;
         .footer__block {
             display: flex;
             .footer__item {
@@ -93,6 +92,7 @@ label {
                 span {
                     text-align: center;
                     line-height: 22px;
+                    font-size: 0.8em;
                     svg{
                         color: $colorIconosFooter;
                     }

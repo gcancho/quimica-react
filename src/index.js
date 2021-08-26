@@ -140,6 +140,14 @@ const App = () => {
   const nombreCategoria1 = "Limpieza y desinfección";
   const nombreCategoria2 = "Disolventes y uso industrial";
   const nombreCategoria3 = "Línea Automotriz";
+
+  const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
+    'Ácido el fuerte', 'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
+  const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
+    'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+  const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
+    'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
+
   const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
 
   return (
@@ -151,15 +159,17 @@ const App = () => {
       <ScrollToTop />
       <Route path="/" exact={true}>
 
-        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <Banner />
         <Servicios />
         <Footer />
-        <Whatsapp rutaWsp={rutaWsp}/>
+        <Whatsapp rutaWsp={rutaWsp} />
       </Route>
       <Route path="/Nosotros">
 
-        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <Nosotros />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
@@ -167,19 +177,22 @@ const App = () => {
       </Route>
       <Route path="/Productos">
 
-        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
 
         {/* <Productos /> */}
-        <Productos2 nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+        <Productos2 nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
       <Route path="/Contacto">
 
-        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3} />
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
 
-        <ContactoPrincipal rutaWsp={rutaWsp}/>
+        <ContactoPrincipal rutaWsp={rutaWsp} />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
 

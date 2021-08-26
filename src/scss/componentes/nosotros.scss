@@ -7,7 +7,19 @@
     color: $color10;
     h3 {
         color: $color10;
-        margin: 6px 0;
+        margin-top: 6px;
+        margin-bottom: 30px;
+        text-align: left;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            display: block;
+            bottom: -6px;
+            background-color: $color1;
+            height: 2px;
+            width: 60px;
+        }
     }
     .nosotros__container {
         h2 {
@@ -17,11 +29,13 @@
             text-transform: uppercase;
         }
         > p {
+            text-transform: uppercase;
             margin-top: 8px;
             margin-bottom: 10px;
             color: $color10;
             font-family: $fuente3;
             text-align: center;
+            font-size: 0.8em;
         }
         .nosotros__wrap {
             display: block;
@@ -34,24 +48,27 @@
             }
             .nosotros__sobre {
                 > p {
+                    font-size: 0.8em;
                     margin: 8px 0;
                     text-align: justify;
+                    font-size: 0.8em;
                 }
             }
             .nosotros__vismis {
                 > p {
                     text-align: justify;
+                    font-size: 0.8em;
                 }
                 ul {
                     li {
                         margin: 6px 0;
+                        font-size: 0.8em;
                     }
                 }
             }
         }
     }
     .nosotros__certificado__container {
-        border-top: 1px solid #000;
         background-color: #fff;
         padding: 15px 0;
     }
@@ -63,17 +80,33 @@
         padding: 10px;
         h3 {
             margin: 8px 0;
+            text-align: center;
+            color: $color1;
+            &::after{
+                display: none;
+            }
         }
         p {
             margin: 10px 0;
+            font-size: 0.8em;
         }
         li {
             list-style: none;
             display: block;
             margin: 8px 0;
+            font-size: 0.8em;
             span {
-                color: #000;
+                color: $color10;
                 font-weight: bold;
+            }
+        }
+    }
+    .nosotros__tienda{
+        h3{
+            text-align: center;
+            color: $color1;
+            &::after{
+                display: none;
             }
         }
     }

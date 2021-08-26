@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactoConsultas from './ContactoConsultas';
 import ContactoInfo from './ContactoInfo';
-import Formulario from './Fomulario';
 
 const ContactoPrincipal = ({rutaWsp}) => {
     return (

@@ -1,0 +1,65 @@
+@import "./variables.scss";
+
+$altoLi : 40px;
+
+.productos2 {
+    .productos2__categorias {
+        .lista {
+            width: 300px;
+            display: block;
+            background: $color5;
+            color: #fff;
+            .categoria {
+                cursor: pointer;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 8px 10px;
+                height: 50px;
+                span {
+                    color: #fff;
+                }
+            }
+            .contenido {
+                transition: all 1s;
+                padding: 0 10px;
+                height: 0;
+                background-color: #fff;
+                color: #000;
+                overflow-y: hidden;
+                &.active1 {
+                    padding: 0 10px;
+                    transition: all 1s;
+                    display: block;
+                    height: $altoLi*10;
+                }
+                &.active2 {
+                    padding: 0 10px;
+                    transition: all 1s;
+                    display: block;
+                    height: $altoLi*8;
+                }
+                &.active3 {
+                    padding: 0 10px;
+                    transition: all 1s;
+                    display: block;
+                    height: $altoLi*7;
+                }
+                li {
+                    padding: 8px 0px;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    height: $altoLi;
+                    input {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    label{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
