@@ -35,7 +35,7 @@ $altoLi: 40px;
                     padding: 0 10px;
                     transition: all 1s;
                     display: block;
-                    height: $altoLi * 10;
+                    height: $altoLi * 9;
                 }
                 &.active2 {
                     padding: 0 10px;
@@ -115,6 +115,7 @@ $altoLi: 40px;
             p {
                 text-align: center;
                 margin: 8px 0;
+                color: #000;
             }
         }
     }

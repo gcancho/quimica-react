@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import Imagenes from './Imagenes';
 
+import { Link } from 'react-router-dom';
+
 const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresProductosCategoria1, nombresProductosCategoria2, nombresProductosCategoria3 }) => {
 
     const mostrarItems1 = () => {
@@ -80,6 +82,27 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
+    const mostrarProductos10 = () => {
+        document.getElementById('producto10').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos11 = () => {
+        document.getElementById('producto11').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos12 = () => {
+        document.getElementById('producto12').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
 
     // const validarMarcado = () => {
     //     let inputs = document.getElementsByTagName('input');
@@ -101,7 +124,7 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                 <article className="productos2__categorias">
                     <a className="lista">
                         <div className="categoria" onClick={mostrarItems1}><span>{nombreCategoria1}</span><FontAwesomeIcon icon={faChevronDown} /></div>
-                        <ul className="contenido" id="contenido-1">
+                        <ul className="contenido active1" id="contenido-1">
                             <li><input type="checkbox" onClick={mostrarProductos1} /><label>{nombresProductosCategoria1[0]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos2} /><label>{nombresProductosCategoria1[1]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos3} /><label>{nombresProductosCategoria1[2]}</label></li>
@@ -116,7 +139,14 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                     <a className="lista">
                         <div className="categoria" onClick={mostrarItems2}><span>{nombreCategoria2}</span><FontAwesomeIcon icon={faChevronDown} /></div>
                         <ul className="contenido" id="contenido-2">
-                            {nombresProductosCategoria2.map((n2, index) => <li><input type="checkbox" /><label key={index}>{n2}</label></li>)}
+                            <li><input type="checkbox" onClick={mostrarProductos10} /><label>{nombresProductosCategoria2[0]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos11} /><label>{nombresProductosCategoria2[1]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos12} /><label>{nombresProductosCategoria2[2]}</label></li>
+                            {/* <li><input type="checkbox" onClick={mostrarProductos13} /><label>{nombresProductosCategoria2[3]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos14} /><label>{nombresProductosCategoria2[4]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos15} /><label>{nombresProductosCategoria2[5]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos16} /><label>{nombresProductosCategoria2[6]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos17} /><label>{nombresProductosCategoria2[7]}</label></li> */}
                         </ul>
                     </a>
                     <a className="lista">
@@ -127,14 +157,15 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                     </a>
                 </article>
                 <article className="productos2__productos">
-                    <div className="producto" id="producto1">
+                    {/* PRODUCTOS CATEGORIA 1 */}
+                    <Link to="/Prueba1" className="producto" id="producto1">
                         <img src={Imagenes.imgJabonLiquido1} />
                         <p>{nombresProductosCategoria1[0]}</p>
-                    </div>
-                    <div className="producto" id="producto2">
+                    </Link>
+                    <Link to="/Prueba2" className="producto" id="producto2">
                         <img src={Imagenes.imgJabonLiquido1} />
                         <p>{nombresProductosCategoria1[1]}</p>
-                    </div>
+                    </Link>
                     <div className="producto" id="producto3">
                         <img src={Imagenes.imgJabonLiquido1} />
                         <p>{nombresProductosCategoria1[2]}</p>
@@ -163,7 +194,49 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                         <img src={Imagenes.imgJabonLiquido1} />
                         <p>{nombresProductosCategoria1[8]}</p>
                     </div>
-                    
+                    {/* ----------------------------------- */}
+
+                    {/* PRODUCTOS CATEGORIA 2 */}
+                    <div className="producto" id="producto10">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[0]}</p>
+                    </div>
+                    <div className="producto" id="producto11">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[1]}</p>
+                    </div>
+                    <div className="producto" id="producto12">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[2]}</p>
+                    </div>
+                    <div className="producto" id="producto13">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[3]}</p>
+                    </div>
+                    <div className="producto" id="producto14">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[4]}</p>
+                    </div>
+                    <div className="producto" id="producto15">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[5]}</p>
+                    </div>
+                    <div className="producto" id="producto16">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[6]}</p>
+                    </div>
+                    <div className="producto" id="producto17">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[7]}</p>
+                    </div>
+                    <div className="producto" id="producto18">
+                        <img src={Imagenes.imgJabonLiquido1} />
+                        <p>{nombresProductosCategoria2[8]}</p>
+                    </div>
+                    {/* ----------------------------------- */}
+
+
+
                     <div className="producto default" id="producto-default1">
                         <img src={Imagenes.imgJabonLiquido2} />
                         <p>Producto Default</p>

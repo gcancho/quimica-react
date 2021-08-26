@@ -200,6 +200,14 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
+      <Route path="/Prueba1">
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <Footer />
+      </Route>
+      <Route path="/Prueba2">
+        <h2>Vista de Prueba2</h2>
+      </Route>
       <Route path="/Limpia-vidrios">
 
         <Header />
