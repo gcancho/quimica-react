@@ -123,7 +123,8 @@ import imgPino2 from './imagenes/Desinfectantes/pino/DSC_706954.jpg';
 import imgAlcoholIso1 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
 import imgAlcoholIso2 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701840.jpg';
 
-
+import watchImg300 from './imagenes/imagenPruebaPequena.jpg';
+import watchImg1200 from './imagenes/imagenPruebaGrande.jpg';
 
 import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData26, SliderData27, SliderData28, SliderData29, SliderData30, SliderData31, SliderData32, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
@@ -133,6 +134,7 @@ import ScrollToTop from './componentes/ScrollToTop';
 import ContactoPrincipal from './componentes/ContactoPrincipal';
 import Productos2 from './componentes/Productos2';
 
+import ReactImageMagnify from 'react-image-magnify';
 
 
 const App = () => {
@@ -206,7 +208,23 @@ const App = () => {
         <Footer />
       </Route>
       <Route path="/Prueba2">
-        <h2>Vista de Prueba2</h2>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <div style={{ width: '342px', height: '513px' }}>
+          <ReactImageMagnify {...{
+            smallImage: {
+              alt: 'Wristwatch by Ted Baker London',
+              isFluidWidth: true,
+              src: watchImg300
+            },
+            largeImage: {
+              src: watchImg1200,
+              width: 1200,
+              height: 1800
+            }
+          }} />
+        </div>
+        <Footer />
       </Route>
       <Route path="/Limpia-vidrios">
 

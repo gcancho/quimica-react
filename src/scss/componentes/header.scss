@@ -5,7 +5,7 @@ $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
 $altoLiBuscador: 65px;
 
-@import './variables.scss';
+@import "./variables.scss";
 
 .ctn-bars-search {
     position: relative;
@@ -51,7 +51,7 @@ $altoLiBuscador: 65px;
     display: block;
     width: 100%;
     // Barra
-    .header__barra__arriba{
+    .header__barra__arriba {
         display: none;
         padding: 8px 0;
         color: #fff;
@@ -142,7 +142,7 @@ $altoLiBuscador: 65px;
                     }
                     > p {
                         color: $color1;
-                        font-weight: 600;   
+                        font-weight: 600;
                     }
                 }
             }
@@ -152,9 +152,9 @@ $altoLiBuscador: 65px;
     .header__abajo {
         display: flex;
         align-items: center;
-        background: #fff;
+        background: linear-gradient(135deg, #023194 0%, #0096e1 100%);
         box-shadow: 0 0 1px rgb(129, 129, 129);
-        height: 50px;
+        height: 56px;
     }
 }
 .logo__container {
@@ -252,7 +252,7 @@ $altoLiBuscador: 65px;
         display: none !important;
     }
     .header {
-        .header__barra__arriba{
+        .header__barra__arriba {
             display: block;
         }
         .header__arriba {
@@ -345,13 +345,14 @@ $altoLiBuscador: 65px;
         /*Componente menu__categorias (pienso que asi se leeria mejor el codigo css*/
         .menu__categorias {
             position: relative;
+            z-index: 20;
             display: flex;
             cursor: pointer;
             width: 280px;
             background-color: $color1;
             .menu__categorias__icono {
                 padding: 8px 12px;
-                background-color: #0402F6;
+                background-color: #0402f6;
                 svg {
                     color: #fff;
                     font-size: 35px;
@@ -363,7 +364,7 @@ $altoLiBuscador: 65px;
                 align-items: center;
                 width: inherit;
                 padding: 8px 12px;
-                background-color: #0402F6;
+                background-color: #0402f6;
                 label {
                     font-weight: 600;
                 }
