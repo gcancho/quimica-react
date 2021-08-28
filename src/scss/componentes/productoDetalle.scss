@@ -23,6 +23,10 @@
         .right-arrow {
             right: 0;
         }
+        .slide.active{
+            position: absolute;
+            top: 0;
+        }
     }
 }
 

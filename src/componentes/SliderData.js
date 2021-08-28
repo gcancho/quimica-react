@@ -111,6 +111,8 @@ import imgPino2 from './../imagenes/Desinfectantes/pino/DSC_706954.jpg';
 import imgAlcoholIso1 from './../imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
 import imgAlcoholIso2 from './../imagenes/Desinfectantes/alcohol-isopropilico/DSC_701840.jpg';
 
+import Imagenes from './Imagenes';
+
 export const SliderData1 = [
   {
     image:
@@ -197,11 +199,11 @@ export const SliderData5 = [
 export const SliderData6 = [
   {
     image:
-      imgAguarras1
+      Imagenes.aguarras1
   },
   {
     image:
-      imgAguarras2
+      Imagenes.aguarras2
   },
 ];
 

@@ -135,6 +135,7 @@ import ContactoPrincipal from './componentes/ContactoPrincipal';
 import Productos2 from './componentes/Productos2';
 
 import ReactImageMagnify from 'react-image-magnify';
+import Imagenes from './componentes/Imagenes';
 
 
 const App = () => {
@@ -146,9 +147,9 @@ const App = () => {
   // 9 productos
   const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
     'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
-  // 8 productos
-  const nombresProductosCategoria2 = ['Bencina', 'Thinner acrílico', 'Alcohol industrial',
-    'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Ron de quemar', 'Preservante de madera', 'Saca óxido']
+  // 9 productos
+  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Bencina', 'Preservante de madera',
+    'Ron de quemar', 'Saca oxido', 'Thinner acrílico']
   // 7 productos
   const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
     'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
@@ -180,7 +181,7 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
-      <Route path="/Productos">
+      <Route path="/Productos" exact={true}>
 
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
@@ -205,12 +206,39 @@ const App = () => {
       <Route path="/Prueba1">
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <div style={{ width: '342px', height: '513px'}}>
+          <ReactImageMagnify {...{
+            smallImage: {
+              alt: 'Wristwatch by Ted Baker London',
+              isFluidWidth: true,
+              src: Imagenes.aguarras1
+            },
+            largeImage: {
+              src: Imagenes.aguarras1,
+              width: 1200,
+              height: 1800
+            }
+          }} />
+          <div style={{ display: 'inline-block' }}>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+        </div>
         <Footer />
       </Route>
-      <Route path="/Prueba2">
+      <Route path="/Productos/Aguarras" exact={true}>
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <div style={{ width: '342px', height: '513px' }}>
+
+        <ProductoDetalle tituloProductoDetalle="Aguarras"
+          imagenesSecundarias={[imgAguarras1, imgAguarras2]}
+          hola={SliderData6}
+          tipoProducto="Disolventes"
+          presentaciones="Galón, Litro, Medio litro, Bidón"
+          usos={['Dilución y limpieza de pinturas sintéticas.']}
+          urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
+          urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+        {/* <div style={{ width: '342px', height: '513px' }}>
           <ReactImageMagnify {...{
             smallImage: {
               alt: 'Wristwatch by Ted Baker London',
@@ -223,7 +251,7 @@ const App = () => {
               height: 1800
             }
           }} />
-        </div>
+        </div> */}
         <Footer />
       </Route>
       <Route path="/Limpia-vidrios">

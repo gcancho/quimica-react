@@ -63,19 +63,15 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                         <input type="text" className="input-search" id="inputSearch" placeholder="¿Qué desea buscar?" onKeyUp={buscador_interno} />
                         <FontAwesomeIcon icon={faSearch} />
                         <ul className="box-search" id="box-search">
-                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera1} width="40px" />Preservante de madera</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgPreservanteMadera2} width="40px" />Preservante de madera 2</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido1} width="40px" />Jabon liquido 1</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i><img src={Imagenes.imgJabonLiquido2} width="40px" />Jabon liquido 2</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>CSS</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>JavaScript</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>PHP</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>NODEJS</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>VUEJS</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como hacer</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>Como crear</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>Cloro</a></li>
-                            <li><a href="articulo.html"><i class="fas fa-search"></i>Limpia Vidrios</a></li>
+                            <li><Link to="/Productos/Aguarras" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguarras1} />{nombresProductosCategoria2[0]}</Link></li>
+                            <li><Link to="/Productos/Alcohol-industrial" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholInd1} />{nombresProductosCategoria2[1]}</Link></li>
+                            <li><Link to="/Productos/Alcohol-isopropilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIso1} />{nombresProductosCategoria2[2]}</Link></li>
+                            <li><Link to="/Productos/Alcohol-isopropilico-70" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIsoSeven1} />{nombresProductosCategoria2[3]}</Link></li>
+                            <li><Link to="/Productos/Bencina" exact={true}><i class="fas fa-search"></i><img src={Imagenes.bencina1} />{nombresProductosCategoria2[4]}</Link></li>
+                            <li><Link to="/Productos/Preservante" exact={true}><i class="fas fa-search"></i><img src={Imagenes.preservante1} />{nombresProductosCategoria2[5]}</Link></li>
+                            <li><Link to="/Productos/Ron" exact={true}><i class="fas fa-search"></i><img src={Imagenes.ron1} />{nombresProductosCategoria2[6]}</Link></li>
+                            <li><Link to="/Productos/Saca-oxido" exact={true}><i class="fas fa-search"></i><img src={Imagenes.sacaOxido1} />{nombresProductosCategoria2[7]}</Link></li>
+                            <li><Link to="/Productos/Thinner" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinner1} />{nombresProductosCategoria2[8]}</Link></li>
                         </ul>
                     </div>
 

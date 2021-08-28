@@ -3,7 +3,8 @@ $colorMenu: rgba(12, 34, 70, 0.5);
 $altoHeader: 70px;
 $colorTextoHeader: #818284;
 $colorBordesCajas: #e8e8e8;
-$altoLiBuscador: 65px;
+$altoLiBuscador: 120px;
+$altoBuscador: 58px;
 
 @import "./variables.scss";
 
@@ -40,6 +41,7 @@ $altoLiBuscador: 65px;
             font-size: 0.85em;
             img {
                 margin-right: 5px;
+                width: 60px;
             }
         }
     }
@@ -82,7 +84,7 @@ $altoLiBuscador: 65px;
                 flex-basis: 0;
                 flex-grow: 4;
                 margin-right: 4px;
-                height: 58px;
+                height: $altoBuscador;
                 border: 1px solid $colorBordesCajas;
                 border-radius: 4px;
                 padding: 8px;
@@ -90,6 +92,7 @@ $altoLiBuscador: 65px;
                     width: 100%;
                     border: none;
                     font-size: 0.9em;
+                    height: $altoBuscador - 2px;
                     &:focus {
                         // Al hacer focus no tendrá el borde alrededor por defecto que tenia
                         outline: none;
@@ -511,3 +514,33 @@ $altoLiBuscador: 65px;
 //         }
 //     }
 // }
+
+.slide.active {
+    div div {
+        &:last-child {
+            // position: absolute;
+            // top: 0px;
+            // left: 100%;
+            // margin-left: 10px;
+            // border: 1px solid rgb(214, 214, 214);
+            // width: 342px;
+            // height: 513px;
+            // opacity: 1;
+            // transition: opacity 300ms ease-in 0s;
+            // pointer-events: none;
+            background-color: #fff;
+        }
+    }
+}
+
+// overflow: hidden;
+//     position: absolute;
+//     top: 0px;
+//     left: 100%;
+//     margin-left: 10px;
+//     border: 1px solid rgb(214, 214, 214);
+//     width: 342px;
+//     height: 513px;
+//     opacity: 1;
+//     transition: opacity 300ms ease-in 0s;
+//     pointer-events: none;

@@ -33,7 +33,7 @@ import preservante3 from './../imagenes/Categoria2/Preservante-para-madera/mader
 import ron1 from './../imagenes/Categoria2/Ron-de-quemar/ron1.png';
 import ron2 from './../imagenes/Categoria2/Ron-de-quemar/ron2.png';
 import ron3 from './../imagenes/Categoria2/Ron-de-quemar/ron3.png';
-import ron4 from './../imagenes/Categoria2/Ron-de-quemar/ron4.png';
+import ron4 from './../imagenes/Categoria2/Ron-de-quemar/ron4.jpg';
 import sacaOxido1 from './../imagenes/Categoria2/Saca-Oxido/oxido1.png';
 import sacaOxido2 from './../imagenes/Categoria2/Saca-Oxido/oxido2.png';
 import thinner1 from './../imagenes/Categoria2/Thinner-Acrilico/thinner1.png';
