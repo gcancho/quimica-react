@@ -206,7 +206,7 @@ const App = () => {
       <Route path="/Prueba1">
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <div style={{ width: '342px', height: '513px'}}>
+        <div style={{ width: '342px', height: '513px' }}>
           <ReactImageMagnify {...{
             smallImage: {
               alt: 'Wristwatch by Ted Baker London',
@@ -216,7 +216,7 @@ const App = () => {
             largeImage: {
               src: Imagenes.aguarras1,
               width: 1200,
-              height: 1800
+              height: 1800,
             }
           }} />
           <div style={{ display: 'inline-block' }}>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
@@ -252,7 +252,6 @@ const App = () => {
             }
           }} />
         </div> */}
-        <Footer />
       </Route>
       <Route path="/Limpia-vidrios">
 

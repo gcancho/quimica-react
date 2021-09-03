@@ -44,7 +44,7 @@ const ImageSlider = ({ slides, tipoSlide }) => {
                   <img src={slide.image} alt='travel image' className='image' />
                 )}
               </div> */}
-              <div className="libreria" style={{ width: '342px', height: '513px' }} className={index === current ? 'slide active' : 'slide'} key={index}>
+              <div className="libreria" style={{ width: '480px', height: '720px' }} className={index === current ? 'slide active' : 'slide'} key={index}>
                 {index === current && (
                   <ReactImageMagnify {...{
 

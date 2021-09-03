@@ -1,0 +1,27 @@
+.slide.active {
+    div {
+        // background-color: red;
+        &:hover{
+
+            div {
+                &:last-child {
+                    background-color: #fff;
+                    // overflow: hidden;
+                    // position: absolute;
+                    // top: 0px;
+                    // left: 100%;
+                    // margin-left: 10px;
+                    // width: 342px;
+                    // height: 513px;
+                    // opacity: 1;
+                    // transition: opacity 300ms ease-in 0s;
+                    // pointer-events: none;
+                }
+            }
+        }
+    }
+}
+
+.enlargedImageClassName {
+    background-color: yellow !important;
+}
