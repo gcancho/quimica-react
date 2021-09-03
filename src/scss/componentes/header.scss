@@ -92,7 +92,7 @@ $altoBuscador: 58px;
                     width: 100%;
                     border: none;
                     font-size: 0.9em;
-                    height: $altoBuscador - 2px;
+                    height: $altoBuscador - 3px;
                     &:focus {
                         // Al hacer focus no tendrá el borde alrededor por defecto que tenia
                         outline: none;

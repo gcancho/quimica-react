@@ -160,6 +160,9 @@ const App = () => {
   const rutaAguarrasPdf2 = "https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing";
   const rutaAlcoholIndustrialPdf1 = "https://drive.google.com/file/d/1cnO2VOAAtw_mP93N0-xk1aH4AKvge_3V/view?usp=sharing";
   const rutaAlcoholIndustrialPdf2 = "https://drive.google.com/file/d/10g3s_OkQ5AiwP39h24Gxy4rZdawcLubY/view?usp=sharing";
+  const rutaAlcoholIsopropiplicoPdf1 = "https://drive.google.com/file/d/1xeme2x7vJTl8Jnno_pH-leWlf8II9zEu/view?usp=sharing";
+  const rutaAlcoholIsopropiplicoPdf2 = "https://drive.google.com/file/d/1qf1an1k5XfUOjcjTDcJhUQoWDIBfnkUR/view?usp=sharing";
+  const rutaAlcoholIsopropiplicoPdf3 = "https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing";
 
   return (
 
@@ -261,6 +264,24 @@ const App = () => {
           usos={['De gran aplicación en muchos sectores industriales y otras aplicaciones químicas.']}
           urlPdf={rutaAlcoholIndustrialPdf1}
           urlPdf2={rutaAlcoholIndustrialPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Alcohol-isopropilico" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico"
+          imagenesSecundarias={[Imagenes.alcoholIso1, Imagenes.alcoholIso2, Imagenes.alcoholIso3, Imagenes.alcoholIso]}
+          // hola={SliderData11}
+          tipoProducto="Disolventes y uso industrial"
+          presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
+          usos={['Humedezca un paño limpio con Alcohol Isopropílico Multiusos, luego aplique sobre la superficie a tratar.',
+            'Frote y deje secar.']}
+          urlPdf={rutaAlcoholIsopropiplicoPdf1}
+          urlPdf2={rutaAlcoholIsopropiplicoPdf2}
+          urlPdf3={rutaAlcoholIsopropiplicoPdf3}
         />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
