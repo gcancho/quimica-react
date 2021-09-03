@@ -148,13 +148,18 @@ const App = () => {
   const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
     'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
   // 9 productos
-  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Bencina', 'Preservante de madera',
+  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Bencina', 'Preservante para madera',
     'Ron de quemar', 'Saca oxido', 'Thinner acrílico']
-  // 7 productos
+  // 5 productos
   const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
-    'Agua para radiador', 'Thinner automotriz', 'Shampoo para auto', 'Vaselina líquida']
+    'Agua para baterias', 'Limpia Vidrios']
 
   const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
+
+  const rutaAguarrasPdf1 = "https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing";
+  const rutaAguarrasPdf2 = "https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing";
+  const rutaAlcoholIndustrialPdf1 = "https://drive.google.com/file/d/1cnO2VOAAtw_mP93N0-xk1aH4AKvge_3V/view?usp=sharing";
+  const rutaAlcoholIndustrialPdf2 = "https://drive.google.com/file/d/10g3s_OkQ5AiwP39h24Gxy4rZdawcLubY/view?usp=sharing";
 
   return (
 
@@ -203,7 +208,7 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
-      <Route path="/Prueba1">
+      {/* <Route path="/Prueba1">
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <div style={{ width: '342px', height: '513px' }}>
@@ -222,56 +227,48 @@ const App = () => {
           <div style={{ display: 'inline-block' }}>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
         </div>
         <Footer />
-      </Route>
+      </Route> */}
+
+
+
+      {/* Categoria 2 */}
+
       <Route path="/Productos/Aguarras" exact={true}>
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
 
         <ProductoDetalle tituloProductoDetalle="Aguarras"
-          imagenesSecundarias={[imgAguarras1, imgAguarras2]}
-          hola={SliderData6}
-          tipoProducto="Disolventes"
+          imagenesSecundarias={[Imagenes.aguarras1, Imagenes.aguarras2, Imagenes.aguarras3, Imagenes.aguarras4]}
+          hola={SliderData10}
+          tipoProducto="Disolventes y uso industrial"
           presentaciones="Galón, Litro, Medio litro, Bidón"
           usos={['Dilución y limpieza de pinturas sintéticas.']}
-          urlPdf="https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing"
-          urlPdf2="https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing"
+          urlPdf={rutaAguarrasPdf1}
+          urlPdf2={rutaAguarrasPdf2}
         />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
-        {/* <div style={{ width: '342px', height: '513px' }}>
-          <ReactImageMagnify {...{
-            smallImage: {
-              alt: 'Wristwatch by Ted Baker London',
-              isFluidWidth: true,
-              src: watchImg300
-            },
-            largeImage: {
-              src: watchImg1200,
-              width: 1200,
-              height: 1800
-            }
-          }} />
-        </div> */}
       </Route>
-      <Route path="/Limpia-vidrios">
 
-        <Header />
-        <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
-          imagenesSecundarias={[imgLimpiaVidrios1, imgLimpiaVidrios2]}
-          hola={SliderData1}
-          tipoProducto="Limpiadores"
-          presentaciones="Bidón, Galón, Litro"
-          apariencia="Líquido Transparente azulado"
-          usos={['Aplique en forma uniforme con la ayuda de una esponja para paredes o con un trapeador para pisos, y deje secar durante cinco minutos.',
-            'Para los lugares más grasosos aplique directamente.',
-            'Puede ser utilizado en pisos, baños, vidrios y paredes.']}
-          urlPdf="https://drive.google.com/file/d/1IMvEv7gUPjJRbJLp6tEzBeKXkW9BdbeJ/view?usp=sharing"
-          urlPdf2="https://drive.google.com/file/d/1f3HEJd-s9Wc4qioZhTrxmiW2MAp4bgAp/view?usp=sharing"
+      <Route path="/Productos/Alcohol-industrial" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Alcohol industrial"
+          imagenesSecundarias={[Imagenes.alcoholInd1, Imagenes.alcoholInd2, Imagenes.alcoholInd3, Imagenes.alcoholInd4]}
+          hola={SliderData11}
+          tipoProducto="Disolventes y uso industrial"
+          presentaciones="Litro, Medio litro, Galón, Bidón, Cilindro."
+          usos={['De gran aplicación en muchos sectores industriales y otras aplicaciones químicas.']}
+          urlPdf={rutaAlcoholIndustrialPdf1}
+          urlPdf2={rutaAlcoholIndustrialPdf2}
         />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
-
       </Route>
+
+      {/*----- Fin de Categoria 2 ----*/}
+
+
       <Route path="/Ron-de-quemar">
 
         <Header />

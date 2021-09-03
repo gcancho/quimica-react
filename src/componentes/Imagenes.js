@@ -1,5 +1,4 @@
-import preservanteMadera1 from './../imagenes/Abrillantadores/preservante-para-madera/DSC_6888.jpg';
-import preservanteMadera2 from './../imagenes/Abrillantadores/preservante-para-madera/DSC_6949.jpg';
+
 import jabonLiquido1 from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
 import jabonLiquido2 from './../imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
 import imagenPequena from './../imagenes/imagenPruebaPequena.jpg';
@@ -27,9 +26,9 @@ import bencina1 from './../imagenes/Categoria2/Bencina/bencina1.png';
 import bencina2 from './../imagenes/Categoria2/Bencina/bencina2.png';
 import bencina3 from './../imagenes/Categoria2/Bencina/bencina3.png';
 import bencina4 from './../imagenes/Categoria2/Bencina/bencina4.png';
-import preservante1 from './../imagenes/Categoria2/Preservante-para-madera/madera1.png';
-import preservante2 from './../imagenes/Categoria2/Preservante-para-madera/madera2.png';
-import preservante3 from './../imagenes/Categoria2/Preservante-para-madera/madera3.png';
+import preservanteMadera1 from './../imagenes/Categoria2/Preservante-para-madera/madera1.png';
+import preservanteMadera2 from './../imagenes/Categoria2/Preservante-para-madera/madera2.png';
+import preservanteMadera3 from './../imagenes/Categoria2/Preservante-para-madera/madera3.png';
 import ron1 from './../imagenes/Categoria2/Ron-de-quemar/ron1.png';
 import ron2 from './../imagenes/Categoria2/Ron-de-quemar/ron2.png';
 import ron3 from './../imagenes/Categoria2/Ron-de-quemar/ron3.png';
@@ -40,14 +39,30 @@ import thinner1 from './../imagenes/Categoria2/Thinner-Acrilico/thinner1.png';
 import thinner2 from './../imagenes/Categoria2/Thinner-Acrilico/thinner2.png';
 import thinner3 from './../imagenes/Categoria2/Thinner-Acrilico/thinner3.png';
 
+// Imagenes Categoria 3
+import aguaBateria1 from './../imagenes/Categoria3/Agua-para-baterias/agua-bateria1.png';
+import aguaBateria2 from './../imagenes/Categoria3/Agua-para-baterias/agua-bateria2.png';
+import limpiaVidrios1 from './../imagenes/Categoria3/Limpia-vidrios/limpia-vidrios1.png';
+import limpiaVidrios2 from './../imagenes/Categoria3/Limpia-vidrios/limpia-vidrios2.png';
+import limpiaVidrios3 from './../imagenes/Categoria3/Limpia-vidrios/limpia-vidrios3.png';
+import limpiaVidrios4 from './../imagenes/Categoria3/Limpia-vidrios/limpia-vidrios4.png';
+import renovadorLlantas1 from './../imagenes/Categoria3/Renovador-de-llantas/renovador1.png';
+import renovadorLlantas2 from './../imagenes/Categoria3/Renovador-de-llantas/renovador2.png';
+import renovadorLlantas3 from './../imagenes/Categoria3/Renovador-de-llantas/renovador3.png';
+import renovadorLlantas4 from './../imagenes/Categoria3/Renovador-de-llantas/renovador4.png';
+import siliconaCristal1 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal1.png';
+import siliconaCristal2 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal2.png';
+import siliconaCristal3 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal3.png';
+import siliconaTablero1 from './../imagenes/Categoria3/Silicona-para-tablero/tablero1.png'
+import siliconaTablero2 from './../imagenes/Categoria3/Silicona-para-tablero/tablero2.png'
+import siliconaTablero3 from './../imagenes/Categoria3/Silicona-para-tablero/tablero3.png'
 
 export default {
-    'imgPreservanteMadera1': preservanteMadera1,
-    'imgPreservanteMadera2': preservanteMadera2,
-    'imgJabonLiquido1': jabonLiquido1,
-    'imgJabonLiquido2': jabonLiquido2,
-    'imgPequena': imagenPequena,
-    'imgGrande': imagenGrande,
+
+    'JabonLiquido1': jabonLiquido1,
+    'JabonLiquido2': jabonLiquido2,
+    'Pequena': imagenPequena,
+    'Grande': imagenGrande,
 
     'aguarras1': aguarras1,
     'aguarras2': aguarras2,
@@ -70,9 +85,9 @@ export default {
     'bencina2': bencina2,
     'bencina3': bencina3,
     'bencina4': bencina4,
-    'preservante1': preservante1,
-    'preservante2': preservante2,
-    'preservante3': preservante3,
+    'preservanteMadera1': preservanteMadera1,
+    'preservanteMadera2': preservanteMadera2,
+    'preservanteMadera3': preservanteMadera3,
     'ron1': ron1,
     'ron2': ron2,
     'ron3': ron3,
@@ -81,7 +96,26 @@ export default {
     'sacaOxido2': sacaOxido2,
     'thinner1': thinner1,
     'thinner2': thinner2,
-    'thinner3': thinner3
+    'thinner3': thinner3,
+
+    // Categoria 3
+    'aguaBateria1': aguaBateria1,
+    'aguaBateria2': aguaBateria2,
+    'limpiaVidrios1': limpiaVidrios1,
+    'limpiaVidrios2': limpiaVidrios2,
+    'limpiaVidrios3': limpiaVidrios3,
+    'limpiaVidrios4': limpiaVidrios4,
+    'renovadorLlantas1': renovadorLlantas1,
+    'renovadorLlantas2': renovadorLlantas2,
+    'renovadorLlantas3': renovadorLlantas3,
+    'renovadorLlantas4': renovadorLlantas4,
+    'siliconaCristal1': siliconaCristal1,
+    'siliconaCristal2': siliconaCristal2,
+    'siliconaCristal3': siliconaCristal3,
+    'siliconaTablero1': siliconaTablero1,
+    'siliconaTablero2': siliconaTablero2,
+    'siliconaTablero3': siliconaTablero3
+
 }
 
 

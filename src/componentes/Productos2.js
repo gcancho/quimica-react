@@ -103,6 +103,83 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
+    const mostrarProductos13 = () => {
+        document.getElementById('producto13').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos14 = () => {
+        document.getElementById('producto14').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos15 = () => {
+        document.getElementById('producto15').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos16 = () => {
+        document.getElementById('producto16').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos17 = () => {
+        document.getElementById('producto17').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos18 = () => {
+        document.getElementById('producto18').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos19 = () => {
+        document.getElementById('producto19').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos20 = () => {
+        document.getElementById('producto20').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos21 = () => {
+        document.getElementById('producto21').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos22 = () => {
+        document.getElementById('producto22').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos23 = () => {
+        document.getElementById('producto23').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
 
     // const validarMarcado = () => {
     //     let inputs = document.getElementsByTagName('input');
@@ -142,116 +219,149 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                             <li><input type="checkbox" onClick={mostrarProductos10} /><label>{nombresProductosCategoria2[0]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos11} /><label>{nombresProductosCategoria2[1]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos12} /><label>{nombresProductosCategoria2[2]}</label></li>
-                            {/* <li><input type="checkbox" onClick={mostrarProductos13} /><label>{nombresProductosCategoria2[3]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos13} /><label>{nombresProductosCategoria2[3]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos14} /><label>{nombresProductosCategoria2[4]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos15} /><label>{nombresProductosCategoria2[5]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos16} /><label>{nombresProductosCategoria2[6]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos17} /><label>{nombresProductosCategoria2[7]}</label></li> */}
+                            <li><input type="checkbox" onClick={mostrarProductos17} /><label>{nombresProductosCategoria2[7]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos18} /><label>{nombresProductosCategoria2[8]}</label></li>
                         </ul>
                     </a>
                     <a className="lista">
                         <div className="categoria" onClick={mostrarItems3}><span>{nombreCategoria3}</span><FontAwesomeIcon icon={faChevronDown} /></div>
                         <ul className="contenido" id="contenido-3">
-                            {nombresProductosCategoria3.map((n3, index) => <li><input type="checkbox" /><label key={index}>{n3}</label></li>)}
+                            <li><input type="checkbox" onClick={mostrarProductos19} /><label>{nombresProductosCategoria3[0]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos20} /><label>{nombresProductosCategoria3[1]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos21} /><label>{nombresProductosCategoria3[2]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos22} /><label>{nombresProductosCategoria3[3]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos23} /><label>{nombresProductosCategoria3[4]}</label></li>
                         </ul>
                     </a>
                 </article>
                 <article className="productos2__productos">
                     {/* PRODUCTOS CATEGORIA 1 */}
                     <Link to="/Prueba1" className="producto" id="producto1">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[0]}</p>
                     </Link>
                     <Link to="/Prueba2" className="producto" id="producto2">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[1]}</p>
                     </Link>
-                    <div className="producto" id="producto3">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    <Link className="producto" id="producto3">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[2]}</p>
-                    </div>
-                    <div className="producto" id="producto4">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto4">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[3]}</p>
-                    </div>
-                    <div className="producto" id="producto5">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto5">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[4]}</p>
-                    </div>
-                    <div className="producto" id="producto6">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto6">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[5]}</p>
-                    </div>
-                    <div className="producto" id="producto7">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto7">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[6]}</p>
-                    </div>
-                    <div className="producto" id="producto8">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto8">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[7]}</p>
-                    </div>
-                    <div className="producto" id="producto9">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link className="producto" id="producto9">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[8]}</p>
-                    </div>
+                    </Link>
                     {/* ----------------------------------- */}
 
                     {/* PRODUCTOS CATEGORIA 2 */}
-                    <div className="producto" id="producto10">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    <Link to="/Productos/Aguarras" className="producto" id="producto10">
+                        <img src={Imagenes.aguarras1} />
                         <p>{nombresProductosCategoria2[0]}</p>
-                    </div>
-                    <div className="producto" id="producto11">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Alcohol-industrial" className="producto" id="producto11">
+                        <img src={Imagenes.alcoholInd1} />
                         <p>{nombresProductosCategoria2[1]}</p>
-                    </div>
-                    <div className="producto" id="producto12">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Alcohol-isopropilico" className="producto" id="producto12">
+                        <img src={Imagenes.alcoholIso1} />
                         <p>{nombresProductosCategoria2[2]}</p>
-                    </div>
-                    <div className="producto" id="producto13">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Alcohol-isopropilico-70" className="producto" id="producto13">
+                        <img src={Imagenes.alcoholIsoSeven1} />
                         <p>{nombresProductosCategoria2[3]}</p>
-                    </div>
-                    <div className="producto" id="producto14">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Bencina" className="producto" id="producto14">
+                        <img src={Imagenes.bencina1} />
                         <p>{nombresProductosCategoria2[4]}</p>
-                    </div>
-                    <div className="producto" id="producto15">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Preservante-para-madera" className="producto" id="producto15">
+                        <img src={Imagenes.preservanteMadera1} />
                         <p>{nombresProductosCategoria2[5]}</p>
-                    </div>
-                    <div className="producto" id="producto16">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Ron-de-quemar" className="producto" id="producto16">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria2[6]}</p>
-                    </div>
-                    <div className="producto" id="producto17">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Saca-oxido" className="producto" id="producto17">
+                        <img src={Imagenes.sacaOxido1} />
                         <p>{nombresProductosCategoria2[7]}</p>
-                    </div>
-                    <div className="producto" id="producto18">
-                        <img src={Imagenes.imgJabonLiquido1} />
+                    </Link>
+                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto18">
+                        <img src={Imagenes.thinner1} />
                         <p>{nombresProductosCategoria2[8]}</p>
-                    </div>
+                    </Link>
                     {/* ----------------------------------- */}
+
+                    {/* PRODUCTOS CATEGORIA 3 */}
+                    <Link to="/Productos/Renovador-de-llanta" className="producto" id="producto19">
+                        <img src={Imagenes.renovadorLlantas1} />
+                        <p>{nombresProductosCategoria3[0]}</p>
+                    </Link>
+                    <Link to="/Productos/Silicona-para-tablero" className="producto" id="producto20">
+                        <img src={Imagenes.siliconaTablero1} />
+                        <p>{nombresProductosCategoria3[1]}</p>
+                    </Link>
+                    <Link to="/Productos/Silicona-para-cristal" className="producto" id="producto21">
+                        <img src={Imagenes.siliconaCristal1} />
+                        <p>{nombresProductosCategoria3[2]}</p>
+                    </Link>
+                    <Link to="/Productos/Agua-para-baterias" className="producto" id="producto22">
+                        <img src={Imagenes.aguaBateria1} />
+                        <p>{nombresProductosCategoria3[3]}</p>
+                    </Link>
+                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto23">
+                        <img src={Imagenes.limpiaVidrios1} />
+                        <p>{nombresProductosCategoria3[4]}</p>
+                    </Link>
+                    {/* ----------------------------------- */}
+
+
+
+
+
 
 
 
                     <div className="producto default" id="producto-default1">
-                        <img src={Imagenes.imgJabonLiquido2} />
-                        <p>Producto Default</p>
+                        <img src={Imagenes.siliconaCristal1} />
+                        <p>Silicona para cristal</p>
                     </div>
                     <div className="producto default" id="producto-default2">
-                        <img src={Imagenes.imgJabonLiquido2} />
-                        <p>Producto Default</p>
+                        <img src={Imagenes.limpiaVidrios1} />
+                        <p>Limpia vidrios</p>
                     </div>
                     <div className="producto default" id="producto-default3">
-                        <img src={Imagenes.imgJabonLiquido2} />
-                        <p>Producto Default</p>
+                        <img src={Imagenes.sacaOxido1} />
+                        <p>Saca oxido</p>
                     </div>
                     <div className="producto default" id="producto-default4">
-                        <img src={Imagenes.imgJabonLiquido2} />
-                        <p>Producto Default</p>
+                        <img src={Imagenes.renovadorLlantas1} />
+                        <p>Renovador de llanta</p>
                     </div>
                 </article>
 

@@ -205,6 +205,14 @@ export const SliderData6 = [
     image:
       Imagenes.aguarras2
   },
+  {
+    image:
+      Imagenes.aguarras3
+  },
+  {
+    image:
+      Imagenes.aguarras4
+  },
 ];
 
 export const SliderData7 = [
@@ -251,22 +259,38 @@ export const SliderData9 = [
 export const SliderData10 = [
   {
     image:
-      imgAmbientadorBebe1
+      Imagenes.aguarras1
   },
   {
     image:
-      imgAmbientadorBebe2
+      Imagenes.aguarras2
+  },
+  {
+    image:
+      Imagenes.aguarras3
+  },
+  {
+    image:
+      Imagenes.aguarras4
   },
 ];
 
 export const SliderData11 = [
   {
     image:
-      imgAmbientadorLavanda1
+      Imagenes.alcoholInd1
   },
   {
     image:
-      imgAmbientadorLavanda2
+      Imagenes.alcoholInd2
+  },
+  {
+    image:
+      Imagenes.alcoholInd3
+  },
+  {
+    image:
+      Imagenes.alcoholInd4
   },
 ];
 
