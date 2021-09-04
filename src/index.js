@@ -156,6 +156,25 @@ const App = () => {
 
   const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
 
+  const rutaAmbientadoresPdf1 = "https://drive.google.com/file/d/1j5MiMaKOwlVwZw4cU77BV6oEQ8QptzBC/view?usp=sharing";
+  const rutaPinoPdf1 = "https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing";
+  const rutaPinoPdf2 = "https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing";
+  const rutaPinoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
+  const rutaLejiaPdf1 = "https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing";
+  const rutaLejiaPdf2 = "https://drive.google.com/file/d/1TwdUNv8Rv-FqEBAjx2zvWshrFnPiUIiN/view?usp=sharing";
+  const rutaLejiaPdf3 = "https://drive.google.com/file/d/1wen8m27eXo3A_INgVvgSxycz1xvu3H-c/view?usp=sharing";
+  const rutaQuitaSarroPdf1 = "https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing";
+  const rutaQuitaSarroPdf2 = "https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing";
+  const rutaJabonLiquidoPdf1 = "https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing";
+  const rutaJabonLiquidoPdf2 = "https://drive.google.com/file/d/1we2XtF8KO3kN9vdBuZRyUobPhT8Brt9N/view?usp=sharing";
+  const rutaJabonLiquidoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
+  const rutaSacaGrasaPdf1 = "https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing";
+  const rutaSacaGrasaPdf2 = "https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing";
+  const rutaKressoPdf1 = "https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing";
+  const rutaKressoPdf2 = "https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing";
+  const rutaCeraAguaPdf1 = "https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing";
+  const rutaCeraAguaPdf2 = "https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing";
+
   const rutaAguarrasPdf1 = "https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing";
   const rutaAguarrasPdf2 = "https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing";
   const rutaAlcoholIndustrialPdf1 = "https://drive.google.com/file/d/1cnO2VOAAtw_mP93N0-xk1aH4AKvge_3V/view?usp=sharing";
@@ -163,6 +182,26 @@ const App = () => {
   const rutaAlcoholIsopropiplicoPdf1 = "https://drive.google.com/file/d/1xeme2x7vJTl8Jnno_pH-leWlf8II9zEu/view?usp=sharing";
   const rutaAlcoholIsopropiplicoPdf2 = "https://drive.google.com/file/d/1qf1an1k5XfUOjcjTDcJhUQoWDIBfnkUR/view?usp=sharing";
   const rutaAlcoholIsopropiplicoPdf3 = "https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing";
+  const rutaBencinaPdf1 = "https://drive.google.com/file/d/1TgTxi0HnbGUChNjr22N1bpRNCJ8_vv--/view?usp=sharing";
+  const rutaBencinaPdf2 = "https://drive.google.com/file/d/17Nz3Iou1FD95E3zyn39wDrnvvcGqpype/view?usp=sharing";
+  const rutaPreservanteMaderaPdf1 = "https://drive.google.com/file/d/1zPyeeip7H0EHpUzPBH5aWKOEU_fbsrcv/view?usp=sharing";
+  const rutaPreservanteMaderaPdf2 = "https://drive.google.com/file/d/1c-rH6oLcLuD274kW1tb2snXzt8HxXzEY/view?usp=sharing";
+  const rutaRonQuemarPdf1 = "https://drive.google.com/file/d/1nTkfYMM1cVCwCI0iP7Ww13U9T2SwLPfz/view?usp=sharing";
+  const rutaRonQuemarPdf2 = "https://drive.google.com/file/d/179iASaQK2ahA0cSgHQLioHzLUuleufhR/view?usp=sharing";
+  const rutaSacaOxidoPdf1 = "https://drive.google.com/file/d/1iKSHsKhVFw7dEru7nTJh0TF-j2hiR6KU/view?usp=sharing";
+  const rutaSacaOxidoPdf2 = "https://drive.google.com/file/d/10dtIvW8AfKHiiPxh-hjovUNGo6JSMFLR/view?usp=sharing";
+  const rutaThinnerAcrilicoPdf = "https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
+  const rutaThinnerAcrilicoPdf2 = "https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
+
+  const rutaRenovadorLlantaPdf1 = "https://drive.google.com/file/d/17A19IEn4dg2LQQaOeC1s3mdfwWdXuZv3/view?usp=sharing";
+  const rutaRenovadorLlantaPdf2 = "https://drive.google.com/file/d/16y-8kp5THCI-DCkzIS-lc6a6GzwqW8NA/view?usp=sharing";
+  const rutaSiliconaTablerPdf1 = "https://drive.google.com/file/d/1XNdU58v7mEeuNRiRZQl-SyWKYIxlx7bx/view?usp=sharing";
+  const rutaSiliconaTablerPdf2 = "https://drive.google.com/file/d/1OGxG08zs-yDEDpCq0nnymnNC-nMzdQmP/view?usp=sharing";
+  const rutaSiliconaCristalPdf1 = "https://drive.google.com/file/d/1Tkhdjm8uiIDDN_xmc7TLi4FaAq0S_SXI/view?usp=sharing";
+  const rutaSiliconaCristalPdf2 = "https://drive.google.com/file/d/1uknsgyPla7tRqfmWPaMOP8stXCd3bc32/view?usp=sharing";
+  const rutaAguaBateriasPdf1 = "https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing";
+  const rutaAguaBateriasPdf2 = "https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing";
+
 
   return (
 
