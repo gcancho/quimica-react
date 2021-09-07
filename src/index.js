@@ -136,6 +136,8 @@ import Productos2 from './componentes/Productos2';
 
 import ReactImageMagnify from 'react-image-magnify';
 import Imagenes from './componentes/Imagenes';
+import Marcas from './componentes/Marcas';
+import Caracteristicas from './componentes/Caracteristicas';
 
 
 const App = () => {
@@ -216,6 +218,8 @@ const App = () => {
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <Banner />
         <Servicios />
+        <Caracteristicas/>
+        <Marcas/>
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
       </Route>

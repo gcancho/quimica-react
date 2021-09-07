@@ -3,8 +3,8 @@ import { faTruck, faHeadset, faLeaf, faWallet } from '@fortawesome/free-solid-sv
 
 const Servicios = () => {
     return ( 
-        <article className="servicios">
-            <div className="servicios__wrap wrap">
+        <article className="servicios contenedor">
+            <div className="servicios__wrap">
                 <ServiciosCard icono={faTruck} titulo="Envío gratis" descripcion="Por compras mayores a S/300"/>
                 <ServiciosCard icono={faLeaf} titulo="Cuidado ambiental" descripcion="Con aditivos biodegradables"/>
                 <ServiciosCard icono={faHeadset} titulo="Asesoría técnica 360" descripcion="Asesoría para cada cliente"/>

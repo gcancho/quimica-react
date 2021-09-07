@@ -1,5 +1,6 @@
+@import "variables.scss";
+
 .servicios {
-    background-color: #f3f3f3;
     padding: 10px 0;
     .servicios__wrap {
         display: flex;
@@ -9,11 +10,11 @@
             margin: 8px 0;
             padding: 30px;
             text-align: center;
-            box-shadow: 0 0 5px rgb(168, 168, 168);
+            box-shadow: 0 0 4px rgb(168, 168, 168);
             border-radius: $boderRadius;
             .servicios__card__icono {
                 font-size: 30px;
-                color: #3d7a40;
+                color: $color1;
             }
             h3 {
                 margin-top: 15px;
@@ -27,7 +28,7 @@
                 text-transform: capitalize;
                 color: rgb(128, 128, 128);
             }
-            ul{
+            ul {
                 color: gray;
                 margin-top: 5px;
                 // list-style: disc;
@@ -37,13 +38,24 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
     .servicios {
         padding: 20px 0;
         .servicios__wrap {
             flex-direction: row;
+            justify-content: space-between;
             .servicios__card {
                 margin: 0 8px;
+                flex-basis: 0;
+                flex-grow: 1;
+                p {
+                    font-size: 0.8em;
+                }
+                ul {
+                    li {
+                        font-size: 0.8em;
+                    }
+                }
                 .servicios__card__icono {
                     font-size: 40px;
                 }

@@ -1,0 +1,72 @@
+@import 'variables';
+
+.marcas {
+    h2 {
+        text-align: center;
+        font-family: $fuente2;
+        color: $color1;
+    }
+    .marcas__imagenes {
+        text-align: center;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            width: 56px;
+            transition: ease 0.3s;
+            &:hover {
+                transition: ease 0.3s;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+@media (min-width: 380px) {
+    .marcas {
+        // background-color: green;
+        .marcas__imagenes {
+            img {
+                width: 80px;
+            }
+        }
+    }
+}
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 550px) {
+    .marcas {
+        .marcas__imagenes {
+            // background-color: red;
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .marcas {
+        // background-color: blue;
+        .marcas__imagenes {
+            img {
+                width: 120px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .marcas {
+        // background-color: pink;
+        .marcas__imagenes {
+            img {
+                width: 180px;
+            }
+        }
+    }
+}
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

@@ -53,9 +53,20 @@ import renovadorLlantas4 from './../imagenes/Categoria3/Renovador-de-llantas/ren
 import siliconaCristal1 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal1.png';
 import siliconaCristal2 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal2.png';
 import siliconaCristal3 from './../imagenes/Categoria3/Silicona-Cristal/silicona-cristal3.png';
-import siliconaTablero1 from './../imagenes/Categoria3/Silicona-para-tablero/tablero1.png'
-import siliconaTablero2 from './../imagenes/Categoria3/Silicona-para-tablero/tablero2.png'
-import siliconaTablero3 from './../imagenes/Categoria3/Silicona-para-tablero/tablero3.png'
+import siliconaTablero1 from './../imagenes/Categoria3/Silicona-para-tablero/tablero1.png';
+import siliconaTablero2 from './../imagenes/Categoria3/Silicona-para-tablero/tablero2.png';
+import siliconaTablero3 from './../imagenes/Categoria3/Silicona-para-tablero/tablero3.png';
+
+//Marcas
+import marca1 from './../imagenes/Marcas/marca1.jpg';
+import marca2 from './../imagenes/Marcas/marca2.jpg';
+import marca3 from './../imagenes/Marcas/marca3.jpg';
+import marca4 from './../imagenes/Marcas/marca4.jpg';
+import marca5 from './../imagenes/Marcas/marca5.jpg';
+
+//
+import informacionCuadrado1 from './../imagenes/combate-los-germenes.jpg';
+import informacionCuadrado2 from './../imagenes/cuida-lo-que-amas.jpg';
 
 export default {
 
@@ -114,8 +125,18 @@ export default {
     'siliconaCristal3': siliconaCristal3,
     'siliconaTablero1': siliconaTablero1,
     'siliconaTablero2': siliconaTablero2,
-    'siliconaTablero3': siliconaTablero3
+    'siliconaTablero3': siliconaTablero3,
 
+    //Marcas
+    'marca1': marca1,
+    'marca2': marca2,
+    'marca3': marca3,
+    'marca4': marca4,
+    'marca5': marca5,
+
+    //
+    'informacionCuadrado1': informacionCuadrado1,
+    'informacionCuadrado2': informacionCuadrado2
 }
 
 
