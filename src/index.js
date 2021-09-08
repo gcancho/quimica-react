@@ -138,7 +138,9 @@ import ReactImageMagnify from 'react-image-magnify';
 import Imagenes from './componentes/Imagenes';
 import Marcas from './componentes/Marcas';
 import Caracteristicas from './componentes/Caracteristicas';
-
+import { Carousel } from 'reactstrap';
+import Example from './componentes/CarouselContainer';
+import CarouselContainer from './componentes/CarouselContainer';
 
 const App = () => {
   const TITLE = 'Quimica Rodriguez'
@@ -216,7 +218,8 @@ const App = () => {
 
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <Banner />
+        {/* <Banner /> */}
+        <CarouselContainer/>
         <Servicios />
         <Caracteristicas/>
         <Marcas/>

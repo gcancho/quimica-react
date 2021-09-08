@@ -68,6 +68,14 @@ import marca5 from './../imagenes/Marcas/marca5.jpg';
 import informacionCuadrado1 from './../imagenes/combate-los-germenes.jpg';
 import informacionCuadrado2 from './../imagenes/cuida-lo-que-amas.jpg';
 
+//Banner
+
+import banner1 from './../imagenes/Banner/banner-1.jpg';
+import banner2 from './../imagenes/Banner/banner-2.jpg';
+import banner3 from './../imagenes/Banner/banner-3.jpg';
+import banner4 from './../imagenes/Banner/banner-4.jpg';
+import banner5 from './../imagenes/Banner/banner-5.jpg';
+
 export default {
 
     'JabonLiquido1': jabonLiquido1,
@@ -136,7 +144,14 @@ export default {
 
     //
     'informacionCuadrado1': informacionCuadrado1,
-    'informacionCuadrado2': informacionCuadrado2
+    'informacionCuadrado2': informacionCuadrado2,
+
+    //Banner
+    'banner1': banner1,
+    'banner2': banner2,
+    'banner3': banner3,
+    'banner4': banner4,
+    'banner5': banner5
 }
 
 

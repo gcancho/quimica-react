@@ -1,113 +1,139 @@
-    /*----------------- ESTILOS GENERALES  ----------------*/
-    
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Segoe Pro';
-    }
-    .contenedor {
-        margin: 0 auto;
-        max-width: 70em;
-        width: 95%;
-    }
+/*----------------- ESTILOS GENERALES  ----------------*/
 
-    $boderRadius: 6px;
-    
-     :root {
-        --paddingSections: 20px 0;
-        --borderRadius: 6px;
-        --color1: #19778c;
-        --color2: #FF151F;
-        --altoHeader: 60px;
-        --bordeGris: #dbdbdb;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe Pro";
+}
+.contenedor {
+    margin: 0 auto;
+    max-width: 70em;
+    width: 95%;
+}
 
-    $color1: #19778c;
-    
-    html {
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        font-family: 'Oswald', sans-serif;
-    }
-    body.active{
-        background-color: red;
-    }
-    
-    h3 {
-        font-size: 1.5em;
-        text-align: center;
-    }
-    
-    ul {
-        list-style: none;
-    }
-    
-    a {
-        text-decoration: none;
-        color: #fff;
-    }
-    
-    span {
-        color: #19318f;
-    }
-    
-    .line {
-        display: block;
-        height: 1px;
-        background-color: #c8f7f8;
-        display: none;
-    }
-    
-    .boton {
-        display: block;
-        margin: 0 auto;
-        width: 100px;
-        padding: 6px 5px;
-        box-shadow: 2px 2px 5px #000;
-        background-color: var(--color1);
-        border-radius: var(--borderRadius);
-    }
-    
-    .wrap {
-        max-width: 75em;
-        width: 95%;
-        margin: 0 auto;
-    }
-    
-    .wrap--largo {
-        max-width: initial;
-        width: 100%;
-    }
-    
-    .wrap--menu {
-        max-width: initial;
-        width: 100%;
-    }
+$boderRadius: 6px;
 
-    /*------------------- INICIO --------------------*/
+:root {
+    --paddingSections: 20px 0;
+    --borderRadius: 6px;
+    --color1: #19778c;
+    --color2: #ff151f;
+    --altoHeader: 60px;
+    --bordeGris: #dbdbdb;
+}
 
-    @import './componentes/header.scss';
-    @import './componentes/banner.scss';
-    @import './componentes/servicios.scss';
-    @import './componentes/caracteristicas.scss';
+$color1: #19778c;
 
-    @import './componentes/nosotros.scss';
-    @import './componentes/productos2.scss';
-    @import './componentes/marcas.scss';
-    @import './componentes/produccion.scss';
-    @import './componentes/contactoPrincipal.scss';
-    @import './componentes/contacto.scss';
-    @import './componentes/footer.scss';
-    @import './componentes/whatsapp.scss';
+html {
+    scroll-behavior: smooth;
+}
 
-    @import './componentes/productos.scss';
-    @import './componentes/productoDetalle.scss';
+body {
+    font-family: "Oswald", sans-serif;
+}
+body.active {
+    background-color: red;
+}
 
-    @import './componentes/libreriaLupa.scss';
-    @import './componentes/responsive.scss';
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
 
-    
-   
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+span {
+    color: #19318f;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    background-color: #c8f7f8;
+    display: none;
+}
+
+.boton {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    padding: 6px 5px;
+    box-shadow: 2px 2px 5px #000;
+    background-color: var(--color1);
+    border-radius: var(--borderRadius);
+}
+
+.wrap {
+    max-width: 75em;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.wrap--largo {
+    max-width: initial;
+    width: 100%;
+}
+
+.wrap--menu {
+    max-width: initial;
+    width: 100%;
+}
+
+/*------------------- INICIO --------------------*/
+
+@import "./componentes/header.scss";
+@import "./componentes/banner.scss";
+@import "./componentes/servicios.scss";
+@import "./componentes/caracteristicas.scss";
+
+@import "./componentes/nosotros.scss";
+@import "./componentes/productos2.scss";
+@import "./componentes/marcas.scss";
+@import "./componentes/produccion.scss";
+@import "./componentes/contactoPrincipal.scss";
+@import "./componentes/contacto.scss";
+@import "./componentes/footer.scss";
+@import "./componentes/whatsapp.scss";
+
+@import "./componentes/productos.scss";
+@import "./componentes/productoDetalle.scss";
+
+@import "./componentes/libreriaLupa.scss";
+@import "./componentes/responsive.scss";
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: initial !important;
+    margin-bottom: initial !important;
+    line-height: initial !important;
+    // font-weight: initial !important;
+    line-height: initial !important;
+}
+ol,
+ul {
+    padding-left: initial !important;
+}
+a {
+    text-decoration: none !important;
+}
+p {
+    margin-bottom: initial !important;
+}
