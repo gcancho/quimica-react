@@ -1,8 +1,8 @@
 
-import jabonLiquido1 from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
-import jabonLiquido2 from './../imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
-import imagenPequena from './../imagenes/imagenPruebaPequena.jpg';
-import imagenGrande from './../imagenes/imagenPruebaGrande.jpg';
+// import jabonLiquido1 from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
+// import jabonLiquido2 from './../imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
+// import imagenPequena from './../imagenes/imagenPruebaPequena.jpg';
+// import imagenGrande from './../imagenes/imagenPruebaGrande.jpg';
 
 import aguarras1 from './../imagenes/Categoria2/Aguarras/aguarras1.png';
 import aguarras2 from './../imagenes/Categoria2/Aguarras/aguarras2.png';
@@ -78,10 +78,10 @@ import banner5 from './../imagenes/Banner/banner-5.jpg';
 
 export default {
 
-    'JabonLiquido1': jabonLiquido1,
-    'JabonLiquido2': jabonLiquido2,
-    'Pequena': imagenPequena,
-    'Grande': imagenGrande,
+    // 'JabonLiquido1': jabonLiquido1,
+    // 'JabonLiquido2': jabonLiquido2,
+    // 'Pequena': imagenPequena,
+    // 'Grande': imagenGrande,
 
     'aguarras1': aguarras1,
     'aguarras2': aguarras2,

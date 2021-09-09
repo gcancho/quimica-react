@@ -5,8 +5,8 @@ import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import ReactImageMagnify from 'react-image-magnify';
 
-import watchImg300 from './../imagenes/imagenPruebaPequena.jpg';
-import watchImg1200 from './../imagenes/imagenPruebaGrande.jpg';
+// import watchImg300 from './../imagenes/imagenPruebaPequena.jpg';
+// import watchImg1200 from './../imagenes/imagenPruebaGrande.jpg';
 import Imagenes from './Imagenes';
 // import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 

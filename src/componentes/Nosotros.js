@@ -1,8 +1,8 @@
 import React from 'react';
 import imgNosotros from './../imagenes/Banner/nosotros.jpg'
-import imgVision from './../imagenes/vision.png'
-import imgMision from './../imagenes/mision.png'
-import imgValores from './../imagenes/valores.svg'
+// import imgVision from './../imagenes/vision.png'
+// import imgMision from './../imagenes/mision.png'
+// import imgValores from './../imagenes/valores.svg'
 
 const Nosotros = () => {
     return (
