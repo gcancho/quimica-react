@@ -10,7 +10,7 @@ import ServiciosCard from './ServiciosCard';
 import Servicios from './Servicios';
 
 
-const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, usos, apariencia, colores, imagenesSecundarias, hola, urlPdf, urlPdf2, urlPdf3 }) => {
+const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, descripcion, presentaciones, usos, apariencia, colores, imagenesSecundarias, hola, urlPdf, urlPdf2, urlPdf3 }) => {
     return (
         <div className="caracteristicas__producto__container">
             <div className="wrap">
@@ -22,12 +22,23 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, 
                         <div className="producto__principal">
                             <ImageSlider slides={imagenesSecundarias} tipoSlide={hola} />
                         </div>
-                        <div className="caracteristicas__producto__der">
+
+                    </div>
+                    <Servicios />
+                </article>
+                <div className="caracteristicas__producto__der contenedor">
                     <h4>Características</h4>
                     <div className="caracteristicas__producto__der__info">
                         {(tipoProducto) ?
                             <div>
                                 <p>Tipo de producto: <span>{tipoProducto}</span></p>
+                            </div>
+                            :
+                            <></>
+                        }
+                        {(descripcion) ?
+                            <div>
+                                <p>Descripcion: <span>{descripcion}</span></p>
                             </div>
                             :
                             <></>
@@ -82,10 +93,7 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, presentaciones, 
                     </div>
                 </div>
 
-                    </div>
-                    <Servicios />
-                </article>
-   
+
             </article>
         </div>
     );

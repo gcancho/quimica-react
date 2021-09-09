@@ -103,78 +103,120 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos13 = () => {
-        document.getElementById('producto13').classList.toggle('active');
+    const mostrarProductos101 = () => {
+        document.getElementById('producto101').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos14 = () => {
-        document.getElementById('producto14').classList.toggle('active');
+    const mostrarProductos102 = () => {
+        document.getElementById('producto102').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos15 = () => {
-        document.getElementById('producto15').classList.toggle('active');
+    const mostrarProductos103 = () => {
+        document.getElementById('producto103').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos16 = () => {
-        document.getElementById('producto16').classList.toggle('active');
+    const mostrarProductos104 = () => {
+        document.getElementById('producto104').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos17 = () => {
-        document.getElementById('producto17').classList.toggle('active');
+    const mostrarProductos105 = () => {
+        document.getElementById('producto105').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos18 = () => {
-        document.getElementById('producto18').classList.toggle('active');
+    const mostrarProductos106 = () => {
+        document.getElementById('producto106').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos19 = () => {
-        document.getElementById('producto19').classList.toggle('active');
+    const mostrarProductos107 = () => {
+        document.getElementById('producto107').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos20 = () => {
-        document.getElementById('producto20').classList.toggle('active');
+    const mostrarProductos108 = () => {
+        document.getElementById('producto108').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos21 = () => {
-        document.getElementById('producto21').classList.toggle('active');
+    const mostrarProductos109 = () => {
+        document.getElementById('producto109').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos22 = () => {
-        document.getElementById('producto22').classList.toggle('active');
+    const mostrarProductos110 = () => {
+        document.getElementById('producto110').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
         document.getElementById('producto-default4').classList.add('oculto');
     }
-    const mostrarProductos23 = () => {
-        document.getElementById('producto23').classList.toggle('active');
+    const mostrarProductos201 = () => {
+        document.getElementById('producto201').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos202 = () => {
+        document.getElementById('producto202').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos203 = () => {
+        document.getElementById('producto203').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos204 = () => {
+        document.getElementById('producto204').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos205 = () => {
+        document.getElementById('producto205').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos206 = () => {
+        document.getElementById('producto206').classList.toggle('active');
+        document.getElementById('producto-default1').classList.add('oculto');
+        document.getElementById('producto-default2').classList.add('oculto');
+        document.getElementById('producto-default3').classList.add('oculto');
+        document.getElementById('producto-default4').classList.add('oculto');
+    }
+    const mostrarProductos207 = () => {
+        document.getElementById('producto207').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
@@ -211,30 +253,36 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                             <li><input type="checkbox" onClick={mostrarProductos7} /><label>{nombresProductosCategoria1[6]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos8} /><label>{nombresProductosCategoria1[7]}</label></li>
                             <li><input type="checkbox" onClick={mostrarProductos9} /><label>{nombresProductosCategoria1[8]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos10} /><label>{nombresProductosCategoria1[9]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos11} /><label>{nombresProductosCategoria1[10]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos12} /><label>{nombresProductosCategoria1[11]}</label></li>
                         </ul>
                     </a>
                     <a className="lista">
                         <div className="categoria" onClick={mostrarItems2}><span>{nombreCategoria2}</span><FontAwesomeIcon icon={faChevronDown} /></div>
                         <ul className="contenido" id="contenido-2">
-                            <li><input type="checkbox" onClick={mostrarProductos10} /><label>{nombresProductosCategoria2[0]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos11} /><label>{nombresProductosCategoria2[1]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos12} /><label>{nombresProductosCategoria2[2]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos13} /><label>{nombresProductosCategoria2[3]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos14} /><label>{nombresProductosCategoria2[4]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos15} /><label>{nombresProductosCategoria2[5]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos16} /><label>{nombresProductosCategoria2[6]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos17} /><label>{nombresProductosCategoria2[7]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos18} /><label>{nombresProductosCategoria2[8]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos101} /><label>{nombresProductosCategoria2[0]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos102} /><label>{nombresProductosCategoria2[1]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos103} /><label>{nombresProductosCategoria2[2]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos104} /><label>{nombresProductosCategoria2[3]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos105} /><label>{nombresProductosCategoria2[4]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos106} /><label>{nombresProductosCategoria2[5]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos107} /><label>{nombresProductosCategoria2[6]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos108} /><label>{nombresProductosCategoria2[7]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos109} /><label>{nombresProductosCategoria2[8]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos110} /><label>{nombresProductosCategoria2[9]}</label></li>
                         </ul>
                     </a>
                     <a className="lista">
                         <div className="categoria" onClick={mostrarItems3}><span>{nombreCategoria3}</span><FontAwesomeIcon icon={faChevronDown} /></div>
                         <ul className="contenido" id="contenido-3">
-                            <li><input type="checkbox" onClick={mostrarProductos19} /><label>{nombresProductosCategoria3[0]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos20} /><label>{nombresProductosCategoria3[1]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos21} /><label>{nombresProductosCategoria3[2]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos22} /><label>{nombresProductosCategoria3[3]}</label></li>
-                            <li><input type="checkbox" onClick={mostrarProductos23} /><label>{nombresProductosCategoria3[4]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos201} /><label>{nombresProductosCategoria3[0]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos202} /><label>{nombresProductosCategoria3[1]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos203} /><label>{nombresProductosCategoria3[2]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos204} /><label>{nombresProductosCategoria3[3]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos205} /><label>{nombresProductosCategoria3[4]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos206} /><label>{nombresProductosCategoria3[5]}</label></li>
+                            <li><input type="checkbox" onClick={mostrarProductos207} /><label>{nombresProductosCategoria3[6]}</label></li>
                         </ul>
                     </a>
                 </article>
@@ -276,73 +324,101 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                         <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria1[8]}</p>
                     </Link>
+                    <Link className="producto" id="producto10">
+                        <img src={Imagenes.ron1} />
+                        <p>{nombresProductosCategoria1[9]}</p>
+                    </Link>
+                    <Link className="producto" id="producto11">
+                        <img src={Imagenes.ron1} />
+                        <p>{nombresProductosCategoria1[10]}</p>
+                    </Link>
+                    <Link className="producto" id="producto12">
+                        <img src={Imagenes.ron1} />
+                        <p>{nombresProductosCategoria1[11]}</p>
+                    </Link>
                     {/* ----------------------------------- */}
 
                     {/* PRODUCTOS CATEGORIA 2 */}
-                    <Link to="/Productos/Aguarras" className="producto" id="producto10">
+                    <Link to="/Productos/Aguarras" className="producto" id="producto101">
                         <img src={Imagenes.aguarras1} />
                         <p>{nombresProductosCategoria2[0]}</p>
                     </Link>
-                    <Link to="/Productos/Alcohol-industrial" className="producto" id="producto11">
+                    <Link to="/Productos/Alcohol-industrial" className="producto" id="producto102">
                         <img src={Imagenes.alcoholInd1} />
                         <p>{nombresProductosCategoria2[1]}</p>
                     </Link>
-                    <Link to="/Productos/Alcohol-isopropilico" className="producto" id="producto12">
+                    <Link to="/Productos/Alcohol-isopropilico" className="producto" id="producto103">
                         <img src={Imagenes.alcoholIso1} />
                         <p>{nombresProductosCategoria2[2]}</p>
                     </Link>
-                    <Link to="/Productos/Alcohol-isopropilico-70" className="producto" id="producto13">
+                    <Link to="/Productos/Alcohol-isopropilico-70" className="producto" id="producto104">
                         <img src={Imagenes.alcoholIsoSeven1} />
                         <p>{nombresProductosCategoria2[3]}</p>
                     </Link>
-                    <Link to="/Productos/Bencina" className="producto" id="producto14">
+                    <Link to="/Productos/Bencina" className="producto" id="producto105">
                         <img src={Imagenes.bencina1} />
                         <p>{nombresProductosCategoria2[4]}</p>
                     </Link>
-                    <Link to="/Productos/Preservante-para-madera" className="producto" id="producto15">
+                    <Link to="/Productos/Preservante-para-madera" className="producto" id="producto106">
                         <img src={Imagenes.preservanteMadera1} />
                         <p>{nombresProductosCategoria2[5]}</p>
                     </Link>
-                    <Link to="/Productos/Ron-de-quemar" className="producto" id="producto16">
+                    <Link to="/Productos/Ron-de-quemar" className="producto" id="producto107">
                         <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria2[6]}</p>
                     </Link>
-                    <Link to="/Productos/Saca-oxido" className="producto" id="producto17">
+                    <Link to="/Productos/Saca-oxido" className="producto" id="producto108">
                         <img src={Imagenes.sacaOxido1} />
                         <p>{nombresProductosCategoria2[7]}</p>
                     </Link>
-                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto18">
+                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto109">
                         <img src={Imagenes.thinner1} />
                         <p>{nombresProductosCategoria2[8]}</p>
+                    </Link>
+                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto110">
+                        <img src={Imagenes.thinner1} />
+                        <p>{nombresProductosCategoria2[9]}</p>
+                    </Link>
+                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto111">
+                        <img src={Imagenes.thinner1} />
+                        <p>{nombresProductosCategoria2[10]}</p>
+                    </Link>
+                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto112">
+                        <img src={Imagenes.thinner1} />
+                        <p>{nombresProductosCategoria2[11]}</p>
                     </Link>
                     {/* ----------------------------------- */}
 
                     {/* PRODUCTOS CATEGORIA 3 */}
-                    <Link to="/Productos/Renovador-de-llanta" className="producto" id="producto19">
+                    <Link to="/Productos/Renovador-de-llanta" className="producto" id="producto201">
                         <img src={Imagenes.renovadorLlantas1} />
                         <p>{nombresProductosCategoria3[0]}</p>
                     </Link>
-                    <Link to="/Productos/Silicona-para-tablero" className="producto" id="producto20">
+                    <Link to="/Productos/Silicona-para-tablero" className="producto" id="producto202">
                         <img src={Imagenes.siliconaTablero1} />
                         <p>{nombresProductosCategoria3[1]}</p>
                     </Link>
-                    <Link to="/Productos/Silicona-para-cristal" className="producto" id="producto21">
+                    <Link to="/Productos/Silicona-para-cristal" className="producto" id="producto203">
                         <img src={Imagenes.siliconaCristal1} />
                         <p>{nombresProductosCategoria3[2]}</p>
                     </Link>
-                    <Link to="/Productos/Agua-para-baterias" className="producto" id="producto22">
+                    <Link to="/Productos/Agua-para-baterias" className="producto" id="producto204">
                         <img src={Imagenes.aguaBateria1} />
                         <p>{nombresProductosCategoria3[3]}</p>
                     </Link>
-                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto23">
+                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto205">
                         <img src={Imagenes.limpiaVidrios1} />
                         <p>{nombresProductosCategoria3[4]}</p>
                     </Link>
+                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto206">
+                        <img src={Imagenes.limpiaVidrios1} />
+                        <p>{nombresProductosCategoria3[5]}</p>
+                    </Link>
+                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto207">
+                        <img src={Imagenes.limpiaVidrios1} />
+                        <p>{nombresProductosCategoria3[6]}</p>
+                    </Link>
                     {/* ----------------------------------- */}
-
-
-
-
 
 
 

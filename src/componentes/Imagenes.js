@@ -1,8 +1,72 @@
 
-// import jabonLiquido1 from './../imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
-// import jabonLiquido2 from './../imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
-// import imagenPequena from './../imagenes/imagenPruebaPequena.jpg';
-// import imagenGrande from './../imagenes/imagenPruebaGrande.jpg';
+
+// Imagenes Categoria 1
+
+import acidoFuerte1 from './../imagenes/Categoria1/Acido-el-fuerte/acido1.jpg';
+import acidoFuerte2 from './../imagenes/Categoria1/Acido-el-fuerte/acido2.png';
+import acidoFuerte3 from './../imagenes/Categoria1/Acido-el-fuerte/acido3.png';
+import acidoFuerte4 from './../imagenes/Categoria1/Acido-el-fuerte/acido4.png';
+import acidoFuerte5 from './../imagenes/Categoria1/Acido-el-fuerte/acido5.png';
+import acidoFuerte6 from './../imagenes/Categoria1/Acido-el-fuerte/acido6.jpg';
+
+import ambientador1 from './../imagenes/Categoria1/Ambientadores/ambientador1.png';
+import ambientador2 from './../imagenes/Categoria1/Ambientadores/ambientador2.png';
+import ambientador3 from './../imagenes/Categoria1/Ambientadores/ambientador3.png';
+import ambientador4 from './../imagenes/Categoria1/Ambientadores/ambientador4.png';
+
+import cera1 from './../imagenes/Categoria1/Cera-al-agua/cera1.png';
+import cera2 from './../imagenes/Categoria1/Cera-al-agua/cera2.jpg';
+import cera3 from './../imagenes/Categoria1/Cera-al-agua/cera3.jpg';
+import cera4 from './../imagenes/Categoria1/Cera-al-agua/cera4.jpg';
+import cera5 from './../imagenes/Categoria1/Cera-al-agua/cera5.png';
+
+import cloro1 from './../imagenes/Categoria1/Cloro/cloro1.png';
+import cloro2 from './../imagenes/Categoria1/Cloro/cloro2.png';
+import cloro3 from './../imagenes/Categoria1/Cloro/cloro3.png';
+
+import jabon1 from './../imagenes/Categoria1/Jabon-liquido/jabon1.png';
+import jabon2 from './../imagenes/Categoria1/Jabon-liquido/jabon2.png';
+import jabon3 from './../imagenes/Categoria1/Jabon-liquido/jabon3.png';
+import jabon4 from './../imagenes/Categoria1/Jabon-liquido/jabon4.jpg';
+import jabon5 from './../imagenes/Categoria1/Jabon-liquido/jabon5.jpg';
+import jabon6 from './../imagenes/Categoria1/Jabon-liquido/jabon6.jpg';
+import jabon7 from './../imagenes/Categoria1/Jabon-liquido/jabon7.jpg';
+
+import kresso1 from './../imagenes/Categoria1/Kresso/kresso1.png';
+import kresso2 from './../imagenes/Categoria1/Kresso/kresso2.png';
+import kresso3 from './../imagenes/Categoria1/Kresso/kresso3.png';
+import kresso4 from './../imagenes/Categoria1/Kresso/kresso4.png';
+import kresso5 from './../imagenes/Categoria1/Kresso/kresso5.png';
+
+import lejia1 from './../imagenes/Categoria1/Lejia/lejia1.png';
+import lejia2 from './../imagenes/Categoria1/Lejia/lejia2.png';
+import lejia3 from './../imagenes/Categoria1/Lejia/lejia3.png';
+import lejia4 from './../imagenes/Categoria1/Lejia/lejia4.png';
+import lejia5 from './../imagenes/Categoria1/Lejia/lejia5.png';
+
+import limpiaTodo1 from './../imagenes/Categoria1/Limpia-todo/limpiatodo1.png';
+import limpiaTodo2 from './../imagenes/Categoria1/Limpia-todo/limpiatodo2.png';
+import limpiaTodo3 from './../imagenes/Categoria1/Limpia-todo/limpiatodo3.png';
+import limpiaTodo4 from './../imagenes/Categoria1/Limpia-todo/limpiatodo4.png';
+import limpiaTodo5 from './../imagenes/Categoria1/Limpia-todo/limpiatodo5.png';
+
+import pino1 from './../imagenes/Categoria1/Pino/pino1.png';
+import pino2 from './../imagenes/Categoria1/Pino/pino2.png';
+import pino3 from './../imagenes/Categoria1/Pino/pino3.png';
+import pino4 from './../imagenes/Categoria1/Pino/pino4.png';
+
+import potenteDesinfectante1 from './../imagenes/Categoria1/Potente-desinfectante/potente-desinfectante1.png';
+import potenteDesinfectante2 from './../imagenes/Categoria1/Potente-desinfectante/potente-desinfectante2.png';
+import potenteDesinfectante3 from './../imagenes/Categoria1/Potente-desinfectante/potente-desinfectante3.png';
+
+import quitaSarro1 from './../imagenes/Categoria1/Quitasarro/quitasarro1.png';
+import quitaSarro2 from './../imagenes/Categoria1/Quitasarro/quitasarro2.png';
+import quitaSarro3 from './../imagenes/Categoria1/Quitasarro/quitasarro3.png';
+
+import sacaGrasa1 from './../imagenes/Categoria1/Sacagrasa/sacagrasa1.png';
+import sacaGrasa2 from './../imagenes/Categoria1/Sacagrasa/sacagrasa2.png';
+
+// Imagenes Categoria 2
 
 import aguarras1 from './../imagenes/Categoria2/Aguarras/aguarras1.png';
 import aguarras2 from './../imagenes/Categoria2/Aguarras/aguarras2.png';

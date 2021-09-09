@@ -148,15 +148,15 @@ const App = () => {
   const nombreCategoria2 = "Disolventes y uso industrial";
   const nombreCategoria3 = "Línea Automotriz";
 
-  // 9 productos
-  const nombresProductosCategoria1 = ['Ambientadores', 'Desinfectante pino', 'Lejía', 'Quita Sarro',
-    'Ácido el fuerte', 'Jabón Líquido', 'Saca grasa', 'Kresso', 'Cera al agua'];
-  // 9 productos
-  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Bencina', 'Preservante para madera',
+  // 12 productos
+  const nombresProductosCategoria1 = ['Ácido el fuerte', 'Ambientadores', 'Cera al agua', 'Cloro', 'Jabón Líquido', 'Kresso',
+    'Lejia', 'Limpiatodo', 'Pino', 'Potente Desinfectante', 'Quita Sarro', 'Saca grasa'];
+  // 10 productos
+  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Alcohol isopropilico 90%', 'Bencina', 'Preservante para madera',
     'Ron de quemar', 'Saca oxido', 'Thinner acrílico']
-  // 5 productos
-  const nombresProductosCategoria3 = ['Renovador de llanta', 'Silicona para tablero', 'Silicona cristal',
-    'Agua para baterias', 'Limpia Vidrios']
+  // 7 productos
+  const nombresProductosCategoria3 = ['Agua para baterias', 'Limpia Vidrios', 'Renovador de llanta', 'Shampoo para auto',
+    'Silicona para cristal', 'Silicona para cristal Premium', 'Silicona para tablero']
 
   const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
 
@@ -219,10 +219,10 @@ const App = () => {
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         {/* <Banner /> */}
-        <CarouselContainer/>
+        <CarouselContainer />
         <Servicios />
-        <Caracteristicas/>
-        <Marcas/>
+        <Caracteristicas />
+        <Marcas />
         <Footer />
         <Whatsapp rutaWsp={rutaWsp} />
       </Route>
@@ -290,6 +290,8 @@ const App = () => {
           imagenesSecundarias={[Imagenes.aguarras1, Imagenes.aguarras2, Imagenes.aguarras3, Imagenes.aguarras4]}
           hola={SliderData10}
           tipoProducto="Disolventes y uso industrial"
+          //Cambiar la descripcion luego
+          descripcion="Es un potente limpiador, destruye el sarro, desmancha Y desinfecta, ideal para baños, pisos, inodoros, Elimima bacterias(escherihia, coli, pseudomonas aeruginosa staphylococcus aureus y salmonella sp)."
           presentaciones="Galón, Litro, Medio litro, Bidón"
           usos={['Dilución y limpieza de pinturas sintéticas.']}
           urlPdf={rutaAguarrasPdf1}
@@ -320,7 +322,7 @@ const App = () => {
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico"
           imagenesSecundarias={[Imagenes.alcoholIso1, Imagenes.alcoholIso2, Imagenes.alcoholIso3, Imagenes.alcoholIso]}
-          // hola={SliderData11}
+          hola={SliderData3}
           tipoProducto="Disolventes y uso industrial"
           presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
           usos={['Humedezca un paño limpio con Alcohol Isopropílico Multiusos, luego aplique sobre la superficie a tratar.',

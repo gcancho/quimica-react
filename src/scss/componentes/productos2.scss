@@ -35,19 +35,19 @@ $altoLi: 40px;
                     padding: 0 10px;
                     transition: all 1s;
                     display: block;
-                    height: $altoLi * 9;
+                    height: $altoLi * $cantidadProdCategoria1;
                 }
                 &.active2 {
                     padding: 0 10px;
                     transition: all 1s;
                     display: block;
-                    height: $altoLi * 9;
+                    height: $altoLi * $cantidadProdCategoria2;
                 }
                 &.active3 {
                     padding: 0 10px;
                     transition: all 1s;
                     display: block;
-                    height: $altoLi * 5;
+                    height: $altoLi * $cantidadProdCategoria3;
                 }
                 li {
                     padding: 8px 0px;

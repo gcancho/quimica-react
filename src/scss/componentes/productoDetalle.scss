@@ -90,7 +90,7 @@
 
 .caracteristicas__producto__der {
     padding: 5px 10px;
-    width: 100%;
+    // width: 100%;
     .usos {
         list-style: square;
         li {
@@ -192,16 +192,44 @@
     }
     .caracteristicas__producto__der {
         margin-top: 20px;
+        h4 {
+            text-align: center;
+        }
         .caracteristicas__producto__der__info {
+            position: relative;
+            padding: 30px 10px;
+            // border: initial;
             font-size: 0.9em;
             div {
                 margin: 12px 0;
+                max-width: 50%;
                 li {
                     font-size: 0.9em;
                 }
             }
             a {
                 margin: 15px 0;
+                margin-right: 10px;
+                &:nth-last-of-type(1) {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                }
+                &:nth-last-of-type(2) {
+                    position: absolute;
+                    top: 80px;
+                    right: 0;
+                }
+                &:nth-last-of-type(3) {
+                    position: absolute;
+                    top: 160px;
+                    right: 0;
+                }
+                // &:nth-child(2) {
+                //     position: absolute;
+                //     top: 0;
+                //     right: 0;
+                // }
             }
         }
     }
