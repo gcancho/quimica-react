@@ -31,7 +31,7 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, descripcion, pre
                     <div className="caracteristicas__producto__der__info">
                         {(tipoProducto) ?
                             <div>
-                                <p>Tipo de producto: <span>{tipoProducto}</span></p>
+                                <p>Categoria: <span>{tipoProducto}</span></p>
                             </div>
                             :
                             <></>

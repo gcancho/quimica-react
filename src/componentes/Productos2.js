@@ -288,52 +288,52 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                 </article>
                 <article className="productos2__productos">
                     {/* PRODUCTOS CATEGORIA 1 */}
-                    <Link to="/Prueba1" className="producto" id="producto1">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Acido-el-fuerte" className="producto" id="producto1">
+                        <img src={Imagenes.acidoFuerte1} />
                         <p>{nombresProductosCategoria1[0]}</p>
                     </Link>
-                    <Link to="/Prueba2" className="producto" id="producto2">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Ambientadores" className="producto" id="producto2">
+                        <img src={Imagenes.ambientador1} />
                         <p>{nombresProductosCategoria1[1]}</p>
                     </Link>
-                    <Link className="producto" id="producto3">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Cera-al-agua" className="producto" id="producto3">
+                        <img src={Imagenes.cera1} />
                         <p>{nombresProductosCategoria1[2]}</p>
                     </Link>
-                    <Link className="producto" id="producto4">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Cloro" className="producto" id="producto4">
+                        <img src={Imagenes.cloro1} />
                         <p>{nombresProductosCategoria1[3]}</p>
                     </Link>
-                    <Link className="producto" id="producto5">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Jabon-liquido" className="producto" id="producto5">
+                        <img src={Imagenes.jabon1} />
                         <p>{nombresProductosCategoria1[4]}</p>
                     </Link>
-                    <Link className="producto" id="producto6">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Kresso" className="producto" id="producto6">
+                        <img src={Imagenes.kresso1} />
                         <p>{nombresProductosCategoria1[5]}</p>
                     </Link>
-                    <Link className="producto" id="producto7">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Lejia" className="producto" id="producto7">
+                        <img src={Imagenes.lejia1} />
                         <p>{nombresProductosCategoria1[6]}</p>
                     </Link>
-                    <Link className="producto" id="producto8">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Limpiatodo" className="producto" id="producto8">
+                        <img src={Imagenes.limpiaTodo1} />
                         <p>{nombresProductosCategoria1[7]}</p>
                     </Link>
-                    <Link className="producto" id="producto9">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Pino" className="producto" id="producto9">
+                        <img src={Imagenes.pino1} />
                         <p>{nombresProductosCategoria1[8]}</p>
                     </Link>
-                    <Link className="producto" id="producto10">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Potente-desinfectante" className="producto" id="producto10">
+                        <img src={Imagenes.potenteDesinfectante1} />
                         <p>{nombresProductosCategoria1[9]}</p>
                     </Link>
-                    <Link className="producto" id="producto11">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Quita-sarro" className="producto" id="producto11">
+                        <img src={Imagenes.quitaSarro1} />
                         <p>{nombresProductosCategoria1[10]}</p>
                     </Link>
-                    <Link className="producto" id="producto12">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Saca-grasa" className="producto" id="producto12">
+                        <img src={Imagenes.sacaGrasa1} />
                         <p>{nombresProductosCategoria1[11]}</p>
                     </Link>
                     {/* ----------------------------------- */}
@@ -352,70 +352,62 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                         <p>{nombresProductosCategoria2[2]}</p>
                     </Link>
                     <Link to="/Productos/Alcohol-isopropilico-70" className="producto" id="producto104">
-                        <img src={Imagenes.alcoholIsoSeven1} />
+                        <img src={Imagenes.alcoholIsoSetenta1} />
                         <p>{nombresProductosCategoria2[3]}</p>
                     </Link>
-                    <Link to="/Productos/Bencina" className="producto" id="producto105">
-                        <img src={Imagenes.bencina1} />
+                    <Link to="/Productos/Alcohol-isopropilico-90" className="producto" id="producto105">
+                        <img src={Imagenes.alcoholIsoNoventa1} />
                         <p>{nombresProductosCategoria2[4]}</p>
                     </Link>
-                    <Link to="/Productos/Preservante-para-madera" className="producto" id="producto106">
-                        <img src={Imagenes.preservanteMadera1} />
+                    <Link to="/Productos/Bencina" className="producto" id="producto106">
+                        <img src={Imagenes.bencina1} />
                         <p>{nombresProductosCategoria2[5]}</p>
                     </Link>
-                    <Link to="/Productos/Ron-de-quemar" className="producto" id="producto107">
-                        <img src={Imagenes.ron1} />
+                    <Link to="/Productos/Preservante-para-madera" className="producto" id="producto107">
+                        <img src={Imagenes.preservanteMadera1} />
                         <p>{nombresProductosCategoria2[6]}</p>
                     </Link>
-                    <Link to="/Productos/Saca-oxido" className="producto" id="producto108">
-                        <img src={Imagenes.sacaOxido1} />
+                    <Link to="/Productos/Ron-de-quemar" className="producto" id="producto108">
+                        <img src={Imagenes.ron1} />
                         <p>{nombresProductosCategoria2[7]}</p>
                     </Link>
-                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto109">
-                        <img src={Imagenes.thinner1} />
+                    <Link to="/Productos/Saca-oxido" className="producto" id="producto109">
+                        <img src={Imagenes.sacaOxido1} />
                         <p>{nombresProductosCategoria2[8]}</p>
                     </Link>
                     <Link to="/Productos/Thinner-acrilico" className="producto" id="producto110">
                         <img src={Imagenes.thinner1} />
                         <p>{nombresProductosCategoria2[9]}</p>
                     </Link>
-                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto111">
-                        <img src={Imagenes.thinner1} />
-                        <p>{nombresProductosCategoria2[10]}</p>
-                    </Link>
-                    <Link to="/Productos/Thinner-acrilico" className="producto" id="producto112">
-                        <img src={Imagenes.thinner1} />
-                        <p>{nombresProductosCategoria2[11]}</p>
-                    </Link>
                     {/* ----------------------------------- */}
 
                     {/* PRODUCTOS CATEGORIA 3 */}
-                    <Link to="/Productos/Renovador-de-llanta" className="producto" id="producto201">
-                        <img src={Imagenes.renovadorLlantas1} />
+                    <Link to="/Productos/Agua-para-baterias" className="producto" id="producto201">
+                        <img src={Imagenes.aguaBateria1} />
                         <p>{nombresProductosCategoria3[0]}</p>
                     </Link>
-                    <Link to="/Productos/Silicona-para-tablero" className="producto" id="producto202">
-                        <img src={Imagenes.siliconaTablero1} />
+                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto202">
+                        <img src={Imagenes.limpiaVidrios1} />
                         <p>{nombresProductosCategoria3[1]}</p>
                     </Link>
-                    <Link to="/Productos/Silicona-para-cristal" className="producto" id="producto203">
-                        <img src={Imagenes.siliconaCristal1} />
+                    <Link to="/Productos/Renovador-de-llantas" className="producto" id="producto203">
+                        <img src={Imagenes.renovadorLlantas1} />
                         <p>{nombresProductosCategoria3[2]}</p>
                     </Link>
-                    <Link to="/Productos/Agua-para-baterias" className="producto" id="producto204">
-                        <img src={Imagenes.aguaBateria1} />
+                    <Link to="/Productos/Shampoo-para-auto" className="producto" id="producto204">
+                        <img src={Imagenes.shampooAuto1} />
                         <p>{nombresProductosCategoria3[3]}</p>
                     </Link>
-                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto205">
-                        <img src={Imagenes.limpiaVidrios1} />
+                    <Link to="/Productos/Silicona-para-cristal" className="producto" id="producto205">
+                        <img src={Imagenes.siliconaCristal1} />
                         <p>{nombresProductosCategoria3[4]}</p>
                     </Link>
-                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto206">
-                        <img src={Imagenes.limpiaVidrios1} />
+                    <Link to="/Productos/Silicona-para-cristal-premium" className="producto" id="producto206">
+                        <img src={Imagenes.siliconaCristalPremium1} />
                         <p>{nombresProductosCategoria3[5]}</p>
                     </Link>
-                    <Link to="/Productos/Limpia-vidrios" className="producto" id="producto207">
-                        <img src={Imagenes.limpiaVidrios1} />
+                    <Link to="/Productos/Silicona-para-tablero" className="producto" id="producto207">
+                        <img src={Imagenes.siliconaTablero1} />
                         <p>{nombresProductosCategoria3[6]}</p>
                     </Link>
                     {/* ----------------------------------- */}

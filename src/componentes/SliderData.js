@@ -1,163 +1,244 @@
 import Imagenes from './Imagenes';
 
-// export const SliderData1 = [
-//   {
-//     image:
-//       imgLimpiaVidrios1
-//   },
-//   {
-//     image:
-//       imgLimpiaVidrios2
-//   },
-// ];
-
-// export const SliderData2 = [
-//   {
-//     image:
-//       imgRonQuemar1
-//   },
-//   {
-//     image:
-//       imgRonQuemar2
-//   },
-// ];
-
+export const SliderData1 = [
+  {
+    image:
+      Imagenes.acidoFuerte1
+  },
+  {
+    image:
+      Imagenes.acidoFuerte2
+  },
+  {
+    image:
+      Imagenes.acidoFuerte3
+  },
+  {
+    image:
+      Imagenes.acidoFuerte4
+  },
+  {
+    image:
+      Imagenes.acidoFuerte5
+  },
+  {
+    image:
+      Imagenes.acidoFuerte6
+  },
+];
+export const SliderData2 = [
+  {
+    image:
+      Imagenes.ambientador1
+  },
+  {
+    image:
+      Imagenes.ambientador2
+  },
+  {
+    image:
+      Imagenes.ambientador3
+  },
+  {
+    image:
+      Imagenes.ambientador4
+  },
+];
 export const SliderData3 = [
   {
     image:
-      Imagenes.alcoholIso1
+      Imagenes.cera1
   },
   {
     image:
-      Imagenes.alcoholIso2
+      Imagenes.cera2
   },
   {
     image:
-      Imagenes.alcoholIso3
+      Imagenes.cera3
   },
   {
     image:
-      Imagenes.alcoholIso4
+      Imagenes.cera4
+  },
+  {
+    image:
+      Imagenes.cera5
   },
 ];
-
-// export const SliderData4 = [
-//   {
-//     image:
-//       imgShampooAlfombra1
-//   },
-//   {
-//     image:
-//       imgShampooAlfombra2
-//   },
-// ];
-
-// export const SliderData5 = [
-//   {
-//     image:
-//       imgShampooAuto1
-//   },
-//   {
-//     image:
-//       imgShampooAuto2
-//   },
-// ];
-
+export const SliderData4 = [
+  {
+    image:
+      Imagenes.cloro1
+  },
+  {
+    image:
+      Imagenes.cloro2
+  },
+  {
+    image:
+      Imagenes.cloro3
+  },
+];
+export const SliderData5 = [
+  {
+    image:
+      Imagenes.jabon1
+  },
+  {
+    image:
+      Imagenes.jabon2
+  },
+  {
+    image:
+      Imagenes.jabon3
+  },
+  {
+    image:
+      Imagenes.jabon4
+  },
+  {
+    image:
+      Imagenes.jabon5
+  },
+  {
+    image:
+      Imagenes.jabon6
+  },
+  {
+    image:
+      Imagenes.jabon7
+  },
+];
 export const SliderData6 = [
   {
     image:
-      Imagenes.aguarras1
+      Imagenes.kresso1
   },
   {
     image:
-      Imagenes.aguarras2
+      Imagenes.kresso2
   },
   {
     image:
-      Imagenes.aguarras3
+      Imagenes.kresso3
   },
   {
     image:
-      Imagenes.aguarras4
+      Imagenes.kresso4
+  },
+  {
+    image:
+      Imagenes.kresso5
   },
 ];
-
-// export const SliderData7 = [
-//   {
-//     image:
-//       imgBencina1
-//   },
-//   {
-//     image:
-//       imgBencina2
-//   },
-// ];
-
-// export const SliderData8 = [
-//   {
-//     image:
-//       imgThinnerAcrilico1
-//   },
-//   {
-//     image:
-//       imgThinnerAcrilico2
-//   },
-//   {
-//     image:
-//       imgThinnerAcrilico3
-//   },
-// ];
-
-// export const SliderData9 = [
-//   {
-//     image:
-//       imgAlcoholIndustrial1
-//   },
-//   {
-//     image:
-//       imgAlcoholIndustrial2
-//   },
-//   {
-//     image:
-//       imgAlcoholIndustrial3
-//   },
-// ];
-
+export const SliderData7 = [
+  {
+    image:
+      Imagenes.lejia1
+  },
+  {
+    image:
+      Imagenes.lejia2
+  },
+  {
+    image:
+      Imagenes.lejia3
+  },
+  {
+    image:
+      Imagenes.lejia4
+  },
+  {
+    image:
+      Imagenes.lejia5
+  },
+];
+export const SliderData8 = [
+  {
+    image:
+      Imagenes.limpiaTodo1
+  },
+  {
+    image:
+      Imagenes.limpiaTodo2
+  },
+  {
+    image:
+      Imagenes.limpiaTodo3
+  },
+  {
+    image:
+      Imagenes.limpiaTodo4
+  },
+  {
+    image:
+      Imagenes.limpiaTodo5
+  },
+];
+export const SliderData9 = [
+  {
+    image:
+      Imagenes.pino1
+  },
+  {
+    image:
+      Imagenes.pino2
+  },
+  {
+    image:
+      Imagenes.pino3
+  },
+  {
+    image:
+      Imagenes.pino4
+  },
+];
 export const SliderData10 = [
   {
     image:
-      Imagenes.aguarras1
+      Imagenes.potenteDesinfectante1
   },
   {
     image:
-      Imagenes.aguarras2
+      Imagenes.potenteDesinfectante2
   },
   {
     image:
-      Imagenes.aguarras3
-  },
-  {
-    image:
-      Imagenes.aguarras4
+      Imagenes.potenteDesinfectante3
   },
 ];
 
 export const SliderData11 = [
   {
     image:
-      Imagenes.alcoholInd1
+      Imagenes.quitaSarro1
   },
   {
     image:
-      Imagenes.alcoholInd2
+      Imagenes.quitaSarro2
   },
   {
     image:
-      Imagenes.alcoholInd3
+      Imagenes.quitaSarro3
   },
   {
     image:
-      Imagenes.alcoholInd4
+      Imagenes.quitaSarro4
+  },
+  {
+    image:
+      Imagenes.quitaSarro5
+  },
+];
+export const SliderData12 = [
+  {
+    image:
+      Imagenes.sacaGrasa1
+  },
+  {
+    image:
+      Imagenes.sacaGrasa2
   },
 ];
 

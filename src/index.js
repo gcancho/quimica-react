@@ -160,24 +160,31 @@ const App = () => {
 
   const rutaWsp = "https://wa.me/51994268798?text=Deseo%20mayor%20información%20";
 
+  const rutaAcidoFuerte1 = "https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing";
+  const rutaAcidoFuerte2 = "https://drive.google.com/file/d/1Bk36a-Ve0gj0M8tnbm3znqhHC6ZXAZKQ/view?usp=sharing";
   const rutaAmbientadoresPdf1 = "https://drive.google.com/file/d/1j5MiMaKOwlVwZw4cU77BV6oEQ8QptzBC/view?usp=sharing";
-  const rutaPinoPdf1 = "https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing";
-  const rutaPinoPdf2 = "https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing";
-  const rutaPinoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
+  const rutaCeraAguaPdf1 = "https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing";
+  const rutaCeraAguaPdf2 = "https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing";
+  const rutaCloroPdf1 = "https://drive.google.com/file/d/1445lrGhVMOXwV7gFwYqiqA3SmCXQhJ_v/view?usp=sharing";
+  const rutaCloroPdf2 = "https://drive.google.com/file/d/1445lrGhVMOXwV7gFwYqiqA3SmCXQhJ_v/view?usp=sharing";
   const rutaLejiaPdf1 = "https://drive.google.com/file/d/1_9K1QklUygg3VeZvk5jyc4Ne8F43DFEG/view?usp=sharing";
   const rutaLejiaPdf2 = "https://drive.google.com/file/d/1TwdUNv8Rv-FqEBAjx2zvWshrFnPiUIiN/view?usp=sharing";
   const rutaLejiaPdf3 = "https://drive.google.com/file/d/1wen8m27eXo3A_INgVvgSxycz1xvu3H-c/view?usp=sharing";
-  const rutaQuitaSarroPdf1 = "https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing";
-  const rutaQuitaSarroPdf2 = "https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing";
   const rutaJabonLiquidoPdf1 = "https://drive.google.com/file/d/1WoL-vyuvYIvy2bK6OBelHiH9J4HzJ4gI/view?usp=sharing";
   const rutaJabonLiquidoPdf2 = "https://drive.google.com/file/d/1we2XtF8KO3kN9vdBuZRyUobPhT8Brt9N/view?usp=sharing";
   const rutaJabonLiquidoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
-  const rutaSacaGrasaPdf1 = "https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing";
-  const rutaSacaGrasaPdf2 = "https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing";
   const rutaKressoPdf1 = "https://drive.google.com/file/d/1TLMx1jVbKdPQlm-8XTUSL6oG7x1KLwub/view?usp=sharing";
   const rutaKressoPdf2 = "https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing";
-  const rutaCeraAguaPdf1 = "https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing";
-  const rutaCeraAguaPdf2 = "https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing";
+  const rutaLimpiatodoPdf1 = "https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing";
+  const rutaLimpiatodoPdf2 = "https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing";
+  const rutaPinoPdf1 = "https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing";
+  const rutaPinoPdf2 = "https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing";
+  const rutaPinoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
+  const rutaPotenteDesinfPdf1 = "https://drive.google.com/file/d/1pHy26SFL1_PAgXyGUSq-m6jtc_nRYay2/view?usp=sharing";
+  const rutaQuitaSarroPdf1 = "https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing";
+  const rutaQuitaSarroPdf2 = "https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing";
+  const rutaSacaGrasaPdf1 = "https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing";
+  const rutaSacaGrasaPdf2 = "https://drive.google.com/file/d/1FEQ9VaZeBMBnd9OLtsG6YsqdT76RE1D_/view?usp=sharing";
 
   const rutaAguarrasPdf1 = "https://drive.google.com/file/d/1jqXqSN-Y9C-dTFgxTka-7Ly1SI6V97uN/view?usp=sharing";
   const rutaAguarrasPdf2 = "https://drive.google.com/file/d/1SPIjCzqOosRL3QN6rWG2-4vGc3CYvGip/view?usp=sharing";
@@ -257,27 +264,211 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
 
       </Route>
-      {/* <Route path="/Prueba1">
+      {/* Categoria 1 */}
+      <Route path="/Productos/Acido-el-fuerte" exact={true}>
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
-          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <div style={{ width: '342px', height: '513px' }}>
-          <ReactImageMagnify {...{
-            smallImage: {
-              alt: 'Wristwatch by Ted Baker London',
-              isFluidWidth: true,
-              src: Imagenes.aguarras1
-            },
-            largeImage: {
-              src: Imagenes.aguarras1,
-              width: 1200,
-              height: 1800,
-            }
-          }} />
-          <div style={{ display: 'inline-block' }}>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
-        </div>
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Ácido el fuerte"
+          imagenesSecundarias={[Imagenes.acidoFuerte1, Imagenes.acidoFuerte2, Imagenes.acidoFuerte3, Imagenes.acidoFuerte4, Imagenes.acidoFuerte5, Imagenes.acidoFuerte6]}
+          hola={SliderData1}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Es un potente limpiador, destruye el sarro, desmancha Y desinfecta, ideal para baños, pisos, inodoros, Elimima bacterias(escherihia, coli, pseudomonas aeruginosa staphylococcus aureus y salmonella sp)."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO"
+          urlPdf={rutaAcidoFuerte1}
+          urlPdf2={rutaAcidoFuerte2}
+        />
         <Footer />
-      </Route> */}
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
 
+      <Route path="/Productos/Ambientadores" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Ambientadores"
+          imagenesSecundarias={[Imagenes.ambientador1, Imagenes.ambientador2, Imagenes.ambientador3, Imagenes.ambientador4]}
+          hola={SliderData2}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="se utiliza para limpiar todo tipo de superficies y generar un aroma agradable, para obtener una fragancia más duradera aplique sobre superficies absorbentes que no sean afectadas por el agua."
+          presentaciones="LITRO, GALON Y BIDON."
+          urlPdf={rutaAmbientadoresPdf1}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Cera-al-agua" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Cera al agua"
+          imagenesSecundarias={[Imagenes.cera1, Imagenes.cera2, Imagenes.cera3, Imagenes.cera4, Imagenes.cera5]}
+          hola={SliderData3}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Es una emulsión a base de poliméricas y otras resinas reforzadas con carnauba. este producto está especialmente diseñado para dar brillo en áreas de tráfico pesado, tales como escuelas, salones de clase, vestíbulos de hotel, restaurantes y el hogar."
+          presentaciones="GALON Y BIDON."
+          urlPdf={rutaCeraAguaPdf1}
+          urlPdf2={rutaCeraAguaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Cloro" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Cloro"
+          imagenesSecundarias={[Imagenes.cloro1, Imagenes.cloro2, Imagenes.cloro3]}
+          hola={SliderData4}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="potente blanqueador y desinfectante, No es inflamable, pero se puede descomponer con el calor, al contacto con material férrico o la luz solar."
+          presentaciones="LITRO, GALON Y BIDON."
+          urlPdf={rutaCloroPdf1}
+          urlPdf2={rutaCloroPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Jabon-liquido" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Jabon líquido"
+          imagenesSecundarias={[Imagenes.jabon1, Imagenes.jabon2, Imagenes.jabon3, Imagenes.jabon4, Imagenes.jabon5, Imagenes.jabon6, Imagenes.jabon7]}
+          hola={SliderData5}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="El jabón líquido por el tipo de componentes que contiene no genera resequedad piel, mantienen mejor el equilibrio del ph de la piel Y eficaz  bactericida."
+          presentaciones="LITRO, FRASCO POR 480 ML, GALON Y BIDON."
+          urlPdf={rutaJabonLiquidoPdf1}
+          urlPdf2={rutaJabonLiquidoPdf2}
+          urlPdf3={rutaJabonLiquidoPdf3}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Kresso" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Kresso"
+          imagenesSecundarias={[Imagenes.kresso1, Imagenes.kresso2, Imagenes.kresso3, Imagenes.kresso4, Imagenes.kresso5]}
+          hola={SliderData6}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Desinfectante para limpieza y desinfección de instalaciones pecuarias, limpieza doméstica, baños públicos, restaurantes, hoteles, hospitales. Uso Industrial, principalmente en pozas de desinfección, granjas, pozos sépticos"
+          presentaciones="MEDIO LITRO,  LITRO, GALON Y BIDON."
+          urlPdf={rutaKressoPdf1}
+          urlPdf2={rutaKressoPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Lejia" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Lejía"
+          imagenesSecundarias={[Imagenes.lejia1, Imagenes.lejia2, Imagenes.lejia3, Imagenes.lejia4, Imagenes.lejia5]}
+          hola={SliderData7}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Potente blanqueador y desinfectante, No es inflamable, pero se puede descomponer con el calor, al contacto con material férrico o la luz solar."
+          presentaciones="LITRO, GALON, BIDON."
+          urlPdf={rutaLejiaPdf1}
+          urlPdf2={rutaLejiaPdf2}
+          urlPdf3={rutaLejiaPdf3}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Limpiatodo" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Limpiatodo"
+          imagenesSecundarias={[Imagenes.limpiaTodo1, Imagenes.limpiaTodo2, Imagenes.limpiaTodo3, Imagenes.limpiaTodo4, Imagenes.limpiaTodo5]}
+          hola={SliderData8}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Modo más moderno de limpiar y perfumar cualquier tipo de superficies lavables, en un instante y sin necesidad de enjuagar.  Una pequeña cantidad en un balde con agua, bastan para dejar todo el hogar, oficina o local comercial impecablemente limpios y deliciosamente perfumados."
+          presentaciones="LITRO, GALON, BIDON."
+          urlPdf={rutaLimpiatodoPdf1}
+          urlPdf2={rutaLimpiatodoPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Pino" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Pino"
+          imagenesSecundarias={[Imagenes.pino1, Imagenes.pino2, Imagenes.pino3, Imagenes.pino4]}
+          hola={SliderData9}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Pino Desinfectante y su fórmula mejorada, limpia y desinfecta tu hogar dejando un agradable aroma. Eficaz contra Escherichia coli, Staphylococcus aureus, Salmonella typhimurium."
+          presentaciones="GALON Y BIDON."
+          urlPdf={rutaPinoPdf1}
+          urlPdf2={rutaPinoPdf2}
+          urlPdf3={rutaPinoPdf3}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Potente-desinfectante" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Potente Desinfectante"
+          imagenesSecundarias={[Imagenes.potenteDesinfectante1, Imagenes.potenteDesinfectante2, Imagenes.potenteDesinfectante3]}
+          hola={SliderData10}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Es un potente desinfectante formulado a base de amonio cuaternario de 5ta generación y biguanidina polimérica los cuales ofrecen acción germicida frente a un amplio espectro de bacteria gram positivas y gram negativas, hongos y virus."
+          presentaciones="GALON."
+          urlPdf={rutaPotenteDesinfPdf1}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Quita-sarro" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Quita Sarro"
+          imagenesSecundarias={[Imagenes.quitaSarro1, Imagenes.quitaSarro2, Imagenes.quitaSarro3, Imagenes.quitaSarro4, Imagenes.quitaSarro5]}
+          hola={SliderData11}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Es un potente limpiador, destruye el sarro, desmancha Y desinfecta, ideal para baños, pisos, inodoros. Elimima bacterias(escherihia, coli, pseudomonas aeruginosa staphylococcus aureus y salmonella sp)."
+          presentaciones="GALON."
+          urlPdf={rutaQuitaSarroPdf1}
+          urlPdf2={rutaQuitaSarroPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Saca-grasa" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3}
+        />
+        <ProductoDetalle tituloProductoDetalle="Saca Grasa"
+          imagenesSecundarias={[Imagenes.sacaGrasa1, Imagenes.sacaGrasa2]}
+          hola={SliderData12}
+          tipoProducto="Limpieza y desinfección"
+          descripcion="Anti-grasa máximo poder desengrasante, en cocina, microondas, electrodomésticos. Elimina fácilmente la grasa sin restregar, ni enjuagar. Deja la superficie limpia y con un agradable aroma."
+          presentaciones="LITRO Y GALON."
+          urlPdf={rutaSacaGrasaPdf1}
+          urlPdf2={rutaSacaGrasaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
 
 
       {/* Categoria 2 */}

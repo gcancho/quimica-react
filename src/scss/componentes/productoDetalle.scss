@@ -107,7 +107,7 @@
 }
 
 .caracteristicas__producto__der__info {
-    border: 1px solid #dbdbdb;
+    // border: 1px solid #dbdbdb;
     padding: 10px 10px;
     border-radius: var(--borderRadius);
     font-size: 1.2em;
@@ -125,6 +125,7 @@
     font-family: $fuente3;
     font-weight: normal;
     color: #000;
+    // text-transform: lowercase;
 }
 
 .caracteristicas__producto__der__info span {
