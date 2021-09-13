@@ -1,11 +1,17 @@
 .slide.active {
     div {
+        
         // background-color: red;
+        // width: 350px !important;
+        img{
+            
+        }
         &:hover{
-
+            
             div {
                 &:last-child {
                     background-color: #fff;
+                    z-index: 999;
                     // overflow: hidden;
                     // position: absolute;
                     // top: 0px;

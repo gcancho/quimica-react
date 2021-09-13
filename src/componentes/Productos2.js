@@ -23,7 +23,6 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
 
     }
     const mostrarProductos2 = () => {
@@ -31,196 +30,168 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos3 = () => {
         document.getElementById('producto3').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos4 = () => {
         document.getElementById('producto4').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos5 = () => {
         document.getElementById('producto5').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos6 = () => {
         document.getElementById('producto6').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos7 = () => {
         document.getElementById('producto7').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos8 = () => {
         document.getElementById('producto8').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos9 = () => {
         document.getElementById('producto9').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos10 = () => {
         document.getElementById('producto10').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos11 = () => {
         document.getElementById('producto11').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos12 = () => {
         document.getElementById('producto12').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos101 = () => {
         document.getElementById('producto101').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos102 = () => {
         document.getElementById('producto102').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos103 = () => {
         document.getElementById('producto103').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos104 = () => {
         document.getElementById('producto104').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos105 = () => {
         document.getElementById('producto105').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos106 = () => {
         document.getElementById('producto106').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos107 = () => {
         document.getElementById('producto107').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos108 = () => {
         document.getElementById('producto108').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos109 = () => {
         document.getElementById('producto109').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos110 = () => {
         document.getElementById('producto110').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos201 = () => {
         document.getElementById('producto201').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos202 = () => {
         document.getElementById('producto202').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos203 = () => {
         document.getElementById('producto203').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos204 = () => {
         document.getElementById('producto204').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos205 = () => {
         document.getElementById('producto205').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos206 = () => {
         document.getElementById('producto206').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
     const mostrarProductos207 = () => {
         document.getElementById('producto207').classList.toggle('active');
         document.getElementById('producto-default1').classList.add('oculto');
         document.getElementById('producto-default2').classList.add('oculto');
         document.getElementById('producto-default3').classList.add('oculto');
-        document.getElementById('producto-default4').classList.add('oculto');
     }
 
     // const validarMarcado = () => {

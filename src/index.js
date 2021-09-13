@@ -523,7 +523,7 @@ const App = () => {
           hola={SliderData103}
           tipoProducto="Disolventes y uso industrial"
           descripcion="Para usos de laboratorio, análisis, investigación y química fina. Tambien de uso en desinfeccion al tener una concentracion mas baja."
-          presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
           urlPdf={rutaAlcoholIsopropiplicoPdf1}
           urlPdf2={rutaAlcoholIsopropiplicoPdf2}
           urlPdf3={rutaAlcoholIsopropiplicoPdf3}
