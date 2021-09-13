@@ -241,6 +241,253 @@ export const SliderData12 = [
       Imagenes.sacaGrasa2
   },
 ];
+export const SliderData101 = [
+  {
+    image:
+      Imagenes.aguarras1
+  },
+  {
+    image:
+      Imagenes.aguarras2
+  },
+  {
+    image:
+      Imagenes.aguarras3
+  },
+  {
+    image:
+      Imagenes.aguarras4
+  },
+];
+export const SliderData102 = [
+  {
+    image:
+      Imagenes.alcoholInd1
+  },
+  {
+    image:
+      Imagenes.alcoholInd2
+  },
+  {
+    image:
+      Imagenes.alcoholInd3
+  },
+  {
+    image:
+      Imagenes.alcoholInd4
+  },
+];
+export const SliderData103 = [
+  {
+    image:
+      Imagenes.alcoholIso1
+  },
+  {
+    image:
+      Imagenes.alcoholIso2
+  },
+  {
+    image:
+      Imagenes.alcoholIso3
+  },
+  {
+    image:
+      Imagenes.alcoholIso4
+  },
+];
+export const SliderData104 = [
+  {
+    image:
+      Imagenes.alcoholIsoSetenta1
+  },
+];
+export const SliderData105 = [
+  {
+    image:
+      Imagenes.alcoholIsoNoventa1
+  },
+  {
+    image:
+      Imagenes.alcoholIsoNoventa2
+  },
+  {
+    image:
+      Imagenes.alcoholIsoNoventa3
+  },
+  {
+    image:
+      Imagenes.alcoholIsoNoventa4
+  },
+];
+export const SliderData106 = [
+  {
+    image:
+      Imagenes.bencina1
+  },
+  {
+    image:
+      Imagenes.bencina2
+  },
+  {
+    image:
+      Imagenes.bencina3
+  },
+  {
+    image:
+      Imagenes.bencina4
+  },
+];
+export const SliderData107 = [
+  {
+    image:
+      Imagenes.preservanteMadera1
+  },
+  {
+    image:
+      Imagenes.preservanteMadera2
+  },
+  {
+    image:
+      Imagenes.preservanteMadera3
+  },
+];
+export const SliderData108 = [
+  {
+    image:
+      Imagenes.ron1
+  },
+  {
+    image:
+      Imagenes.ron2
+  },
+  {
+    image:
+      Imagenes.ron3
+  },
+  {
+    image:
+      Imagenes.ron4
+  },
+];
+export const SliderData109 = [
+  {
+    image:
+      Imagenes.sacaOxido1
+  },
+  {
+    image:
+      Imagenes.sacaOxido2
+  },
+];
+export const SliderData110 = [
+  {
+    image:
+      Imagenes.thinner1
+  },
+  {
+    image:
+      Imagenes.thinner2
+  },
+  {
+    image:
+      Imagenes.thinner3
+  },
+];
+export const SliderData201 = [
+  {
+    image:
+      Imagenes.aguaBateria1
+  },
+  {
+    image:
+      Imagenes.aguaBateria2
+  },
+];
+export const SliderData202 = [
+  {
+    image:
+      Imagenes.limpiaVidrios1
+  },
+  {
+    image:
+      Imagenes.limpiaVidrios2
+  },
+  {
+    image:
+      Imagenes.limpiaVidrios3
+  },
+  {
+    image:
+      Imagenes.limpiaVidrios4
+  },
+];
+export const SliderData203 = [
+  {
+    image:
+      Imagenes.renovadorLlantas1
+  },
+  {
+    image:
+      Imagenes.renovadorLlantas2
+  },
+  {
+    image:
+      Imagenes.renovadorLlantas3
+  },
+  {
+    image:
+      Imagenes.renovadorLlantas4
+  },
+];
+export const SliderData204 = [
+  {
+    image:
+      Imagenes.shampooAuto1
+  },
+  {
+    image:
+      Imagenes.shampooAuto2
+  },
+  {
+    image:
+      Imagenes.shampooAuto3
+  },
+];
+export const SliderData205 = [
+  {
+    image:
+      Imagenes.siliconaCristal1
+  },
+  {
+    image:
+      Imagenes.siliconaCristal2
+  },
+  {
+    image:
+      Imagenes.siliconaCristal3
+  },
+];
+export const SliderData206 = [
+  {
+    image:
+      Imagenes.siliconaCristalPremium1
+  },
+];
+export const SliderData207 = [
+  {
+    image:
+      Imagenes.siliconaTablero1
+  },
+  {
+    image:
+      Imagenes.siliconaTablero2
+  },
+  {
+    image:
+      Imagenes.siliconaTablero3
+  },
+];
+
 
 // export const SliderData12 = [
 //   {

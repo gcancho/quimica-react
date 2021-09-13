@@ -254,6 +254,9 @@ $altoBuscador: 58px;
 }
 
 @media (min-width: 768px) {
+    .box-search{
+        top: 80px;  
+    }
     .boton__cerrar__menu {
         display: none !important;
     }

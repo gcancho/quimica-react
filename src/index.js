@@ -126,7 +126,7 @@ import ProductoDetalle from './componentes/ProductoDetalle';
 // import watchImg300 from './imagenes/imagenPruebaPequena.jpg';
 // import watchImg1200 from './imagenes/imagenPruebaGrande.jpg';
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData13, SliderData14, SliderData15, SliderData16, SliderData17, SliderData18, SliderData19, SliderData20, SliderData21, SliderData22, SliderData23, SliderData24, SliderData25, SliderData26, SliderData27, SliderData28, SliderData29, SliderData30, SliderData31, SliderData32, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9 } from './componentes/SliderData';
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9, SliderData101, SliderData102, SliderData103, SliderData104, SliderData105, SliderData106, SliderData107, SliderData108, SliderData109, SliderData110, SliderData201, SliderData202, SliderData203, SliderData204, SliderData205, SliderData206, SliderData207 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -193,6 +193,8 @@ const App = () => {
   const rutaAlcoholIsopropiplicoPdf1 = "https://drive.google.com/file/d/1xeme2x7vJTl8Jnno_pH-leWlf8II9zEu/view?usp=sharing";
   const rutaAlcoholIsopropiplicoPdf2 = "https://drive.google.com/file/d/1qf1an1k5XfUOjcjTDcJhUQoWDIBfnkUR/view?usp=sharing";
   const rutaAlcoholIsopropiplicoPdf3 = "https://drive.google.com/file/d/19rIacTacI9ThASeWLqqiUtdL4xF7xU3F/view?usp=sharing";
+  const rutaAlcoholIsopropiplicoSetentaPdf1 = "https://drive.google.com/file/d/1CyLWZrh81pWl6f7jkZto-hfOlkP_1y4n/view?usp=sharing";
+  const rutaAlcoholIsopropiplicoSetentaPdf2 = "https://drive.google.com/file/d/1wE06u9rnEdJPg_MDEKw1p_E30TLJ7nY1/view?usp=sharing";
   const rutaBencinaPdf1 = "https://drive.google.com/file/d/1TgTxi0HnbGUChNjr22N1bpRNCJ8_vv--/view?usp=sharing";
   const rutaBencinaPdf2 = "https://drive.google.com/file/d/17Nz3Iou1FD95E3zyn39wDrnvvcGqpype/view?usp=sharing";
   const rutaPreservanteMaderaPdf1 = "https://drive.google.com/file/d/1zPyeeip7H0EHpUzPBH5aWKOEU_fbsrcv/view?usp=sharing";
@@ -201,18 +203,23 @@ const App = () => {
   const rutaRonQuemarPdf2 = "https://drive.google.com/file/d/179iASaQK2ahA0cSgHQLioHzLUuleufhR/view?usp=sharing";
   const rutaSacaOxidoPdf1 = "https://drive.google.com/file/d/1iKSHsKhVFw7dEru7nTJh0TF-j2hiR6KU/view?usp=sharing";
   const rutaSacaOxidoPdf2 = "https://drive.google.com/file/d/10dtIvW8AfKHiiPxh-hjovUNGo6JSMFLR/view?usp=sharing";
-  const rutaThinnerAcrilicoPdf = "https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
+  const rutaThinnerAcrilicoPdf1 = "https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
   const rutaThinnerAcrilicoPdf2 = "https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
 
+  const rutaAguaBateriasPdf1 = "https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing";
+  const rutaAguaBateriasPdf2 = "https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing";
+  const rutaLimpiaVidrios1 = "https://drive.google.com/file/d/1IMvEv7gUPjJRbJLp6tEzBeKXkW9BdbeJ/view?usp=sharing";
+  const rutaLimpiaVidrios2 = "https://drive.google.com/file/d/1f3HEJd-s9Wc4qioZhTrxmiW2MAp4bgAp/view?usp=sharing";
   const rutaRenovadorLlantaPdf1 = "https://drive.google.com/file/d/17A19IEn4dg2LQQaOeC1s3mdfwWdXuZv3/view?usp=sharing";
   const rutaRenovadorLlantaPdf2 = "https://drive.google.com/file/d/16y-8kp5THCI-DCkzIS-lc6a6GzwqW8NA/view?usp=sharing";
+  const rutaShampooAutoPdf1 = "https://drive.google.com/file/d/1vNFt9FvkJB90-It0x4daHspyEMiewfAt/view?usp=sharing";
+  const rutaShampooAutoPdf2 = "https://drive.google.com/file/d/1vJbe02te5ew-dauvkGKIC8qLccmZMKMS/view?usp=sharing";
   const rutaSiliconaTablerPdf1 = "https://drive.google.com/file/d/1XNdU58v7mEeuNRiRZQl-SyWKYIxlx7bx/view?usp=sharing";
   const rutaSiliconaTablerPdf2 = "https://drive.google.com/file/d/1OGxG08zs-yDEDpCq0nnymnNC-nMzdQmP/view?usp=sharing";
   const rutaSiliconaCristalPdf1 = "https://drive.google.com/file/d/1Tkhdjm8uiIDDN_xmc7TLi4FaAq0S_SXI/view?usp=sharing";
   const rutaSiliconaCristalPdf2 = "https://drive.google.com/file/d/1uknsgyPla7tRqfmWPaMOP8stXCd3bc32/view?usp=sharing";
-  const rutaAguaBateriasPdf1 = "https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing";
-  const rutaAguaBateriasPdf2 = "https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing";
-
+  const rutaSiliconaCristalPremiumPdf1 = "https://drive.google.com/file/d/1VXlt764ztHm07bq9lJ8Ck0nj-5bNWCCV/view?usp=sharing";
+  const rutaSiliconaCristalPremiumPdf2 = "https://drive.google.com/file/d/1QK3sB3J6Uw4eMARR11f7wLPfRD7FotcW/view?usp=sharing";
 
   return (
 
@@ -479,12 +486,10 @@ const App = () => {
 
         <ProductoDetalle tituloProductoDetalle="Aguarras"
           imagenesSecundarias={[Imagenes.aguarras1, Imagenes.aguarras2, Imagenes.aguarras3, Imagenes.aguarras4]}
-          hola={SliderData10}
+          hola={SliderData101}
           tipoProducto="Disolventes y uso industrial"
-          //Cambiar la descripcion luego
-          descripcion="Es un potente limpiador, destruye el sarro, desmancha Y desinfecta, ideal para baños, pisos, inodoros, Elimima bacterias(escherihia, coli, pseudomonas aeruginosa staphylococcus aureus y salmonella sp)."
-          presentaciones="Galón, Litro, Medio litro, Bidón"
-          usos={['Dilución y limpieza de pinturas sintéticas.']}
+          descripcion="Disolvente a base de hidrocarburos alifáticos desaromatizados y terpenos. Dilución y limpieza de pinturas sintéticas."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON."
           urlPdf={rutaAguarrasPdf1}
           urlPdf2={rutaAguarrasPdf2}
         />
@@ -497,10 +502,10 @@ const App = () => {
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <ProductoDetalle tituloProductoDetalle="Alcohol industrial"
           imagenesSecundarias={[Imagenes.alcoholInd1, Imagenes.alcoholInd2, Imagenes.alcoholInd3, Imagenes.alcoholInd4]}
-          hola={SliderData11}
+          hola={SliderData102}
           tipoProducto="Disolventes y uso industrial"
-          presentaciones="Litro, Medio litro, Galón, Bidón, Cilindro."
-          usos={['De gran aplicación en muchos sectores industriales y otras aplicaciones químicas.']}
+          descripcion="Para usos industriales, como solventes, anticongelantes, agentes de extracción y como intermedio en la síntesis de otros productos orgánicos. El término involucra el alcohol etílico obtenido por fermentación o síntesis química, con un amplio rango de impurezas comúnmente también se le denomina alcohol etílico de segunda o cabezas y colas."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
           urlPdf={rutaAlcoholIndustrialPdf1}
           urlPdf2={rutaAlcoholIndustrialPdf2}
         />
@@ -512,12 +517,11 @@ const App = () => {
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
         <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico"
-          imagenesSecundarias={[Imagenes.alcoholIso1, Imagenes.alcoholIso2, Imagenes.alcoholIso3, Imagenes.alcoholIso]}
-          hola={SliderData3}
+          imagenesSecundarias={[Imagenes.alcoholIso1, Imagenes.alcoholIso2, Imagenes.alcoholIso3, Imagenes.alcoholIso4]}
+          hola={SliderData103}
           tipoProducto="Disolventes y uso industrial"
+          descripcion="Para usos de laboratorio, análisis, investigación y química fina. Tambien de uso en desinfeccion al tener una concentracion mas baja."
           presentaciones="Frascos, Galón, Bidón, Cilindro, Tanque"
-          usos={['Humedezca un paño limpio con Alcohol Isopropílico Multiusos, luego aplique sobre la superficie a tratar.',
-            'Frote y deje secar.']}
           urlPdf={rutaAlcoholIsopropiplicoPdf1}
           urlPdf2={rutaAlcoholIsopropiplicoPdf2}
           urlPdf3={rutaAlcoholIsopropiplicoPdf3}
@@ -526,7 +530,234 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
       </Route>
 
+      <Route path="/Productos/Alcohol-isopropilico-70" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico 70%"
+          imagenesSecundarias={[Imagenes.alcoholIsoSetenta1]}
+          hola={SliderData104}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Para usos de laboratorio, análisis, investigación y química fina. Tambien de uso en desinfeccion al tener una concentracion mas baja. "
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
+          urlPdf={rutaAlcoholIsopropiplicoSetentaPdf1}
+          urlPdf2={rutaAlcoholIsopropiplicoSetentaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Alcohol-isopropilico-90" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico 70%"
+          imagenesSecundarias={[Imagenes.alcoholIsoNoventa1, Imagenes.alcoholIsoNoventa2, Imagenes.alcoholIsoNoventa3, Imagenes.alcoholIsoNoventa4]}
+          hola={SliderData105}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Para usos de laboratorio, análisis, investigación y química fina. almacenar en  Recipientes bien cerrados. En local bien ventilado. Alejado de fuentes de ignición y Calor. Temperatura ambiente. No almacenar en recipientes de metales ligeros."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
+          urlPdf={rutaAlcoholIsopropiplicoPdf1}
+          urlPdf2={rutaAlcoholIsopropiplicoPdf2}
+          urlPdf3={rutaAlcoholIsopropiplicoPdf3}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Bencina" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Bencina"
+          imagenesSecundarias={[Imagenes.bencina1, Imagenes.bencina2, Imagenes.bencina3, Imagenes.bencina4]}
+          hola={SliderData106}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Líquido claro o débilmente coloreado. Mezcla de hidrocarburos del petróleo. Su uso principal está en actividades de limpieza y desengrasado. En la industria de pinturas se usa como componente de diluyentes."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
+          urlPdf={rutaBencinaPdf1}
+          urlPdf2={rutaBencinaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Preservante-para-madera" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Preservante para madera"
+          imagenesSecundarias={[Imagenes.preservanteMadera1, Imagenes.preservanteMadera2, Imagenes.preservanteMadera3]}
+          hola={SliderData107}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Es un protector y repelente de insectos como el comején que atacan la madera y aglomerados, desarrollado con ingredientes activos que además previenen el crecimiento de hongos, ofreciendo una protección de larga duración. Mantienen estable la forma de la madera porque no transfiere humedad."
+          presentaciones="LITRO, GALON."
+          urlPdf={rutaPreservanteMaderaPdf1}
+          urlPdf2={rutaPreservanteMaderaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+      <Route path="/Productos/Ron-de-quemar" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Ron de quemar"
+          imagenesSecundarias={[Imagenes.ron1, Imagenes.ron2, Imagenes.ron3, Imagenes.ron4]}
+          hola={SliderData108}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Líquido azulado y volátil, de olor etéreo y sabor picante, que tiene aplicaciones en la industria como disolvente para lacas, barnices, perfumes; como medio para reacciones químicas."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO"
+          urlPdf={rutaRonQuemarPdf1}
+          urlPdf2={rutaRonQuemarPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+      <Route path="/Productos/Saca-oxido" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Saca óxido"
+          imagenesSecundarias={[Imagenes.sacaOxido1, Imagenes.sacaOxido2]}
+          hola={SliderData109}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Excelente producto para remover el óxido biodegradable, duro con el óxido suave con el metal."
+          presentaciones="GALON."
+          urlPdf={rutaSacaOxidoPdf1}
+          urlPdf2={rutaSacaOxidoPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+      <Route path="/Productos/Thinner-acrilico" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Thinner acrílico"
+          imagenesSecundarias={[Imagenes.thinner1, Imagenes.thinner2, Imagenes.thinner3]}
+          hola={SliderData110}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Liquido combustible puede acumular cargas estáticas. El vapor es más pesado que el aire y puede dispersarse distancias largas y acumularse en zonas bajas alta mente inflamable. uso prinipal como disolvente de pinturas esmalte, al duco."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
+          urlPdf={rutaThinnerAcrilicoPdf1}
+          urlPdf2={rutaThinnerAcrilicoPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
       {/*----- Fin de Categoria 2 ----*/}
+
+      {/* Categoria 3 */}
+
+      <Route path="/Productos/Agua-para-baterias" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Agua para baterias"
+          imagenesSecundarias={[Imagenes.aguaBateria1, Imagenes.aguaBateria2]}
+          hola={SliderData201}
+          tipoProducto="Línea Automotriz"
+          descripcion="Es un producto que resulta de un eficiente tratamiento químico que elimina el contenido de minerales e impurezas. Alto grado de pureza obtenido mediante el proceso de desmineralización. Baja conductividad, por lo cual es aplicable en soluciones electrolíticas de su batería."
+          presentaciones="GALON, BIDON."
+          urlPdf={rutaAguaBateriasPdf1}
+          urlPdf2={rutaAguaBateriasPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Limpia-vidrios" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
+          imagenesSecundarias={[Imagenes.limpiaVidrios1, Imagenes.limpiaVidrios2, Imagenes.limpiaVidrios3, Imagenes.limpiaVidrios4]}
+          hola={SliderData202}
+          tipoProducto="Línea Automotriz"
+          descripcion="De forma segura limpie sus cristales y vidrios de su hogar e industria. Elimine la grasa,
+          tizne, y demás agentes que opacan el brillo. Da transparencia de manera fácil, rápida y con un secado instantáneo evitando la alta humedad. Protege la adherencia de nuevas suciedades. "
+          presentaciones="LITRO, GALON, BIDON."
+          urlPdf={rutaLimpiaVidrios1}
+          urlPdf2={rutaLimpiaVidrios2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Renovador-de-llantas" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
+          imagenesSecundarias={[Imagenes.renovadorLlantas1, Imagenes.renovadorLlantas2, Imagenes.renovadorLlantas3, Imagenes.renovadorLlantas4]}
+          hola={SliderData203}
+          tipoProducto="Línea Automotriz"
+          descripcion="Limpiador y renovador de llantas, No posee ingredientes de riesgo. Lave y limpie la superficie de la llanta, aplique en la parte lateral de las llantas esparcirlo de forma homogénea, evitando aplicarlo en zonas de contacto con el suelo, frote con un paño limpio y seco."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON."
+          urlPdf={rutaRenovadorLlantaPdf1}
+          urlPdf2={rutaRenovadorLlantaPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Shampoo-para-auto" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Shampoo para auto"
+          imagenesSecundarias={[Imagenes.shampooAuto1, Imagenes.shampooAuto2, Imagenes.shampooAuto3]}
+          hola={SliderData204}
+          tipoProducto="Línea Automotriz"
+          descripcion="Limpia todo el polvo, suciedad acumulado en el vehículo. Se recomienda colocar directo el producto o combinarlo con agua de tal manera que frote con el paño y remueva las impurezas. enjuague el vehículo con abundante agua removiendo los restos del producto. "
+          presentaciones="GALON, BIDON."
+          urlPdf={rutaShampooAutoPdf1}
+          urlPdf2={rutaShampooAutoPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Silicona-para-cristal" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Silicona para cristal"
+          imagenesSecundarias={[Imagenes.siliconaCristal1, Imagenes.siliconaCristal2, Imagenes.siliconaCristal3]}
+          hola={SliderData205}
+          tipoProducto="Línea Automotriz"
+          descripcion="Producto formulado específicamente para remover la suciedad, dar brillo, proteger y humectar la superficie donde es aplicado."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON."
+          urlPdf={rutaSiliconaCristalPdf1}
+          urlPdf2={rutaSiliconaCristalPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Silicona-para-cristal-premium" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Silicona para cristal premium"
+          imagenesSecundarias={[Imagenes.siliconaCristalPremium1]}
+          hola={SliderData206}
+          tipoProducto="Línea Automotriz"
+          descripcion="Es un producto versátil, útil tanto para el cuidado y mantenimiento de su vehículo como en el hogar. Por su alto contenido en silicona limpia, protege y lubrica a la vez que proporciona el brillo que destaca a este producto."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON."
+          urlPdf={rutaSiliconaCristalPremiumPdf1}
+          urlPdf2={rutaSiliconaCristalPremiumPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+
+      <Route path="/Productos/Silicona-para-tablero" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Silicona para tablero"
+          imagenesSecundarias={[Imagenes.siliconaTablero1, Imagenes.siliconaTablero2, Imagenes.siliconaTablero3]}
+          hola={SliderData207}
+          tipoProducto="Línea Automotriz"
+          descripcion="La formula de nuestra silicona perfumada penetra y se adhiere a la superficie para mejorar la apariencia del vinílico, caucho, plástico, renueva el lustre y remueva la suciedad. Aplíquese en tableros de autos, equipos de sonido, computadoras y otros."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON."
+          urlPdf={rutaSiliconaTablerPdf1}
+          urlPdf2={rutaSiliconaTablerPdf2}
+        />
+        <Footer />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
+      {/*----- Fin de Categoria 3 ----*/}
+
 
 
       {/* <Route path="/Ron-de-quemar">

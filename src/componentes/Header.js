@@ -63,6 +63,20 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                         <input type="text" className="input-search" id="inputSearch" placeholder="¿Qué desea buscar?" onKeyUp={buscador_interno} />
                         <FontAwesomeIcon icon={faSearch} />
                         <ul className="box-search" id="box-search">
+
+                            <li><Link to="/Productos/Acido-el-fuerte" exact={true}><i class="fas fa-search"></i><img src={Imagenes.acidoFuerte1} />{nombresProductosCategoria1[0]}</Link></li>
+                            <li><Link to="/Productos/Ambientadores" exact={true}><i class="fas fa-search"></i><img src={Imagenes.ambientador1} />{nombresProductosCategoria1[1]}</Link></li>
+                            <li><Link to="/Productos/Cera-al-agua" exact={true}><i class="fas fa-search"></i><img src={Imagenes.cera1} />{nombresProductosCategoria1[2]}</Link></li>
+                            <li><Link to="/Productos/Cloro" exact={true}><i class="fas fa-search"></i><img src={Imagenes.cloro1} />{nombresProductosCategoria1[3]}</Link></li>
+                            <li><Link to="/Productos/Jabon-liquido" exact={true}><i class="fas fa-search"></i><img src={Imagenes.jabon1} />{nombresProductosCategoria1[4]}</Link></li>
+                            <li><Link to="/Productos/Kresso" exact={true}><i class="fas fa-search"></i><img src={Imagenes.kresso1} />{nombresProductosCategoria1[5]}</Link></li>
+                            <li><Link to="/Productos/Lejia" exact={true}><i class="fas fa-search"></i><img src={Imagenes.lejia1} />{nombresProductosCategoria1[6]}</Link></li>
+                            <li><Link to="/Productos/Limpiatodo" exact={true}><i class="fas fa-search"></i><img src={Imagenes.limpiaTodo1} />{nombresProductosCategoria1[7]}</Link></li>
+                            <li><Link to="/Productos/Pino" exact={true}><i class="fas fa-search"></i><img src={Imagenes.pino1} />{nombresProductosCategoria1[8]}</Link></li>
+                            <li><Link to="/Productos/Potente-desinfectante" exact={true}><i class="fas fa-search"></i><img src={Imagenes.potenteDesinfectante1} />{nombresProductosCategoria1[9]}</Link></li>
+                            <li><Link to="/Productos/Quita-sarro" exact={true}><i class="fas fa-search"></i><img src={Imagenes.quitaSarro1} />{nombresProductosCategoria1[10]}</Link></li>
+                            <li><Link to="/Productos/Saca-grasa" exact={true}><i class="fas fa-search"></i><img src={Imagenes.sacaGrasa1} />{nombresProductosCategoria1[11]}</Link></li>
+
                             <li><Link to="/Productos/Aguarras" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguarras1} />{nombresProductosCategoria2[0]}</Link></li>
                             <li><Link to="/Productos/Alcohol-industrial" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholInd1} />{nombresProductosCategoria2[1]}</Link></li>
                             <li><Link to="/Productos/Alcohol-isopropilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIso1} />{nombresProductosCategoria2[2]}</Link></li>
@@ -72,6 +86,15 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                             <li><Link to="/Productos/Ron-de-quemar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.ron1} />{nombresProductosCategoria2[6]}</Link></li>
                             <li><Link to="/Productos/Saca-oxido" exact={true}><i class="fas fa-search"></i><img src={Imagenes.sacaOxido1} />{nombresProductosCategoria2[7]}</Link></li>
                             <li><Link to="/Productos/Thinner-acrilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinner1} />{nombresProductosCategoria2[8]}</Link></li>
+
+                            <li><Link to="/Productos/Agua-para-baterias" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguaBateria1} />{nombresProductosCategoria3[0]}</Link></li>
+                            <li><Link to="/Productos/Limpia-vidrios" exact={true}><i class="fas fa-search"></i><img src={Imagenes.limpiaVidrios1} />{nombresProductosCategoria3[1]}</Link></li>
+                            <li><Link to="/Productos/Renovador-de-llantas" exact={true}><i class="fas fa-search"></i><img src={Imagenes.renovadorLlantas1} />{nombresProductosCategoria3[2]}</Link></li>
+                            <li><Link to="/Productos/Shampoo-para-auto" exact={true}><i class="fas fa-search"></i><img src={Imagenes.shampooAuto1} />{nombresProductosCategoria3[3]}</Link></li>
+                            <li><Link to="/Productos/Silicona-para-cristal" exact={true}><i class="fas fa-search"></i><img src={Imagenes.siliconaCristal1} />{nombresProductosCategoria3[4]}</Link></li>
+                            <li><Link to="/Productos/Silicona-para-cristal-premium" exact={true}><i class="fas fa-search"></i><img src={Imagenes.siliconaCristalPremium1} />{nombresProductosCategoria3[5]}</Link></li>
+                            <li><Link to="/Productos/Silicona-para-tablero" exact={true}><i class="fas fa-search"></i><img src={Imagenes.siliconaTablero1} />{nombresProductosCategoria3[6]}</Link></li>
+
 
                             {/* <li><Link to="/Productos/Renovadora-de-llantas" exact={true}><i class="fas fa-search"></i><img src={Imagenes.renovadorLlantas1} />{nombresProductosCategoria3[0]}</Link></li>
                             <li><Link to="/Productos/Silicona-para-tablero" exact={true}><i class="fas fa-search"></i><img src={Imagenes.siliconaTablero1} />{nombresProductosCategoria3[1]}</Link></li>
