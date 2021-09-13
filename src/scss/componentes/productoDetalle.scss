@@ -117,20 +117,20 @@
 
 .caracteristicas__producto__der__info p {
     font-family: $fuente3;
-    font-weight: 600;
+    font-weight: bold;
     margin: 5px 0;
+    color: #3b3b3b;
 }
 
 .caracteristicas__producto__der__info p span {
     font-family: $fuente3;
     font-weight: normal;
-    color: #000;
+    color: #585858;
     // text-transform: lowercase;
 }
 
 .caracteristicas__producto__der__info span {
     font-weight: normal;
-    color: #000;
 }
 
 .boton-pdf {

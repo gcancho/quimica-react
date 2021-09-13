@@ -17,13 +17,13 @@ import logo from './../imagenes/logo.png';
 import FooterItem from './FooterItem';
 
 
-const Footer = () => {
+const Footer = ({nombreCorreo}) => {
     return (
         <footer className="footer">
             <div className="footer__block contenedor">
                 <article className="footer__item footer__item--logo">
                     <img src={logo} />
-                    <span><FontAwesomeIcon icon={faEnvelope} />informes@quimicarodriguez.com</span>
+                    <span><FontAwesomeIcon icon={faEnvelope} />{nombreCorreo}</span>
                     <div className="redes__sociales">
                         <a><FontAwesomeIcon icon={faFacebook} /></a>
                         <a><FontAwesomeIcon icon={faInstagram} /></a>

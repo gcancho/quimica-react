@@ -86,6 +86,7 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                             <li><Link to="/Productos/Ron-de-quemar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.ron1} />{nombresProductosCategoria2[6]}</Link></li>
                             <li><Link to="/Productos/Saca-oxido" exact={true}><i class="fas fa-search"></i><img src={Imagenes.sacaOxido1} />{nombresProductosCategoria2[7]}</Link></li>
                             <li><Link to="/Productos/Thinner-acrilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinner1} />{nombresProductosCategoria2[8]}</Link></li>
+                            {/* <li><Link to="/Productos/Thinner-standar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinnerStandar1} />{nombresProductosCategoria2[9]}</Link></li> */}
 
                             <li><Link to="/Productos/Agua-para-baterias" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguaBateria1} />{nombresProductosCategoria3[0]}</Link></li>
                             <li><Link to="/Productos/Limpia-vidrios" exact={true}><i class="fas fa-search"></i><img src={Imagenes.limpiaVidrios1} />{nombresProductosCategoria3[1]}</Link></li>
@@ -148,7 +149,19 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                                 </div>
                                 <div className="menu2">
                                     <h6>Productos</h6>
-                                    {nombresProductosCategoria1.map((p1, index) => <li key={index}>{p1}</li>)}
+                                    {/* {nombresProductosCategoria1.map((p1, index) => <li key={index}>{p1}</li>)} */}
+                                    <li><Link to="/Productos/Acido-el-fuerte">{nombresProductosCategoria1[0]}</Link></li>
+                                    <li><Link to="/Productos/Ambientadores">{nombresProductosCategoria1[1]}</Link></li>
+                                    <li><Link to="/Productos/Cera-al-agua">{nombresProductosCategoria1[2]}</Link></li>
+                                    <li><Link to="/Productos/Cloro">{nombresProductosCategoria1[3]}</Link></li>
+                                    <li><Link to="/Productos/Jabon-liquido">{nombresProductosCategoria1[4]}</Link></li>
+                                    <li><Link to="/Productos/Kresso">{nombresProductosCategoria1[5]}</Link></li>
+                                    <li><Link to="/Productos/Lejia">{nombresProductosCategoria1[6]}</Link></li>
+                                    <li><Link to="/Productos/Limpiatodo">{nombresProductosCategoria1[7]}</Link></li>
+                                    <li><Link to="/Productos/Pino">{nombresProductosCategoria1[8]}</Link></li>
+                                    <li><Link to="/Productos/Potente-desinfectante">{nombresProductosCategoria1[9]}</Link></li>
+                                    <li><Link to="/Productos/Quita-sarro">{nombresProductosCategoria1[10]}</Link></li>
+                                    <li><Link to="/Productos/Saca-grasa">{nombresProductosCategoria1[11]}</Link></li>
                                 </div>
                             </div>
                             <div className="menu__raro__item">
@@ -157,7 +170,17 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                                 </div>
                                 <div className="menu2">
                                     <h6>Productos</h6>
-                                    {nombresProductosCategoria2.map((p2, index) => <li key={index}>{p2}</li>)}
+                                    <li><Link to="/Productos/Aguarras">{nombresProductosCategoria2[0]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-industrial">{nombresProductosCategoria2[1]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-isopropilico">{nombresProductosCategoria2[2]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-isopropilico-70">{nombresProductosCategoria2[3]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-isopropilico-90">{nombresProductosCategoria2[4]}</Link></li>
+                                    <li><Link to="/Productos/Bencina">{nombresProductosCategoria2[5]}</Link></li>
+                                    <li><Link to="/Productos/Preservante-para-madera">{nombresProductosCategoria2[6]}</Link></li>
+                                    <li><Link to="/Productos/Ron-de-quemar">{nombresProductosCategoria2[7]}</Link></li>
+                                    <li><Link to="/Productos/Saca-oxido">{nombresProductosCategoria2[8]}</Link></li>
+                                    <li><Link to="/Productos/Thinner-acrilico">{nombresProductosCategoria2[9]}</Link></li>
+                                    <li><Link to="/Productos/Thinner-standar">{nombresProductosCategoria2[10]}</Link></li>
                                 </div>
                             </div>
                             <div className="menu__raro__item">
@@ -166,7 +189,13 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                                 </div>
                                 <div className="menu2">
                                     <h6>Productos</h6>
-                                    {nombresProductosCategoria3.map((p3, index) => <li key={index}>{p3}</li>)}
+                                    <li><Link to="/Productos/Agua-para-baterias">{nombresProductosCategoria3[0]}</Link></li>
+                                    <li><Link to="/Productos/Limpia-vidrios">{nombresProductosCategoria3[1]}</Link></li>
+                                    <li><Link to="/Productos/Renovador-de-llantas">{nombresProductosCategoria3[2]}</Link></li>
+                                    <li><Link to="/Productos/Shampoo-para-auto">{nombresProductosCategoria3[3]}</Link></li>
+                                    <li><Link to="/Productos/Silicona-para-cristal">{nombresProductosCategoria3[4]}</Link></li>
+                                    <li><Link to="/Productos/Silicona-para-cristal-premium">{nombresProductosCategoria3[5]}</Link></li>
+                                    <li><Link to="/Productos/Silicona-para-tablero">{nombresProductosCategoria3[6]}</Link></li>
                                 </div>
                             </div>
                         </article>

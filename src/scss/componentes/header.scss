@@ -254,8 +254,8 @@ $altoBuscador: 58px;
 }
 
 @media (min-width: 768px) {
-    .box-search{
-        top: 80px;  
+    .box-search {
+        top: 80px;
     }
     .boton__cerrar__menu {
         display: none !important;
@@ -339,7 +339,7 @@ $altoBuscador: 58px;
             > a {
                 padding: 8px 0;
             }
-            a {
+            > a {
                 color: #818284;
                 margin-left: 60px;
                 font-size: 0.9em;
@@ -349,6 +349,14 @@ $altoBuscador: 58px;
                 color: #fff !important;
                 &:hover {
                     color: #fff !important;
+                }
+            }
+            .menu__raro__item {
+                a {
+                    color: $color10 !important;
+                    &:hover{
+                        color: $color1 !important;
+                    }
                 }
             }
         }

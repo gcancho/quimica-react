@@ -413,24 +413,24 @@ const Productos2 = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nomb
                     {/* ----------------------------------- */}
 
 
-
-
-                    <div className="producto default" id="producto-default1">
-                        <img src={Imagenes.siliconaCristal1} />
-                        <p>Silicona para cristal</p>
-                    </div>
-                    <div className="producto default" id="producto-default2">
-                        <img src={Imagenes.limpiaVidrios1} />
-                        <p>Limpia vidrios</p>
-                    </div>
-                    <div className="producto default" id="producto-default3">
-                        <img src={Imagenes.sacaOxido1} />
-                        <p>Saca oxido</p>
-                    </div>
-                    <div className="producto default" id="producto-default4">
-                        <img src={Imagenes.renovadorLlantas1} />
-                        <p>Renovador de llanta</p>
-                    </div>
+                    <Link to="/Productos/Silicona-para-cristal" >
+                        <div className="producto default" id="producto-default1">
+                            <img src={Imagenes.siliconaCristal1} />
+                            <p>Silicona para cristal</p>
+                        </div>
+                    </Link>
+                    <Link to="/Productos/Limpia-vidrios" >
+                        <div className="producto default" id="producto-default2">
+                            <img src={Imagenes.limpiaVidrios1} />
+                            <p>Limpia vidrios</p>
+                        </div>
+                    </Link>
+                    <Link to="/Productos/Saca-oxido" >
+                        <div className="producto default" id="producto-default3">
+                            <img src={Imagenes.sacaOxido1} />
+                            <p>Saca oxido</p>
+                        </div>
+                    </Link>
                 </article>
 
             </section >
