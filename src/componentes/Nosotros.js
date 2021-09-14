@@ -1,5 +1,8 @@
 import React from 'react';
 import imgNosotros from './../imagenes/Banner/nosotros.jpg'
+import imgNosotros1 from './../imagenes/nosotros-1.png'
+import imgNosotros2 from './../imagenes/nosotros-2.png'
+
 // import imgVision from './../imagenes/vision.png'
 // import imgMision from './../imagenes/mision.png'
 // import imgValores from './../imagenes/valores.svg'
@@ -13,7 +16,7 @@ const Nosotros = () => {
                 <p>Expertos en productos para limpieza</p>
                 <article className="nosotros__wrap contenedor">
                     <div className="container__img">
-                        <img src={imgNosotros} />
+                        <img src={imgNosotros1} />
                     </div>
                     <div className="nosotros__sobre">
                         <h3>Sobre Nosotros</h3>
@@ -39,7 +42,7 @@ const Nosotros = () => {
                         </ul>
                     </div>
                     <div className="container__img">
-                        <img src={imgNosotros} />
+                        <img src={imgNosotros2} />
                     </div>
                 </article>
                 <div className="nosotros__certificado__container contenedor">

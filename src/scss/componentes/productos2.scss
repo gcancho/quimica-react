@@ -80,6 +80,9 @@ $altoLi: 40px;
             text-align: center;
             width: 106px;
             margin-right: 6px;
+            &.default{
+                display: none;
+            }
             img {
                 width: 86px;
             }

@@ -6,7 +6,7 @@
     font-family: $fuente1;
     color: $color10;
     h3 {
-        color: $color10;
+        color: $color9;
         margin-top: 6px;
         margin-bottom: 30px;
         text-align: left;
@@ -17,9 +17,12 @@
             display: block;
             bottom: 0;
             background-color: $color1;
-            height: 2px;
+            height: 1px;
             width: 60px;
         }
+    }
+    ul{
+        margin: 14px 0;
     }
     .nosotros__container {
         h2 {
@@ -58,6 +61,7 @@
                 > p {
                     text-align: justify;
                     font-size: 0.8em;
+                    margin: 14px 0;
                 }
                 ul {
                     li {
@@ -125,10 +129,10 @@
                 .nosotros__sobre {
                     flex-basis: 0;
                     flex-grow: 1;
-                    margin-left: 20px;
+                    margin-left: 70px;
                 }
                 .nosotros__vismis {
-                    margin-right: 20px;
+                    margin-right: 70px;
                     flex-basis: 0;
                     flex-grow: 1;
                 }
