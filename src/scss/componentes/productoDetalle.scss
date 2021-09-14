@@ -28,7 +28,7 @@
             top: 0;
         }
         svg {
-            top: 50%;
+            top: 40%;
             font-size: 53px;
             cursor: pointer;
             border-radius: 6px;
@@ -179,6 +179,7 @@
 .caracteristicas__producto__item {
     height: 500px;
 }
+
 @media (min-width: 768px) {
     .caracteristicas__producto__item {
         display: flex;
@@ -234,6 +235,7 @@
             a {
                 margin: 15px 0;
                 margin-right: 10px;
+                font-size: 1em;
                 &:nth-last-of-type(1) {
                     position: absolute;
                     top: 0;

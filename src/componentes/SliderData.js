@@ -393,6 +393,16 @@ export const SliderData110 = [
       Imagenes.thinner3
   },
 ];
+export const SliderData111 = [
+  {
+    image:
+      Imagenes.thinnerSt1
+  },
+  {
+    image:
+      Imagenes.thinnerSt2
+  },
+];
 export const SliderData201 = [
   {
     image:

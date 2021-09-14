@@ -97,6 +97,9 @@ import sacaOxido2 from './../imagenes/Categoria2/Saca-Oxido/oxido2.png';
 import thinner1 from './../imagenes/Categoria2/Thinner-Acrilico/thinner1.png';
 import thinner2 from './../imagenes/Categoria2/Thinner-Acrilico/thinner2.png';
 import thinner3 from './../imagenes/Categoria2/Thinner-Acrilico/thinner3.png';
+import thinnerSt1 from './../imagenes/Categoria2/Thinner-Standar/thinner-standar1.png';
+import thinnerSt2 from './../imagenes/Categoria2/Thinner-Standar/thinner-standar2.png';
+
 
 // Imagenes Categoria 3
 import aguaBateria1 from './../imagenes/Categoria3/Agua-para-baterias/agua-bateria1.png';
@@ -235,6 +238,8 @@ export default {
     'thinner1': thinner1,
     'thinner2': thinner2,
     'thinner3': thinner3,
+    'thinnerSt1':thinnerSt1,
+    'thinnerSt2':thinnerSt2,
 
     // Categoria 3
     'aguaBateria1': aguaBateria1,

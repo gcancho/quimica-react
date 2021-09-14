@@ -32,7 +32,7 @@ const Footer = ({nombreCorreo}) => {
                     </div>
                 </article>
                 <FooterItem titulo="Oficina Central" icono={faMapMarkedAlt} texto="Calle Los Cerezos Mz. J Lote 8B Lotización Chillon - Puente Piedra" />
-                <FooterItem titulo="Horario de Atención" icono={faClock} texto="L - V: 8:00 am - 5:15 pm" />
+                <FooterItem titulo="Horario de Atención" icono={faClock} texto="L - V: 8:00 am - 5:15 pm" texto2="S: 8:00 am - 12:00 pm" />
                 <FooterItem titulo="Teléfonos" icono={faPhone} texto="994 268 798 - 955 310 163" />
             </div>
         </footer>

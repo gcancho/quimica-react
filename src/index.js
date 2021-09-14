@@ -126,7 +126,7 @@ import ProductoDetalle from './componentes/ProductoDetalle';
 // import watchImg300 from './imagenes/imagenPruebaPequena.jpg';
 // import watchImg1200 from './imagenes/imagenPruebaGrande.jpg';
 
-import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9, SliderData101, SliderData102, SliderData103, SliderData104, SliderData105, SliderData106, SliderData107, SliderData108, SliderData109, SliderData110, SliderData201, SliderData202, SliderData203, SliderData204, SliderData205, SliderData206, SliderData207 } from './componentes/SliderData';
+import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9, SliderData101, SliderData102, SliderData103, SliderData104, SliderData105, SliderData106, SliderData107, SliderData108, SliderData109, SliderData110, SliderData111, SliderData201, SliderData202, SliderData203, SliderData204, SliderData205, SliderData206, SliderData207 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
 import Servicios from './componentes/Servicios';
 import { Helmet } from 'react-helmet';
@@ -152,7 +152,7 @@ const App = () => {
   const nombresProductosCategoria1 = ['Ácido el fuerte', 'Ambientadores', 'Cera al agua', 'Cloro', 'Jabón Líquido', 'Kresso',
     'Lejia', 'Limpiatodo', 'Pino', 'Potente Desinfectante', 'Quita Sarro', 'Saca grasa'];
   // 10 productos
-  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial', 'Alcohol isopropilico', 'Alcohol isopropilico 70%', 'Alcohol isopropilico 90%', 'Bencina', 'Preservante para madera',
+  const nombresProductosCategoria2 = ['Aguarras', 'Alcohol industrial',  'Alcohol isopropilico 70%', 'Alcohol isopropilico 99%', 'Bencina', 'Preservante para madera',
     'Ron de quemar', 'Saca oxido', 'Thinner acrílico', 'Thinner Standar']
   // 7 productos
   const nombresProductosCategoria3 = ['Agua para baterias', 'Limpia Vidrios', 'Renovador de llanta', 'Shampoo para auto',
@@ -205,6 +205,8 @@ const App = () => {
   const rutaSacaOxidoPdf2 = "https://drive.google.com/file/d/10dtIvW8AfKHiiPxh-hjovUNGo6JSMFLR/view?usp=sharing";
   const rutaThinnerAcrilicoPdf1 = "https://drive.google.com/file/d/1rRJMe-xPKsoGmDGxO80GKgiqSkccVxjq/view?usp=sharing"
   const rutaThinnerAcrilicoPdf2 = "https://drive.google.com/file/d/1KLKeRzgnUWfVhEq7DFd4R48yIZX2tDKv/view?usp=sharing"
+  const rutaThinnerStandarPdf1 = "https://drive.google.com/file/d/1Uup1_gwk2fNPwt7UjZocqXSinrHWCPnF/view?usp=sharing";
+  const rutaThinnerStandarPdf2 = "https://drive.google.com/file/d/1V8EguDgUke3PhFZH5S5p40iUG5SBRDqN/view?usp=sharing";
 
   const rutaAguaBateriasPdf1 = "https://drive.google.com/file/d/1MtSOz9u-pF1fxksioW9vY4YY6o7DSrEM/view?usp=sharing";
   const rutaAguaBateriasPdf2 = "https://drive.google.com/file/d/1ZekA216URPntE27mb24I-ZsYw2bB0nI-/view?usp=sharing";
@@ -548,10 +550,10 @@ const App = () => {
         <Whatsapp rutaWsp={rutaWsp} />
       </Route>
 
-      <Route path="/Productos/Alcohol-isopropilico-90" exact={true}>
+      <Route path="/Productos/Alcohol-isopropilico-99" exact={true}>
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico 70%"
+        <ProductoDetalle tituloProductoDetalle="Alcohol Isopropilico 99%"
           imagenesSecundarias={[Imagenes.alcoholIsoNoventa1, Imagenes.alcoholIsoNoventa2, Imagenes.alcoholIsoNoventa3, Imagenes.alcoholIsoNoventa4]}
           hola={SliderData105}
           tipoProducto="Disolventes y uso industrial"
@@ -641,6 +643,21 @@ const App = () => {
         <Footer nombreCorreo={nombreCorreo} />
         <Whatsapp rutaWsp={rutaWsp} />
       </Route>
+      <Route path="/Productos/Thinner-standar" exact={true}>
+        <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
+          nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
+        <ProductoDetalle tituloProductoDetalle="Thinner standar"
+          imagenesSecundarias={[Imagenes.thinnerSt, Imagenes.thinnerSt2]}
+          hola={SliderData111}
+          tipoProducto="Disolventes y uso industrial"
+          descripcion="Liquido combustible puede acumular cargas estáticas. El vapor es más pesado que el aire y puede dispersarse distancias largas y acumularse en zonas bajas alta mente inflamable. uso prinipal como disolvente de pinturas esmalte, al duco."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
+          urlPdf={rutaThinnerStandarPdf1}
+          urlPdf2={rutaThinnerStandarPdf2}
+        />
+        <Footer nombreCorreo={nombreCorreo} />
+        <Whatsapp rutaWsp={rutaWsp} />
+      </Route>
 
       {/*----- Fin de Categoria 2 ----*/}
 
@@ -682,7 +699,7 @@ const App = () => {
       <Route path="/Productos/Renovador-de-llantas" exact={true}>
         <Header nombreCategoria1={nombreCategoria1} nombreCategoria2={nombreCategoria2} nombreCategoria3={nombreCategoria3}
           nombresProductosCategoria1={nombresProductosCategoria1} nombresProductosCategoria2={nombresProductosCategoria2} nombresProductosCategoria3={nombresProductosCategoria3} />
-        <ProductoDetalle tituloProductoDetalle="Limpia vidrios"
+        <ProductoDetalle tituloProductoDetalle="Renovador de llantas"
           imagenesSecundarias={[Imagenes.renovadorLlantas1, Imagenes.renovadorLlantas2, Imagenes.renovadorLlantas3, Imagenes.renovadorLlantas4]}
           hola={SliderData203}
           tipoProducto="Línea Automotriz"

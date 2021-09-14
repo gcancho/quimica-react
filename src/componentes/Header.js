@@ -79,14 +79,14 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
 
                             <li><Link to="/Productos/Aguarras" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguarras1} />{nombresProductosCategoria2[0]}</Link></li>
                             <li><Link to="/Productos/Alcohol-industrial" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholInd1} />{nombresProductosCategoria2[1]}</Link></li>
-                            <li><Link to="/Productos/Alcohol-isopropilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIso1} />{nombresProductosCategoria2[2]}</Link></li>
-                            <li><Link to="/Productos/Alcohol-isopropilico-70" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIsoSeven1} />{nombresProductosCategoria2[3]}</Link></li>
+                            <li><Link to="/Productos/Alcohol-isopropilico-99" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIso1} />{nombresProductosCategoria2[3]}</Link></li>
+                            <li><Link to="/Productos/Alcohol-isopropilico-70" exact={true}><i class="fas fa-search"></i><img src={Imagenes.alcoholIsoNoventa1} />{nombresProductosCategoria2[2]}</Link></li>
                             <li><Link to="/Productos/Bencina" exact={true}><i class="fas fa-search"></i><img src={Imagenes.bencina1} />{nombresProductosCategoria2[4]}</Link></li>
                             <li><Link to="/Productos/Preservante-para-madera" exact={true}><i class="fas fa-search"></i><img src={Imagenes.preservanteMadera1} />{nombresProductosCategoria2[5]}</Link></li>
                             <li><Link to="/Productos/Ron-de-quemar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.ron1} />{nombresProductosCategoria2[6]}</Link></li>
                             <li><Link to="/Productos/Saca-oxido" exact={true}><i class="fas fa-search"></i><img src={Imagenes.sacaOxido1} />{nombresProductosCategoria2[7]}</Link></li>
                             <li><Link to="/Productos/Thinner-acrilico" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinner1} />{nombresProductosCategoria2[8]}</Link></li>
-                            {/* <li><Link to="/Productos/Thinner-standar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinnerStandar1} />{nombresProductosCategoria2[9]}</Link></li> */}
+                            <li><Link to="/Productos/Thinner-standar" exact={true}><i class="fas fa-search"></i><img src={Imagenes.thinnerSt1} />{nombresProductosCategoria2[9]}</Link></li>
 
                             <li><Link to="/Productos/Agua-para-baterias" exact={true}><i class="fas fa-search"></i><img src={Imagenes.aguaBateria1} />{nombresProductosCategoria3[0]}</Link></li>
                             <li><Link to="/Productos/Limpia-vidrios" exact={true}><i class="fas fa-search"></i><img src={Imagenes.limpiaVidrios1} />{nombresProductosCategoria3[1]}</Link></li>
@@ -172,15 +172,14 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                                     <h6>Productos</h6>
                                     <li><Link to="/Productos/Aguarras">{nombresProductosCategoria2[0]}</Link></li>
                                     <li><Link to="/Productos/Alcohol-industrial">{nombresProductosCategoria2[1]}</Link></li>
-                                    <li><Link to="/Productos/Alcohol-isopropilico">{nombresProductosCategoria2[2]}</Link></li>
-                                    <li><Link to="/Productos/Alcohol-isopropilico-70">{nombresProductosCategoria2[3]}</Link></li>
-                                    <li><Link to="/Productos/Alcohol-isopropilico-90">{nombresProductosCategoria2[4]}</Link></li>
-                                    <li><Link to="/Productos/Bencina">{nombresProductosCategoria2[5]}</Link></li>
-                                    <li><Link to="/Productos/Preservante-para-madera">{nombresProductosCategoria2[6]}</Link></li>
-                                    <li><Link to="/Productos/Ron-de-quemar">{nombresProductosCategoria2[7]}</Link></li>
-                                    <li><Link to="/Productos/Saca-oxido">{nombresProductosCategoria2[8]}</Link></li>
-                                    <li><Link to="/Productos/Thinner-acrilico">{nombresProductosCategoria2[9]}</Link></li>
-                                    <li><Link to="/Productos/Thinner-standar">{nombresProductosCategoria2[10]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-isopropilico-70">{nombresProductosCategoria2[2]}</Link></li>
+                                    <li><Link to="/Productos/Alcohol-isopropilico-99">{nombresProductosCategoria2[3]}</Link></li>
+                                    <li><Link to="/Productos/Bencina">{nombresProductosCategoria2[4]}</Link></li>
+                                    <li><Link to="/Productos/Preservante-para-madera">{nombresProductosCategoria2[5]}</Link></li>
+                                    <li><Link to="/Productos/Ron-de-quemar">{nombresProductosCategoria2[6]}</Link></li>
+                                    <li><Link to="/Productos/Saca-oxido">{nombresProductosCategoria2[7]}</Link></li>
+                                    <li><Link to="/Productos/Thinner-acrilico">{nombresProductosCategoria2[8]}</Link></li>
+                                    <li><Link to="/Productos/Thinner-standar">{nombresProductosCategoria2[9]}</Link></li>
                                 </div>
                             </div>
                             <div className="menu__raro__item">

@@ -44,10 +44,16 @@
                     color: $color2;
                 }
             }
+            h4 {
+                svg {
+                    margin-right: 10px;
+                    color: $color2;
+                    font-size: 0.7em;
+                }
+            }
         }
     }
 }
-
 
 @media (min-width: 992px) {
     .caracteristicas {
@@ -76,7 +82,17 @@
                     svg {
                         margin-right: 10px;
                         color: $color2;
+                        font-size: 1.2em;
                     }
+                }
+                h4 {
+                    svg {
+                        font-size: 1em;
+                    }
+                }
+                &:nth-last-child(2) {
+                    margin-left: 0;
+                    margin-right: 30px;
                 }
             }
         }
