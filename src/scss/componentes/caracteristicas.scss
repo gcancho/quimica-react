@@ -28,7 +28,10 @@
     .informacion {
         margin-bottom: 30px;
         margin-top: 30px;
+        display: flex;
+        flex-direction: column;
         .informacion__imagen {
+            order: 2;
             img {
                 width: 100%;
             }
@@ -36,6 +39,7 @@
         .informacion__texto {
             font-family: $fuente3;
             color: #585757;
+            margin: 10px 0;
             p {
                 text-align: justify;
                 margin: 8px 0;
@@ -59,11 +63,13 @@
     .caracteristicas {
         .informacion {
             display: flex;
+            flex-direction: row;
             margin-bottom: 30px;
             margin-top: 30px;
             .informacion__imagen {
                 flex-basis: 0;
                 flex-grow: 1;
+                order: initial;
                 img {
                     width: 100%;
                 }

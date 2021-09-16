@@ -121,7 +121,7 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                                 <p>S :</p>
                                 <p>8:00 - 12:00 PM</p>
                             </div>
-                            <p>(01) 315 3600</p>
+                            {/* <p>(01) 315 3600</p> */}
                         </div>
                     </div>
                 </div>

@@ -174,10 +174,13 @@
     margin-right: 10px;
 }
 .servicios {
-    display: none;
+    display: block;
 }
 .caracteristicas__producto__item {
     height: 500px;
+    .servicios{
+        display: none;
+    }
 }
 
 @media (min-width: 768px) {

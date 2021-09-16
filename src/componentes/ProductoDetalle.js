@@ -75,21 +75,23 @@ const ProductoDetalle = ({ tituloProductoDetalle, tipoProducto, descripcion, pre
                             :
                             <></>
                         }
-                        {(urlPdf) ?
-                            <a href={urlPdf} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Ficha Técnica</a>
-                            :
-                            <></>
-                        }
-                        {(urlPdf2) ?
-                            <a href={urlPdf2} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Hoja de Seguridad</a>
-                            :
-                            <></>
-                        }
-                        {(urlPdf3) ?
-                            <a href={urlPdf3} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Registro Sanitario</a>
-                            :
-                            <></>
-                        }
+                        <article>
+                            {(urlPdf3) ?
+                                <a href={urlPdf3} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Registro Sanitario</a>
+                                :
+                                <></>
+                            }
+                            {(urlPdf2) ?
+                                <a href={urlPdf2} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Hoja de Seguridad</a>
+                                :
+                                <></>
+                            }
+                            {(urlPdf) ?
+                                <a href={urlPdf} target="_blank" className="boton boton-pdf"><img className="ic-pdf" src={iconoPdf} />Descargar Ficha Técnica</a>
+                                :
+                                <></>
+                            }
+                        </article>
                     </div>
                 </div>
 
