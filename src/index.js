@@ -10,121 +10,6 @@ import Whatsapp from './componentes/Whatsapp';
 import Contacto from './componentes/Fomulario';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProductoDetalle from './componentes/ProductoDetalle';
-// Rutas imagenes, pero las esta jalando de SliderData 
-// import imgLimpiaVidrios1 from './imagenes/Limpiadores/limpia-vidrios/DSC_6907.JPG';
-// import imgLimpiaVidrios2 from './imagenes/Limpiadores/limpia-vidrios/DSC_7060.JPG';
-
-// import imgRonQuemar1 from './imagenes/Limpiadores/ron-de-quemar/DSC_6885.JPG';
-// import imgRonQuemar2 from './imagenes/Limpiadores/ron-de-quemar/DSC_6953.JPG';
-
-// import imgJabonLiquido1 from './imagenes/Detergentes/jabon-liquido/DSC_6910.JPG';
-// import imgJabonLiquido2 from './imagenes/Detergentes/jabon-liquido/DSC_7117.JPG';
-// import imgJabonLiquido3 from './imagenes/Detergentes/jabon-liquido/DSC_7120.JPG';
-// import imgJabonLiquido4 from './imagenes/Detergentes/jabon-liquido/JBLavanda14.JPG';
-// import imgJabonLiquido5 from './imagenes/Detergentes/jabon-liquido/JBLimon15.JPG';
-// import imgJabonLiquido6 from './imagenes/Detergentes/jabon-liquido/JBNaranja16.JPG';
-// import imgJabonLiquido7 from './imagenes/Detergentes/jabon-liquido/JBNaranja16.JPG';
-// import imgJabonLiquido8 from './imagenes/Detergentes/jabon-liquido/JBPetalosDeRosa17.JPG';
-// import imgJabonLiquido9 from './imagenes/Detergentes/jabon-liquido/JLG_grande18.JPG';
-
-// import imgShampooAlfombra1 from './imagenes/Detergentes/shampoo-para-alfonbras/DSC_6923.JPG';
-// import imgShampooAlfombra2 from './imagenes/Detergentes/shampoo-para-alfonbras/DSC_6924.JPG';
-
-// import imgShampooAuto1 from './imagenes/Detergentes/shampoo-para-auto/DSC_6904.JPG';
-// import imgShampooAuto2 from './imagenes/Detergentes/shampoo-para-auto/DSC_7082.JPG';
-
-// import imgAguarras1 from './imagenes/Disolventes/aguarras/DSC_6966.JPG';
-// import imgAguarras2 from './imagenes/Disolventes/aguarras/DSC_7094.JPG';
-
-// import imgAlcoholIndustrial1 from './imagenes/Disolventes/alcohol-industrial/DSC_693610.jpg';
-// import imgAlcoholIndustrial2 from './imagenes/Disolventes/alcohol-industrial/DSC_707532.jpg';
-// import imgAlcoholIndustrial3 from './imagenes/Disolventes/alcohol-industrial/alcohol21.jpg';
-
-// import imgBencina1 from './imagenes/Disolventes/bencina/DSC_6976.jpg';
-// import imgBencina2 from './imagenes/Disolventes/bencina/DSC_7100.jpg';
-
-// import imgThinnerAcrilico1 from './imagenes/Disolventes/thinner-acrilico/DSC_6951.jpg';
-// import imgThinnerAcrilico2 from './imagenes/Disolventes/thinner-acrilico/DSC_6971.jpg';
-// import imgThinnerAcrilico3 from './imagenes/Disolventes/thinner-acrilico/DSC_6975.jpg';
-
-// import imgAmbientadorBebe1 from './imagenes/Perfumadores/ambientador-bebe/DSC_6892.jpg';
-// import imgAmbientadorBebe2 from './imagenes/Perfumadores/ambientador-bebe/DSC_7085.jpg';
-
-// import imgAmbientadorLavanda1 from './imagenes/Perfumadores/ambientador-lavanda/DSC_6914.jpg';
-// import imgAmbientadorLavanda2 from './imagenes/Perfumadores/ambientador-lavanda/DSC_7066.jpg';
-
-// import imgPreservanteMadera1 from './imagenes/Abrillantadores/preservante-para-madera/DSC_6888.jpg';
-// import imgPreservanteMadera2 from './imagenes/Abrillantadores/preservante-para-madera/DSC_6949.jpg';
-
-// import imgRenovadorLlanta1 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6862.jpg';
-// import imgRenovadorLlanta2 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6963.jpg';
-// import imgRenovadorLlanta3 from './imagenes/Abrillantadores/renovador-de-llantas/DSC_6965.jpg';
-
-// import imgSacaGrasa1 from './imagenes/Abrillantadores/sacagrasa/DSC_689807.jpg';
-// import imgSacaGrasa2 from './imagenes/Abrillantadores/sacagrasa/DSC_690009.jpg';
-
-// import imgCeraAguaAmarilla1 from './imagenes/Ceras/cera-agua-amarilla/DSC_688107.jpg';
-// import imgCeraAguaAmarilla2 from './imagenes/Ceras/cera-agua-amarilla/DSC_707913.jpg';
-
-// import imgCeraAguaBlanca1 from './imagenes/Ceras/cera-agua-blanca/DSC_690110.jpg';
-// import imgCeraAguaBlanca2 from './imagenes/Ceras/cera-agua-blanca/DSC_707913.jpg';
-
-// import imgCeraAguaNegra1 from './imagenes/Ceras/cera-agua-negra/DSC_686501.jpg';
-// import imgCeraAguaNegra2 from './imagenes/Ceras/cera-agua-negra/DSC_707913.jpg';
-
-// import imgCeraAguaRoja1 from './imagenes/Ceras/cera-agua-roja/DSC_687404.jpg';
-// import imgCeraAguaRoja2 from './imagenes/Ceras/cera-agua-roja/DSC_707913.jpg';
-
-// import imgSacaOxido1 from './imagenes/Removedores/saca-oxido/DSC_701305.jpg';
-// import imgSacaOxido2 from './imagenes/Removedores/saca-oxido/DSC_701507.jpg';
-
-// import imgVaselinaLiquida1 from './imagenes/Removedores/vaselina-liquida/DSC_693001.jpg';
-// import imgVaselinaLiquida2 from './imagenes/Removedores/vaselina-liquida/DSC_698203.jpg';
-
-// import imgAcido1 from './imagenes/Desincrustantes/acido/DSC_698416.jpg';
-// import imgAcido2 from './imagenes/Desincrustantes/acido/DSC_702225.jpg';
-// import imgAcido3 from './imagenes/Desincrustantes/acido/DSC_702528.jpg';
-// import imgAcido4 from './imagenes/Desincrustantes/acido/DSC_709136.jpg';
-
-// import imgAguaBaterias1 from './imagenes/Desincrustantes/agua-para-baterias/DSC_696813.jpg';
-// import imgAguaBaterias2 from './imagenes/Desincrustantes/agua-para-baterias/DSC_697015.jpg';
-
-// import imgKresso1 from './imagenes/Desincrustantes/kresso/DSC_7063.JPG';
-// import imgKresso2 from './imagenes/Desincrustantes/kresso/DSC_710439.jpg';
-// import imgKresso3 from './imagenes/Desincrustantes/kresso/DSC_710742.jpg';
-
-// import imgQuitaSarro1 from './imagenes/Desincrustantes/quitasarro/DSC_695709.jpg';
-// import imgQuitaSarro2 from './imagenes/Desincrustantes/quitasarro/DSC_699319.jpg';
-// import imgQuitaSarro3 from './imagenes/Desincrustantes/quitasarro/DSC_701922.jpg';
-// import imgQuitaSarro4 from './imagenes/Desincrustantes/quitasarro/DSC_705431.jpg';
-
-// import imgSiliconaCristal1 from './imagenes/Desincrustantes/silicona-cristal/DSC_692004.jpg';
-// import imgSiliconaCristal2 from './imagenes/Desincrustantes/silicona-cristal/DSC_696111.jpg';
-
-// import imgSiliconaTablero1 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_691701.jpg';
-// import imgSiliconaTablero2 from './imagenes/Desincrustantes/silicona-para-tablero/DSC_695507.jpg';
-
-// import imgCloro1 from './imagenes/Desinfectantes/cloro/DSC_707257.jpg';
-// import imgCloro2 from './imagenes/Desinfectantes/cloro/Cloro0001.jpg';
-
-// import imgLejia1 from './imagenes/Desinfectantes/lejia/DSC_698722.jpg';
-// import imgLejia2 from './imagenes/Desinfectantes/lejia/DSC_699025.jpg';
-// import imgLejia3 from './imagenes/Desinfectantes/lejia/DSC_708860.jpg';
-
-// import imgLimpiaTodoBebe1 from './imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_686801.jpg';
-// import imgLimpiaTodoBebe2 from './imagenes/Desinfectantes/limpia-todo-aroma-bebe/DSC_705751.jpg';
-
-// import imgLimpiaTodoLavanda1 from './imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_687703.jpg';
-// import imgLimpiaTodoLavanda2 from './imagenes/Desinfectantes/limpia-todo-aroma-lavanda/DSC_705751.jpg';
-
-// import imgPino1 from './imagenes/Desinfectantes/pino/DSC_689506.jpg';
-// import imgPino2 from './imagenes/Desinfectantes/pino/DSC_706954.jpg';
-
-// import imgAlcoholIso1 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701638.jpg';
-// import imgAlcoholIso2 from './imagenes/Desinfectantes/alcohol-isopropilico/DSC_701840.jpg';
-
-// import watchImg300 from './imagenes/imagenPruebaPequena.jpg';
-// import watchImg1200 from './imagenes/imagenPruebaGrande.jpg';
 
 import { SliderData1, SliderData10, SliderData11, SliderData12, SliderData2, SliderData3, SliderData4, SliderData5, SliderData6, SliderData7, SliderData8, SliderData9, SliderData101, SliderData102, SliderData103, SliderData104, SliderData105, SliderData106, SliderData107, SliderData108, SliderData109, SliderData110, SliderData111, SliderData201, SliderData202, SliderData203, SliderData204, SliderData205, SliderData206, SliderData207 } from './componentes/SliderData';
 import Nosotros from './componentes/Nosotros';
@@ -162,7 +47,9 @@ const App = () => {
 
   const rutaAcidoFuerte1 = "https://drive.google.com/file/d/16uQ0YyWgDzk4fmJt2JDJymLzWi4JIyJK/view?usp=sharing";
   const rutaAcidoFuerte2 = "https://drive.google.com/file/d/1Bk36a-Ve0gj0M8tnbm3znqhHC6ZXAZKQ/view?usp=sharing";
+  const rutaAcidoFuerte3 = "https://drive.google.com/file/d/1GsAOLC9-lmBCp2cGOZAZ13BJnOMTl71E/view?usp=sharing";
   const rutaAmbientadoresPdf1 = "https://drive.google.com/file/d/1j5MiMaKOwlVwZw4cU77BV6oEQ8QptzBC/view?usp=sharing";
+  const rutaAmbientadoresPdf2 = "https://drive.google.com/file/d/1-h8RKLy9LyohFUu21uQl2_6hxmkNnW7S/view?usp=sharing";
   const rutaCeraAguaPdf1 = "https://drive.google.com/file/d/13FICjyMso7dHOkZ9WChXPFD4stqTgX21/view?usp=sharing";
   const rutaCeraAguaPdf2 = "https://drive.google.com/file/d/1jAaVqe-8HKXAvUTGHee8brQezB5Jf4IU/view?usp=sharing";
   const rutaCloroPdf1 = "https://drive.google.com/file/d/1445lrGhVMOXwV7gFwYqiqA3SmCXQhJ_v/view?usp=sharing";
@@ -177,10 +64,12 @@ const App = () => {
   const rutaKressoPdf2 = "https://drive.google.com/file/d/1w0fkstIdYv65ZW3UTcFOi5RLh4WVo3no/view?usp=sharing";
   const rutaLimpiatodoPdf1 = "https://drive.google.com/file/d/1ih0MGeP49pZC_RpUBcWAKOZzJnw325RI/view?usp=sharing";
   const rutaLimpiatodoPdf2 = "https://drive.google.com/file/d/1WebfKCbC9d6yH49uTPNmDZuV8v1U7MPj/view?usp=sharing";
+  const rutaLimpiatodoPdf3 = "https://drive.google.com/file/d/16GvOo2zBYq2NRomq0d3YKsEpp1UIbmpd/view?usp=sharing";
   const rutaPinoPdf1 = "https://drive.google.com/file/d/1tU43CnLnuHjb-mCW-nPTvvLL1VqImgh0/view?usp=sharing";
   const rutaPinoPdf2 = "https://drive.google.com/file/d/1sHPuK28odYcpc2lb3FPlYCpZsgecCmBM/view?usp=sharing";
   const rutaPinoPdf3 = "https://drive.google.com/file/d/1QlQYXHNOAB9ey1f6CZemz8siPtLAj1Vh/view?usp=sharing";
   const rutaPotenteDesinfPdf1 = "https://drive.google.com/file/d/1pHy26SFL1_PAgXyGUSq-m6jtc_nRYay2/view?usp=sharing";
+  const rutaPotenteDesinfPdf2 = "https://drive.google.com/file/d/1kqQqCdZcq_86z4rYUwwo52i4WS0gDx_f/view?usp=sharing";
   const rutaQuitaSarroPdf1 = "https://drive.google.com/file/d/1a5eiixx8fpRGX74RCSXbpjsu5KRjTXEs/view?usp=sharing";
   const rutaQuitaSarroPdf2 = "https://drive.google.com/file/d/1lG-sE9gRnDubo7N6dU5LOujd3XCdd_jP/view?usp=sharing";
   const rutaSacaGrasaPdf1 = "https://drive.google.com/file/d/1GZpT301PE2Kqhzpn9Ccdt3zOTkS2UoJ6/view?usp=sharing";
@@ -288,6 +177,7 @@ const App = () => {
           presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO"
           urlPdf={rutaAcidoFuerte1}
           urlPdf2={rutaAcidoFuerte2}
+          urlPdf3={rutaAcidoFuerte3}
         />
         <Footer nombreCorreo={nombreCorreo} />
         <Whatsapp rutaWsp={rutaWsp} />
@@ -304,6 +194,7 @@ const App = () => {
           descripcion="se utiliza para limpiar todo tipo de superficies y generar un aroma agradable, para obtener una fragancia más duradera aplique sobre superficies absorbentes que no sean afectadas por el agua."
           presentaciones="LITRO, GALON Y BIDON."
           urlPdf={rutaAmbientadoresPdf1}
+          urlPdf2={rutaAmbientadoresPdf2}
         />
         <Footer nombreCorreo={nombreCorreo} />
         <Whatsapp rutaWsp={rutaWsp} />
@@ -408,6 +299,7 @@ const App = () => {
           presentaciones="LITRO, GALON, BIDON."
           urlPdf={rutaLimpiatodoPdf1}
           urlPdf2={rutaLimpiatodoPdf2}
+          urlPdf3={rutaLimpiatodoPdf3}
         />
         <Footer nombreCorreo={nombreCorreo} />
         <Whatsapp rutaWsp={rutaWsp} />
@@ -442,6 +334,7 @@ const App = () => {
           descripcion="Es un potente desinfectante formulado a base de amonio cuaternario de 5ta generación y biguanidina polimérica los cuales ofrecen acción germicida frente a un amplio espectro de bacteria gram positivas y gram negativas, hongos y virus."
           presentaciones="GALON."
           urlPdf={rutaPotenteDesinfPdf1}
+          urlPdf2={rutaPotenteDesinfPdf2}
         />
         <Footer nombreCorreo={nombreCorreo} />
         <Whatsapp rutaWsp={rutaWsp} />
@@ -456,7 +349,7 @@ const App = () => {
           hola={SliderData11}
           tipoProducto="Limpieza y desinfección"
           descripcion="Es un potente limpiador, destruye el sarro, desmancha Y desinfecta, ideal para baños, pisos, inodoros. Elimima bacterias(escherihia, coli, pseudomonas aeruginosa staphylococcus aureus y salmonella sp)."
-          presentaciones="GALON."
+          presentaciones="MEDIO LITRO, LITRO, GALON, BIDON Y CILINDRO."
           urlPdf={rutaQuitaSarroPdf1}
           urlPdf2={rutaQuitaSarroPdf2}
         />

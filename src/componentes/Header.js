@@ -115,7 +115,7 @@ const Header = ({ nombreCategoria1, nombreCategoria2, nombreCategoria3, nombresP
                             <h6>Central</h6>
                             <div>
                                 <p>L - V :</p>
-                                <p>8:00 - 6:00 PM</p>
+                                <p>8:00 - 5:40 PM</p>
                             </div>
                             <div>
                                 <p>S :</p>
